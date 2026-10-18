@@ -1,0 +1,77 @@
+{
+  "notes": "Original manufacturer images used for category navigation. Source attribution retained; no license grant inferred. Existing catalogue sources are recorded in sources.json and showcase-sources.json.",
+  "images": [
+    {
+      "slug": "controllers",
+      "key": "catalogue/dualsense-white.png",
+      "source": "https://www.playstation.com/en-us/accessories/"
+    },
+    {
+      "slug": "consoles",
+      "key": "catalogue/ps5-slim-disc.png",
+      "source": "https://www.playstation.com/en-us/ps5/"
+    },
+    {
+      "slug": "games",
+      "key": "catalogue/returnal-case.png",
+      "source": "https://direct.playstation.com/en-us/buy-games/returnal-ps5"
+    },
+    {
+      "slug": "accessories",
+      "key": "catalogue/category-accessories.png",
+      "source": "https://www.playstation.com/en-us/accessories/",
+      "imageSource": "https://gmedia.playstation.com/is/image/SIEPDC/dualsense-charging-station-image-block-02-en-22nov23?fmt=png-alpha&wid=960",
+      "width": 960,
+      "height": 881
+    },
+    {
+      "slug": "gift-cards",
+      "key": "catalogue/category-gift-cards.png",
+      "source": "https://www.playstation.com/en-us/playstation-gift-cards/",
+      "imageSource": "https://gmedia.playstation.com/is/image/SIEPDC/gift-card-faceplate-shapes-image-block-en-01-07july23?fmt=png-alpha&wid=960",
+      "width": 960,
+      "height": 600
+    },
+    {
+      "slug": "monitors",
+      "key": "catalogue/category-monitors-transparent.png",
+      "source": "https://www.playstation.com/en-us/accessories/27-inch-gaming-monitor/",
+      "imageSource": "https://gmedia.playstation.com/is/image/SIEPDC/ps-gaming-monitor-image-block-01-en-08apr26?fmt=png-alpha&wid=960",
+      "width": 1672,
+      "height": 941,
+      "edit": "Background extraction with built-in imagegen; original preserved as category-monitors.png. Prompt: transparent-image-notes.md"
+    },
+    {
+      "slug": "headsets",
+      "key": "catalogue/category-headsets.png",
+      "source": "https://www.logitechg.com/en-us/shop/p/g733-rgb-wireless-headset",
+      "imageSource": "https://resource.logitechg.com/w_960,c_limit,q_auto,f_png/d_transparent.gif/content/dam/gaming/en/products/g733/gallery/g733-lilac-gallery-1.png",
+      "width": 960,
+      "height": 720
+    },
+    {
+      "slug": "keyboards",
+      "key": "catalogue/category-keyboards.png",
+      "source": "https://www.logitechg.com/en-us/shop/p/g915-low-profile-wireless-mechanical-gaming-keyboard",
+      "imageSource": "https://resource.logitechg.com/w_960,c_limit,q_auto,f_png/d_transparent.gif/content/dam/gaming/en/products/g915/g915-gallery-2.png",
+      "width": 960,
+      "height": 720
+    },
+    {
+      "slug": "mice",
+      "key": "catalogue/category-mice.png",
+      "source": "https://www.logitechg.com/en-us/shop/p/g502-x-plus-wireless-lightforce",
+      "imageSource": "https://resource.logitechg.com/w_960,c_limit,q_auto,f_png/d_transparent.gif/content/dam/gaming/en/products/g502x-plus/2026-update/gallery/g502-x-plus-top-angle-black-purple-gallery-1.png",
+      "width": 960,
+      "height": 829
+    },
+    {
+      "slug": "racing-wheels",
+      "key": "catalogue/category-racing-wheels.png",
+      "source": "https://www.logitechg.com/en-us/shop/p/g923-trueforce-sim-racing-wheel",
+      "imageSource": "https://resource.logitechg.com/w_960,c_limit,q_auto,f_png/d_transparent.gif/content/dam/gaming/en/products/g923-and-trueforce/g923-gallery/pc/g923-trueforce-sim-racing-wheel-pc-front-angle-gallery-1.png",
+      "width": 960,
+      "height": 829
+    }
+  ]
+}

@@ -1,0 +1,2 @@
+INSERT OR IGNORE INTO promotions(id,title,body,href,cta,enabled,sort_order) VALUES ('controllers-highlight','A better way to play.','Explore controllers for your next gaming setup.','/controllers','Explore controllers',1,0),('games-highlight','Find your next world.','Browse games and discover your next adventure.','/games','Explore games',1,1);
+UPDATE homepage_sections SET enabled=1 WHERE section_key='new-arrivals';

@@ -1,0 +1,28 @@
+name: Quality checks
+on: [push, pull_request]
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: pnpm/action-setup@v4
+        with:
+          version: 11.25.0
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+          cache: pnpm
+      - run: pnpm install --frozen-lockfile
+      - run: pnpm typecheck && pnpm lint && pnpm test && pnpm build
+      - run: pnpm exec playwright install --with-deps chromium
+      - run: |
+          pnpm db:migrate
+          for file in store-settings.example initial-catalogue showcase-catalogue category-transparent-images platform-catalogue; do
+            pnpm exec wrangler d1 execute DB --local --file="db/$file.sql"
+          done
+          printf 'LOCAL_ADMIN_EMAIL=ci-owner@example.invalid\n' > .dev.vars
+      - run: pnpm dev > /tmp/gfp-dev.log 2>&1 &
+      - run: node scripts/wait-for-server.mjs
+      - run: pnpm test:e2e
+        env:
+          CI: "true"

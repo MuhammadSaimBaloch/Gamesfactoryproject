@@ -1,0 +1,12 @@
+{
+  "controllers": "catalogue/dualsense-white.png",
+  "consoles": "catalogue/ps5-slim-disc.png",
+  "games": "catalogue/returnal-case.png",
+  "accessories": "catalogue/category-accessories.png",
+  "gift-cards": "catalogue/category-gift-cards.png",
+  "monitors": "catalogue/category-monitors-transparent.png",
+  "headsets": "catalogue/category-headsets.png",
+  "keyboards": "catalogue/category-keyboards.png",
+  "mice": "catalogue/category-mice.png",
+  "racing-wheels": "catalogue/category-racing-wheels.png"
+}

@@ -1,0 +1,123 @@
+[
+  {
+    "slug": "dualsense-white",
+    "name": "DualSense Wireless Controller — White",
+    "source": "https://www.playstation.com/en-us/accessories/dualsense-wireless-controller/",
+    "imageSource": "https://gmedia.playstation.com/is/image/SIEPDC/dualsense-image-block-01-en-21mar23?fmt=png-alpha&wid=960&bgc=FFFFFF00",
+    "key": "catalogue/dualsense-white.png",
+    "width": 960,
+    "height": 579,
+    "downloadedAt": "2026-10-18T13:20:25.256Z",
+    "rights": "Official manufacturer product photography. Source attribution retained; no license grant inferred."
+  },
+  {
+    "slug": "dualsense-rhythm-blue",
+    "name": "DualSense Wireless Controller — Rhythm Blue",
+    "source": "https://www.playstation.com/en-us/accessories/dualsense-wireless-controller/",
+    "imageSource": "https://gmedia.playstation.com/is/image/SIEPDC/Rhythm-Blue-DualSense-image-block-02-en-02feb26?fmt=png-alpha&wid=960&bgc=FFFFFF00",
+    "key": "catalogue/dualsense-rhythm-blue.png",
+    "width": 960,
+    "height": 540,
+    "downloadedAt": "2026-10-18T13:20:25.819Z",
+    "rights": "Official manufacturer product photography. Source attribution retained; no license grant inferred."
+  },
+  {
+    "slug": "dualsense-techno-red",
+    "name": "DualSense Wireless Controller — Techno Red",
+    "source": "https://www.playstation.com/en-us/accessories/dualsense-wireless-controller/",
+    "imageSource": "https://gmedia.playstation.com/is/image/SIEPDC/Techno-Red-DualSense-image-block-02-en-30jan26?fmt=png-alpha&wid=960&bgc=FFFFFF00",
+    "key": "catalogue/dualsense-techno-red.png",
+    "width": 960,
+    "height": 540,
+    "downloadedAt": "2026-10-18T13:20:26.993Z",
+    "rights": "Official manufacturer product photography. Source attribution retained; no license grant inferred."
+  },
+  {
+    "slug": "dualsense-remix-green",
+    "name": "DualSense Wireless Controller — Remix Green",
+    "source": "https://www.playstation.com/en-us/accessories/dualsense-wireless-controller/",
+    "imageSource": "https://gmedia.playstation.com/is/image/SIEPDC/Remix-Green-DualSense-image-block-02-en-02feb26?fmt=png-alpha&wid=960&bgc=FFFFFF00",
+    "key": "catalogue/dualsense-remix-green.png",
+    "width": 960,
+    "height": 540,
+    "downloadedAt": "2026-10-18T13:20:27.561Z",
+    "rights": "Official manufacturer product photography. Source attribution retained; no license grant inferred."
+  },
+  {
+    "slug": "marvels-spider-man-2-case",
+    "name": "Marvel’s Spider-Man 2",
+    "source": "https://direct.playstation.com/en-us/buy-games/marvels-spider-man-2-ps5",
+    "imageSource": "https://media.direct.playstation.com/is/image/sierialto/ps5-msm2-box-front?fmt=png-alpha&wid=800",
+    "key": "catalogue/marvels-spider-man-2-case.png",
+    "width": 800,
+    "height": 800,
+    "downloadedAt": "2026-10-18T13:20:29.299Z",
+    "rights": "Official manufacturer product photography. Source attribution retained; no license grant inferred."
+  },
+  {
+    "slug": "returnal-case",
+    "name": "Returnal",
+    "source": "https://direct.playstation.com/en-us/buy-games/returnal-ps5",
+    "imageSource": "https://media.direct.playstation.com/is/image/sierialto/returnal-ps5-game-box-front?fmt=png-alpha&wid=800",
+    "key": "catalogue/returnal-case.png",
+    "width": 800,
+    "height": 800,
+    "downloadedAt": "2026-10-18T13:20:29.749Z",
+    "rights": "Official manufacturer product photography. Source attribution retained; no license grant inferred."
+  },
+  {
+    "slug": "demons-souls-case",
+    "name": "Demon’s Souls",
+    "source": "https://direct.playstation.com/en-us/buy-games/demons-souls-ps5",
+    "imageSource": "https://media.direct.playstation.com/is/image/sierialto/ps5-demons-souls-game-box-front?fmt=png-alpha&wid=800",
+    "key": "catalogue/demons-souls-case.png",
+    "width": 800,
+    "height": 800,
+    "downloadedAt": "2026-10-18T13:20:30.088Z",
+    "rights": "Official manufacturer product photography. Source attribution retained; no license grant inferred."
+  },
+  {
+    "slug": "ratchet-and-clank-rift-apart-case",
+    "name": "Ratchet & Clank: Rift Apart",
+    "source": "https://direct.playstation.com/en-us/buy-games/ratchet-clank-rift-apart-ps5",
+    "imageSource": "https://media.direct.playstation.com/is/image/sierialto/ps5-ratchet-clank-rift-apart-game-box-front?fmt=png-alpha&wid=800",
+    "key": "catalogue/ratchet-and-clank-rift-apart-case.png",
+    "width": 800,
+    "height": 800,
+    "downloadedAt": "2026-10-18T13:20:30.390Z",
+    "rights": "Official manufacturer product photography. Source attribution retained; no license grant inferred."
+  },
+  {
+    "slug": "the-last-of-us-part-i-case",
+    "name": "The Last of Us Part I",
+    "source": "https://direct.playstation.com/en-us/buy-games/the-last-of-us-part-i-ps5",
+    "imageSource": "https://media.direct.playstation.com/is/image/sierialto/ps5-tlou-part-1-game-box-front?fmt=png-alpha&wid=800",
+    "key": "catalogue/the-last-of-us-part-i-case.png",
+    "width": 800,
+    "height": 800,
+    "downloadedAt": "2026-10-18T13:20:30.667Z",
+    "rights": "Official manufacturer product photography. Source attribution retained; no license grant inferred."
+  },
+  {
+    "slug": "ghost-of-tsushima-directors-cut-case",
+    "name": "Ghost of Tsushima Director’s Cut",
+    "source": "https://direct.playstation.com/en-us/buy-games/ghost-of-tsushima-directors-cut-ps5",
+    "imageSource": "https://media.direct.playstation.com/is/image/sierialto/ps5-ghostoftsushima-directorscut-game-box-front?fmt=png-alpha&wid=800",
+    "key": "catalogue/ghost-of-tsushima-directors-cut-case.png",
+    "width": 800,
+    "height": 800,
+    "downloadedAt": "2026-10-18T13:20:30.941Z",
+    "rights": "Official manufacturer product photography. Source attribution retained; no license grant inferred."
+  },
+  {
+    "slug": "horizon-forbidden-west-case",
+    "name": "Horizon Forbidden West",
+    "source": "https://direct.playstation.com/en-us/buy-games/horizon-forbidden-west-launch-edition-ps5",
+    "imageSource": "https://media.direct.playstation.com/is/image/sierialto/horizon-forbidden-west-ps5-launch-box-front?fmt=png-alpha&wid=800",
+    "key": "catalogue/horizon-forbidden-west-case.png",
+    "width": 800,
+    "height": 800,
+    "downloadedAt": "2026-10-18T13:20:31.222Z",
+    "rights": "Official manufacturer product photography. Source attribution retained; no license grant inferred."
+  }
+]

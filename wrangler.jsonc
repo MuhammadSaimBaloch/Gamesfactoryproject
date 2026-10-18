@@ -1,0 +1,11 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "games-factory-local",
+  "main": "workers/app.ts",
+  "compatibility_date": "2026-10-01",
+  "compatibility_flags": ["nodejs_compat"],
+  "assets": {"directory": "build/client"},
+  "d1_databases": [{"binding":"DB","database_name":"games-factory-local","database_id":"local-only","migrations_dir":"db/migrations"}],
+  "r2_buckets": [{"binding":"MEDIA","bucket_name":"games-factory-local"}],
+  "vars": {"ENVIRONMENT":"local","SITE_URL":"http://127.0.0.1:5173","DEMO_MODE":"false"}
+}

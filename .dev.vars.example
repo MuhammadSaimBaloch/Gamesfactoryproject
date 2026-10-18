@@ -1,0 +1,12 @@
+ACCESS_ISSUER=https://YOUR-TEAM.cloudflareaccess.com
+ACCESS_AUD=YOUR-ACCESS-APPLICATION-AUDIENCE
+ADMIN_EMAILS=owner@example.invalid
+TURNSTILE_SECRET=
+TURNSTILE_SITE_KEY=
+# Optional local-only admin identity; never supported outside loopback + local environment.
+LOCAL_ADMIN_EMAIL=
+# Optional transactional email (verified sender required).
+RESEND_API_KEY=
+EMAIL_FROM=
+# Exactly 64 random hexadecimal characters; keep backed up and never commit.
+DIGITAL_DELIVERY_KEY=

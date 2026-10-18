@@ -1,0 +1,7 @@
+The monitor cutout in category-monitors-transparent.png was produced using the built-in imagegen tool from the official manufacturer photo category-monitors.png. The original file remains unchanged. The generated output has an alpha channel. Its manufacturer source is https://www.playstation.com/en-us/accessories/27-inch-gaming-monitor/ . No new product listing, stock or model specification was introduced by this category image change.
+
+Edit prompt:
+
+Edit target: the supplied official photograph of a black PlayStation gaming monitor, stand and white controller hanging on the stand. Perform background extraction ONLY. Remove the plain white backdrop to real transparent alpha including empty areas around and between components. Preserve the exact monitor silhouette, black blank screen, bezel, stand, controller shape, colors, geometry, perspective and small markings. Do not redesign, repaint, add screen content, text or objects. Retain the entire product centered with modest transparent margins. Output a clean high-quality transparent PNG cutout for an ecommerce category tile.
+
+Other category hardware images are original manufacturer PNGs with native transparency. The games category uses the genuine Returnal retail case with native alpha. The Spider-Man 2 case has an opaque outside margin; its existing measured case bounds are clipped in the shared product visual component, preserving all retail-package pixels and all text. Product thumbnails use that same component. The homepage showcase already frames the same source to these bounds.

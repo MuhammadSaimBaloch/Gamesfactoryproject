@@ -1,0 +1,921 @@
+{
+  "catalogue/astro-bot.jpg": [
+    {
+      "width": 320,
+      "url": "/catalogue/optimized/astro-bot-6dcfb78ed1a8-320.webp",
+      "bytes": 21604
+    },
+    {
+      "width": 640,
+      "url": "/catalogue/optimized/astro-bot-6dcfb78ed1a8-640.webp",
+      "bytes": 58374
+    },
+    {
+      "width": 960,
+      "url": "/catalogue/optimized/astro-bot-6dcfb78ed1a8-960.webp",
+      "bytes": 97150
+    },
+    {
+      "width": 1024,
+      "url": "/catalogue/optimized/astro-bot-6dcfb78ed1a8-1024.webp",
+      "bytes": 106766
+    }
+  ],
+  "catalogue/category-accessories.png": [
+    {
+      "width": 320,
+      "url": "/catalogue/optimized/category-accessories-ecf4c62f71a7-320.webp",
+      "bytes": 18550
+    },
+    {
+      "width": 640,
+      "url": "/catalogue/optimized/category-accessories-ecf4c62f71a7-640.webp",
+      "bytes": 44778
+    },
+    {
+      "width": 960,
+      "url": "/catalogue/optimized/category-accessories-ecf4c62f71a7-960.webp",
+      "bytes": 67240
+    }
+  ],
+  "catalogue/category-gift-cards.png": [
+    {
+      "width": 320,
+      "url": "/catalogue/optimized/category-gift-cards-cd5d8442771c-320.webp",
+      "bytes": 9884
+    },
+    {
+      "width": 640,
+      "url": "/catalogue/optimized/category-gift-cards-cd5d8442771c-640.webp",
+      "bytes": 26760
+    },
+    {
+      "width": 960,
+      "url": "/catalogue/optimized/category-gift-cards-cd5d8442771c-960.webp",
+      "bytes": 46814
+    }
+  ],
+  "catalogue/category-headsets.png": [
+    {
+      "width": 320,
+      "url": "/catalogue/optimized/category-headsets-14a541d78e71-320.webp",
+      "bytes": 13912
+    },
+    {
+      "width": 640,
+      "url": "/catalogue/optimized/category-headsets-14a541d78e71-640.webp",
+      "bytes": 34808
+    },
+    {
+      "width": 960,
+      "url": "/catalogue/optimized/category-headsets-14a541d78e71-960.webp",
+      "bytes": 43948
+    }
+  ],
+  "catalogue/category-keyboards.png": [
+    {
+      "width": 320,
+      "url": "/catalogue/optimized/category-keyboards-5f02dc005834-320.webp",
+      "bytes": 6316
+    },
+    {
+      "width": 640,
+      "url": "/catalogue/optimized/category-keyboards-5f02dc005834-640.webp",
+      "bytes": 17996
+    },
+    {
+      "width": 960,
+      "url": "/catalogue/optimized/category-keyboards-5f02dc005834-960.webp",
+      "bytes": 29682
+    }
+  ],
+  "catalogue/category-mice.png": [
+    {
+      "width": 320,
+      "url": "/catalogue/optimized/category-mice-6004ec7f2929-320.webp",
+      "bytes": 8440
+    },
+    {
+      "width": 640,
+      "url": "/catalogue/optimized/category-mice-6004ec7f2929-640.webp",
+      "bytes": 20288
+    },
+    {
+      "width": 960,
+      "url": "/catalogue/optimized/category-mice-6004ec7f2929-960.webp",
+      "bytes": 26302
+    }
+  ],
+  "catalogue/category-monitors-transparent.png": [
+    {
+      "width": 320,
+      "url": "/catalogue/optimized/category-monitors-transparent-95cc8deea5a5-320.webp",
+      "bytes": 5008
+    },
+    {
+      "width": 640,
+      "url": "/catalogue/optimized/category-monitors-transparent-95cc8deea5a5-640.webp",
+      "bytes": 11468
+    },
+    {
+      "width": 960,
+      "url": "/catalogue/optimized/category-monitors-transparent-95cc8deea5a5-960.webp",
+      "bytes": 19178
+    },
+    {
+      "width": 1600,
+      "url": "/catalogue/optimized/category-monitors-transparent-95cc8deea5a5-1600.webp",
+      "bytes": 41066
+    }
+  ],
+  "catalogue/category-monitors.png": [
+    {
+      "width": 320,
+      "url": "/catalogue/optimized/category-monitors-ab8c1b49ad20-320.webp",
+      "bytes": 1296
+    },
+    {
+      "width": 640,
+      "url": "/catalogue/optimized/category-monitors-ab8c1b49ad20-640.webp",
+      "bytes": 3042
+    },
+    {
+      "width": 960,
+      "url": "/catalogue/optimized/category-monitors-ab8c1b49ad20-960.webp",
+      "bytes": 5260
+    }
+  ],
+  "catalogue/category-racing-wheels.png": [
+    {
+      "width": 320,
+      "url": "/catalogue/optimized/category-racing-wheels-7aee58f43879-320.webp",
+      "bytes": 9208
+    },
+    {
+      "width": 640,
+      "url": "/catalogue/optimized/category-racing-wheels-7aee58f43879-640.webp",
+      "bytes": 25220
+    },
+    {
+      "width": 960,
+      "url": "/catalogue/optimized/category-racing-wheels-7aee58f43879-960.webp",
+      "bytes": 36858
+    }
+  ],
+  "catalogue/days-gone-ps4.png": [
+    {
+      "width": 320,
+      "url": "/catalogue/optimized/days-gone-ps4-5c44b87edbeb-320.webp",
+      "bytes": 17554
+    },
+    {
+      "width": 640,
+      "url": "/catalogue/optimized/days-gone-ps4-5c44b87edbeb-640.webp",
+      "bytes": 55744
+    },
+    {
+      "width": 960,
+      "url": "/catalogue/optimized/days-gone-ps4-5c44b87edbeb-960.webp",
+      "bytes": 111402
+    },
+    {
+      "width": 1500,
+      "url": "/catalogue/optimized/days-gone-ps4-5c44b87edbeb-1500.webp",
+      "bytes": 240118
+    }
+  ],
+  "catalogue/demons-souls-case.png": [
+    {
+      "width": 320,
+      "url": "/catalogue/optimized/demons-souls-case-36c43f614175-320.webp",
+      "bytes": 18812
+    },
+    {
+      "width": 640,
+      "url": "/catalogue/optimized/demons-souls-case-36c43f614175-640.webp",
+      "bytes": 52092
+    },
+    {
+      "width": 800,
+      "url": "/catalogue/optimized/demons-souls-case-36c43f614175-800.webp",
+      "bytes": 68294
+    }
+  ],
+  "catalogue/demons-souls.jpg": [
+    {
+      "width": 320,
+      "url": "/catalogue/optimized/demons-souls-3472b34b83d6-320.webp",
+      "bytes": 24896
+    },
+    {
+      "width": 640,
+      "url": "/catalogue/optimized/demons-souls-3472b34b83d6-640.webp",
+      "bytes": 78484
+    },
+    {
+      "width": 960,
+      "url": "/catalogue/optimized/demons-souls-3472b34b83d6-960.webp",
+      "bytes": 151164
+    },
+    {
+      "width": 1024,
+      "url": "/catalogue/optimized/demons-souls-3472b34b83d6-1024.webp",
+      "bytes": 167646
+    }
+  ],
+  "catalogue/dualsense-cosmic-red.png": [
+    {
+      "width": 320,
+      "url": "/catalogue/optimized/dualsense-cosmic-red-0fe1050dc6ce-320.webp",
+      "bytes": 3084
+    },
+    {
+      "width": 640,
+      "url": "/catalogue/optimized/dualsense-cosmic-red-0fe1050dc6ce-640.webp",
+      "bytes": 8132
+    },
+    {
+      "width": 960,
+      "url": "/catalogue/optimized/dualsense-cosmic-red-0fe1050dc6ce-960.webp",
+      "bytes": 14036
+    }
+  ],
+  "catalogue/dualsense-midnight-black.png": [
+    {
+      "width": 320,
+      "url": "/catalogue/optimized/dualsense-midnight-black-68b616934d1c-320.webp",
+      "bytes": 2444
+    },
+    {
+      "width": 640,
+      "url": "/catalogue/optimized/dualsense-midnight-black-68b616934d1c-640.webp",
+      "bytes": 6420
+    },
+    {
+      "width": 960,
+      "url": "/catalogue/optimized/dualsense-midnight-black-68b616934d1c-960.webp",
+      "bytes": 11222
+    }
+  ],
+  "catalogue/dualsense-remix-green.png": [
+    {
+      "width": 320,
+      "url": "/catalogue/optimized/dualsense-remix-green-41d23bbb0e81-320.webp",
+      "bytes": 11236
+    },
+    {
+      "width": 640,
+      "url": "/catalogue/optimized/dualsense-remix-green-41d23bbb0e81-640.webp",
+      "bytes": 26678
+    },
+    {
+      "width": 960,
+      "url": "/catalogue/optimized/dualsense-remix-green-41d23bbb0e81-960.webp",
+      "bytes": 39990
+    }
+  ],
+  "catalogue/dualsense-rhythm-blue.png": [
+    {
+      "width": 320,
+      "url": "/catalogue/optimized/dualsense-rhythm-blue-5d19cdd77081-320.webp",
+      "bytes": 11604
+    },
+    {
+      "width": 640,
+      "url": "/catalogue/optimized/dualsense-rhythm-blue-5d19cdd77081-640.webp",
+      "bytes": 27378
+    },
+    {
+      "width": 960,
+      "url": "/catalogue/optimized/dualsense-rhythm-blue-5d19cdd77081-960.webp",
+      "bytes": 41614
+    }
+  ],
+  "catalogue/dualsense-techno-red.png": [
+    {
+      "width": 320,
+      "url": "/catalogue/optimized/dualsense-techno-red-ebe8f81c9ce5-320.webp",
+      "bytes": 10852
+    },
+    {
+      "width": 640,
+      "url": "/catalogue/optimized/dualsense-techno-red-ebe8f81c9ce5-640.webp",
+      "bytes": 25664
+    },
+    {
+      "width": 960,
+      "url": "/catalogue/optimized/dualsense-techno-red-ebe8f81c9ce5-960.webp",
+      "bytes": 39040
+    }
+  ],
+  "catalogue/dualsense-white.png": [
+    {
+      "width": 320,
+      "url": "/catalogue/optimized/dualsense-white-c02544bba502-320.webp",
+      "bytes": 10534
+    },
+    {
+      "width": 640,
+      "url": "/catalogue/optimized/dualsense-white-c02544bba502-640.webp",
+      "bytes": 23898
+    },
+    {
+      "width": 960,
+      "url": "/catalogue/optimized/dualsense-white-c02544bba502-960.webp",
+      "bytes": 34902
+    }
+  ],
+  "catalogue/dualshock-4-jet-black.png": [
+    {
+      "width": 320,
+      "url": "/catalogue/optimized/dualshock-4-jet-black-ddf3964085ef-320.webp",
+      "bytes": 9068
+    },
+    {
+      "width": 640,
+      "url": "/catalogue/optimized/dualshock-4-jet-black-ddf3964085ef-640.webp",
+      "bytes": 23046
+    },
+    {
+      "width": 960,
+      "url": "/catalogue/optimized/dualshock-4-jet-black-ddf3964085ef-960.webp",
+      "bytes": 39066
+    },
+    {
+      "width": 1000,
+      "url": "/catalogue/optimized/dualshock-4-jet-black-ddf3964085ef-1000.webp",
+      "bytes": 32208
+    }
+  ],
+  "catalogue/dualshock-4-magma-red.png": [
+    {
+      "width": 320,
+      "url": "/catalogue/optimized/dualshock-4-magma-red-918f39c7a67d-320.webp",
+      "bytes": 11562
+    },
+    {
+      "width": 640,
+      "url": "/catalogue/optimized/dualshock-4-magma-red-918f39c7a67d-640.webp",
+      "bytes": 33034
+    },
+    {
+      "width": 960,
+      "url": "/catalogue/optimized/dualshock-4-magma-red-918f39c7a67d-960.webp",
+      "bytes": 66910
+    },
+    {
+      "width": 1000,
+      "url": "/catalogue/optimized/dualshock-4-magma-red-918f39c7a67d-1000.webp",
+      "bytes": 53924
+    }
+  ],
+  "catalogue/dualshock-4-titanium-blue.png": [
+    {
+      "width": 320,
+      "url": "/catalogue/optimized/dualshock-4-titanium-blue-15f12b2809b2-320.webp",
+      "bytes": 9886
+    },
+    {
+      "width": 640,
+      "url": "/catalogue/optimized/dualshock-4-titanium-blue-15f12b2809b2-640.webp",
+      "bytes": 24728
+    },
+    {
+      "width": 960,
+      "url": "/catalogue/optimized/dualshock-4-titanium-blue-15f12b2809b2-960.webp",
+      "bytes": 39466
+    },
+    {
+      "width": 1000,
+      "url": "/catalogue/optimized/dualshock-4-titanium-blue-15f12b2809b2-1000.webp",
+      "bytes": 32100
+    }
+  ],
+  "catalogue/forza-horizon-5-xbox.png": [
+    {
+      "width": 320,
+      "url": "/catalogue/optimized/forza-horizon-5-xbox-f8ea5bb0a23d-320.webp",
+      "bytes": 38510
+    },
+    {
+      "width": 640,
+      "url": "/catalogue/optimized/forza-horizon-5-xbox-f8ea5bb0a23d-640.webp",
+      "bytes": 109236
+    },
+    {
+      "width": 960,
+      "url": "/catalogue/optimized/forza-horizon-5-xbox-f8ea5bb0a23d-960.webp",
+      "bytes": 199766
+    },
+    {
+      "width": 1111,
+      "url": "/catalogue/optimized/forza-horizon-5-xbox-f8ea5bb0a23d-1111.webp",
+      "bytes": 241828
+    }
+  ],
+  "catalogue/gears-5-xbox.png": [
+    {
+      "width": 320,
+      "url": "/catalogue/optimized/gears-5-xbox-26ad4bb8f928-320.webp",
+      "bytes": 27198
+    },
+    {
+      "width": 640,
+      "url": "/catalogue/optimized/gears-5-xbox-26ad4bb8f928-640.webp",
+      "bytes": 88576
+    },
+    {
+      "width": 960,
+      "url": "/catalogue/optimized/gears-5-xbox-26ad4bb8f928-960.webp",
+      "bytes": 173326
+    },
+    {
+      "width": 1254,
+      "url": "/catalogue/optimized/gears-5-xbox-26ad4bb8f928-1254.webp",
+      "bytes": 253852
+    }
+  ],
+  "catalogue/ghost-of-tsushima-directors-cut-case.png": [
+    {
+      "width": 320,
+      "url": "/catalogue/optimized/ghost-of-tsushima-directors-cut-case-c31031f19de5-320.webp",
+      "bytes": 17264
+    },
+    {
+      "width": 640,
+      "url": "/catalogue/optimized/ghost-of-tsushima-directors-cut-case-c31031f19de5-640.webp",
+      "bytes": 48560
+    },
+    {
+      "width": 800,
+      "url": "/catalogue/optimized/ghost-of-tsushima-directors-cut-case-c31031f19de5-800.webp",
+      "bytes": 62126
+    }
+  ],
+  "catalogue/ghost-of-tsushima-directors-cut.jpg": [
+    {
+      "width": 320,
+      "url": "/catalogue/optimized/ghost-of-tsushima-directors-cut-cd5c3fdfc7a8-320.webp",
+      "bytes": 18894
+    },
+    {
+      "width": 640,
+      "url": "/catalogue/optimized/ghost-of-tsushima-directors-cut-cd5c3fdfc7a8-640.webp",
+      "bytes": 64966
+    },
+    {
+      "width": 960,
+      "url": "/catalogue/optimized/ghost-of-tsushima-directors-cut-cd5c3fdfc7a8-960.webp",
+      "bytes": 127836
+    },
+    {
+      "width": 1024,
+      "url": "/catalogue/optimized/ghost-of-tsushima-directors-cut-cd5c3fdfc7a8-1024.webp",
+      "bytes": 146508
+    }
+  ],
+  "catalogue/god-of-war-ps4.png": [
+    {
+      "width": 320,
+      "url": "/catalogue/optimized/god-of-war-ps4-22f39156d320-320.webp",
+      "bytes": 13130
+    },
+    {
+      "width": 640,
+      "url": "/catalogue/optimized/god-of-war-ps4-22f39156d320-640.webp",
+      "bytes": 37258
+    },
+    {
+      "width": 960,
+      "url": "/catalogue/optimized/god-of-war-ps4-22f39156d320-960.webp",
+      "bytes": 72622
+    },
+    {
+      "width": 1000,
+      "url": "/catalogue/optimized/god-of-war-ps4-22f39156d320-1000.webp",
+      "bytes": 83760
+    }
+  ],
+  "catalogue/god-of-war-ragnarok.jpg": [
+    {
+      "width": 320,
+      "url": "/catalogue/optimized/god-of-war-ragnarok-0edf82af32af-320.webp",
+      "bytes": 23560
+    },
+    {
+      "width": 640,
+      "url": "/catalogue/optimized/god-of-war-ragnarok-0edf82af32af-640.webp",
+      "bytes": 70966
+    },
+    {
+      "width": 960,
+      "url": "/catalogue/optimized/god-of-war-ragnarok-0edf82af32af-960.webp",
+      "bytes": 132456
+    },
+    {
+      "width": 1024,
+      "url": "/catalogue/optimized/god-of-war-ragnarok-0edf82af32af-1024.webp",
+      "bytes": 144482
+    }
+  ],
+  "catalogue/gran-turismo-7.jpg": [
+    {
+      "width": 320,
+      "url": "/catalogue/optimized/gran-turismo-7-4da487221fc8-320.webp",
+      "bytes": 24586
+    },
+    {
+      "width": 640,
+      "url": "/catalogue/optimized/gran-turismo-7-4da487221fc8-640.webp",
+      "bytes": 65360
+    },
+    {
+      "width": 960,
+      "url": "/catalogue/optimized/gran-turismo-7-4da487221fc8-960.webp",
+      "bytes": 109874
+    },
+    {
+      "width": 1024,
+      "url": "/catalogue/optimized/gran-turismo-7-4da487221fc8-1024.webp",
+      "bytes": 121358
+    }
+  ],
+  "catalogue/halo-infinite-xbox.png": [
+    {
+      "width": 320,
+      "url": "/catalogue/optimized/halo-infinite-xbox-2069453c3ed6-320.webp",
+      "bytes": 17816
+    },
+    {
+      "width": 640,
+      "url": "/catalogue/optimized/halo-infinite-xbox-2069453c3ed6-640.webp",
+      "bytes": 52180
+    },
+    {
+      "width": 960,
+      "url": "/catalogue/optimized/halo-infinite-xbox-2069453c3ed6-960.webp",
+      "bytes": 93042
+    },
+    {
+      "width": 1500,
+      "url": "/catalogue/optimized/halo-infinite-xbox-2069453c3ed6-1500.webp",
+      "bytes": 174156
+    }
+  ],
+  "catalogue/horizon-forbidden-west-case.png": [
+    {
+      "width": 320,
+      "url": "/catalogue/optimized/horizon-forbidden-west-case-70cf3b594ee0-320.webp",
+      "bytes": 20938
+    },
+    {
+      "width": 640,
+      "url": "/catalogue/optimized/horizon-forbidden-west-case-70cf3b594ee0-640.webp",
+      "bytes": 60346
+    },
+    {
+      "width": 800,
+      "url": "/catalogue/optimized/horizon-forbidden-west-case-70cf3b594ee0-800.webp",
+      "bytes": 76970
+    }
+  ],
+  "catalogue/horizon-forbidden-west.jpg": [
+    {
+      "width": 320,
+      "url": "/catalogue/optimized/horizon-forbidden-west-5e8387cdd462-320.webp",
+      "bytes": 29774
+    },
+    {
+      "width": 640,
+      "url": "/catalogue/optimized/horizon-forbidden-west-5e8387cdd462-640.webp",
+      "bytes": 94994
+    },
+    {
+      "width": 960,
+      "url": "/catalogue/optimized/horizon-forbidden-west-5e8387cdd462-960.webp",
+      "bytes": 176350
+    },
+    {
+      "width": 1024,
+      "url": "/catalogue/optimized/horizon-forbidden-west-5e8387cdd462-1024.webp",
+      "bytes": 193362
+    }
+  ],
+  "catalogue/mario-kart-8-deluxe-switch.png": [
+    {
+      "width": 320,
+      "url": "/catalogue/optimized/mario-kart-8-deluxe-switch-6b493dc767e9-320.webp",
+      "bytes": 9808
+    },
+    {
+      "width": 640,
+      "url": "/catalogue/optimized/mario-kart-8-deluxe-switch-6b493dc767e9-640.webp",
+      "bytes": 30972
+    },
+    {
+      "width": 960,
+      "url": "/catalogue/optimized/mario-kart-8-deluxe-switch-6b493dc767e9-960.webp",
+      "bytes": 59396
+    },
+    {
+      "width": 1200,
+      "url": "/catalogue/optimized/mario-kart-8-deluxe-switch-6b493dc767e9-1200.webp",
+      "bytes": 84940
+    }
+  ],
+  "catalogue/marvels-spider-man-2-case.png": [
+    {
+      "width": 320,
+      "url": "/catalogue/optimized/marvels-spider-man-2-case-e3e141ab1b42-320.webp",
+      "bytes": 14064
+    },
+    {
+      "width": 640,
+      "url": "/catalogue/optimized/marvels-spider-man-2-case-e3e141ab1b42-640.webp",
+      "bytes": 35660
+    },
+    {
+      "width": 800,
+      "url": "/catalogue/optimized/marvels-spider-man-2-case-e3e141ab1b42-800.webp",
+      "bytes": 46448
+    }
+  ],
+  "catalogue/marvels-spider-man-2.jpg": [
+    {
+      "width": 320,
+      "url": "/catalogue/optimized/marvels-spider-man-2-36dc95065bb5-320.webp",
+      "bytes": 12964
+    },
+    {
+      "width": 640,
+      "url": "/catalogue/optimized/marvels-spider-man-2-36dc95065bb5-640.webp",
+      "bytes": 35242
+    },
+    {
+      "width": 960,
+      "url": "/catalogue/optimized/marvels-spider-man-2-36dc95065bb5-960.webp",
+      "bytes": 60878
+    },
+    {
+      "width": 1024,
+      "url": "/catalogue/optimized/marvels-spider-man-2-36dc95065bb5-1024.webp",
+      "bytes": 68594
+    }
+  ],
+  "catalogue/ps5-slim-disc.png": [
+    {
+      "width": 320,
+      "url": "/catalogue/optimized/ps5-slim-disc-9f80bfcb9324-320.webp",
+      "bytes": 14202
+    },
+    {
+      "width": 640,
+      "url": "/catalogue/optimized/ps5-slim-disc-9f80bfcb9324-640.webp",
+      "bytes": 33338
+    },
+    {
+      "width": 960,
+      "url": "/catalogue/optimized/ps5-slim-disc-9f80bfcb9324-960.webp",
+      "bytes": 56070
+    },
+    {
+      "width": 1200,
+      "url": "/catalogue/optimized/ps5-slim-disc-9f80bfcb9324-1200.webp",
+      "bytes": 64680
+    }
+  ],
+  "catalogue/ratchet-and-clank-rift-apart-case.png": [
+    {
+      "width": 320,
+      "url": "/catalogue/optimized/ratchet-and-clank-rift-apart-case-4fcff772b78d-320.webp",
+      "bytes": 24078
+    },
+    {
+      "width": 640,
+      "url": "/catalogue/optimized/ratchet-and-clank-rift-apart-case-4fcff772b78d-640.webp",
+      "bytes": 66022
+    },
+    {
+      "width": 800,
+      "url": "/catalogue/optimized/ratchet-and-clank-rift-apart-case-4fcff772b78d-800.webp",
+      "bytes": 82764
+    }
+  ],
+  "catalogue/ratchet-and-clank-rift-apart.jpg": [
+    {
+      "width": 320,
+      "url": "/catalogue/optimized/ratchet-and-clank-rift-apart-aa8f77594a46-320.webp",
+      "bytes": 27232
+    },
+    {
+      "width": 640,
+      "url": "/catalogue/optimized/ratchet-and-clank-rift-apart-aa8f77594a46-640.webp",
+      "bytes": 79296
+    },
+    {
+      "width": 960,
+      "url": "/catalogue/optimized/ratchet-and-clank-rift-apart-aa8f77594a46-960.webp",
+      "bytes": 142260
+    },
+    {
+      "width": 1024,
+      "url": "/catalogue/optimized/ratchet-and-clank-rift-apart-aa8f77594a46-1024.webp",
+      "bytes": 158734
+    }
+  ],
+  "catalogue/returnal-case.png": [
+    {
+      "width": 320,
+      "url": "/catalogue/optimized/returnal-case-2b69f6f75c20-320.webp",
+      "bytes": 18524
+    },
+    {
+      "width": 640,
+      "url": "/catalogue/optimized/returnal-case-2b69f6f75c20-640.webp",
+      "bytes": 56958
+    },
+    {
+      "width": 800,
+      "url": "/catalogue/optimized/returnal-case-2b69f6f75c20-800.webp",
+      "bytes": 74238
+    }
+  ],
+  "catalogue/returnal.jpg": [
+    {
+      "width": 320,
+      "url": "/catalogue/optimized/returnal-0e47917a4e92-320.webp",
+      "bytes": 24362
+    },
+    {
+      "width": 640,
+      "url": "/catalogue/optimized/returnal-0e47917a4e92-640.webp",
+      "bytes": 79376
+    },
+    {
+      "width": 960,
+      "url": "/catalogue/optimized/returnal-0e47917a4e92-960.webp",
+      "bytes": 150468
+    },
+    {
+      "width": 1024,
+      "url": "/catalogue/optimized/returnal-0e47917a4e92-1024.webp",
+      "bytes": 170538
+    }
+  ],
+  "catalogue/super-mario-odyssey-switch.png": [
+    {
+      "width": 320,
+      "url": "/catalogue/optimized/super-mario-odyssey-switch-18b1bc337ddd-320.webp",
+      "bytes": 9164
+    },
+    {
+      "width": 640,
+      "url": "/catalogue/optimized/super-mario-odyssey-switch-18b1bc337ddd-640.webp",
+      "bytes": 28696
+    },
+    {
+      "width": 960,
+      "url": "/catalogue/optimized/super-mario-odyssey-switch-18b1bc337ddd-960.webp",
+      "bytes": 55166
+    },
+    {
+      "width": 1200,
+      "url": "/catalogue/optimized/super-mario-odyssey-switch-18b1bc337ddd-1200.webp",
+      "bytes": 78776
+    }
+  ],
+  "catalogue/the-last-of-us-part-i-case.png": [
+    {
+      "width": 320,
+      "url": "/catalogue/optimized/the-last-of-us-part-i-case-ae43b03481c0-320.webp",
+      "bytes": 16158
+    },
+    {
+      "width": 640,
+      "url": "/catalogue/optimized/the-last-of-us-part-i-case-ae43b03481c0-640.webp",
+      "bytes": 42248
+    },
+    {
+      "width": 800,
+      "url": "/catalogue/optimized/the-last-of-us-part-i-case-ae43b03481c0-800.webp",
+      "bytes": 54446
+    }
+  ],
+  "catalogue/the-last-of-us-part-i.jpg": [
+    {
+      "width": 320,
+      "url": "/catalogue/optimized/the-last-of-us-part-i-faee70c0dd60-320.webp",
+      "bytes": 16906
+    },
+    {
+      "width": 640,
+      "url": "/catalogue/optimized/the-last-of-us-part-i-faee70c0dd60-640.webp",
+      "bytes": 48338
+    },
+    {
+      "width": 960,
+      "url": "/catalogue/optimized/the-last-of-us-part-i-faee70c0dd60-960.webp",
+      "bytes": 87512
+    },
+    {
+      "width": 1024,
+      "url": "/catalogue/optimized/the-last-of-us-part-i-faee70c0dd60-1024.webp",
+      "bytes": 97208
+    }
+  ],
+  "catalogue/uncharted-4-ps4.png": [
+    {
+      "width": 320,
+      "url": "/catalogue/optimized/uncharted-4-ps4-eddd9b151708-320.webp",
+      "bytes": 15592
+    },
+    {
+      "width": 640,
+      "url": "/catalogue/optimized/uncharted-4-ps4-eddd9b151708-640.webp",
+      "bytes": 45212
+    },
+    {
+      "width": 960,
+      "url": "/catalogue/optimized/uncharted-4-ps4-eddd9b151708-960.webp",
+      "bytes": 90670
+    },
+    {
+      "width": 1000,
+      "url": "/catalogue/optimized/uncharted-4-ps4-eddd9b151708-1000.webp",
+      "bytes": 96606
+    }
+  ],
+  "catalogue/xbox-controller-carbon-black.png": [
+    {
+      "width": 320,
+      "url": "/catalogue/optimized/xbox-controller-carbon-black-e8c26fa04888-320.webp",
+      "bytes": 8700
+    },
+    {
+      "width": 640,
+      "url": "/catalogue/optimized/xbox-controller-carbon-black-e8c26fa04888-640.webp",
+      "bytes": 20074
+    },
+    {
+      "width": 960,
+      "url": "/catalogue/optimized/xbox-controller-carbon-black-e8c26fa04888-960.webp",
+      "bytes": 33940
+    }
+  ],
+  "catalogue/xbox-controller-robot-white.png": [
+    {
+      "width": 320,
+      "url": "/catalogue/optimized/xbox-controller-robot-white-db8721dd5b79-320.webp",
+      "bytes": 9578
+    },
+    {
+      "width": 640,
+      "url": "/catalogue/optimized/xbox-controller-robot-white-db8721dd5b79-640.webp",
+      "bytes": 21954
+    },
+    {
+      "width": 960,
+      "url": "/catalogue/optimized/xbox-controller-robot-white-db8721dd5b79-960.webp",
+      "bytes": 34750
+    }
+  ],
+  "catalogue/xbox-controller-shock-blue.png": [
+    {
+      "width": 320,
+      "url": "/catalogue/optimized/xbox-controller-shock-blue-cece58565962-320.webp",
+      "bytes": 10226
+    },
+    {
+      "width": 640,
+      "url": "/catalogue/optimized/xbox-controller-shock-blue-cece58565962-640.webp",
+      "bytes": 23264
+    },
+    {
+      "width": 960,
+      "url": "/catalogue/optimized/xbox-controller-shock-blue-cece58565962-960.webp",
+      "bytes": 36708
+    }
+  ],
+  "catalogue/zelda-breath-of-the-wild-switch.png": [
+    {
+      "width": 320,
+      "url": "/catalogue/optimized/zelda-breath-of-the-wild-switch-0245e78c3e17-320.webp",
+      "bytes": 6766
+    },
+    {
+      "width": 640,
+      "url": "/catalogue/optimized/zelda-breath-of-the-wild-switch-0245e78c3e17-640.webp",
+      "bytes": 21180
+    },
+    {
+      "width": 960,
+      "url": "/catalogue/optimized/zelda-breath-of-the-wild-switch-0245e78c3e17-960.webp",
+      "bytes": 41110
+    },
+    {
+      "width": 1200,
+      "url": "/catalogue/optimized/zelda-breath-of-the-wild-switch-0245e78c3e17-1200.webp",
+      "bytes": 58310
+    }
+  ]
+}

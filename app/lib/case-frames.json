@@ -1,0 +1,38 @@
+{
+  "catalogue/halo-infinite-xbox.png": {
+    "x": 187,
+    "y": 21,
+    "width": 1126,
+    "height": 1458,
+    "sourceWidth": 1500,
+    "sourceHeight": 1500,
+    "radius": 17
+  },
+  "catalogue/mario-kart-8-deluxe-switch.png": {
+    "x": 393,
+    "y": 4,
+    "width": 412,
+    "height": 667,
+    "sourceWidth": 1200,
+    "sourceHeight": 675,
+    "radius": 16
+  },
+  "catalogue/super-mario-odyssey-switch.png": {
+    "x": 393,
+    "y": 4,
+    "width": 412,
+    "height": 667,
+    "sourceWidth": 1200,
+    "sourceHeight": 675,
+    "radius": 16
+  },
+  "catalogue/zelda-breath-of-the-wild-switch.png": {
+    "x": 393,
+    "y": 4,
+    "width": 412,
+    "height": 667,
+    "sourceWidth": 1200,
+    "sourceHeight": 675,
+    "radius": 16
+  }
+}

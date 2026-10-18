@@ -1,0 +1,210 @@
+{
+  "catalogue/dualsense-white.png": {
+    "x": 80,
+    "y": 16,
+    "width": 801,
+    "height": 549,
+    "sourceWidth": 960,
+    "sourceHeight": 579
+  },
+  "catalogue/dualsense-rhythm-blue.png": {
+    "x": 116,
+    "y": 26,
+    "width": 727,
+    "height": 503,
+    "sourceWidth": 960,
+    "sourceHeight": 540
+  },
+  "catalogue/dualsense-techno-red.png": {
+    "x": 116,
+    "y": 26,
+    "width": 727,
+    "height": 503,
+    "sourceWidth": 960,
+    "sourceHeight": 540
+  },
+  "catalogue/dualsense-remix-green.png": {
+    "x": 117,
+    "y": 26,
+    "width": 726,
+    "height": 503,
+    "sourceWidth": 960,
+    "sourceHeight": 540
+  },
+  "catalogue/marvels-spider-man-2-case.png": {
+    "x": 118,
+    "y": 38,
+    "width": 555,
+    "height": 711,
+    "sourceWidth": 800,
+    "sourceHeight": 800
+  },
+  "catalogue/returnal-case.png": {
+    "x": 116,
+    "y": 37,
+    "width": 569,
+    "height": 727,
+    "sourceWidth": 800,
+    "sourceHeight": 800
+  },
+  "catalogue/demons-souls-case.png": {
+    "x": 118,
+    "y": 36,
+    "width": 571,
+    "height": 728,
+    "sourceWidth": 800,
+    "sourceHeight": 800
+  },
+  "catalogue/ratchet-and-clank-rift-apart-case.png": {
+    "x": 114,
+    "y": 35,
+    "width": 573,
+    "height": 732,
+    "sourceWidth": 800,
+    "sourceHeight": 800
+  },
+  "catalogue/the-last-of-us-part-i-case.png": {
+    "x": 116,
+    "y": 31,
+    "width": 576,
+    "height": 738,
+    "sourceWidth": 800,
+    "sourceHeight": 800
+  },
+  "catalogue/ghost-of-tsushima-directors-cut-case.png": {
+    "x": 95,
+    "y": 37,
+    "width": 616,
+    "height": 735,
+    "sourceWidth": 800,
+    "sourceHeight": 800
+  },
+  "catalogue/horizon-forbidden-west-case.png": {
+    "x": 121,
+    "y": 41,
+    "width": 561,
+    "height": 718,
+    "sourceWidth": 800,
+    "sourceHeight": 800
+  },
+  "catalogue/xbox-controller-carbon-black.png": {
+    "x": 102,
+    "y": 221,
+    "width": 755,
+    "height": 527,
+    "sourceWidth": 960,
+    "sourceHeight": 960
+  },
+  "catalogue/xbox-controller-robot-white.png": {
+    "x": 96,
+    "y": 222,
+    "width": 756,
+    "height": 526,
+    "sourceWidth": 960,
+    "sourceHeight": 960
+  },
+  "catalogue/xbox-controller-shock-blue.png": {
+    "x": 106,
+    "y": 221,
+    "width": 747,
+    "height": 527,
+    "sourceWidth": 960,
+    "sourceHeight": 960
+  },
+  "catalogue/dualshock-4-jet-black.png": {
+    "x": 102,
+    "y": 232,
+    "width": 805,
+    "height": 505,
+    "sourceWidth": 1000,
+    "sourceHeight": 1000
+  },
+  "catalogue/dualshock-4-magma-red.png": {
+    "x": 118,
+    "y": 268,
+    "width": 744,
+    "height": 471,
+    "sourceWidth": 1000,
+    "sourceHeight": 1000
+  },
+  "catalogue/dualshock-4-titanium-blue.png": {
+    "x": 122,
+    "y": 263,
+    "width": 756,
+    "height": 473,
+    "sourceWidth": 1000,
+    "sourceHeight": 1000
+  },
+  "catalogue/god-of-war-ps4.png": {
+    "x": 187,
+    "y": 104,
+    "width": 627,
+    "height": 793,
+    "sourceWidth": 1000,
+    "sourceHeight": 1000
+  },
+  "catalogue/uncharted-4-ps4.png": {
+    "x": 178,
+    "y": 117,
+    "width": 635,
+    "height": 774,
+    "sourceWidth": 1000,
+    "sourceHeight": 1000
+  },
+  "catalogue/days-gone-ps4.png": {
+    "x": 286,
+    "y": 140,
+    "width": 966,
+    "height": 1220,
+    "sourceWidth": 1500,
+    "sourceHeight": 1500
+  },
+  "catalogue/halo-infinite-xbox.png": {
+    "x": 187,
+    "y": 21,
+    "width": 1126,
+    "height": 1459,
+    "sourceWidth": 1500,
+    "sourceHeight": 1500
+  },
+  "catalogue/forza-horizon-5-xbox.png": {
+    "x": 63,
+    "y": 32,
+    "width": 976,
+    "height": 1353,
+    "sourceWidth": 1111,
+    "sourceHeight": 1415
+  },
+  "catalogue/gears-5-xbox.png": {
+    "x": 187,
+    "y": 62,
+    "width": 882,
+    "height": 1133,
+    "sourceWidth": 1254,
+    "sourceHeight": 1254
+  },
+  "catalogue/mario-kart-8-deluxe-switch.png": {
+    "x": 393,
+    "y": 4,
+    "width": 412,
+    "height": 667,
+    "sourceWidth": 1200,
+    "sourceHeight": 675
+  },
+  "catalogue/super-mario-odyssey-switch.png": {
+    "x": 393,
+    "y": 4,
+    "width": 412,
+    "height": 667,
+    "sourceWidth": 1200,
+    "sourceHeight": 675
+  },
+  "catalogue/zelda-breath-of-the-wild-switch.png": {
+    "x": 393,
+    "y": 4,
+    "width": 412,
+    "height": 667,
+    "sourceWidth": 1200,
+    "sourceHeight": 675
+  }
+}
