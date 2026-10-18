@@ -1,6 +1,7 @@
 {
   "name": "games-factory-pakistan",
   "private": true,
+  "packageManager": "pnpm@11.25.0",
   "type": "module",
   "scripts": {
     "images:optimize": "node scripts/optimize-images.mjs",

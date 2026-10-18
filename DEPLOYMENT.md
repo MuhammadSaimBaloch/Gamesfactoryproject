@@ -4,6 +4,8 @@ No Cloudflare account was authenticated and no remote resources or live deployme
 
 ## Prerequisites
 
+Use Node.js 24 and pnpm 11.25.0, matching the repository's quality checks. For Cloudflare Workers Builds, set `PNPM_VERSION=11.25.0` and `NODE_VERSION=24` under **Settings > Build > Build Variables and Secrets** before installing dependencies. These are build variables, not runtime secrets. A build reporting `packages field missing or empty` with pnpm 9 is using an older package manager; use the pinned version and the current workspace configuration. Git-connected builds still require the staging resource configuration described below; the default `wrangler.jsonc` is local-only.
+
 Use a Cloudflare account with Workers, D1, R2, Zero Trust Access and Turnstile. Add a production domain to Cloudflare. Create separate GitHub environments named `staging` and `production`; production should require reviewer approval. The repository has a manually dispatched deployment workflow, so a push cannot unexpectedly publish the store.
 
 Reference: [official React Router guide](https://developers.cloudflare.com/workers/framework-guides/web-apps/react-router/). Commands below use the installed Wrangler 4 CLI; inspect `pnpm exec wrangler <command> --help` if upgrading.
