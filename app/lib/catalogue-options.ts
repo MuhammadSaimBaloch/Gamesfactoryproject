@@ -1,0 +1,27 @@
+export const platformOptions = [
+  "PlayStation",
+  "Xbox",
+  "Nintendo",
+  "PC Gaming",
+  "VR",
+  "Other",
+];
+export const generationOptions = [
+  "PS5",
+  "PS4",
+  "PS3",
+  "PS2",
+  "PSP",
+  "PS Vita",
+  "Xbox Series",
+  "Xbox One",
+  "Xbox 360",
+  "Switch 2",
+  "Switch",
+  "PC",
+  "Steam Deck",
+  "ROG Ally",
+  "ROG Xbox Ally",
+  "Retro handheld",
+  "Quest",
+];

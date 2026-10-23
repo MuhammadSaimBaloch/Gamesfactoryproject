@@ -24,6 +24,8 @@ import { money } from "../lib/money";
 import { promotions, getDetails, type Inquiry } from "../lib/server/storefront";
 import { ownerData } from "../lib/server/owner";
 import categoryDefaults from "../lib/category-images.json";
+import inventoryReview from "../../db/inventory-review.json";
+import { platformOptions, generationOptions } from "../lib/catalogue-options";
 import {
   OwnerTools,
   ProductList,
@@ -266,7 +268,7 @@ export default function Admin() {
     { key: "brand" },
     {
       key: "platform",
-      options: options(["PlayStation", "Xbox", "Nintendo", "PC Gaming"]),
+      options: options(platformOptions),
     },
     { key: "condition", options: options(["New", "Used", "Refurbished"]) },
     {
@@ -470,6 +472,19 @@ export default function Admin() {
         ) : section === "products" ? (
           d.path === "products/new" || editing ? (
             <>
+              {editing &&
+                !editing.active &&
+                inventoryReview.find((item) => item.slug === editing.slug)
+                  ?.reasons && (
+                  <div className="notice">
+                    <strong>Inventory import review:</strong>{" "}
+                    {
+                      inventoryReview.find((item) => item.slug === editing.slug)
+                        ?.reasons
+                    }{" "}
+                    Resolve these notes, then publish this product when ready.
+                  </div>
+                )}
               <Editor
                 entity="product"
                 title={editing ? "Edit product" : "Create product"}
@@ -495,16 +510,7 @@ export default function Admin() {
                       },
                       {
                         key: "generation",
-                        options: options([
-                          "",
-                          "PS4",
-                          "PS5",
-                          "Xbox One",
-                          "Xbox Series",
-                          "Switch",
-                          "Switch 2",
-                          "PC",
-                        ]),
+                        options: options(["", ...generationOptions]),
                       },
                       { key: "compatibility", type: "textarea" },
                       { key: "region" },

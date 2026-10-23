@@ -9,5 +9,7 @@
   "keyboards": "catalogue/category-keyboards.png",
   "mice": "catalogue/category-mice.png",
   "racing-wheels": "catalogue/category-racing-wheels.png",
-  "retro": "catalogue/category-retro.png"
+  "retro": "catalogue/category-retro.png",
+  "handhelds": "catalogue/inventory-nintendo-switch-2.webp",
+  "vr": "catalogue/inventory-meta-quest-3.webp"
 }

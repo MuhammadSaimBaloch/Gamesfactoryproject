@@ -6,7 +6,7 @@ it("sets approved variant prices once without changing stock, and permits later 
   const db = new DatabaseSync(":memory:");
   try {
     for (const file of readdirSync("db/migrations")
-      .filter((f) => f.endsWith(".sql") && !f.startsWith("0011"))
+      .filter((f) => f.endsWith(".sql") && f < "0011")
       .sort())
       db.exec(readFileSync(`db/migrations/${file}`, "utf8"));
     for (const file of [

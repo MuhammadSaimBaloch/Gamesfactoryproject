@@ -133,6 +133,10 @@ export async function catalogue(env: Env, params = new URLSearchParams()) {
   const page = Math.max(1, Math.min(10000, Number(params.get("page")) || 1));
   const rows = await db
     .select({
+      // SQLite's single MIN aggregate selects the other columns from that same
+      // row. Pick one eligible, in-stock, lowest-price SKU per product before
+      // pagination; condition/price/stock filters above still apply to that SKU.
+      catalogueChoice: sql<string>`min(printf('%d:%015d:%s',CASE WHEN ${stock}>0 THEN 0 ELSE 1 END,${effectivePrice},${variants.id}))`,
       id: products.id,
       slug: products.slug,
       name: products.name,
@@ -167,10 +171,19 @@ export async function catalogue(env: Env, params = new URLSearchParams()) {
     .innerJoin(variants, eq(variants.productId, products.id))
     .innerJoin(categories, eq(categories.id, products.categoryId))
     .where(and(...filters, eq(categories.active, 1)))
+    .groupBy(products.id)
     .orderBy(ordering, asc(variants.id))
     .limit(25)
     .offset((page - 1) * 24);
-  return { items: rows.slice(0, 24), hasMore: rows.length > 24, page };
+  return {
+    items: rows.slice(0, 24).map((row) => {
+      const { catalogueChoice, ...item } = row;
+      void catalogueChoice;
+      return item;
+    }),
+    hasMore: rows.length > 24,
+    page,
+  };
 }
 export type ProductCardData = Awaited<
   ReturnType<typeof catalogue>

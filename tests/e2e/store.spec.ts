@@ -24,7 +24,16 @@ test("storefront and real product details show approved prices without inventing
 });
 test("URL filters and search return database content", async ({ page }) => {
   await page.goto("/shop?q=ASTRO BOT");
-  await expect(page.locator(".product-card")).toHaveCount(1);
+  await expect(
+    page
+      .locator(".product-card")
+      .filter({ has: page.locator('a[href="/product/astro-bot"]') }),
+  ).toHaveCount(1);
+  await expect(
+    page
+      .locator(".product-card")
+      .filter({ has: page.locator('a[href="/product/dualsense-astro-bot"]') }),
+  ).toHaveCount(1);
   await page.goto("/shop?q=NoSuchItem");
   await expect(
     page.getByRole("heading", { name: "No products here yet." }),

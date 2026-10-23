@@ -1,0 +1,2621 @@
+[
+  {
+    "slug": "dualsense-white",
+    "id": "catalog-dualsense-white",
+    "name": "DualSense Wireless Controller - White",
+    "category": "controllers",
+    "brand": "Sony",
+    "platform": "PlayStation",
+    "generation": "PS5",
+    "type": "controller",
+    "condition": "New",
+    "options": [
+      {
+        "name": "White",
+        "condition": "New"
+      }
+    ],
+    "group": "dualsense",
+    "review": ""
+  },
+  {
+    "slug": "dualsense-midnight-black",
+    "id": "catalog-dualsense-midnight-black",
+    "name": "DualSense Wireless Controller - Midnight Black",
+    "category": "controllers",
+    "brand": "Sony",
+    "platform": "PlayStation",
+    "generation": "PS5",
+    "type": "controller",
+    "condition": "New",
+    "options": [
+      {
+        "name": "Midnight Black",
+        "condition": "New"
+      }
+    ],
+    "group": "dualsense",
+    "review": ""
+  },
+  {
+    "slug": "dualsense-cosmic-red",
+    "id": "catalog-dualsense-cosmic-red",
+    "name": "DualSense Wireless Controller - Cosmic Red",
+    "category": "controllers",
+    "brand": "Sony",
+    "platform": "PlayStation",
+    "generation": "PS5",
+    "type": "controller",
+    "condition": "New",
+    "options": [
+      {
+        "name": "Cosmic Red",
+        "condition": "New"
+      }
+    ],
+    "group": "dualsense",
+    "review": ""
+  },
+  {
+    "slug": "dualsense-nova-pink",
+    "id": "catalog-dualsense-nova-pink",
+    "name": "DualSense Wireless Controller - Nova Pink",
+    "category": "controllers",
+    "brand": "Sony",
+    "platform": "PlayStation",
+    "generation": "PS5",
+    "type": "controller",
+    "condition": "New",
+    "options": [
+      {
+        "name": "Nova Pink",
+        "condition": "New"
+      }
+    ],
+    "group": "dualsense",
+    "review": ""
+  },
+  {
+    "slug": "dualsense-starlight-blue",
+    "id": "catalog-dualsense-starlight-blue",
+    "name": "DualSense Wireless Controller - Starlight Blue",
+    "category": "controllers",
+    "brand": "Sony",
+    "platform": "PlayStation",
+    "generation": "PS5",
+    "type": "controller",
+    "condition": "New",
+    "options": [
+      {
+        "name": "Starlight Blue",
+        "condition": "New"
+      }
+    ],
+    "group": "dualsense",
+    "review": ""
+  },
+  {
+    "slug": "dualsense-galactic-purple",
+    "id": "catalog-dualsense-galactic-purple",
+    "name": "DualSense Wireless Controller - Galactic Purple",
+    "category": "controllers",
+    "brand": "Sony",
+    "platform": "PlayStation",
+    "generation": "PS5",
+    "type": "controller",
+    "condition": "New",
+    "options": [
+      {
+        "name": "Galactic Purple",
+        "condition": "New"
+      }
+    ],
+    "group": "dualsense",
+    "review": ""
+  },
+  {
+    "slug": "dualsense-grey-camouflage",
+    "id": "catalog-dualsense-grey-camouflage",
+    "name": "DualSense Wireless Controller - Grey Camouflage",
+    "category": "controllers",
+    "brand": "Sony",
+    "platform": "PlayStation",
+    "generation": "PS5",
+    "type": "controller",
+    "condition": "New",
+    "options": [
+      {
+        "name": "Grey Camouflage",
+        "condition": "New"
+      }
+    ],
+    "group": "dualsense",
+    "review": ""
+  },
+  {
+    "slug": "dualsense-volcanic-red",
+    "id": "catalog-dualsense-volcanic-red",
+    "name": "DualSense Wireless Controller - Volcanic Red",
+    "category": "controllers",
+    "brand": "Sony",
+    "platform": "PlayStation",
+    "generation": "PS5",
+    "type": "controller",
+    "condition": "New",
+    "options": [
+      {
+        "name": "Volcanic Red",
+        "condition": "New"
+      }
+    ],
+    "group": "dualsense",
+    "review": ""
+  },
+  {
+    "slug": "dualsense-cobalt-blue",
+    "id": "catalog-dualsense-cobalt-blue",
+    "name": "DualSense Wireless Controller - Cobalt Blue",
+    "category": "controllers",
+    "brand": "Sony",
+    "platform": "PlayStation",
+    "generation": "PS5",
+    "type": "controller",
+    "condition": "New",
+    "options": [
+      {
+        "name": "Cobalt Blue",
+        "condition": "New"
+      }
+    ],
+    "group": "dualsense",
+    "review": ""
+  },
+  {
+    "slug": "dualsense-sterling-silver",
+    "id": "catalog-dualsense-sterling-silver",
+    "name": "DualSense Wireless Controller - Sterling Silver",
+    "category": "controllers",
+    "brand": "Sony",
+    "platform": "PlayStation",
+    "generation": "PS5",
+    "type": "controller",
+    "condition": "New",
+    "options": [
+      {
+        "name": "Sterling Silver",
+        "condition": "New"
+      }
+    ],
+    "group": "dualsense",
+    "review": ""
+  },
+  {
+    "slug": "dualsense-chroma-pearl",
+    "id": "catalog-dualsense-chroma-pearl",
+    "name": "DualSense Wireless Controller - Chroma Pearl",
+    "category": "controllers",
+    "brand": "Sony",
+    "platform": "PlayStation",
+    "generation": "PS5",
+    "type": "controller",
+    "condition": "New",
+    "options": [
+      {
+        "name": "Chroma Pearl",
+        "condition": "New"
+      }
+    ],
+    "group": "dualsense",
+    "review": ""
+  },
+  {
+    "slug": "dualsense-chroma-indigo",
+    "id": "catalog-dualsense-chroma-indigo",
+    "name": "DualSense Wireless Controller - Chroma Indigo",
+    "category": "controllers",
+    "brand": "Sony",
+    "platform": "PlayStation",
+    "generation": "PS5",
+    "type": "controller",
+    "condition": "New",
+    "options": [
+      {
+        "name": "Chroma Indigo",
+        "condition": "New"
+      }
+    ],
+    "group": "dualsense",
+    "review": ""
+  },
+  {
+    "slug": "dualsense-chroma-teal",
+    "id": "catalog-dualsense-chroma-teal",
+    "name": "DualSense Wireless Controller - Chroma Teal",
+    "category": "controllers",
+    "brand": "Sony",
+    "platform": "PlayStation",
+    "generation": "PS5",
+    "type": "controller",
+    "condition": "New",
+    "options": [
+      {
+        "name": "Chroma Teal",
+        "condition": "New"
+      }
+    ],
+    "group": "dualsense",
+    "review": ""
+  },
+  {
+    "slug": "dualsense-techno-red",
+    "id": "catalog-dualsense-techno-red",
+    "name": "DualSense Wireless Controller - Techno Red",
+    "category": "controllers",
+    "brand": "Sony",
+    "platform": "PlayStation",
+    "generation": "PS5",
+    "type": "controller",
+    "condition": "New",
+    "options": [
+      {
+        "name": "Techno Red",
+        "condition": "New"
+      }
+    ],
+    "group": "dualsense",
+    "review": ""
+  },
+  {
+    "slug": "dualsense-remix-green",
+    "id": "catalog-dualsense-remix-green",
+    "name": "DualSense Wireless Controller - Remix Green",
+    "category": "controllers",
+    "brand": "Sony",
+    "platform": "PlayStation",
+    "generation": "PS5",
+    "type": "controller",
+    "condition": "New",
+    "options": [
+      {
+        "name": "Remix Green",
+        "condition": "New"
+      }
+    ],
+    "group": "dualsense",
+    "review": ""
+  },
+  {
+    "slug": "dualsense-rhythm-blue",
+    "id": "catalog-dualsense-rhythm-blue",
+    "name": "DualSense Wireless Controller - Rhythm Blue",
+    "category": "controllers",
+    "brand": "Sony",
+    "platform": "PlayStation",
+    "generation": "PS5",
+    "type": "controller",
+    "condition": "New",
+    "options": [
+      {
+        "name": "Rhythm Blue",
+        "condition": "New"
+      }
+    ],
+    "group": "dualsense",
+    "review": ""
+  },
+  {
+    "slug": "dualsense-god-of-war-ragnarok",
+    "id": "catalog-dualsense-god-of-war-ragnarok",
+    "name": "DualSense Wireless Controller - God of War Ragnarök",
+    "category": "controllers",
+    "brand": "Sony",
+    "platform": "PlayStation",
+    "generation": "PS5",
+    "type": "controller",
+    "condition": "New",
+    "options": [
+      {
+        "name": "God of War Ragnarok",
+        "condition": "New"
+      }
+    ],
+    "group": "dualsense",
+    "review": ""
+  },
+  {
+    "slug": "dualsense-hogwarts-legacy",
+    "id": "catalog-dualsense-hogwarts-legacy",
+    "name": "DualSense Wireless Controller - Hogwarts Legacy",
+    "category": "controllers",
+    "brand": "Sony",
+    "platform": "PlayStation",
+    "generation": "PS5",
+    "type": "controller",
+    "condition": "New",
+    "options": [
+      {
+        "name": "Hogwarts Legacy",
+        "condition": "New"
+      }
+    ],
+    "group": "dualsense",
+    "review": ""
+  },
+  {
+    "slug": "dualsense-lebron-james",
+    "id": "catalog-dualsense-lebron-james",
+    "name": "DualSense Wireless Controller - LeBron James",
+    "category": "controllers",
+    "brand": "Sony",
+    "platform": "PlayStation",
+    "generation": "PS5",
+    "type": "controller",
+    "condition": "New",
+    "options": [
+      {
+        "name": "LeBron James",
+        "condition": "New"
+      }
+    ],
+    "group": "dualsense",
+    "review": ""
+  },
+  {
+    "slug": "dualsense-final-fantasy-xvi",
+    "id": "catalog-dualsense-final-fantasy-xvi",
+    "name": "DualSense Wireless Controller - Final Fantasy XVI",
+    "category": "controllers",
+    "brand": "Sony",
+    "platform": "PlayStation",
+    "generation": "PS5",
+    "type": "controller",
+    "condition": "New",
+    "options": [
+      {
+        "name": "Final Fantasy XVI",
+        "condition": "New"
+      }
+    ],
+    "group": "dualsense",
+    "review": ""
+  },
+  {
+    "slug": "dualsense-marvel-s-spider-man-2",
+    "id": "catalog-dualsense-marvel-s-spider-man-2",
+    "name": "DualSense Wireless Controller - Marvel's Spider-Man 2",
+    "category": "controllers",
+    "brand": "Sony",
+    "platform": "PlayStation",
+    "generation": "PS5",
+    "type": "controller",
+    "condition": "New",
+    "options": [
+      {
+        "name": "Marvel's Spider-Man 2",
+        "condition": "New"
+      }
+    ],
+    "group": "dualsense",
+    "review": ""
+  },
+  {
+    "slug": "dualsense-concord",
+    "id": "catalog-dualsense-concord",
+    "name": "DualSense Wireless Controller - Concord",
+    "category": "controllers",
+    "brand": "Sony",
+    "platform": "PlayStation",
+    "generation": "PS5",
+    "type": "controller",
+    "condition": "New",
+    "options": [
+      {
+        "name": "Concord",
+        "condition": "New"
+      }
+    ],
+    "group": "dualsense",
+    "review": ""
+  },
+  {
+    "slug": "dualsense-astro-bot",
+    "id": "catalog-dualsense-astro-bot",
+    "name": "DualSense Wireless Controller - Astro Bot",
+    "category": "controllers",
+    "brand": "Sony",
+    "platform": "PlayStation",
+    "generation": "PS5",
+    "type": "controller",
+    "condition": "New",
+    "options": [
+      {
+        "name": "Astro Bot",
+        "condition": "New"
+      }
+    ],
+    "group": "dualsense",
+    "review": ""
+  },
+  {
+    "slug": "dualsense-fortnite",
+    "id": "catalog-dualsense-fortnite",
+    "name": "DualSense Wireless Controller - Fortnite",
+    "category": "controllers",
+    "brand": "Sony",
+    "platform": "PlayStation",
+    "generation": "PS5",
+    "type": "controller",
+    "condition": "New",
+    "options": [
+      {
+        "name": "Fortnite",
+        "condition": "New"
+      }
+    ],
+    "group": "dualsense",
+    "review": ""
+  },
+  {
+    "slug": "dualsense-playstation-30th-anniversary",
+    "id": "catalog-dualsense-playstation-30th-anniversary",
+    "name": "DualSense Wireless Controller - PlayStation 30th Anniversary",
+    "category": "controllers",
+    "brand": "Sony",
+    "platform": "PlayStation",
+    "generation": "PS5",
+    "type": "controller",
+    "condition": "New",
+    "options": [
+      {
+        "name": "PlayStation 30th Anniversary",
+        "condition": "New"
+      }
+    ],
+    "group": "dualsense",
+    "review": ""
+  },
+  {
+    "slug": "dualsense-helldivers-2",
+    "id": "catalog-dualsense-helldivers-2",
+    "name": "DualSense Wireless Controller - Helldivers 2",
+    "category": "controllers",
+    "brand": "Sony",
+    "platform": "PlayStation",
+    "generation": "PS5",
+    "type": "controller",
+    "condition": "New",
+    "options": [
+      {
+        "name": "Helldivers 2",
+        "condition": "New"
+      }
+    ],
+    "group": "dualsense",
+    "review": ""
+  },
+  {
+    "slug": "dualsense-monster-hunter-wilds",
+    "id": "catalog-dualsense-monster-hunter-wilds",
+    "name": "DualSense Wireless Controller - Monster Hunter Wilds",
+    "category": "controllers",
+    "brand": "Sony",
+    "platform": "PlayStation",
+    "generation": "PS5",
+    "type": "controller",
+    "condition": "New",
+    "options": [
+      {
+        "name": "Monster Hunter Wilds",
+        "condition": "New"
+      }
+    ],
+    "group": "dualsense",
+    "review": ""
+  },
+  {
+    "slug": "dualsense-the-last-of-us",
+    "id": "catalog-dualsense-the-last-of-us",
+    "name": "DualSense Wireless Controller - The Last of Us",
+    "category": "controllers",
+    "brand": "Sony",
+    "platform": "PlayStation",
+    "generation": "PS5",
+    "type": "controller",
+    "condition": "New",
+    "options": [
+      {
+        "name": "The Last of Us",
+        "condition": "New"
+      }
+    ],
+    "group": "dualsense",
+    "review": ""
+  },
+  {
+    "slug": "dualsense-death-stranding-2-on-the-beach",
+    "id": "catalog-dualsense-death-stranding-2-on-the-beach",
+    "name": "DualSense Wireless Controller - Death Stranding 2 On the Beach",
+    "category": "controllers",
+    "brand": "Sony",
+    "platform": "PlayStation",
+    "generation": "PS5",
+    "type": "controller",
+    "condition": "New",
+    "options": [
+      {
+        "name": "Death Stranding 2 On the Beach",
+        "condition": "New"
+      }
+    ],
+    "group": "dualsense",
+    "review": ""
+  },
+  {
+    "slug": "dualsense-ghost-of-yotei-gold",
+    "id": "catalog-dualsense-ghost-of-yotei-gold",
+    "name": "DualSense Wireless Controller - Ghost of Yōtei Gold",
+    "category": "controllers",
+    "brand": "Sony",
+    "platform": "PlayStation",
+    "generation": "PS5",
+    "type": "controller",
+    "condition": "New",
+    "options": [
+      {
+        "name": "Ghost of Yotei Gold",
+        "condition": "New"
+      }
+    ],
+    "group": "dualsense",
+    "review": ""
+  },
+  {
+    "slug": "dualsense-ghost-of-yotei-black",
+    "id": "catalog-dualsense-ghost-of-yotei-black",
+    "name": "DualSense Wireless Controller - Ghost of Yōtei Black",
+    "category": "controllers",
+    "brand": "Sony",
+    "platform": "PlayStation",
+    "generation": "PS5",
+    "type": "controller",
+    "condition": "New",
+    "options": [
+      {
+        "name": "Ghost of Yotei Black",
+        "condition": "New"
+      }
+    ],
+    "group": "dualsense",
+    "review": ""
+  },
+  {
+    "slug": "dualsense-astro-bot-joyful-edition",
+    "id": "catalog-dualsense-astro-bot-joyful-edition",
+    "name": "DualSense Wireless Controller - Astro Bot Joyful Edition",
+    "category": "controllers",
+    "brand": "Sony",
+    "platform": "PlayStation",
+    "generation": "PS5",
+    "type": "controller",
+    "condition": "New",
+    "options": [
+      {
+        "name": "Astro Bot Joyful Edition",
+        "condition": "New"
+      }
+    ],
+    "group": "dualsense",
+    "review": ""
+  },
+  {
+    "slug": "dualsense-god-of-war-20th-anniversary",
+    "id": "catalog-dualsense-god-of-war-20th-anniversary",
+    "name": "DualSense Wireless Controller - God of War 20th Anniversary",
+    "category": "controllers",
+    "brand": "Sony",
+    "platform": "PlayStation",
+    "generation": "PS5",
+    "type": "controller",
+    "condition": "New",
+    "options": [
+      {
+        "name": "God of War 20th Anniversary",
+        "condition": "New"
+      }
+    ],
+    "group": "dualsense",
+    "review": ""
+  },
+  {
+    "slug": "dualsense-icon-blue-special-edition",
+    "id": "catalog-dualsense-icon-blue-special-edition",
+    "name": "DualSense Wireless Controller - Icon Blue Special Edition",
+    "category": "controllers",
+    "brand": "Sony",
+    "platform": "PlayStation",
+    "generation": "PS5",
+    "type": "controller",
+    "condition": "New",
+    "options": [
+      {
+        "name": "Icon Blue Special Edition",
+        "condition": "New"
+      }
+    ],
+    "group": "dualsense",
+    "review": ""
+  },
+  {
+    "slug": "dualsense-genshin-impact",
+    "id": "catalog-dualsense-genshin-impact",
+    "name": "DualSense Wireless Controller - Genshin Impact",
+    "category": "controllers",
+    "brand": "Sony",
+    "platform": "PlayStation",
+    "generation": "PS5",
+    "type": "controller",
+    "condition": "New",
+    "options": [
+      {
+        "name": "Genshin Impact",
+        "condition": "New"
+      }
+    ],
+    "group": "dualsense",
+    "review": ""
+  },
+  {
+    "slug": "dualsense-marathon",
+    "id": "catalog-dualsense-marathon",
+    "name": "DualSense Wireless Controller - Marathon",
+    "category": "controllers",
+    "brand": "Sony",
+    "platform": "PlayStation",
+    "generation": "PS5",
+    "type": "controller",
+    "condition": "New",
+    "options": [
+      {
+        "name": "Marathon",
+        "condition": "New"
+      }
+    ],
+    "group": "dualsense",
+    "review": ""
+  },
+  {
+    "slug": "dualsense-007-first-light",
+    "id": "catalog-dualsense-007-first-light",
+    "name": "DualSense Wireless Controller - 007 First Light",
+    "category": "controllers",
+    "brand": "Sony",
+    "platform": "PlayStation",
+    "generation": "PS5",
+    "type": "controller",
+    "condition": "New",
+    "options": [
+      {
+        "name": "007 First Light",
+        "condition": "New"
+      }
+    ],
+    "group": "dualsense",
+    "review": ""
+  },
+  {
+    "slug": "dualsense-marvel-s-wolverine-adamantium",
+    "id": "catalog-dualsense-marvel-s-wolverine-adamantium",
+    "name": "DualSense Wireless Controller - Marvel's Wolverine Adamantium",
+    "category": "controllers",
+    "brand": "Sony",
+    "platform": "PlayStation",
+    "generation": "PS5",
+    "type": "controller",
+    "condition": "New",
+    "options": [
+      {
+        "name": "Marvel's Wolverine Adamantium",
+        "condition": "New"
+      }
+    ],
+    "group": "dualsense",
+    "review": ""
+  },
+  {
+    "slug": "dualsense-marvel-s-wolverine-battle-yellow",
+    "id": "catalog-dualsense-marvel-s-wolverine-battle-yellow",
+    "name": "DualSense Wireless Controller - Marvel's Wolverine Battle Yellow",
+    "category": "controllers",
+    "brand": "Sony",
+    "platform": "PlayStation",
+    "generation": "PS5",
+    "type": "controller",
+    "condition": "New",
+    "options": [
+      {
+        "name": "Marvel's Wolverine Battle Yellow",
+        "condition": "New"
+      }
+    ],
+    "group": "dualsense",
+    "review": ""
+  },
+  {
+    "slug": "dualsense-grand-theft-auto-vi-black",
+    "id": "catalog-dualsense-grand-theft-auto-vi-black",
+    "name": "DualSense Wireless Controller - Grand Theft Auto VI Black",
+    "category": "controllers",
+    "brand": "Sony",
+    "platform": "PlayStation",
+    "generation": "PS5",
+    "type": "controller",
+    "condition": "New",
+    "options": [
+      {
+        "name": "Grand Theft Auto VI Black",
+        "condition": "New"
+      }
+    ],
+    "group": "dualsense",
+    "review": "Officially announced, but launch is November 19, 2026. Keep unpublished until the store confirms availability or enables an approved pre-order."
+  },
+  {
+    "slug": "dualsense-grand-theft-auto-vi-white",
+    "id": "catalog-dualsense-grand-theft-auto-vi-white",
+    "name": "DualSense Wireless Controller - Grand Theft Auto VI White",
+    "category": "controllers",
+    "brand": "Sony",
+    "platform": "PlayStation",
+    "generation": "PS5",
+    "type": "controller",
+    "condition": "New",
+    "options": [
+      {
+        "name": "Grand Theft Auto VI White",
+        "condition": "New"
+      }
+    ],
+    "group": "dualsense",
+    "review": "Officially announced, but launch is November 19, 2026. Keep unpublished until the store confirms availability or enables an approved pre-order."
+  },
+  {
+    "slug": "dualsense-lisa",
+    "id": "catalog-dualsense-lisa",
+    "name": "DualSense Wireless Controller - LISA",
+    "category": "controllers",
+    "brand": "Sony",
+    "platform": "PlayStation",
+    "generation": "PS5",
+    "type": "controller",
+    "condition": "New",
+    "options": [
+      {
+        "name": "LISA",
+        "condition": "New"
+      }
+    ],
+    "group": "dualsense",
+    "review": ""
+  },
+  {
+    "slug": "dualsense-edge-white",
+    "id": "catalog-dualsense-edge-white",
+    "name": "DualSense Edge - White",
+    "category": "controllers",
+    "brand": "Sony",
+    "platform": "PlayStation",
+    "generation": "PS5",
+    "type": "controller",
+    "condition": "New",
+    "options": [
+      {
+        "name": "White",
+        "condition": "New"
+      }
+    ],
+    "group": "edge",
+    "review": ""
+  },
+  {
+    "slug": "dualsense-edge-midnight-black",
+    "id": "catalog-dualsense-edge-midnight-black",
+    "name": "DualSense Edge - Midnight Black",
+    "category": "controllers",
+    "brand": "Sony",
+    "platform": "PlayStation",
+    "generation": "PS5",
+    "type": "controller",
+    "condition": "New",
+    "options": [
+      {
+        "name": "Midnight Black",
+        "condition": "New"
+      }
+    ],
+    "group": "edge",
+    "review": ""
+  },
+  {
+    "slug": "dualsense-edge-playstation-30th-anniversary-limited-edition",
+    "id": "catalog-dualsense-edge-playstation-30th-anniversary-limited-edition",
+    "name": "DualSense Edge - PlayStation 30th Anniversary Limited Edition",
+    "category": "controllers",
+    "brand": "Sony",
+    "platform": "PlayStation",
+    "generation": "PS5",
+    "type": "controller",
+    "condition": "New",
+    "options": [
+      {
+        "name": "PlayStation 30th Anniversary Limited Edition",
+        "condition": "New"
+      }
+    ],
+    "group": "edge",
+    "review": ""
+  },
+  {
+    "slug": "xbox-controller-carbon-black",
+    "id": "catalog-xbox-controller-carbon-black",
+    "name": "Xbox Wireless Controller - Carbon Black",
+    "category": "controllers",
+    "brand": "Microsoft",
+    "platform": "Xbox",
+    "generation": "Xbox Series",
+    "type": "controller",
+    "condition": "New",
+    "options": [
+      {
+        "name": "Carbon Black",
+        "condition": "New"
+      }
+    ],
+    "group": "xbox",
+    "review": ""
+  },
+  {
+    "slug": "xbox-controller-robot-white",
+    "id": "catalog-xbox-controller-robot-white",
+    "name": "Xbox Wireless Controller - Robot White",
+    "category": "controllers",
+    "brand": "Microsoft",
+    "platform": "Xbox",
+    "generation": "Xbox Series",
+    "type": "controller",
+    "condition": "New",
+    "options": [
+      {
+        "name": "Robot White",
+        "condition": "New"
+      }
+    ],
+    "group": "xbox",
+    "review": ""
+  },
+  {
+    "slug": "xbox-controller-shock-blue",
+    "id": "catalog-xbox-controller-shock-blue",
+    "name": "Xbox Wireless Controller - Shock Blue",
+    "category": "controllers",
+    "brand": "Microsoft",
+    "platform": "Xbox",
+    "generation": "Xbox Series",
+    "type": "controller",
+    "condition": "New",
+    "options": [
+      {
+        "name": "Shock Blue",
+        "condition": "New"
+      }
+    ],
+    "group": "xbox",
+    "review": ""
+  },
+  {
+    "slug": "xbox-controller-pulse-red",
+    "id": "catalog-xbox-controller-pulse-red",
+    "name": "Xbox Wireless Controller - Pulse Red",
+    "category": "controllers",
+    "brand": "Microsoft",
+    "platform": "Xbox",
+    "generation": "Xbox Series",
+    "type": "controller",
+    "condition": "New",
+    "options": [
+      {
+        "name": "Pulse Red",
+        "condition": "New"
+      }
+    ],
+    "group": "xbox",
+    "review": ""
+  },
+  {
+    "slug": "xbox-controller-electric-volt",
+    "id": "catalog-xbox-controller-electric-volt",
+    "name": "Xbox Wireless Controller - Electric Volt",
+    "category": "controllers",
+    "brand": "Microsoft",
+    "platform": "Xbox",
+    "generation": "Xbox Series",
+    "type": "controller",
+    "condition": "New",
+    "options": [
+      {
+        "name": "Electric Volt",
+        "condition": "New"
+      }
+    ],
+    "group": "xbox",
+    "review": ""
+  },
+  {
+    "slug": "xbox-controller-deep-pink",
+    "id": "catalog-xbox-controller-deep-pink",
+    "name": "Xbox Wireless Controller - Deep Pink",
+    "category": "controllers",
+    "brand": "Microsoft",
+    "platform": "Xbox",
+    "generation": "Xbox Series",
+    "type": "controller",
+    "condition": "New",
+    "options": [
+      {
+        "name": "Deep Pink",
+        "condition": "New"
+      }
+    ],
+    "group": "xbox",
+    "review": ""
+  },
+  {
+    "slug": "xbox-controller-velocity-green",
+    "id": "catalog-xbox-controller-velocity-green",
+    "name": "Xbox Wireless Controller - Velocity Green",
+    "category": "controllers",
+    "brand": "Microsoft",
+    "platform": "Xbox",
+    "generation": "Xbox Series",
+    "type": "controller",
+    "condition": "New",
+    "options": [
+      {
+        "name": "Velocity Green",
+        "condition": "New"
+      }
+    ],
+    "group": "xbox",
+    "review": ""
+  },
+  {
+    "slug": "xbox-controller-astral-purple",
+    "id": "catalog-xbox-controller-astral-purple",
+    "name": "Xbox Wireless Controller - Astral Purple",
+    "category": "controllers",
+    "brand": "Microsoft",
+    "platform": "Xbox",
+    "generation": "Xbox Series",
+    "type": "controller",
+    "condition": "New",
+    "options": [
+      {
+        "name": "Astral Purple",
+        "condition": "New"
+      }
+    ],
+    "group": "xbox",
+    "review": ""
+  },
+  {
+    "slug": "xbox-controller-daystrike-camo",
+    "id": "catalog-xbox-controller-daystrike-camo",
+    "name": "Xbox Wireless Controller - Daystrike Camo",
+    "category": "controllers",
+    "brand": "Microsoft",
+    "platform": "Xbox",
+    "generation": "Xbox Series",
+    "type": "controller",
+    "condition": "New",
+    "options": [
+      {
+        "name": "Daystrike Camo",
+        "condition": "New"
+      }
+    ],
+    "group": "xbox",
+    "review": ""
+  },
+  {
+    "slug": "xbox-controller-mineral-camo",
+    "id": "catalog-xbox-controller-mineral-camo",
+    "name": "Xbox Wireless Controller - Mineral Camo",
+    "category": "controllers",
+    "brand": "Microsoft",
+    "platform": "Xbox",
+    "generation": "Xbox Series",
+    "type": "controller",
+    "condition": "New",
+    "options": [
+      {
+        "name": "Mineral Camo",
+        "condition": "New"
+      }
+    ],
+    "group": "xbox",
+    "review": ""
+  },
+  {
+    "slug": "xbox-controller-arctic-camo",
+    "id": "catalog-xbox-controller-arctic-camo",
+    "name": "Xbox Wireless Controller - Arctic Camo",
+    "category": "controllers",
+    "brand": "Microsoft",
+    "platform": "Xbox",
+    "generation": "Xbox Series",
+    "type": "controller",
+    "condition": "New",
+    "options": [
+      {
+        "name": "Arctic Camo",
+        "condition": "New"
+      }
+    ],
+    "group": "xbox",
+    "review": ""
+  },
+  {
+    "slug": "xbox-controller-aqua-shift",
+    "id": "catalog-xbox-controller-aqua-shift",
+    "name": "Xbox Wireless Controller - Aqua Shift",
+    "category": "controllers",
+    "brand": "Microsoft",
+    "platform": "Xbox",
+    "generation": "Xbox Series",
+    "type": "controller",
+    "condition": "New",
+    "options": [
+      {
+        "name": "Aqua Shift",
+        "condition": "New"
+      }
+    ],
+    "group": "xbox",
+    "review": ""
+  },
+  {
+    "slug": "xbox-controller-lunar-shift",
+    "id": "catalog-xbox-controller-lunar-shift",
+    "name": "Xbox Wireless Controller - Lunar Shift",
+    "category": "controllers",
+    "brand": "Microsoft",
+    "platform": "Xbox",
+    "generation": "Xbox Series",
+    "type": "controller",
+    "condition": "New",
+    "options": [
+      {
+        "name": "Lunar Shift",
+        "condition": "New"
+      }
+    ],
+    "group": "xbox",
+    "review": ""
+  },
+  {
+    "slug": "xbox-controller-stellar-shift",
+    "id": "catalog-xbox-controller-stellar-shift",
+    "name": "Xbox Wireless Controller - Stellar Shift",
+    "category": "controllers",
+    "brand": "Microsoft",
+    "platform": "Xbox",
+    "generation": "Xbox Series",
+    "type": "controller",
+    "condition": "New",
+    "options": [
+      {
+        "name": "Stellar Shift",
+        "condition": "New"
+      }
+    ],
+    "group": "xbox",
+    "review": ""
+  },
+  {
+    "slug": "xbox-controller-sunkissed-vibes-opi",
+    "id": "catalog-xbox-controller-sunkissed-vibes-opi",
+    "name": "Xbox Wireless Controller - Sunkissed Vibes OPI",
+    "category": "controllers",
+    "brand": "Microsoft",
+    "platform": "Xbox",
+    "generation": "Xbox Series",
+    "type": "controller",
+    "condition": "New",
+    "options": [
+      {
+        "name": "Sunkissed Vibes OPI",
+        "condition": "New"
+      }
+    ],
+    "group": "xbox",
+    "review": ""
+  },
+  {
+    "slug": "xbox-controller-remix-special-edition",
+    "id": "catalog-xbox-controller-remix-special-edition",
+    "name": "Xbox Wireless Controller - Remix Special Edition",
+    "category": "controllers",
+    "brand": "Microsoft",
+    "platform": "Xbox",
+    "generation": "Xbox Series",
+    "type": "controller",
+    "condition": "New",
+    "options": [
+      {
+        "name": "Remix Special Edition",
+        "condition": "New"
+      }
+    ],
+    "group": "xbox",
+    "review": ""
+  },
+  {
+    "slug": "xbox-controller-gold-shadow",
+    "id": "catalog-xbox-controller-gold-shadow",
+    "name": "Xbox Wireless Controller - Gold Shadow",
+    "category": "controllers",
+    "brand": "Microsoft",
+    "platform": "Xbox",
+    "generation": "Xbox Series",
+    "type": "controller",
+    "condition": "New",
+    "options": [
+      {
+        "name": "Gold Shadow",
+        "condition": "New"
+      }
+    ],
+    "group": "xbox",
+    "review": ""
+  },
+  {
+    "slug": "xbox-controller-xbox-20th-anniversary",
+    "id": "catalog-xbox-controller-xbox-20th-anniversary",
+    "name": "Xbox Wireless Controller - Xbox 20th Anniversary",
+    "category": "controllers",
+    "brand": "Microsoft",
+    "platform": "Xbox",
+    "generation": "Xbox Series",
+    "type": "controller",
+    "condition": "New",
+    "options": [
+      {
+        "name": "Xbox 20th Anniversary",
+        "condition": "New"
+      }
+    ],
+    "group": "xbox",
+    "review": ""
+  },
+  {
+    "slug": "xbox-controller-stormcloud-vapor",
+    "id": "catalog-xbox-controller-stormcloud-vapor",
+    "name": "Xbox Wireless Controller - Stormcloud Vapor",
+    "category": "controllers",
+    "brand": "Microsoft",
+    "platform": "Xbox",
+    "generation": "Xbox Series",
+    "type": "controller",
+    "condition": "New",
+    "options": [
+      {
+        "name": "Stormcloud Vapor",
+        "condition": "New"
+      }
+    ],
+    "group": "xbox",
+    "review": ""
+  },
+  {
+    "slug": "xbox-controller-dream-vapor",
+    "id": "catalog-xbox-controller-dream-vapor",
+    "name": "Xbox Wireless Controller - Dream Vapor",
+    "category": "controllers",
+    "brand": "Microsoft",
+    "platform": "Xbox",
+    "generation": "Xbox Series",
+    "type": "controller",
+    "condition": "New",
+    "options": [
+      {
+        "name": "Dream Vapor",
+        "condition": "New"
+      }
+    ],
+    "group": "xbox",
+    "review": ""
+  },
+  {
+    "slug": "xbox-controller-nocturnal-vapor",
+    "id": "catalog-xbox-controller-nocturnal-vapor",
+    "name": "Xbox Wireless Controller - Nocturnal Vapor",
+    "category": "controllers",
+    "brand": "Microsoft",
+    "platform": "Xbox",
+    "generation": "Xbox Series",
+    "type": "controller",
+    "condition": "New",
+    "options": [
+      {
+        "name": "Nocturnal Vapor",
+        "condition": "New"
+      }
+    ],
+    "group": "xbox",
+    "review": ""
+  },
+  {
+    "slug": "xbox-controller-fire-vapor",
+    "id": "catalog-xbox-controller-fire-vapor",
+    "name": "Xbox Wireless Controller - Fire Vapor",
+    "category": "controllers",
+    "brand": "Microsoft",
+    "platform": "Xbox",
+    "generation": "Xbox Series",
+    "type": "controller",
+    "condition": "New",
+    "options": [
+      {
+        "name": "Fire Vapor",
+        "condition": "New"
+      }
+    ],
+    "group": "xbox",
+    "review": ""
+  },
+  {
+    "slug": "xbox-controller-sky-cipher",
+    "id": "catalog-xbox-controller-sky-cipher",
+    "name": "Xbox Wireless Controller - Sky Cipher",
+    "category": "controllers",
+    "brand": "Microsoft",
+    "platform": "Xbox",
+    "generation": "Xbox Series",
+    "type": "controller",
+    "condition": "New",
+    "options": [
+      {
+        "name": "Sky Cipher",
+        "condition": "New"
+      }
+    ],
+    "group": "xbox",
+    "review": ""
+  },
+  {
+    "slug": "xbox-controller-ghost-cipher",
+    "id": "catalog-xbox-controller-ghost-cipher",
+    "name": "Xbox Wireless Controller - Ghost Cipher",
+    "category": "controllers",
+    "brand": "Microsoft",
+    "platform": "Xbox",
+    "generation": "Xbox Series",
+    "type": "controller",
+    "condition": "New",
+    "options": [
+      {
+        "name": "Ghost Cipher",
+        "condition": "New"
+      }
+    ],
+    "group": "xbox",
+    "review": ""
+  },
+  {
+    "slug": "xbox-controller-pulse-cipher",
+    "id": "catalog-xbox-controller-pulse-cipher",
+    "name": "Xbox Wireless Controller - Pulse Cipher",
+    "category": "controllers",
+    "brand": "Microsoft",
+    "platform": "Xbox",
+    "generation": "Xbox Series",
+    "type": "controller",
+    "condition": "New",
+    "options": [
+      {
+        "name": "Pulse Cipher",
+        "condition": "New"
+      }
+    ],
+    "group": "xbox",
+    "review": ""
+  },
+  {
+    "slug": "xbox-controller-ice-breaker",
+    "id": "catalog-xbox-controller-ice-breaker",
+    "name": "Xbox Wireless Controller - Ice Breaker",
+    "category": "controllers",
+    "brand": "Microsoft",
+    "platform": "Xbox",
+    "generation": "Xbox Series",
+    "type": "controller",
+    "condition": "New",
+    "options": [
+      {
+        "name": "Ice Breaker",
+        "condition": "New"
+      }
+    ],
+    "group": "xbox",
+    "review": ""
+  },
+  {
+    "slug": "xbox-controller-storm-breaker",
+    "id": "catalog-xbox-controller-storm-breaker",
+    "name": "Xbox Wireless Controller - Storm Breaker",
+    "category": "controllers",
+    "brand": "Microsoft",
+    "platform": "Xbox",
+    "generation": "Xbox Series",
+    "type": "controller",
+    "condition": "New",
+    "options": [
+      {
+        "name": "Storm Breaker",
+        "condition": "New"
+      }
+    ],
+    "group": "xbox",
+    "review": ""
+  },
+  {
+    "slug": "xbox-controller-heart-breaker",
+    "id": "catalog-xbox-controller-heart-breaker",
+    "name": "Xbox Wireless Controller - Heart Breaker",
+    "category": "controllers",
+    "brand": "Microsoft",
+    "platform": "Xbox",
+    "generation": "Xbox Series",
+    "type": "controller",
+    "condition": "New",
+    "options": [
+      {
+        "name": "Heart Breaker",
+        "condition": "New"
+      }
+    ],
+    "group": "xbox",
+    "review": ""
+  },
+  {
+    "slug": "xbox-controller-forza-horizon-5",
+    "id": "catalog-xbox-controller-forza-horizon-5",
+    "name": "Xbox Wireless Controller - Forza Horizon 5",
+    "category": "controllers",
+    "brand": "Microsoft",
+    "platform": "Xbox",
+    "generation": "Xbox Series",
+    "type": "controller",
+    "condition": "New",
+    "options": [
+      {
+        "name": "Forza Horizon 5",
+        "condition": "New"
+      }
+    ],
+    "group": "xbox",
+    "review": ""
+  },
+  {
+    "slug": "xbox-controller-starfield",
+    "id": "catalog-xbox-controller-starfield",
+    "name": "Xbox Wireless Controller - Starfield",
+    "category": "controllers",
+    "brand": "Microsoft",
+    "platform": "Xbox",
+    "generation": "Xbox Series",
+    "type": "controller",
+    "condition": "New",
+    "options": [
+      {
+        "name": "Starfield",
+        "condition": "New"
+      }
+    ],
+    "group": "xbox",
+    "review": ""
+  },
+  {
+    "slug": "xbox-controller-halo-infinite-console-bundle-edition",
+    "id": "catalog-xbox-controller-halo-infinite-console-bundle-edition",
+    "name": "Xbox Wireless Controller - Halo Infinite Console Bundle Edition",
+    "category": "controllers",
+    "brand": "Microsoft",
+    "platform": "Xbox",
+    "generation": "Xbox Series",
+    "type": "controller",
+    "condition": "New",
+    "options": [
+      {
+        "name": "Halo Infinite Console Bundle Edition",
+        "condition": "New"
+      }
+    ],
+    "group": "xbox",
+    "review": ""
+  },
+  {
+    "slug": "xbox-controller-space-jam-a-new-legacy-tune-squad",
+    "id": "catalog-xbox-controller-space-jam-a-new-legacy-tune-squad",
+    "name": "Xbox Wireless Controller - Space Jam A New Legacy Tune Squad",
+    "category": "controllers",
+    "brand": "Microsoft",
+    "platform": "Xbox",
+    "generation": "Xbox Series",
+    "type": "controller",
+    "condition": "New",
+    "options": [
+      {
+        "name": "Space Jam A New Legacy Tune Squad",
+        "condition": "New"
+      }
+    ],
+    "group": "xbox",
+    "review": ""
+  },
+  {
+    "slug": "xbox-controller-space-jam-a-new-legacy-goon-squad",
+    "id": "catalog-xbox-controller-space-jam-a-new-legacy-goon-squad",
+    "name": "Xbox Wireless Controller - Space Jam A New Legacy Goon Squad",
+    "category": "controllers",
+    "brand": "Microsoft",
+    "platform": "Xbox",
+    "generation": "Xbox Series",
+    "type": "controller",
+    "condition": "New",
+    "options": [
+      {
+        "name": "Space Jam A New Legacy Goon Squad",
+        "condition": "New"
+      }
+    ],
+    "group": "xbox",
+    "review": ""
+  },
+  {
+    "slug": "xbox-controller-space-jam-a-new-legacy-serververse",
+    "id": "catalog-xbox-controller-space-jam-a-new-legacy-serververse",
+    "name": "Xbox Wireless Controller - Space Jam A New Legacy Serververse",
+    "category": "controllers",
+    "brand": "Microsoft",
+    "platform": "Xbox",
+    "generation": "Xbox Series",
+    "type": "controller",
+    "condition": "New",
+    "options": [
+      {
+        "name": "Space Jam A New Legacy Serververse",
+        "condition": "New"
+      }
+    ],
+    "group": "xbox",
+    "review": ""
+  },
+  {
+    "slug": "xbox-controller-doom-the-dark-ages",
+    "id": "catalog-xbox-controller-doom-the-dark-ages",
+    "name": "Xbox Wireless Controller - DOOM The Dark Ages",
+    "category": "controllers",
+    "brand": "Microsoft",
+    "platform": "Xbox",
+    "generation": "Xbox Series",
+    "type": "controller",
+    "condition": "New",
+    "options": [
+      {
+        "name": "DOOM The Dark Ages",
+        "condition": "New"
+      }
+    ],
+    "group": "xbox",
+    "review": ""
+  },
+  {
+    "slug": "xbox-controller-forza-horizon-6",
+    "id": "catalog-xbox-controller-forza-horizon-6",
+    "name": "Xbox Wireless Controller - Forza Horizon 6",
+    "category": "controllers",
+    "brand": "Microsoft",
+    "platform": "Xbox",
+    "generation": "Xbox Series",
+    "type": "controller",
+    "condition": "New",
+    "options": [
+      {
+        "name": "Forza Horizon 6",
+        "condition": "New"
+      }
+    ],
+    "group": "xbox",
+    "review": ""
+  },
+  {
+    "slug": "xbox-controller-gears-of-war-e-day",
+    "id": "catalog-xbox-controller-gears-of-war-e-day",
+    "name": "Xbox Wireless Controller - Gears of War E-Day",
+    "category": "controllers",
+    "brand": "Microsoft",
+    "platform": "Xbox",
+    "generation": "Xbox Series",
+    "type": "controller",
+    "condition": "New",
+    "options": [
+      {
+        "name": "Gears of War E-Day",
+        "condition": "New"
+      }
+    ],
+    "group": "xbox",
+    "review": ""
+  },
+  {
+    "slug": "xbox-elite-wireless-controller-series-2-black",
+    "id": "catalog-xbox-elite-wireless-controller-series-2-black",
+    "name": "Xbox Elite Wireless Controller Series 2 - Black",
+    "category": "controllers",
+    "brand": "Microsoft",
+    "platform": "Xbox",
+    "generation": "Xbox Series",
+    "type": "controller",
+    "condition": "New",
+    "options": [
+      {
+        "name": "Black",
+        "condition": "New"
+      }
+    ],
+    "group": "elite",
+    "review": ""
+  },
+  {
+    "slug": "xbox-elite-wireless-controller-series-2-core-white",
+    "id": "catalog-xbox-elite-wireless-controller-series-2-core-white",
+    "name": "Xbox Elite Wireless Controller Series 2 - Core White",
+    "category": "controllers",
+    "brand": "Microsoft",
+    "platform": "Xbox",
+    "generation": "Xbox Series",
+    "type": "controller",
+    "condition": "New",
+    "options": [
+      {
+        "name": "Core White",
+        "condition": "New"
+      }
+    ],
+    "group": "elite",
+    "review": ""
+  },
+  {
+    "slug": "xbox-elite-wireless-controller-series-2-core-red",
+    "id": "catalog-xbox-elite-wireless-controller-series-2-core-red",
+    "name": "Xbox Elite Wireless Controller Series 2 - Core Red",
+    "category": "controllers",
+    "brand": "Microsoft",
+    "platform": "Xbox",
+    "generation": "Xbox Series",
+    "type": "controller",
+    "condition": "New",
+    "options": [
+      {
+        "name": "Core Red",
+        "condition": "New"
+      }
+    ],
+    "group": "elite",
+    "review": ""
+  },
+  {
+    "slug": "xbox-elite-wireless-controller-series-2-core-blue",
+    "id": "catalog-xbox-elite-wireless-controller-series-2-core-blue",
+    "name": "Xbox Elite Wireless Controller Series 2 - Core Blue",
+    "category": "controllers",
+    "brand": "Microsoft",
+    "platform": "Xbox",
+    "generation": "Xbox Series",
+    "type": "controller",
+    "condition": "New",
+    "options": [
+      {
+        "name": "Core Blue",
+        "condition": "New"
+      }
+    ],
+    "group": "elite",
+    "review": ""
+  },
+  {
+    "slug": "xbox-elite-wireless-controller-series-2-halo-infinite-limited-edition",
+    "id": "catalog-xbox-elite-wireless-controller-series-2-halo-infinite-limited-edition",
+    "name": "Xbox Elite Wireless Controller Series 2 - Halo Infinite Limited Edition",
+    "category": "controllers",
+    "brand": "Microsoft",
+    "platform": "Xbox",
+    "generation": "Xbox Series",
+    "type": "controller",
+    "condition": "New",
+    "options": [
+      {
+        "name": "Halo Infinite Limited Edition",
+        "condition": "New"
+      }
+    ],
+    "group": "elite",
+    "review": ""
+  },
+  {
+    "slug": "xbox-elite-wireless-controller-series-2-doom-the-dark-ages-limited-edition",
+    "id": "catalog-xbox-elite-wireless-controller-series-2-doom-the-dark-ages-limited-edition",
+    "name": "Xbox Elite Wireless Controller Series 2 - DOOM The Dark Ages Limited Edition",
+    "category": "controllers",
+    "brand": "Microsoft",
+    "platform": "Xbox",
+    "generation": "Xbox Series",
+    "type": "controller",
+    "condition": "New",
+    "options": [
+      {
+        "name": "DOOM The Dark Ages Limited Edition",
+        "condition": "New"
+      }
+    ],
+    "group": "elite",
+    "review": ""
+  },
+  {
+    "slug": "xbox-elite-wireless-controller-series-2-xbox-design-lab-custom-colours",
+    "id": "catalog-xbox-elite-wireless-controller-series-2-xbox-design-lab-custom-colours",
+    "name": "Xbox Elite Wireless Controller Series 2 - Xbox Design Lab Custom Colours",
+    "category": "controllers",
+    "brand": "Microsoft",
+    "platform": "Xbox",
+    "generation": "Xbox Series",
+    "type": "controller",
+    "condition": "New",
+    "options": [
+      {
+        "name": "Xbox Design Lab Custom Colours",
+        "condition": "New"
+      }
+    ],
+    "group": "elite",
+    "review": "Custom colours vary. Confirm the actual configuration and upload its photograph before publishing."
+  },
+  {
+    "slug": "xbox-series-s-512gb",
+    "id": "catalog-xbox-series-s-512gb",
+    "name": "Xbox Series S 512GB",
+    "category": "consoles",
+    "brand": "Microsoft",
+    "platform": "Xbox",
+    "generation": "Xbox Series",
+    "type": "console",
+    "condition": "New",
+    "options": [
+      {
+        "name": "Jailbreak",
+        "condition": "Used"
+      },
+      {
+        "name": "Non Jailbreak",
+        "condition": "Used"
+      },
+      {
+        "name": "Jailbreak",
+        "condition": "New"
+      },
+      {
+        "name": "Non Jailbreak",
+        "condition": "New"
+      }
+    ],
+    "group": "series-s",
+    "review": "The supplied list includes Jailbreak options for Xbox Series S. Verify the exact modification and supplied package before publishing."
+  },
+  {
+    "slug": "xbox-series-s-1tb",
+    "id": "catalog-xbox-series-s-1tb",
+    "name": "Xbox Series S 1TB",
+    "category": "consoles",
+    "brand": "Microsoft",
+    "platform": "Xbox",
+    "generation": "Xbox Series",
+    "type": "console",
+    "condition": "New",
+    "options": [
+      {
+        "name": "Standard",
+        "condition": "New"
+      }
+    ],
+    "group": "series-s-1tb",
+    "review": ""
+  },
+  {
+    "slug": "xbox-series-x-digital",
+    "id": "catalog-xbox-series-x-digital",
+    "name": "Xbox Series X Digital",
+    "category": "consoles",
+    "brand": "Microsoft",
+    "platform": "Xbox",
+    "generation": "Xbox Series",
+    "type": "console",
+    "condition": "New",
+    "options": [
+      {
+        "name": "Standard",
+        "condition": "New"
+      }
+    ],
+    "group": "series-x-digital",
+    "review": ""
+  },
+  {
+    "slug": "xbox-series-x-disc",
+    "id": "catalog-xbox-series-x-disc",
+    "name": "Xbox Series X Disc",
+    "category": "consoles",
+    "brand": "Microsoft",
+    "platform": "Xbox",
+    "generation": "Xbox Series",
+    "type": "console",
+    "condition": "New",
+    "options": [
+      {
+        "name": "Standard",
+        "condition": "New"
+      }
+    ],
+    "group": "series-x",
+    "review": ""
+  },
+  {
+    "slug": "xbox-series-x-galaxy-black-2tb",
+    "id": "catalog-xbox-series-x-galaxy-black-2tb",
+    "name": "Xbox Series X Galaxy Black 2TB",
+    "category": "consoles",
+    "brand": "Microsoft",
+    "platform": "Xbox",
+    "generation": "Xbox Series",
+    "type": "console",
+    "condition": "New",
+    "options": [
+      {
+        "name": "Standard",
+        "condition": "New"
+      }
+    ],
+    "group": "series-x-galaxy",
+    "review": ""
+  },
+  {
+    "slug": "playstation-4-pro",
+    "id": "catalog-playstation-4-pro",
+    "name": "PlayStation 4 Pro",
+    "category": "consoles",
+    "brand": "Sony",
+    "platform": "PlayStation",
+    "generation": "PS4",
+    "type": "console",
+    "condition": "Used",
+    "options": [
+      {
+        "name": "1TB / Jailbreak / 15+ games",
+        "condition": "Used"
+      },
+      {
+        "name": "1TB / Non Jailbreak",
+        "condition": "Used"
+      }
+    ],
+    "group": "ps4-pro",
+    "review": ""
+  },
+  {
+    "slug": "playstation-4-slim",
+    "id": "catalog-playstation-4-slim",
+    "name": "PlayStation 4 Slim",
+    "category": "consoles",
+    "brand": "Sony",
+    "platform": "PlayStation",
+    "generation": "PS4",
+    "type": "console",
+    "condition": "Used",
+    "options": [
+      {
+        "name": "1TB / Jailbreak / 15+ games",
+        "condition": "Used"
+      },
+      {
+        "name": "1TB / Non Jailbreak",
+        "condition": "Used"
+      },
+      {
+        "name": "500GB / Jailbreak / 7+ games",
+        "condition": "Used"
+      },
+      {
+        "name": "500GB / Non Jailbreak",
+        "condition": "Used"
+      }
+    ],
+    "group": "ps4-slim",
+    "review": ""
+  },
+  {
+    "slug": "playstation-4-fat",
+    "id": "catalog-playstation-4-fat",
+    "name": "PlayStation 4 Fat",
+    "category": "consoles",
+    "brand": "Sony",
+    "platform": "PlayStation",
+    "generation": "PS4",
+    "type": "console",
+    "condition": "Used",
+    "options": [
+      {
+        "name": "1TB / Jailbreak / 15+ games",
+        "condition": "Used"
+      },
+      {
+        "name": "1TB / Non Jailbreak",
+        "condition": "Used"
+      },
+      {
+        "name": "500GB / Jailbreak / 7+ games",
+        "condition": "Used"
+      },
+      {
+        "name": "500GB / Non Jailbreak",
+        "condition": "Used"
+      }
+    ],
+    "group": "ps4-fat",
+    "review": ""
+  },
+  {
+    "slug": "playstation-3-fat",
+    "id": "catalog-playstation-3-fat",
+    "name": "PlayStation 3 Fat",
+    "category": "retro",
+    "brand": "Sony",
+    "platform": "PlayStation",
+    "generation": "PS3",
+    "type": "console",
+    "condition": "Used",
+    "options": [
+      {
+        "name": "250GB / Jailbreak",
+        "condition": "Used"
+      },
+      {
+        "name": "320GB / Jailbreak",
+        "condition": "Used"
+      },
+      {
+        "name": "500GB / Jailbreak",
+        "condition": "Used"
+      },
+      {
+        "name": "1TB / Jailbreak",
+        "condition": "Used"
+      }
+    ],
+    "group": "ps3-fat",
+    "review": ""
+  },
+  {
+    "slug": "playstation-3-slim",
+    "id": "catalog-playstation-3-slim",
+    "name": "PlayStation 3 Slim",
+    "category": "retro",
+    "brand": "Sony",
+    "platform": "PlayStation",
+    "generation": "PS3",
+    "type": "console",
+    "condition": "Used",
+    "options": [
+      {
+        "name": "250GB / Jailbreak",
+        "condition": "Used"
+      },
+      {
+        "name": "320GB / Jailbreak",
+        "condition": "Used"
+      },
+      {
+        "name": "500GB / Jailbreak",
+        "condition": "Used"
+      },
+      {
+        "name": "1TB / Jailbreak",
+        "condition": "Used"
+      }
+    ],
+    "group": "ps3-slim",
+    "review": ""
+  },
+  {
+    "slug": "playstation-3-super-slim",
+    "id": "catalog-playstation-3-super-slim",
+    "name": "PlayStation 3 Super Slim",
+    "category": "retro",
+    "brand": "Sony",
+    "platform": "PlayStation",
+    "generation": "PS3",
+    "type": "console",
+    "condition": "Used",
+    "options": [
+      {
+        "name": "250GB / Jailbreak",
+        "condition": "Used"
+      },
+      {
+        "name": "320GB / Jailbreak",
+        "condition": "Used"
+      },
+      {
+        "name": "500GB / Jailbreak",
+        "condition": "Used"
+      },
+      {
+        "name": "1TB / Jailbreak",
+        "condition": "Used"
+      }
+    ],
+    "group": "ps3-super-slim",
+    "review": ""
+  },
+  {
+    "slug": "playstation-2-slim",
+    "id": "catalog-playstation-2-slim",
+    "name": "PlayStation 2 Slim",
+    "category": "retro",
+    "brand": "Sony",
+    "platform": "PlayStation",
+    "generation": "PS2",
+    "type": "console",
+    "condition": "Used",
+    "options": [
+      {
+        "name": "32GB",
+        "condition": "Used"
+      },
+      {
+        "name": "64GB",
+        "condition": "Used"
+      },
+      {
+        "name": "120GB",
+        "condition": "Used"
+      },
+      {
+        "name": "250GB",
+        "condition": "Used"
+      }
+    ],
+    "group": "ps2-slim",
+    "review": ""
+  },
+  {
+    "slug": "xbox-360-fat",
+    "id": "catalog-xbox-360-fat",
+    "name": "Xbox 360 Fat",
+    "category": "retro",
+    "brand": "Microsoft",
+    "platform": "Xbox",
+    "generation": "Xbox 360",
+    "type": "console",
+    "condition": "Used",
+    "options": [
+      {
+        "name": "250GB / 80+ games",
+        "condition": "Used"
+      },
+      {
+        "name": "320GB / 90+ games",
+        "condition": "Used"
+      },
+      {
+        "name": "500GB / 100+ games",
+        "condition": "Used"
+      },
+      {
+        "name": "1TB / 200+ games",
+        "condition": "Used"
+      }
+    ],
+    "group": "xbox360-fat",
+    "review": ""
+  },
+  {
+    "slug": "xbox-360-slim",
+    "id": "catalog-xbox-360-slim",
+    "name": "Xbox 360 Slim",
+    "category": "retro",
+    "brand": "Microsoft",
+    "platform": "Xbox",
+    "generation": "Xbox 360",
+    "type": "console",
+    "condition": "Used",
+    "options": [
+      {
+        "name": "250GB / 80+ games",
+        "condition": "Used"
+      },
+      {
+        "name": "320GB / 90+ games",
+        "condition": "Used"
+      },
+      {
+        "name": "500GB / 100+ games",
+        "condition": "Used"
+      },
+      {
+        "name": "1TB / 200+ games",
+        "condition": "Used"
+      }
+    ],
+    "group": "xbox360-slim",
+    "review": ""
+  },
+  {
+    "slug": "xbox-360-e-slim",
+    "id": "catalog-xbox-360-e-slim",
+    "name": "Xbox 360 E Slim",
+    "category": "retro",
+    "brand": "Microsoft",
+    "platform": "Xbox",
+    "generation": "Xbox 360",
+    "type": "console",
+    "condition": "Used",
+    "options": [
+      {
+        "name": "250GB / 80+ games",
+        "condition": "Used"
+      },
+      {
+        "name": "320GB / 90+ games",
+        "condition": "Used"
+      },
+      {
+        "name": "500GB / 100+ games",
+        "condition": "Used"
+      },
+      {
+        "name": "1TB / 200+ games",
+        "condition": "Used"
+      }
+    ],
+    "group": "xbox360-e-slim",
+    "review": ""
+  },
+  {
+    "slug": "xbox-one",
+    "id": "catalog-xbox-one",
+    "name": "Xbox One",
+    "category": "consoles",
+    "brand": "Microsoft",
+    "platform": "Xbox",
+    "generation": "Xbox One",
+    "type": "console",
+    "condition": "Used",
+    "options": [
+      {
+        "name": "500GB / Jailbreak / 6+ games",
+        "condition": "Used"
+      },
+      {
+        "name": "1TB / Jailbreak / 13+ games",
+        "condition": "Used"
+      }
+    ],
+    "group": "xbox-one",
+    "review": ""
+  },
+  {
+    "slug": "xbox-one-s",
+    "id": "catalog-xbox-one-s",
+    "name": "Xbox One S",
+    "category": "consoles",
+    "brand": "Microsoft",
+    "platform": "Xbox",
+    "generation": "Xbox One",
+    "type": "console",
+    "condition": "Used",
+    "options": [
+      {
+        "name": "500GB / Jailbreak / 6+ games",
+        "condition": "Used"
+      },
+      {
+        "name": "1TB / Jailbreak / 13+ games",
+        "condition": "Used"
+      }
+    ],
+    "group": "xbox-one-s",
+    "review": ""
+  },
+  {
+    "slug": "xbox-one-x",
+    "id": "catalog-xbox-one-x",
+    "name": "Xbox One X",
+    "category": "consoles",
+    "brand": "Microsoft",
+    "platform": "Xbox",
+    "generation": "Xbox One",
+    "type": "console",
+    "condition": "Used",
+    "options": [
+      {
+        "name": "1TB / Jailbreak / 13+ games",
+        "condition": "Used"
+      }
+    ],
+    "group": "xbox-one-x",
+    "review": ""
+  },
+  {
+    "slug": "nintendo-switch-lite",
+    "id": "catalog-nintendo-switch-lite",
+    "name": "Nintendo Switch Lite",
+    "category": "handhelds",
+    "brand": "Nintendo",
+    "platform": "Nintendo",
+    "generation": "Switch",
+    "type": "console",
+    "condition": "Used",
+    "options": [
+      {
+        "name": "Standard",
+        "condition": "Used"
+      }
+    ],
+    "group": "nintendo-switch-lite",
+    "review": ""
+  },
+  {
+    "slug": "nintendo-switch-v1",
+    "id": "catalog-nintendo-switch-v1",
+    "name": "Nintendo Switch V1",
+    "category": "handhelds",
+    "brand": "Nintendo",
+    "platform": "Nintendo",
+    "generation": "Switch",
+    "type": "console",
+    "condition": "Used",
+    "options": [
+      {
+        "name": "Standard",
+        "condition": "Used"
+      }
+    ],
+    "group": "nintendo-switch-v1",
+    "review": ""
+  },
+  {
+    "slug": "nintendo-switch-v2",
+    "id": "catalog-nintendo-switch-v2",
+    "name": "Nintendo Switch V2",
+    "category": "handhelds",
+    "brand": "Nintendo",
+    "platform": "Nintendo",
+    "generation": "Switch",
+    "type": "console",
+    "condition": "Used",
+    "options": [
+      {
+        "name": "Standard",
+        "condition": "Used"
+      }
+    ],
+    "group": "nintendo-switch-v2",
+    "review": ""
+  },
+  {
+    "slug": "nintendo-switch-oled",
+    "id": "catalog-nintendo-switch-oled",
+    "name": "Nintendo Switch OLED",
+    "category": "handhelds",
+    "brand": "Nintendo",
+    "platform": "Nintendo",
+    "generation": "Switch",
+    "type": "console",
+    "condition": "New",
+    "options": [
+      {
+        "name": "Standard",
+        "condition": "New"
+      },
+      {
+        "name": "Standard",
+        "condition": "Used"
+      }
+    ],
+    "group": "nintendo-switch-oled",
+    "review": ""
+  },
+  {
+    "slug": "nintendo-switch-2",
+    "id": "catalog-nintendo-switch-2",
+    "name": "Nintendo Switch 2",
+    "category": "handhelds",
+    "brand": "Nintendo",
+    "platform": "Nintendo",
+    "generation": "Switch 2",
+    "type": "console",
+    "condition": "New",
+    "options": [
+      {
+        "name": "Standard",
+        "condition": "New"
+      },
+      {
+        "name": "Standard",
+        "condition": "Used"
+      }
+    ],
+    "group": "nintendo-switch-2",
+    "review": ""
+  },
+  {
+    "slug": "nintendo-switch-2-mario-kart-8-bundle",
+    "id": "catalog-nintendo-switch-2-mario-kart-8-bundle",
+    "name": "Nintendo Switch 2 Mario Kart 8 Bundle",
+    "category": "handhelds",
+    "brand": "Nintendo",
+    "platform": "Nintendo",
+    "generation": "Switch 2",
+    "type": "console",
+    "condition": "New",
+    "options": [
+      {
+        "name": "Standard",
+        "condition": "New"
+      },
+      {
+        "name": "Standard",
+        "condition": "Used"
+      }
+    ],
+    "group": "nintendo-switch-2-mario-kart-8-bundle",
+    "review": "Confirm whether this is the official Mario Kart World bundle or a store bundle with Mario Kart 8 Deluxe. Do not substitute the official bundle image."
+  },
+  {
+    "slug": "psp",
+    "id": "catalog-psp",
+    "name": "PSP",
+    "category": "handhelds",
+    "brand": "Sony",
+    "platform": "PlayStation",
+    "generation": "PSP",
+    "type": "console",
+    "condition": "Used",
+    "options": [
+      {
+        "name": "1000",
+        "condition": "Used"
+      },
+      {
+        "name": "2000",
+        "condition": "Used"
+      },
+      {
+        "name": "3000",
+        "condition": "Used"
+      }
+    ],
+    "group": "psp",
+    "review": ""
+  },
+  {
+    "slug": "ps-vita-fat",
+    "id": "catalog-ps-vita-fat",
+    "name": "PS Vita Fat",
+    "category": "handhelds",
+    "brand": "Sony",
+    "platform": "PlayStation",
+    "generation": "PS Vita",
+    "type": "console",
+    "condition": "Used",
+    "options": [
+      {
+        "name": "Standard",
+        "condition": "Used"
+      }
+    ],
+    "group": "ps-vita-fat",
+    "review": ""
+  },
+  {
+    "slug": "ps-vita-slim",
+    "id": "catalog-ps-vita-slim",
+    "name": "PS Vita Slim",
+    "category": "handhelds",
+    "brand": "Sony",
+    "platform": "PlayStation",
+    "generation": "PS Vita",
+    "type": "console",
+    "condition": "Used",
+    "options": [
+      {
+        "name": "Standard",
+        "condition": "Used"
+      }
+    ],
+    "group": "ps-vita-slim",
+    "review": ""
+  },
+  {
+    "slug": "r36s",
+    "id": "catalog-r36s",
+    "name": "R36S",
+    "category": "handhelds",
+    "brand": "Unspecified",
+    "platform": "Other",
+    "generation": "Retro handheld",
+    "type": "console",
+    "condition": "New",
+    "options": [
+      {
+        "name": "Standard",
+        "condition": "New"
+      }
+    ],
+    "group": "r36s",
+    "review": "Confirm manufacturer, colour and exact model with a store photo before publishing."
+  },
+  {
+    "slug": "sf-3500",
+    "id": "catalog-sf-3500",
+    "name": "SF 3500",
+    "category": "handhelds",
+    "brand": "Unspecified",
+    "platform": "Other",
+    "generation": "Retro handheld",
+    "type": "console",
+    "condition": "New",
+    "options": [
+      {
+        "name": "Standard",
+        "condition": "New"
+      }
+    ],
+    "group": "sf-3500",
+    "review": "Confirm manufacturer, colour and exact model with a store photo before publishing."
+  },
+  {
+    "slug": "steam-deck-lcd",
+    "id": "catalog-steam-deck-lcd",
+    "name": "Steam Deck LCD",
+    "category": "handhelds",
+    "brand": "Valve",
+    "platform": "PC Gaming",
+    "generation": "Steam Deck",
+    "type": "console",
+    "condition": "New",
+    "options": [
+      {
+        "name": "Standard",
+        "condition": "New"
+      }
+    ],
+    "group": "steam-deck-lcd",
+    "review": ""
+  },
+  {
+    "slug": "steam-deck-oled",
+    "id": "catalog-steam-deck-oled",
+    "name": "Steam Deck OLED",
+    "category": "handhelds",
+    "brand": "Valve",
+    "platform": "PC Gaming",
+    "generation": "Steam Deck",
+    "type": "console",
+    "condition": "New",
+    "options": [
+      {
+        "name": "Standard",
+        "condition": "New"
+      }
+    ],
+    "group": "steam-deck-oled",
+    "review": ""
+  },
+  {
+    "slug": "rog-ally-z1",
+    "id": "catalog-rog-ally-z1",
+    "name": "ROG Ally Z1",
+    "category": "handhelds",
+    "brand": "ASUS",
+    "platform": "PC Gaming",
+    "generation": "ROG Ally",
+    "type": "console",
+    "condition": "New",
+    "options": [
+      {
+        "name": "Standard",
+        "condition": "New"
+      }
+    ],
+    "group": "rog-ally-z1",
+    "review": ""
+  },
+  {
+    "slug": "rog-ally-z1-extreme",
+    "id": "catalog-rog-ally-z1-extreme",
+    "name": "ROG Ally Z1 Extreme",
+    "category": "handhelds",
+    "brand": "ASUS",
+    "platform": "PC Gaming",
+    "generation": "ROG Ally",
+    "type": "console",
+    "condition": "New",
+    "options": [
+      {
+        "name": "Standard",
+        "condition": "New"
+      }
+    ],
+    "group": "rog-ally-z1-extreme",
+    "review": ""
+  },
+  {
+    "slug": "rog-ally-x",
+    "id": "catalog-rog-ally-x",
+    "name": "ROG Ally X",
+    "category": "handhelds",
+    "brand": "ASUS",
+    "platform": "PC Gaming",
+    "generation": "ROG Ally",
+    "type": "console",
+    "condition": "New",
+    "options": [
+      {
+        "name": "Standard",
+        "condition": "New"
+      }
+    ],
+    "group": "rog-ally-x",
+    "review": ""
+  },
+  {
+    "slug": "rog-xbox-ally-2025",
+    "id": "catalog-rog-xbox-ally-2025",
+    "name": "ROG Xbox Ally 2025",
+    "category": "handhelds",
+    "brand": "ASUS",
+    "platform": "PC Gaming",
+    "generation": "ROG Xbox Ally",
+    "type": "console",
+    "condition": "New",
+    "options": [
+      {
+        "name": "Standard",
+        "condition": "New"
+      }
+    ],
+    "group": "rog-xbox-ally-2025",
+    "review": ""
+  },
+  {
+    "slug": "rog-xbox-ally-x-2025",
+    "id": "catalog-rog-xbox-ally-x-2025",
+    "name": "ROG Xbox Ally X 2025",
+    "category": "handhelds",
+    "brand": "ASUS",
+    "platform": "PC Gaming",
+    "generation": "ROG Xbox Ally",
+    "type": "console",
+    "condition": "New",
+    "options": [
+      {
+        "name": "Standard",
+        "condition": "New"
+      }
+    ],
+    "group": "rog-xbox-ally-x-2025",
+    "review": ""
+  },
+  {
+    "slug": "rog-xbox-ally-x20",
+    "id": "catalog-rog-xbox-ally-x20",
+    "name": "ROG Xbox Ally X20",
+    "category": "handhelds",
+    "brand": "ASUS",
+    "platform": "PC Gaming",
+    "generation": "ROG Xbox Ally",
+    "type": "console",
+    "condition": "New",
+    "options": [
+      {
+        "name": "Standard",
+        "condition": "New"
+      }
+    ],
+    "group": "rog-xbox-ally-x20",
+    "review": ""
+  },
+  {
+    "slug": "meta-quest-3",
+    "id": "catalog-meta-quest-3",
+    "name": "Meta Quest 3",
+    "category": "vr",
+    "brand": "Meta",
+    "platform": "VR",
+    "generation": "Quest",
+    "type": "console",
+    "condition": "New",
+    "options": [
+      {
+        "name": "128GB",
+        "condition": "New"
+      },
+      {
+        "name": "512GB",
+        "condition": "New"
+      }
+    ],
+    "group": "meta-quest-3",
+    "review": ""
+  },
+  {
+    "slug": "meta-quest-3s",
+    "id": "catalog-meta-quest-3s",
+    "name": "Meta Quest 3S",
+    "category": "vr",
+    "brand": "Meta",
+    "platform": "VR",
+    "generation": "Quest",
+    "type": "console",
+    "condition": "New",
+    "options": [
+      {
+        "name": "128GB",
+        "condition": "New"
+      },
+      {
+        "name": "256GB",
+        "condition": "New"
+      }
+    ],
+    "group": "meta-quest-3s",
+    "review": ""
+  },
+  {
+    "slug": "oculus-quest-2",
+    "id": "catalog-oculus-quest-2",
+    "name": "Oculus Quest 2",
+    "category": "vr",
+    "brand": "Meta",
+    "platform": "VR",
+    "generation": "Quest",
+    "type": "console",
+    "condition": "Used",
+    "options": [
+      {
+        "name": "64GB",
+        "condition": "Used"
+      },
+      {
+        "name": "128GB",
+        "condition": "Used"
+      },
+      {
+        "name": "256GB",
+        "condition": "Used"
+      }
+    ],
+    "group": "oculus-quest-2",
+    "review": ""
+  }
+]

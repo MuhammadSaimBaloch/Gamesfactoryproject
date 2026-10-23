@@ -18,7 +18,9 @@ test("approved catalogue prices appear on cards, quick view, search and product 
     );
   }
   await page.goto("/shop?q=ASTRO BOT");
-  const card = page.locator(".product-card").first();
+  const card = page
+    .locator(".product-card")
+    .filter({ has: page.locator('a[href="/product/astro-bot"]') });
   await expect(card).toContainText("9,999");
   await card.getByRole("button", { name: /Quick view/ }).click();
   await expect(page.getByRole("dialog")).toContainText("9,999");

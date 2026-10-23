@@ -14,6 +14,7 @@ import { categories } from "../../db/schema";
 import { eq } from "drizzle-orm";
 import { ProductCard } from "../components/products/card";
 import { seo } from "../lib/seo";
+import { platformOptions, generationOptions } from "../lib/catalogue-options";
 export const meta: MetaFunction<typeof loader> = ({ loaderData }) =>
   seo(
     loaderData?.title || "Explore the collection",
@@ -91,7 +92,7 @@ export default function Catalogue() {
           Platform
           <select name="platform" defaultValue={params.get("platform") || ""}>
             <option value="">All platforms</option>
-            {["PlayStation", "Xbox", "Nintendo", "PC Gaming"].map((p) => (
+            {platformOptions.map((p) => (
               <option key={p}>{p}</option>
             ))}
           </select>
@@ -113,15 +114,7 @@ export default function Catalogue() {
             defaultValue={params.get("generation") || ""}
           >
             <option value="">All generations</option>
-            {[
-              "PS5",
-              "PS4",
-              "Xbox Series",
-              "Xbox One",
-              "Switch",
-              "Switch 2",
-              "PC",
-            ].map((g) => (
+            {generationOptions.map((g) => (
               <option key={g}>{g}</option>
             ))}
           </select>

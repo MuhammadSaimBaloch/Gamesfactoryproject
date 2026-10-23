@@ -426,3 +426,43 @@ it("business snapshots restore into a fresh schema without leaking authenticatio
     recovered.close();
   }
 });
+
+it("lists one eligible SKU per product with matching condition, stock, price and image", async () => {
+  await env.DB.batch([
+    env.DB.prepare(
+      "INSERT INTO product_variants(id,product_id,sku,name,price_pkr,available,condition) VALUES('choice-cheap','demo-controller','CHOICE-CHEAP','New 500GB',7000,1,'New'),('choice-used','demo-controller','CHOICE-USED','Used 1TB',8000,1,'Used'),('choice-new','demo-controller','CHOICE-NEW','New 1TB',22000,1,'New'),('choice-hidden','demo-controller','CHOICE-HIDDEN','Unavailable',1000,0,'Used')",
+    ),
+    env.DB.prepare(
+      "INSERT INTO inventory(id,variant_id,branch_id,quantity_available) VALUES('choice-stock-used','choice-used','babar-market',4),('choice-stock-new','choice-new','babar-market',3)",
+    ),
+    env.DB.prepare(
+      "INSERT INTO product_images(id,product_id,variant_id,r2_key,alt_text,width,height) VALUES('choice-picture','demo-controller','choice-used','choice-used.png','Used configuration',600,400)",
+    ),
+  ]);
+  const collection = (extra: Record<string, string> = {}) =>
+    catalogue(env, new URLSearchParams({ ids: "demo-controller", ...extra }));
+  const selected = await collection();
+  expect(selected.items).toHaveLength(1);
+  expect(selected.items[0]).toMatchObject({
+    variantId: "choice-used",
+    condition: "Used",
+    price: 8000,
+    stock: 4,
+    image: "choice-used.png",
+  });
+  expect((await collection({ condition: "New" })).items[0]).toMatchObject({
+    variantId: "demo-v1",
+    condition: "New",
+    price: 18000,
+    stock: 5,
+  });
+  expect(
+    (await collection({ condition: "New", max: "10000" })).items[0],
+  ).toMatchObject({ variantId: "choice-cheap", price: 7000, stock: 0 });
+  expect(
+    (await collection({ condition: "New", max: "10000", stock: "1" })).items,
+  ).toHaveLength(0);
+  expect(
+    (await collection({ condition: "New", min: "20000", stock: "1" })).items[0],
+  ).toMatchObject({ variantId: "choice-new", price: 22000, stock: 3 });
+});

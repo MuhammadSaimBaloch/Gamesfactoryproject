@@ -18,6 +18,7 @@ import { useCart } from "../lib/cart";
 import { seo } from "../lib/seo";
 import { InquiryForm } from "../components/store-forms";
 import { siteData } from "../lib/server/catalog";
+import inventoryImageSources from "../../db/inventory-image-sources.json";
 export async function loader({ params, context }: LoaderFunctionArgs) {
   const detail = await productDetail(
     context.get(environmentContext),
@@ -25,6 +26,11 @@ export async function loader({ params, context }: LoaderFunctionArgs) {
   );
   return {
     ...detail,
+    imageCredits: inventoryImageSources
+      .filter(
+        (source) => source.productSlug === detail.product.slug && source.credit,
+      )
+      .map(({ credit, source, licence }) => ({ credit, source, licence })),
     preordersEnabled:
       (await siteData(context.get(environmentContext))).settings
         .preorders_enabled === "true",
@@ -60,6 +66,7 @@ function ProductDetails() {
     canonical,
     details,
     preordersEnabled,
+    imageCredits,
   } = useLoaderData<typeof loader>();
   const [selected, setSelected] = useState<string | undefined>(variants[0]?.id);
   const [condition, setCondition] = useState(
@@ -376,6 +383,28 @@ function ProductDetails() {
               and fulfillment. An order request does not reserve stock.
             </p>
           </details>
+          {imageCredits.length > 0 && (
+            <details>
+              <summary>Image credits</summary>
+              {imageCredits.map((credit) => (
+                <p key={credit.source}>
+                  <a href={credit.source} target="_blank" rel="noreferrer">
+                    {credit.credit}
+                  </a>
+                  {credit.licence && (
+                    <>
+                      {" "}
+                      ·{" "}
+                      <a href={credit.licence} target="_blank" rel="noreferrer">
+                        Source licence
+                      </a>
+                    </>
+                  )}
+                  . Image resized for display.
+                </p>
+              ))}
+            </details>
+          )}
         </div>
       </div>
       {related.length > 0 && (

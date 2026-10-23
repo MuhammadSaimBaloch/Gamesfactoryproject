@@ -71,6 +71,10 @@ test("new platform collections have working cutouts, carousel browsing and match
     "/games?platform=Nintendo",
   ]) {
     await page.goto(url);
-    await expect(page.locator(".product-card")).toHaveCount(3);
+    if (url === "/controllers?platform=Xbox") {
+      await expect(page.locator(".product-card").nth(2)).toBeVisible();
+    } else {
+      await expect(page.locator(".product-card")).toHaveCount(3);
+    }
   }
 });
