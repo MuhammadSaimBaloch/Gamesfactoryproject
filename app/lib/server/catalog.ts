@@ -71,12 +71,15 @@ export async function catalogue(env: Env, params = new URLSearchParams()) {
     ["category", categories.slug],
     ["platform", products.platform],
     ["brand", products.brand],
-    ["condition", products.condition],
     ["type", products.productType],
   ] as const) {
     const value = params.get(key);
     if (value) filters.push(eq(col, value));
   }
+  if (params.get("condition"))
+    filters.push(
+      sql`coalesce(${variants.condition}, ${products.condition}) = ${params.get("condition")}`,
+    );
   if (params.get("q")) {
     const terms =
       params
@@ -140,7 +143,7 @@ export async function catalogue(env: Env, params = new URLSearchParams()) {
         string | null
       >`(select r2_key from product_images where product_id=${products.id} and (is_showcase_asset=1 OR is_transparent_asset=1 OR alt_text LIKE '%physical PS5 retail case%') and (variant_id is null or variant_id=${variants.id}) order by is_primary desc,display_order limit 1)`,
       brand: products.brand,
-      condition: products.condition,
+      condition: sql<string>`coalesce(${variants.condition}, ${products.condition})`,
       type: products.productType,
       demo: products.demo,
       saleMode: sql<string>`coalesce((select sale_mode from product_details where product_id=${products.id}),'stock')`,
@@ -204,6 +207,7 @@ export async function productDetail(env: Env, slug: string) {
     details: await getDetails(env, product.id),
     variants: options.map((v) => ({
       ...v,
+      condition: v.condition || product.condition,
       price: Math.min(v.price, discounts.get(v.id) ?? v.price),
       compareAt:
         (discounts.get(v.id) ?? v.price) < v.price ? v.price : v.compareAt,

@@ -61,12 +61,17 @@ function ProductDetails() {
     details,
     preordersEnabled,
   } = useLoaderData<typeof loader>();
-  const [selected, setSelected] = useState(variants[0]?.id);
+  const [selected, setSelected] = useState<string | undefined>(variants[0]?.id);
+  const [condition, setCondition] = useState(
+    variants[0]?.condition || p.condition,
+  );
   const [quantity, setQuantity] = useState(1);
+  const [ready, setReady] = useState(false);
   const [picture, setPicture] = useState(0);
   const [zoom, setZoom] = useState(false);
   const [recent, setRecent] = useState<{ slug: string; name: string }[]>([]);
-  const v = variants.find((i) => i.id === selected);
+  const conditionVariants = variants.filter((i) => i.condition === condition);
+  const v = conditionVariants.find((i) => i.id === selected);
   const gallery = images
     .filter((i) => !i.variantId || i.variantId === selected)
     .sort(
@@ -78,6 +83,7 @@ function ProductDetails() {
   const setOpen = useCart((s) => s.setOpen);
   const navigate = useNavigate();
   useEffect(() => {
+    setReady(true);
     try {
       const old = JSON.parse(localStorage.getItem("gfp-recent") || "[]") as {
         slug: string;
@@ -103,7 +109,7 @@ function ProductDetails() {
       {
         variantId: v.id,
         name: p.name,
-        variant: v.name,
+        variant: `${v.name} · ${v.condition}`,
         slug: p.slug,
         price: v.price,
         image: image || null,
@@ -138,6 +144,7 @@ function ProductDetails() {
                     price: v.price,
                     priceCurrency: "PKR",
                     url: canonical,
+                    itemCondition: `https://schema.org/${v.condition === "Used" ? "UsedCondition" : v.condition === "Refurbished" ? "RefurbishedCondition" : "NewCondition"}`,
                     availability:
                       details?.saleMode === "preorder"
                         ? "https://schema.org/PreOrder"
@@ -193,35 +200,76 @@ function ProductDetails() {
           </span>
           <h1>{p.name}</h1>
           <p className="detail-price">
-            {details?.priceOnRequest
-              ? "Contact for price"
-              : v
-                ? money(v.price)
-                : "No variants available"}
+            {!v
+              ? "Not currently listed in this condition"
+              : details?.priceOnRequest
+                ? "Contact for price"
+                : v
+                  ? money(v.price)
+                  : "No variants available"}
             {v?.compareAt && v.compareAt > v.price ? (
               <del>{money(v.compareAt)}</del>
             ) : null}
           </p>
           <p className="stock-line">
-            {details?.priceOnRequest
-              ? "Price and availability on request"
-              : details?.saleMode === "preorder"
-                ? `Pre-order · ${details.releaseDate ? `Expected release ${details.releaseDate}` : "Release date to be confirmed"}`
-                : v?.available && v.stock
-                  ? "Available to request · subject to staff confirmation"
-                  : "Currently unavailable"}
+            {!v
+              ? "Contact us to ask about this condition."
+              : details?.priceOnRequest
+                ? "Price and availability on request"
+                : details?.saleMode === "preorder"
+                  ? `Pre-order · ${details.releaseDate ? `Expected release ${details.releaseDate}` : "Release date to be confirmed"}`
+                  : v?.available && v.stock
+                    ? "Available to request · subject to staff confirmation"
+                    : "Currently unavailable"}
           </p>
           <p>{p.description}</p>
           <label>
+            Condition
+            <select
+              value={condition}
+              aria-label="Condition"
+              disabled={!ready}
+              onChange={(e) => {
+                const next = e.target.value;
+                setCondition(next);
+                setSelected(
+                  variants.find((option) => option.condition === next)?.id,
+                );
+                setPicture(0);
+                setQuantity(1);
+              }}
+            >
+              {[
+                "New",
+                "Used",
+                ...(variants.some(
+                  (option) => option.condition === "Refurbished",
+                )
+                  ? ["Refurbished"]
+                  : []),
+              ].map((option) => (
+                <option key={option} value={option}>
+                  {option}
+                </option>
+              ))}
+            </select>
+          </label>
+          <label>
             Choose your variant
             <select
-              value={selected}
+              value={v?.id || ""}
+              disabled={!ready || !conditionVariants.length}
               onChange={(e) => {
                 setSelected(e.target.value);
                 setPicture(0);
               }}
             >
-              {variants.map((v) => (
+              {!conditionVariants.length && (
+                <option value="">
+                  No {condition.toLowerCase()} variants listed
+                </option>
+              )}
+              {conditionVariants.map((v) => (
                 <option value={v.id} key={v.id}>
                   {v.name} —{" "}
                   {details?.priceOnRequest
@@ -245,10 +293,10 @@ function ProductDetails() {
               }
             />
           </label>
-          {details?.priceOnRequest ? (
+          {!v || details?.priceOnRequest ? (
             <Link
               className="button"
-              to={`/contact?product=${encodeURIComponent(p.name)}`}
+              to={`/contact?product=${encodeURIComponent(`${p.name} · ${condition}${v ? ` · ${v.name}` : ""}`)}`}
             >
               Ask about price & availability <ArrowRight size={17} />
             </Link>
@@ -316,7 +364,7 @@ function ProductDetails() {
           <div className="specs">
             <div>
               <span>Condition</span>
-              <strong>{p.condition}</strong>
+              <strong>{condition}</strong>
             </div>
             <div>
               <span>SKU</span>

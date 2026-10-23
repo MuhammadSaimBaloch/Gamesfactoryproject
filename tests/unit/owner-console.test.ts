@@ -59,7 +59,14 @@ beforeAll(async () => {
     persist: false,
   });
   env = { ...proxy.env, ENVIRONMENT: "local", DEMO_MODE: "true" };
-  for (const text of [sql0, sql4, sql7, sql8, sql9])
+  for (const text of [
+    sql0,
+    sql4,
+    sql7,
+    sql8,
+    sql9,
+    readFileSync("db/migrations/0010_retro_and_variant_condition.sql", "utf8"),
+  ])
     for (const statement of text.includes("--> statement-breakpoint")
       ? text.split("--> statement-breakpoint")
       : text.split(";"))
@@ -384,7 +391,17 @@ it("business snapshots restore into a fresh schema without leaking authenticatio
   expect(backup.tables).not.toHaveProperty("customer_tokens");
   const recovered = new DatabaseSync(":memory:");
   try {
-    recovered.exec(sql0 + sql4 + sql7 + sql8 + sql9);
+    recovered.exec(
+      sql0 +
+        sql4 +
+        sql7 +
+        sql8 +
+        sql9 +
+        readFileSync(
+          "db/migrations/0010_retro_and_variant_condition.sql",
+          "utf8",
+        ),
+    );
     recovered.exec("PRAGMA foreign_keys=OFF");
     for (const [table, rows] of Object.entries(backup.tables)) {
       recovered.exec(`DELETE FROM ${table}`);

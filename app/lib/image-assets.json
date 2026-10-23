@@ -162,6 +162,23 @@
       "bytes": 36858
     }
   ],
+  "catalogue/category-retro.png": [
+    {
+      "width": 320,
+      "url": "/catalogue/optimized/category-retro-24e6dcd5565a-320.webp",
+      "bytes": 2884
+    },
+    {
+      "width": 640,
+      "url": "/catalogue/optimized/category-retro-24e6dcd5565a-640.webp",
+      "bytes": 4808
+    },
+    {
+      "width": 960,
+      "url": "/catalogue/optimized/category-retro-24e6dcd5565a-960.webp",
+      "bytes": 6158
+    }
+  ],
   "catalogue/days-gone-ps4.png": [
     {
       "width": 320,

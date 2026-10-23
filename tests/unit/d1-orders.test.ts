@@ -86,6 +86,11 @@ beforeAll(async () => {
   await env.DB.prepare(
     readFileSync("db/migrations/0009_showcase_assets.sql", "utf8"),
   ).run();
+  for (const statement of readFileSync(
+    "db/migrations/0010_retro_and_variant_condition.sql",
+    "utf8",
+  ).split(";"))
+    if (statement.trim()) await env.DB.prepare(statement).run();
 }, 60000);
 beforeEach(async () => {
   vi.stubGlobal(
@@ -274,4 +279,28 @@ it("admin identity cannot be forged using email headers", async () => {
       { ...env, ADMIN_EMAILS: "owner@example.com" },
     ),
   ).rejects.toMatchObject({ status: 403 });
+});
+
+it("snapshots the selected condition with its own price and stock", async () => {
+  await env.DB.prepare(
+    "INSERT INTO product_variants(id,product_id,sku,name,condition,price_pkr) VALUES('used-order','demo-controller','USED-ORDER','Standard','Used',12000)",
+  ).run();
+  await env.DB.prepare(
+    "INSERT INTO inventory(id,variant_id,branch_id,quantity_available) VALUES('used-order-stock','used-order','babar-market',1)",
+  ).run();
+  const body = {
+    ...input(),
+    items: [{ variantId: "used-order", quantity: 1 }],
+    acceptedTotal: 12000,
+  };
+  const response = await createOrder(request(body), env);
+  expect(response.ok).toBe(true);
+  expect(
+    await env.DB.prepare(
+      "SELECT variant_name_snapshot FROM order_items WHERE variant_id='used-order'",
+    ).first("variant_name_snapshot"),
+  ).toBe("Standard · Used");
+  await expect(
+    quote(env, { ...body, items: [{ variantId: "used-order", quantity: 2 }] }),
+  ).rejects.toMatchObject({ status: 409 });
 });

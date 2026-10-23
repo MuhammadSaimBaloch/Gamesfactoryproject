@@ -129,6 +129,11 @@ beforeAll(async () => {
   await env.DB.prepare(
     readFileSync("db/migrations/0009_showcase_assets.sql", "utf8"),
   ).run();
+  for (const statement of readFileSync(
+    "db/migrations/0010_retro_and_variant_condition.sql",
+    "utf8",
+  ).split(";"))
+    if (statement.trim()) await env.DB.prepare(statement).run();
 }, 60000);
 beforeEach(async () => {
   vi.stubGlobal(

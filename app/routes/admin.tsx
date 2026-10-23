@@ -296,6 +296,14 @@ export default function Admin() {
     { key: "sku", required: true },
     { key: "name", label: "Variant name", required: true },
     {
+      key: "condition",
+      label: "Condition",
+      options: [
+        { value: "", label: "Use product condition" },
+        ...options(["New", "Used", "Refurbished"]),
+      ],
+    },
+    {
       key: "price",
       label: "Price (PKR)",
       type: "number",

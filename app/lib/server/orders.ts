@@ -98,7 +98,7 @@ export async function quote(
       productId: row.p.id,
       variantId: row.v.id,
       name: row.p.name,
-      variant: row.v.name,
+      variant: `${row.v.name} · ${row.v.condition || row.p.condition}`,
       sku: row.v.sku,
       price: Math.min(row.v.price, discounts.get(row.v.id) ?? row.v.price),
       quantity: item.quantity,

@@ -85,3 +85,10 @@ The image manifest lists original uploaded R2 keys and expected responsive copie
 Before live recovery, pause writes, take a fresh export, restore the selected D1 point/SQL backup into staging, restore matching R2 files and verify products, prices, quantities, images and guest ordering. Switch production only after verification. The local integration suite verifies the business snapshot can be reloaded into a fresh SQLite schema with foreign-key checks; it does not claim a live Cloudflare Time Travel or R2 restore was performed.
 
 Production Access, automated D1/R2 backup arrangements, retention and live restore verification still require the hosting account. See OWNER_CONSOLE_CHECKLIST.md and PRODUCTION_SETUP.md.
+# Retro and product condition
+
+Choose **Retro** as a product's category for classic consoles and games. The homepage category tile and category browser include it automatically; add the real products through the existing product editor.
+
+Each variant now has a **Condition** field. Choose New or Used and set its own SKU, price and branch inventory. An empty condition inherits the product's condition, preserving existing listings. Customers select the condition before choosing a variant; unlisted conditions allow inquiries but cannot be purchased. Refurbished remains available for existing stock. Cart and saved order descriptions include the selected condition.
+
+Apply migration `0010_retro_and_variant_condition.sql` before running this version against an existing database. The staging deployment command applies it automatically. This migration adds the category and condition field; it does not create retro stock or duplicate existing inventory.

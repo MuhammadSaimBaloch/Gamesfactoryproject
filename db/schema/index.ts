@@ -53,6 +53,7 @@ export const variants = sqliteTable(
     sku: text("sku").notNull().unique(),
     name: text("name").notNull(),
     attributesJson: text("attributes_json").notNull().default("{}"),
+    condition: text("condition"),
     price: integer("price_pkr").notNull(),
     compareAt: integer("compare_at_price_pkr"),
     available: integer("available").notNull().default(1),

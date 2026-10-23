@@ -1,7 +1,8 @@
 import { getPlatformProxy } from "wrangler";
 import { readFileSync } from "node:fs";
 import { beforeAll, afterAll, it, expect } from "vitest";
-import { adminMutation } from "../../app/lib/server/admin";
+import { adminMutation, variantInput } from "../../app/lib/server/admin";
+import { catalogue, productDetail } from "../../app/lib/server/catalog";
 import { uploadImage } from "../../app/lib/server/uploads";
 import type { Env } from "../../app/types/env";
 let proxy: Awaited<ReturnType<typeof getPlatformProxy<Env>>>;
@@ -38,6 +39,11 @@ beforeAll(async () => {
       : text.split(";"))
       if (statement.trim()) await env.DB.prepare(statement).run();
   }
+  for (const statement of readFileSync(
+    "db/migrations/0010_retro_and_variant_condition.sql",
+    "utf8",
+  ).split(";"))
+    if (statement.trim()) await env.DB.prepare(statement).run();
 }, 60000);
 afterAll(async () => {
   await proxy?.dispose();
@@ -208,4 +214,55 @@ it("validates every CSV row before committing", async () => {
       "SELECT count(*) AS n FROM products WHERE slug='first'",
     ).first("n"),
   ).toBe(0);
+});
+
+it("keeps New and Used variants independently priced and discoverable", async () => {
+  await env.DB.prepare(
+    "UPDATE products SET active=1 WHERE id='demo-controller'",
+  ).run();
+  const base = {
+    entity: "variant",
+    productId: "demo-controller",
+    name: "Standard",
+    attributesJson: "{}",
+    price: 12000,
+    compareAt: "",
+    available: 1,
+  };
+  await adminMutation(
+    env,
+    "tester",
+    form({
+      ...base,
+      id: "condition-used",
+      sku: "CONDITION-USED",
+      condition: "Used",
+    }),
+  );
+  const listing = await catalogue(
+    { ...env, DEMO_MODE: "true" },
+    new URLSearchParams("condition=Used"),
+  );
+  expect(
+    listing.items.find((i) => i.variantId === "condition-used"),
+  ).toMatchObject({ condition: "Used", price: 12000 });
+  expect(listing.items.some((i) => i.variantId === "demo-v1")).toBe(false);
+  const detail = await productDetail(
+    { ...env, DEMO_MODE: "true" },
+    "demo-wireless-controller",
+  );
+  expect(
+    detail.variants.find((i) => i.id === "condition-used")?.condition,
+  ).toBe("Used");
+  expect(detail.variants.find((i) => i.id === "demo-v1")?.condition).toBe(
+    "New",
+  );
+  expect(variantInput.safeParse({ ...base, condition: "Broken" }).success).toBe(
+    false,
+  );
+  expect(
+    await env.DB.prepare(
+      "SELECT name FROM categories WHERE slug='retro'",
+    ).first("name"),
+  ).toBe("Retro");
 });

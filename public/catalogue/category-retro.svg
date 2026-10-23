@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 480" fill="none">
+  <title>Retro console and classic game cartridge</title>
+  <ellipse cx="321" cy="401" rx="235" ry="16" fill="#000" opacity=".06"/>
+  <path d="M89 220h369l55 56v105H89z" fill="#c4c5c7" stroke="#26262a" stroke-width="6" stroke-linejoin="round"/>
+  <path d="M89 220h369l55 56H89z" fill="#e5e5e4" stroke="#26262a" stroke-width="6" stroke-linejoin="round"/>
+  <path d="M345 224h68l35 49h-103z" fill="#33343a"/>
+  <path d="M111 299h380v61H111z" fill="#3d3e44"/>
+  <rect x="127" y="317" width="52" height="21" rx="3" fill="#ee374d"/>
+  <rect x="191" y="317" width="52" height="21" rx="3" fill="#a7a8ab"/>
+  <path d="M287 315h64v26h-64zm81 0h64v26h-64z" fill="#151519"/>
+  <path d="M445 135h100v127H445z" fill="#85878c" stroke="#26262a" stroke-width="6"/>
+  <path d="M466 151h59v75h-59z" fill="#25262b"/>
+  <path d="m476 202 11-28 12 14 14-22v48h-37z" fill="#ffc928"/>
+  <rect x="235" y="338" width="221" height="88" rx="13" fill="#dfdfdd" stroke="#26262a" stroke-width="6"/>
+  <path d="M260 365h16v-15h17v15h16v17h-16v16h-17v-16h-16z" fill="#292a2f"/>
+  <rect x="326" y="382" width="19" height="7" rx="3" fill="#77797e"/>
+  <circle cx="390" cy="386" r="12" fill="#ef3152"/>
+  <circle cx="423" cy="370" r="12" fill="#ef3152"/>
+</svg>

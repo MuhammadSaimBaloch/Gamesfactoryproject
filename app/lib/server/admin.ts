@@ -63,6 +63,10 @@ export const variantInput = z.object({
   sku: short,
   name: short,
   attributesJson: specs,
+  condition: z.preprocess(
+    (v) => (v === "" || v === undefined ? null : v),
+    z.enum(["New", "Used", "Refurbished"]).nullable(),
+  ),
   price: amount,
   compareAt: z.preprocess(
     (v) => (v === "" ? null : v),

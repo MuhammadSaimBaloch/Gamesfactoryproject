@@ -8,5 +8,6 @@
   "headsets": "catalogue/category-headsets.png",
   "keyboards": "catalogue/category-keyboards.png",
   "mice": "catalogue/category-mice.png",
-  "racing-wheels": "catalogue/category-racing-wheels.png"
+  "racing-wheels": "catalogue/category-racing-wheels.png",
+  "retro": "catalogue/category-retro.png"
 }
