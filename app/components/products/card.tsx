@@ -27,17 +27,15 @@ export function ProductCard({ product: p }: { product: ProductCardData }) {
           <ProductVisual image={p.image} name={p.name} type={p.type} />
         </Link>
         <span className="product-tag">
-          {p.priceOnRequest
-            ? "ASK FOR PRICE"
-            : p.compareAt && p.compareAt > p.price
-              ? "SALE"
-              : p.demo
-                ? "DEMO"
-                : p.saleMode === "preorder"
-                  ? "PRE-ORDER"
-                  : p.stock
-                    ? "AVAILABLE"
-                    : "SOLD OUT"}
+          {p.compareAt && p.compareAt > p.price
+            ? "SALE"
+            : p.demo
+              ? "DEMO"
+              : p.saleMode === "preorder"
+                ? "PRE-ORDER"
+                : p.stock
+                  ? "AVAILABLE"
+                  : "SOLD OUT"}
         </span>
         <button
           className="quick-button"
@@ -57,8 +55,8 @@ export function ProductCard({ product: p }: { product: ProductCardData }) {
         <p>{p.variant}</p>
         <div className="row">
           <strong>
-            {p.priceOnRequest ? "Contact for price" : money(p.price)}
-            {!p.priceOnRequest && p.compareAt && p.compareAt > p.price ? (
+            {money(p.price)}
+            {p.compareAt && p.compareAt > p.price ? (
               <del className="previous-price">{money(p.compareAt)}</del>
             ) : null}
           </strong>
@@ -78,8 +76,7 @@ export function ProductCard({ product: p }: { product: ProductCardData }) {
         <ProductVisual image={p.image} name={p.name} type={p.type} />
         <p>{p.description}</p>
         <p>
-          {p.variant} ·{" "}
-          {p.priceOnRequest ? "Contact for price" : money(p.price)}
+          {p.variant} · {money(p.price)}
         </p>
         <button
           className="button"

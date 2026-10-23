@@ -94,8 +94,8 @@ for (const [slug, name, color, asset] of controllers) {
   const id = `catalog-${slug}`;
   statements.push(
     `INSERT OR IGNORE INTO products(id,slug,name,description,category_id,brand,platform,condition,product_type,featured,active,demo) VALUES(${q(id)},${q(slug)},${q(name)},'Sony DualSense wireless controller for PS5. Confirm compatibility, pricing and availability with our team.','controllers','Sony','PlayStation','New','controller',1,1,0);`,
-    `INSERT OR IGNORE INTO product_variants(id,product_id,sku,name,attributes_json,price_pkr,available) VALUES(${q(id + "-v")},${q(id)},${q("GFP-" + slug.toUpperCase())},${q(color)},'{"Compatibility":"PS5; compatible PC games may require a cable or adapter","Connectivity":"Wireless / USB-C"}',0,1);`,
-    `INSERT OR IGNORE INTO product_details(product_id,generation,compatibility,region,warranty,price_on_request) VALUES(${q(id)},'PS5','PS5; check game-specific PC and mobile support before ordering.','Confirm supplied region with the store.','Owner-approved warranty terms pending confirmation.',1);`,
+    `INSERT OR IGNORE INTO product_variants(id,product_id,sku,name,attributes_json,price_pkr,available) VALUES(${q(id + "-v")},${q(id)},${q("GFP-" + slug.toUpperCase())},${q(color)},'{"Compatibility":"PS5; compatible PC games may require a cable or adapter","Connectivity":"Wireless / USB-C"}',21999,1);`,
+    `INSERT OR IGNORE INTO product_details(product_id,generation,compatibility,region,warranty,price_on_request) VALUES(${q(id)},'PS5','PS5; check game-specific PC and mobile support before ordering.','Confirm supplied region with the store.','Owner-approved warranty terms pending confirmation.',0);`,
     `INSERT INTO product_images(id,product_id,r2_key,alt_text,is_primary,is_transparent_asset,width,height) VALUES(${q(id + "-image")},${q(id)},${q(im.key)},${q(name + " — official Sony product cutout")},1,1,${im.width},${im.height}) ON CONFLICT(id) DO UPDATE SET width=excluded.width,height=excluded.height,is_transparent_asset=1;`,
     `INSERT OR IGNORE INTO inventory(id,variant_id,branch_id,quantity_available) SELECT ${q(id + "-")}||id,${q(id + "-v")},id,0 FROM branches;`,
   );

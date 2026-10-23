@@ -137,7 +137,7 @@ function ProductDetails() {
             ...(image
               ? { image: new URL(`/media/${image}`, canonical).href }
               : {}),
-            ...(v && !details?.priceOnRequest
+            ...(v
               ? {
                   offers: {
                     "@type": "Offer",
@@ -200,13 +200,7 @@ function ProductDetails() {
           </span>
           <h1>{p.name}</h1>
           <p className="detail-price">
-            {!v
-              ? "Not currently listed in this condition"
-              : details?.priceOnRequest
-                ? "Contact for price"
-                : v
-                  ? money(v.price)
-                  : "No variants available"}
+            {!v ? "Not currently listed in this condition" : money(v.price)}
             {v?.compareAt && v.compareAt > v.price ? (
               <del>{money(v.compareAt)}</del>
             ) : null}
@@ -214,13 +208,11 @@ function ProductDetails() {
           <p className="stock-line">
             {!v
               ? "Contact us to ask about this condition."
-              : details?.priceOnRequest
-                ? "Price and availability on request"
-                : details?.saleMode === "preorder"
-                  ? `Pre-order · ${details.releaseDate ? `Expected release ${details.releaseDate}` : "Release date to be confirmed"}`
-                  : v?.available && v.stock
-                    ? "Available to request · subject to staff confirmation"
-                    : "Currently unavailable"}
+              : details?.saleMode === "preorder"
+                ? `Pre-order · ${details.releaseDate ? `Expected release ${details.releaseDate}` : "Release date to be confirmed"}`
+                : v?.available && v.stock
+                  ? "Available to request · subject to staff confirmation"
+                  : "Currently unavailable"}
           </p>
           <p>{p.description}</p>
           <label>
@@ -271,10 +263,7 @@ function ProductDetails() {
               )}
               {conditionVariants.map((v) => (
                 <option value={v.id} key={v.id}>
-                  {v.name} —{" "}
-                  {details?.priceOnRequest
-                    ? "Contact for price"
-                    : money(v.price)}
+                  {v.name} — {money(v.price)}
                 </option>
               ))}
             </select>
@@ -293,12 +282,12 @@ function ProductDetails() {
               }
             />
           </label>
-          {!v || details?.priceOnRequest ? (
+          {!v ? (
             <Link
               className="button"
-              to={`/contact?product=${encodeURIComponent(`${p.name} · ${condition}${v ? ` · ${v.name}` : ""}`)}`}
+              to={`/contact?product=${encodeURIComponent(`${p.name} · ${condition}`)}`}
             >
-              Ask about price & availability <ArrowRight size={17} />
+              Ask about availability <ArrowRight size={17} />
             </Link>
           ) : details?.saleMode === "preorder" ? (
             v && (

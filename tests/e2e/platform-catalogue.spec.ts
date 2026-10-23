@@ -21,7 +21,9 @@ test("new platform collections have working cutouts, carousel browsing and match
     );
     const details = section.locator(".collection-details");
     await expect(details.locator("h3")).toContainText(name);
-    await expect(details).toContainText(/contact for price/i);
+    await expect(details).toContainText(
+      kind === "controllers" ? "21,999" : "9,999",
+    );
     await section.locator("img").evaluateAll(async (images) => {
       await Promise.all(
         images.map((image) => (image as HTMLImageElement).decode()),
@@ -54,7 +56,9 @@ test("new platform collections have working cutouts, carousel browsing and match
     expect(href).toMatch(/\/product\//);
     const response = await page.request.get(href!);
     expect(response.ok()).toBeTruthy();
-    expect(await response.text()).toContain("Contact for price");
+    expect(await response.text()).toContain(
+      kind === "controllers" ? "21,999" : "9,999",
+    );
     await section.screenshot({
       path: `artifacts/platform-${tab.replaceAll(" ", "-").toLowerCase()}-${testInfo.project.name}.png`,
     });

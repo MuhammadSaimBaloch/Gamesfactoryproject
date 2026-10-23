@@ -34,13 +34,11 @@ test("Retro opens from the category grid and unavailable conditions cannot be pu
     page.getByRole("button", { name: /Add to bag|Buy now/ }),
   ).toHaveCount(0);
   await expect(
-    page.getByRole("link", { name: /Ask about price/ }),
+    page.getByRole("link", { name: /Ask about availability/ }),
   ).toHaveAttribute("href", /Used/);
   await condition.selectOption("New");
   await expect(
     page.getByRole("combobox", { name: "Choose your variant", exact: true }),
   ).toBeEnabled();
-  await expect(page.locator(".detail-price")).toContainText(
-    "Contact for price",
-  );
+  await expect(page.locator(".detail-price")).toContainText("21,999");
 });

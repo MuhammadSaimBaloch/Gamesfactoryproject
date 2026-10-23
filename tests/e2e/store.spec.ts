@@ -1,5 +1,5 @@
 import { test, expect } from "@playwright/test";
-test("storefront and real product details preserve quote-only purchasing", async ({
+test("storefront and real product details show approved prices without inventing stock", async ({
   page,
 }, testInfo) => {
   await page.goto("/");
@@ -15,12 +15,12 @@ test("storefront and real product details preserve quote-only purchasing", async
   if (testInfo.project.name === "desktop")
     await page.screenshot({ path: "artifacts/storefront-preview.png" });
   await page.goto("/product/dualsense-white");
-  await expect(page.locator("main")).toContainText("Contact for price");
+  await expect(page.locator("main")).toContainText("21,999");
   await expect(
     page.getByRole("button", { name: "Add to bag", exact: true }),
-  ).toHaveCount(0);
+  ).toBeVisible();
   await page.reload();
-  await expect(page.locator("main")).toContainText("Contact for price");
+  await expect(page.locator("main")).toContainText("21,999");
 });
 test("URL filters and search return database content", async ({ page }) => {
   await page.goto("/shop?q=ASTRO BOT");

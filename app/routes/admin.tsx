@@ -485,7 +485,7 @@ export default function Admin() {
                       d.productDetails || {
                         productId: editing.id,
                         saleMode: "stock",
-                        priceOnRequest: 1,
+                        priceOnRequest: 0,
                       }
                     }
                     fields={[
@@ -508,11 +508,6 @@ export default function Admin() {
                       },
                       { key: "compatibility", type: "textarea" },
                       { key: "region" },
-                      {
-                        key: "priceOnRequest",
-                        label: "Hide price until confirmed",
-                        options: yesNo,
-                      },
                       { key: "edition" },
                       {
                         key: "boxContents",

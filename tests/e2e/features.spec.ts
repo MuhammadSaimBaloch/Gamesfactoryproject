@@ -1,5 +1,5 @@
 import { test, expect } from "@playwright/test";
-test("initial catalogue has publisher images and unconfirmed prices cannot enter checkout", async ({
+test("initial catalogue has product photography, approved prices and stock checks", async ({
   page,
 }) => {
   await page.goto("/shop?generation=PS5");
@@ -7,7 +7,7 @@ test("initial catalogue has publisher images and unconfirmed prices cannot enter
     .poll(() => page.locator(".product-card").count())
     .toBeGreaterThanOrEqual(11);
   await expect(page.locator(".product-card").first()).toContainText(
-    "Contact for price",
+    /9,999|21,999|249,999/,
   );
   await page.goto("/product/astro-bot");
   await expect(
@@ -21,15 +21,11 @@ test("initial catalogue has publisher images and unconfirmed prices cannot enter
         (img: HTMLImageElement) => img.complete && img.naturalWidth > 0,
       ),
   ).toBe(true);
+  await expect(page.locator(".detail-price")).toContainText("9,999");
   await expect(
     page.getByRole("button", { name: "Add to bag", exact: true }),
-  ).toHaveCount(0);
-  await page
-    .getByRole("link", { name: "Ask about price & availability" })
-    .click();
-  await expect(page.locator('textarea[name="message"]')).toHaveValue(
-    "Please confirm the price and availability of ASTRO BOT.",
-  );
+  ).toBeVisible();
+  await expect(page.locator("main")).not.toContainText(/contact for price/i);
 });
 test("business details and payment methods are published without inventing policies", async ({
   page,

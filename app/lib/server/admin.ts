@@ -336,7 +336,7 @@ export async function adminMutation(env: Env, actor: string, form: FormData) {
       db.insert(schema.audit).values(auditEntry(actor, "save", entity, id)),
     ]);
     await env.DB.prepare(
-      "INSERT OR IGNORE INTO product_details(product_id,price_on_request) VALUES(?,1)",
+      "INSERT OR IGNORE INTO product_details(product_id,price_on_request) VALUES(?,0)",
     )
       .bind(id)
       .run();

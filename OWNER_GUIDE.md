@@ -4,15 +4,15 @@ Open `/admin`. This is a single-owner console; no staff roles are required. Loca
 
 ## Daily dashboard
 
-Overview shows published products, order requests, completed order value, missing photographs and low-stock alerts. Completed value is based on completed orders, not page visits or unconfirmed WhatsApp requests. Quote-only listings can intentionally show zero stock until the owner confirms actual quantities.
+Overview shows published products, order requests, completed order value, missing photographs and low-stock alerts. Completed value is based on completed orders, not page visits or unconfirmed WhatsApp requests. Enter stock only after the owner confirms actual quantities.
 
 Use the shortcuts to add a product, manage stock, create a sale or edit promotions.
 
 ## Add, update or remove a product
 
 1. Open Products → Add product. Enter its name; the web address is filled from the name when you leave that field. Choose category, platform, condition and product type. Enter a brand name to create/use that brand.
-2. Save the product as a draft. The console opens its edit page automatically. New products default to price-on-request until confirmed.
-3. Complete product content: console generation, compatibility, region, edition, package contents and warranty. Do not invent facts. Leave price-on-request enabled until prices are confirmed.
+2. Save the product as a draft. The console opens its edit page automatically. Enter the intended selling price on each variant before publishing.
+3. Complete product content: console generation, compatibility, region, edition, package contents and warranty. Do not invent facts. Confirm prices with the owner before publishing.
 4. Add variants with unique SKUs, names and PKR prices. Use Add specification to enter name/value rows; there is no JSON to write. For example, Connectivity → Wireless. Variant availability controls whether that variant can be ordered.
 5. Upload photographs directly on the edit page. Choose a variant if the image only belongs to that variant. General product photos apply to every variant.
 6. Use Inventory to enter actual available units at each branch. Do not count units already allocated to confirmed orders.
@@ -54,7 +54,7 @@ Sales controls actual prices; Promotions controls banner content.
 
 Create a discount with a name, percentage or PKR amount, enabled status and eligible product variants. Optionally set start/end times in Pakistan time. They are stored in UTC. Enabled discounts are applied automatically within their date range without requiring a scheduled job. If multiple discounts match, the lowest resulting price wins; discounts never stack. Prices are rounded to whole PKR and cannot go below zero.
 
-Catalogue cards, product pages, carousel details and server-side checkout quotes use the same discount rules. The original price is shown for comparison when a discount lowers it. Base variant prices remain unchanged. Quote-only products still require a confirmed price from the owner.
+Catalogue cards, product pages, carousel details and server-side checkout quotes use the same discount rules. The original price is shown for comparison when a discount lowers it. Base variant prices remain unchanged.
 
 Disable or remove a discount to stop it. No product price needs to be manually restored.
 
@@ -92,3 +92,7 @@ Choose **Retro** as a product's category for classic consoles and games. The hom
 Each variant now has a **Condition** field. Choose New or Used and set its own SKU, price and branch inventory. An empty condition inherits the product's condition, preserving existing listings. Customers select the condition before choosing a variant; unlisted conditions allow inquiries but cannot be purchased. Refurbished remains available for existing stock. Cart and saved order descriptions include the selected condition.
 
 Apply migration `0010_retro_and_variant_condition.sql` before running this version against an existing database. The staging deployment command applies it automatically. This migration adds the category and condition field; it does not create retro stock or duplicate existing inventory.
+
+## Catalogue prices
+
+The one-time pricing update sets existing controllers to PKR 21,999, physical/digital games to PKR 9,999 and consoles to PKR 249,999, including condition variants. It clears old comparison prices and discount targets on those variants so those amounts are displayed exactly. Prices remain editable under Products → variant → Price (PKR). Stock is unchanged. Migration 0011 runs once; future deployments preserve admin price edits.

@@ -260,9 +260,7 @@ export function Header({
                     {p.platform} · {p.variant}
                   </small>
                 </span>
-                <strong>
-                  {p.priceOnRequest ? "Contact for price" : money(p.price)}
-                </strong>
+                <strong>{money(p.price)}</strong>
               </Link>
             ))
           )}

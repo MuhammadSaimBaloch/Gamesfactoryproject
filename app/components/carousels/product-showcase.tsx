@@ -446,8 +446,8 @@ function ShowcaseTrack({
           <h3>{p.name}</h3>
           <p className="collection-variant">{p.variant}</p>
           <p className="collection-price">
-            {p.priceOnRequest ? "Contact for price" : money(p.price)}
-            {!p.priceOnRequest && p.compareAt && p.compareAt > p.price ? (
+            {money(p.price)}
+            {p.compareAt && p.compareAt > p.price ? (
               <del className="previous-price">{money(p.compareAt)}</del>
             ) : null}
           </p>
