@@ -13,6 +13,8 @@
 
 Turn on **Show in the homepage controllers/games 3D display** in the product editor. Choose the correct platform/generation so it appears in the correct tab. Choose a suitable product photo or let the site select a marked display image automatically. Published products appear without editing source code. Homepage section switches still control whether the overall Games/Controllers section is visible. Fresh in the collection remains limited to the latest six products.
 
+Migration `0015_full_product_showcases.sql` enables all existing published controllers and physical games in these displays, including products beyond the first catalogue page. Drafts remain hidden. The owner can still turn off the display switch for individual products afterward.
+
 These are photographic product displays, rather than interactive 3D models. Complete front views and consistent framing give the physical-object effect.
 
 ## Preparing future photos

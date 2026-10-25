@@ -1,0 +1,7 @@
+-- Include the full published controller/game inventory, rather than the old featured subset.
+-- This one-time backfill keeps drafts hidden and leaves prices and stock untouched.
+INSERT OR IGNORE INTO product_details(product_id) SELECT id FROM products WHERE active=1 AND demo=0 AND product_type IN ('controller','physical-game');
+UPDATE product_details SET homepage_showcase=1 WHERE product_id IN (SELECT id FROM products WHERE active=1 AND demo=0 AND product_type IN ('controller','physical-game'));
+INSERT OR IGNORE INTO product_images(id,product_id,r2_key,alt_text,display_order,is_primary,is_transparent_asset,is_showcase_asset,width,height) SELECT 'full-showcase-astro-bot',id,'catalogue/astro-bot-case.jpg','Astro Bot physical PS5 retail case',1,0,0,1,950,903 FROM products WHERE slug='astro-bot';
+INSERT OR IGNORE INTO product_images(id,product_id,r2_key,alt_text,display_order,is_primary,is_transparent_asset,is_showcase_asset,width,height) SELECT 'full-showcase-god-of-war-ragnarok',id,'catalogue/god-of-war-ragnarok-case.jpg','God Of War Ragnarok physical PS5 retail case',1,0,0,1,865,1000 FROM products WHERE slug='god-of-war-ragnarok';
+INSERT OR IGNORE INTO product_images(id,product_id,r2_key,alt_text,display_order,is_primary,is_transparent_asset,is_showcase_asset,width,height) SELECT 'full-showcase-gran-turismo-7',id,'catalogue/gran-turismo-7-case.png','Gran Turismo 7 physical PS5 retail case',1,0,0,1,960,900 FROM products WHERE slug='gran-turismo-7';

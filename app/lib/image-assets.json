@@ -1,4 +1,21 @@
 {
+  "catalogue/astro-bot-case.jpg": [
+    {
+      "width": 320,
+      "url": "/catalogue/optimized/astro-bot-case-220d65e7aee1-320.webp",
+      "bytes": 14540
+    },
+    {
+      "width": 640,
+      "url": "/catalogue/optimized/astro-bot-case-220d65e7aee1-640.webp",
+      "bytes": 38310
+    },
+    {
+      "width": 950,
+      "url": "/catalogue/optimized/astro-bot-case-220d65e7aee1-950.webp",
+      "bytes": 68168
+    }
+  ],
   "catalogue/astro-bot.jpg": [
     {
       "width": 320,
@@ -513,6 +530,23 @@
       "bytes": 83760
     }
   ],
+  "catalogue/god-of-war-ragnarok-case.jpg": [
+    {
+      "width": 320,
+      "url": "/catalogue/optimized/god-of-war-ragnarok-case-87b03d24a415-320.webp",
+      "bytes": 23216
+    },
+    {
+      "width": 640,
+      "url": "/catalogue/optimized/god-of-war-ragnarok-case-87b03d24a415-640.webp",
+      "bytes": 78828
+    },
+    {
+      "width": 865,
+      "url": "/catalogue/optimized/god-of-war-ragnarok-case-87b03d24a415-865.webp",
+      "bytes": 127484
+    }
+  ],
   "catalogue/god-of-war-ragnarok.jpg": [
     {
       "width": 320,
@@ -533,6 +567,23 @@
       "width": 1024,
       "url": "/catalogue/optimized/god-of-war-ragnarok-0edf82af32af-1024.webp",
       "bytes": 144482
+    }
+  ],
+  "catalogue/gran-turismo-7-case.png": [
+    {
+      "width": 320,
+      "url": "/catalogue/optimized/gran-turismo-7-case-04f66aed0014-320.webp",
+      "bytes": 17088
+    },
+    {
+      "width": 640,
+      "url": "/catalogue/optimized/gran-turismo-7-case-04f66aed0014-640.webp",
+      "bytes": 49306
+    },
+    {
+      "width": 960,
+      "url": "/catalogue/optimized/gran-turismo-7-case-04f66aed0014-960.webp",
+      "bytes": 85672
     }
   ],
   "catalogue/gran-turismo-7.jpg": [

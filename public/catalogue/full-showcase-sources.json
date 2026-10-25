@@ -1,0 +1,32 @@
+[
+  {
+    "slug": "astro-bot",
+    "key": "catalogue/astro-bot-case.jpg",
+    "source": "https://www.tsc.ca/PlayStation-5-Astro-Bot/pages/productdetails?nav=R%3A733523",
+    "imageSource": "https://item.tscimg.ca/TSC/7/73/733/0x0/733523.jpg?impolicy=XL",
+    "width": 950,
+    "height": 903,
+    "downloadedAt": "2026-10-25",
+    "rights": "Retail product photography. Original source bytes preserved; SVG clips only the empty surrounding background. No license grant inferred."
+  },
+  {
+    "slug": "god-of-war-ragnarok",
+    "key": "catalogue/god-of-war-ragnarok-case.jpg",
+    "source": "https://www.bestbuy.com/site/god-of-war-ragnarok-standard-edition-playstation-5/6523243.p",
+    "imageSource": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6523/6523243_sd.jpg",
+    "width": 865,
+    "height": 1000,
+    "downloadedAt": "2026-10-25",
+    "rights": "Retail product photography. Original source bytes preserved; SVG clips only the empty surrounding background. No license grant inferred."
+  },
+  {
+    "slug": "gran-turismo-7",
+    "key": "catalogue/gran-turismo-7-case.png",
+    "source": "https://direct.playstation.com/en-us/games/pages/gran-turismo-7",
+    "imageSource": "https://media.direct.playstation.com/is/image/sierialto/gran-turismo-7-ps5-box-front?fmt=png-alpha&wid=960",
+    "width": 960,
+    "height": 900,
+    "downloadedAt": "2026-10-25",
+    "rights": "Retail product photography. Original source bytes preserved; SVG clips only the empty surrounding background. No license grant inferred."
+  }
+]

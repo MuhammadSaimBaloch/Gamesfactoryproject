@@ -218,3 +218,67 @@ it("moves historical consoles and prepares only the owner-confirmed Retro drafts
     db.close();
   }
 });
+
+it("includes every published controller and game in the physical showcase without publishing drafts or resetting prices", () => {
+  const db = catalogueBeforeCompletion();
+  try {
+    db.exec(
+      readFileSync("db/migrations/0013_catalogue_completion.sql", "utf8"),
+    );
+    db.exec(
+      readFileSync("db/migrations/0014_product_merchandising.sql", "utf8"),
+    );
+    const before = db
+      .prepare("SELECT id,active FROM products ORDER BY id")
+      .all();
+    const prices = db
+      .prepare("SELECT id,price_pkr FROM product_variants ORDER BY id")
+      .all();
+    const stock = db
+      .prepare("SELECT id,quantity_available FROM inventory ORDER BY id")
+      .all();
+    const migration = readFileSync(
+      "db/migrations/0015_full_product_showcases.sql",
+      "utf8",
+    );
+    db.exec(migration);
+    db.exec(migration);
+    expect(
+      db.prepare("SELECT id,active FROM products ORDER BY id").all(),
+    ).toEqual(before);
+    expect(
+      db.prepare("SELECT id,price_pkr FROM product_variants ORDER BY id").all(),
+    ).toEqual(prices);
+    expect(
+      db
+        .prepare("SELECT id,quantity_available FROM inventory ORDER BY id")
+        .all(),
+    ).toEqual(stock);
+    const products = db
+      .prepare(
+        "SELECT p.slug,d.homepage_showcase FROM products p JOIN product_details d ON d.product_id=p.id WHERE p.active=1 AND p.demo=0 AND p.product_type IN ('controller','physical-game')",
+      )
+      .all();
+    expect(products.length).toBeGreaterThan(100);
+    for (const p of products) {
+      expect(p.homepage_showcase, p.slug as string).toBe(1);
+      expect(
+        db
+          .prepare(
+            "SELECT count(*) AS n FROM product_images WHERE product_id=(SELECT id FROM products WHERE slug=?) AND (is_transparent_asset=1 OR is_showcase_asset=1 OR alt_text LIKE '%physical PS5 retail case%')",
+          )
+          .get(p.slug as string)?.n,
+        p.slug as string,
+      ).toBeGreaterThan(0);
+    }
+    expect(
+      db
+        .prepare(
+          "SELECT count(*) AS n FROM product_images WHERE id LIKE 'full-showcase-%'",
+        )
+        .get()?.n,
+    ).toBe(3);
+  } finally {
+    db.close();
+  }
+});
