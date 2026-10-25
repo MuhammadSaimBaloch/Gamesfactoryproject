@@ -608,6 +608,28 @@
       "bytes": 121358
     }
   ],
+  "catalogue/gta-vi-preorder-banner.jpg": [
+    {
+      "width": 320,
+      "url": "/catalogue/optimized/gta-vi-preorder-banner-32d657ead3e3-320.webp",
+      "bytes": 21364
+    },
+    {
+      "width": 640,
+      "url": "/catalogue/optimized/gta-vi-preorder-banner-32d657ead3e3-640.webp",
+      "bytes": 64398
+    },
+    {
+      "width": 960,
+      "url": "/catalogue/optimized/gta-vi-preorder-banner-32d657ead3e3-960.webp",
+      "bytes": 120838
+    },
+    {
+      "width": 1600,
+      "url": "/catalogue/optimized/gta-vi-preorder-banner-32d657ead3e3-1600.webp",
+      "bytes": 272788
+    }
+  ],
   "catalogue/halo-infinite-xbox.png": [
     {
       "width": 320,

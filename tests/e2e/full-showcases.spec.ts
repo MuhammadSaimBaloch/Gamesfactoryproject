@@ -1,6 +1,6 @@
 import { test, expect } from "@playwright/test";
 test.setTimeout(120000);
-test("every published controller and physical game is reachable in its homepage platform display", async ({
+test("every enabled published controller and physical game is reachable in its homepage platform display", async ({
   page,
   request,
 }, info) => {
@@ -10,6 +10,10 @@ test("every published controller and physical game is reachable in its homepage 
     (p: { id: string; active: number; demo: number }) =>
       p.active &&
       !p.demo &&
+      tables.product_details.some(
+        (d: { product_id: string; homepage_showcase: number }) =>
+          d.product_id === p.id && d.homepage_showcase,
+      ) &&
       tables.product_variants.some(
         (v: { product_id: string; available: number }) =>
           v.product_id === p.id && v.available,

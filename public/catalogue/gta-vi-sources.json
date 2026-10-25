@@ -1,0 +1,15 @@
+{
+  "source": "https://www.playstation.com/en-us/games/grand-theft-auto-vi/",
+  "publisherSource": "https://www.rockstargames.com/VI",
+  "releaseDate": "2026-11-19",
+  "verifiedAt": "2026-10-25",
+  "images": [
+    {
+      "key": "catalogue/gta-vi-preorder-banner.jpg",
+      "imageSource": "https://image.api.playstation.com/vulcan/ap/rnd/202606/1818/4a35c9a8490c69fe89af0f52d4ac0249b230b4fdb12e8469.jpg",
+      "width": 3840,
+      "height": 2160
+    }
+  ],
+  "note": "Official promotional artwork; no physical retail-case image or store bonus is implied. Original image bytes retained."
+}

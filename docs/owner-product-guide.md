@@ -48,3 +48,7 @@ PlayStation 2/3 and Xbox 360 are under Consoles. R36S/SF3500 remain Handhelds. T
 ## Deployment
 
 This change introduces `0014_product_merchandising.sql`. Apply it to the target D1 database before serving the updated application, using the existing deployment process. Local database changes do not update Cloudflare's remote inventory or R2 files. Back up the target database and media before importing local business data. Do not use a migration replay to overwrite owner-adjusted remote prices or stock.
+
+### Initial GTA VI pre-order slide
+
+Migration `0016_gta_vi_preorder.sql` adds the requested active **Grand Theft Auto VI - PS5** enquiry listing and homepage slide. Open **Pre-orders** in admin to edit its banner, headline, body, release date, terms and price status, or turn off **Show in the homepage pre-order slideshow**. The current store price is **Not confirmed yet**, and stock is zero. Enquiries do not reserve stock or take payment. The listing uses promotional artwork rather than an invented retail case, so its physical-game homepage showcase switch starts off. It can be enabled later after uploading an appropriate case image.

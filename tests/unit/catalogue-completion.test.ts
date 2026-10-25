@@ -282,3 +282,79 @@ it("includes every published controller and game in the physical showcase withou
     db.close();
   }
 });
+
+it("publishes GTA VI with an active pre-order slide, unconfirmed price and zero stock without changing existing inventory", () => {
+  const db = catalogueBeforeCompletion();
+  try {
+    for (const file of [
+      "0013_catalogue_completion.sql",
+      "0014_product_merchandising.sql",
+      "0015_full_product_showcases.sql",
+    ])
+      db.exec(readFileSync(`db/migrations/${file}`, "utf8"));
+    const prices = db
+      .prepare("SELECT id,price_pkr FROM product_variants ORDER BY id")
+      .all();
+    const stock = db
+      .prepare("SELECT id,quantity_available FROM inventory ORDER BY id")
+      .all();
+    const migration = readFileSync(
+      "db/migrations/0016_gta_vi_preorder.sql",
+      "utf8",
+    );
+    db.exec(migration);
+    expect(
+      db
+        .prepare(
+          "SELECT p.active,d.sale_mode,d.price_unconfirmed,d.preorder_slideshow,d.preorder_banner_key,d.release_date FROM products p JOIN product_details d ON d.product_id=p.id WHERE p.slug='grand-theft-auto-vi-ps5'",
+        )
+        .get(),
+    ).toMatchObject({
+      active: 1,
+      sale_mode: "preorder",
+      price_unconfirmed: 1,
+      preorder_slideshow: 1,
+      preorder_banner_key: "catalogue/gta-vi-preorder-banner.jpg",
+      release_date: "2026-11-19",
+    });
+    expect(
+      db
+        .prepare(
+          "SELECT coalesce(sum(quantity_available),0) AS n FROM inventory WHERE variant_id='preorder-gta-vi-ps5-v'",
+        )
+        .get()?.n,
+    ).toBe(0);
+    for (const p of prices)
+      expect(
+        db
+          .prepare("SELECT price_pkr FROM product_variants WHERE id=?")
+          .get(p.id as string)?.price_pkr,
+      ).toBe(p.price_pkr);
+    for (const p of stock)
+      expect(
+        db
+          .prepare("SELECT quantity_available FROM inventory WHERE id=?")
+          .get(p.id as string)?.quantity_available,
+      ).toBe(p.quantity_available);
+    db.exec(
+      "UPDATE product_details SET preorder_headline='Owner headline' WHERE product_id='preorder-gta-vi-ps5'; UPDATE product_variants SET price_pkr=12345 WHERE id='preorder-gta-vi-ps5-v';",
+    );
+    db.exec(migration);
+    expect(
+      db
+        .prepare(
+          "SELECT preorder_headline FROM product_details WHERE product_id='preorder-gta-vi-ps5'",
+        )
+        .get()?.preorder_headline,
+    ).toBe("Owner headline");
+    expect(
+      db
+        .prepare(
+          "SELECT price_pkr FROM product_variants WHERE id='preorder-gta-vi-ps5-v'",
+        )
+        .get()?.price_pkr,
+    ).toBe(12345);
+  } finally {
+    db.close();
+  }
+});
