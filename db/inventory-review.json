@@ -121,9 +121,9 @@
   {
     "slug": "dualsense-hogwarts-legacy",
     "name": "DualSense Wireless Controller - Hogwarts Legacy",
-    "status": "Draft",
+    "status": "Ready",
     "options": 1,
-    "reasons": "Exact transparent product photograph pending."
+    "reasons": ""
   },
   {
     "slug": "dualsense-lebron-james",
@@ -142,16 +142,16 @@
   {
     "slug": "dualsense-marvel-s-spider-man-2",
     "name": "DualSense Wireless Controller - Marvel's Spider-Man 2",
-    "status": "Draft",
+    "status": "Ready",
     "options": 1,
-    "reasons": "Exact transparent product photograph pending."
+    "reasons": ""
   },
   {
     "slug": "dualsense-concord",
     "name": "DualSense Wireless Controller - Concord",
-    "status": "Draft",
+    "status": "Ready",
     "options": 1,
-    "reasons": "Exact transparent product photograph pending."
+    "reasons": ""
   },
   {
     "slug": "dualsense-astro-bot",
@@ -170,9 +170,9 @@
   {
     "slug": "dualsense-playstation-30th-anniversary",
     "name": "DualSense Wireless Controller - PlayStation 30th Anniversary",
-    "status": "Draft",
+    "status": "Ready",
     "options": 1,
-    "reasons": "Exact transparent product photograph pending."
+    "reasons": ""
   },
   {
     "slug": "dualsense-helldivers-2",
@@ -219,9 +219,9 @@
   {
     "slug": "dualsense-astro-bot-joyful-edition",
     "name": "DualSense Wireless Controller - Astro Bot Joyful Edition",
-    "status": "Draft",
+    "status": "Ready",
     "options": 1,
-    "reasons": "Exact transparent product photograph pending."
+    "reasons": ""
   },
   {
     "slug": "dualsense-god-of-war-20th-anniversary",
@@ -277,14 +277,14 @@
     "name": "DualSense Wireless Controller - Grand Theft Auto VI Black",
     "status": "Draft",
     "options": 1,
-    "reasons": "Officially announced, but launch is November 19, 2026. Keep unpublished until the store confirms availability or enables an approved pre-order."
+    "reasons": "Manufacturer release date is 19 November 2026. Keep unpublished until released or an owner-approved preorder workflow is configured."
   },
   {
     "slug": "dualsense-grand-theft-auto-vi-white",
     "name": "DualSense Wireless Controller - Grand Theft Auto VI White",
     "status": "Draft",
     "options": 1,
-    "reasons": "Officially announced, but launch is November 19, 2026. Keep unpublished until the store confirms availability or enables an approved pre-order."
+    "reasons": "Manufacturer release date is 19 November 2026. Keep unpublished until released or an owner-approved preorder workflow is configured."
   },
   {
     "slug": "dualsense-lisa",
@@ -310,9 +310,9 @@
   {
     "slug": "dualsense-edge-playstation-30th-anniversary-limited-edition",
     "name": "DualSense Edge - PlayStation 30th Anniversary Limited Edition",
-    "status": "Draft",
+    "status": "Ready",
     "options": 1,
-    "reasons": "Exact transparent product photograph pending."
+    "reasons": ""
   },
   {
     "slug": "xbox-controller-carbon-black",
@@ -345,9 +345,9 @@
   {
     "slug": "xbox-controller-electric-volt",
     "name": "Xbox Wireless Controller - Electric Volt",
-    "status": "Draft",
+    "status": "Ready",
     "options": 1,
-    "reasons": "Exact transparent product photograph pending."
+    "reasons": ""
   },
   {
     "slug": "xbox-controller-deep-pink",
@@ -366,23 +366,23 @@
   {
     "slug": "xbox-controller-astral-purple",
     "name": "Xbox Wireless Controller - Astral Purple",
-    "status": "Draft",
+    "status": "Ready",
     "options": 1,
-    "reasons": "Exact transparent product photograph pending."
+    "reasons": ""
   },
   {
     "slug": "xbox-controller-daystrike-camo",
     "name": "Xbox Wireless Controller - Daystrike Camo",
-    "status": "Draft",
+    "status": "Ready",
     "options": 1,
-    "reasons": "Exact transparent product photograph pending."
+    "reasons": ""
   },
   {
     "slug": "xbox-controller-mineral-camo",
     "name": "Xbox Wireless Controller - Mineral Camo",
-    "status": "Draft",
+    "status": "Ready",
     "options": 1,
-    "reasons": "Exact transparent product photograph pending."
+    "reasons": ""
   },
   {
     "slug": "xbox-controller-arctic-camo",
@@ -394,65 +394,65 @@
   {
     "slug": "xbox-controller-aqua-shift",
     "name": "Xbox Wireless Controller - Aqua Shift",
-    "status": "Draft",
+    "status": "Ready",
     "options": 1,
-    "reasons": "Exact transparent product photograph pending."
+    "reasons": ""
   },
   {
     "slug": "xbox-controller-lunar-shift",
     "name": "Xbox Wireless Controller - Lunar Shift",
-    "status": "Draft",
+    "status": "Ready",
     "options": 1,
-    "reasons": "Exact transparent product photograph pending."
+    "reasons": ""
   },
   {
     "slug": "xbox-controller-stellar-shift",
     "name": "Xbox Wireless Controller - Stellar Shift",
-    "status": "Draft",
+    "status": "Ready",
     "options": 1,
-    "reasons": "Exact transparent product photograph pending."
+    "reasons": ""
   },
   {
     "slug": "xbox-controller-sunkissed-vibes-opi",
     "name": "Xbox Wireless Controller - Sunkissed Vibes OPI",
-    "status": "Draft",
+    "status": "Ready",
     "options": 1,
-    "reasons": "Exact transparent product photograph pending."
+    "reasons": ""
   },
   {
     "slug": "xbox-controller-remix-special-edition",
     "name": "Xbox Wireless Controller - Remix Special Edition",
-    "status": "Draft",
+    "status": "Ready",
     "options": 1,
-    "reasons": "Exact transparent product photograph pending."
+    "reasons": ""
   },
   {
     "slug": "xbox-controller-gold-shadow",
     "name": "Xbox Wireless Controller - Gold Shadow",
-    "status": "Draft",
+    "status": "Ready",
     "options": 1,
-    "reasons": "Exact transparent product photograph pending."
+    "reasons": ""
   },
   {
     "slug": "xbox-controller-xbox-20th-anniversary",
     "name": "Xbox Wireless Controller - Xbox 20th Anniversary",
-    "status": "Draft",
+    "status": "Ready",
     "options": 1,
-    "reasons": "Exact transparent product photograph pending."
+    "reasons": ""
   },
   {
     "slug": "xbox-controller-stormcloud-vapor",
     "name": "Xbox Wireless Controller - Stormcloud Vapor",
-    "status": "Draft",
+    "status": "Ready",
     "options": 1,
-    "reasons": "Exact transparent product photograph pending."
+    "reasons": ""
   },
   {
     "slug": "xbox-controller-dream-vapor",
     "name": "Xbox Wireless Controller - Dream Vapor",
-    "status": "Draft",
+    "status": "Ready",
     "options": 1,
-    "reasons": "Exact transparent product photograph pending."
+    "reasons": ""
   },
   {
     "slug": "xbox-controller-nocturnal-vapor",
@@ -478,100 +478,100 @@
   {
     "slug": "xbox-controller-ghost-cipher",
     "name": "Xbox Wireless Controller - Ghost Cipher",
-    "status": "Draft",
+    "status": "Ready",
     "options": 1,
-    "reasons": "Exact transparent product photograph pending."
+    "reasons": ""
   },
   {
     "slug": "xbox-controller-pulse-cipher",
     "name": "Xbox Wireless Controller - Pulse Cipher",
-    "status": "Draft",
+    "status": "Ready",
     "options": 1,
-    "reasons": "Exact transparent product photograph pending."
+    "reasons": ""
   },
   {
     "slug": "xbox-controller-ice-breaker",
     "name": "Xbox Wireless Controller - Ice Breaker",
-    "status": "Draft",
+    "status": "Ready",
     "options": 1,
-    "reasons": "Exact transparent product photograph pending."
+    "reasons": ""
   },
   {
     "slug": "xbox-controller-storm-breaker",
     "name": "Xbox Wireless Controller - Storm Breaker",
-    "status": "Draft",
+    "status": "Ready",
     "options": 1,
-    "reasons": "Exact transparent product photograph pending."
+    "reasons": ""
   },
   {
     "slug": "xbox-controller-heart-breaker",
     "name": "Xbox Wireless Controller - Heart Breaker",
-    "status": "Draft",
+    "status": "Ready",
     "options": 1,
-    "reasons": "Exact transparent product photograph pending."
+    "reasons": ""
   },
   {
     "slug": "xbox-controller-forza-horizon-5",
     "name": "Xbox Wireless Controller - Forza Horizon 5",
-    "status": "Draft",
+    "status": "Ready",
     "options": 1,
-    "reasons": "Exact transparent product photograph pending."
+    "reasons": ""
   },
   {
     "slug": "xbox-controller-starfield",
     "name": "Xbox Wireless Controller - Starfield",
-    "status": "Draft",
+    "status": "Ready",
     "options": 1,
-    "reasons": "Exact transparent product photograph pending."
+    "reasons": ""
   },
   {
     "slug": "xbox-controller-halo-infinite-console-bundle-edition",
     "name": "Xbox Wireless Controller - Halo Infinite Console Bundle Edition",
-    "status": "Draft",
+    "status": "Ready",
     "options": 1,
-    "reasons": "Exact transparent product photograph pending."
+    "reasons": ""
   },
   {
     "slug": "xbox-controller-space-jam-a-new-legacy-tune-squad",
     "name": "Xbox Wireless Controller - Space Jam A New Legacy Tune Squad",
-    "status": "Draft",
+    "status": "Ready",
     "options": 1,
-    "reasons": "Exact transparent product photograph pending."
+    "reasons": ""
   },
   {
     "slug": "xbox-controller-space-jam-a-new-legacy-goon-squad",
     "name": "Xbox Wireless Controller - Space Jam A New Legacy Goon Squad",
-    "status": "Draft",
+    "status": "Ready",
     "options": 1,
-    "reasons": "Exact transparent product photograph pending."
+    "reasons": ""
   },
   {
     "slug": "xbox-controller-space-jam-a-new-legacy-serververse",
     "name": "Xbox Wireless Controller - Space Jam A New Legacy Serververse",
-    "status": "Draft",
+    "status": "Ready",
     "options": 1,
-    "reasons": "Exact transparent product photograph pending."
+    "reasons": ""
   },
   {
     "slug": "xbox-controller-doom-the-dark-ages",
     "name": "Xbox Wireless Controller - DOOM The Dark Ages",
-    "status": "Draft",
+    "status": "Ready",
     "options": 1,
-    "reasons": "Exact transparent product photograph pending."
+    "reasons": ""
   },
   {
     "slug": "xbox-controller-forza-horizon-6",
     "name": "Xbox Wireless Controller - Forza Horizon 6",
-    "status": "Draft",
+    "status": "Ready",
     "options": 1,
-    "reasons": "Exact transparent product photograph pending."
+    "reasons": ""
   },
   {
     "slug": "xbox-controller-gears-of-war-e-day",
     "name": "Xbox Wireless Controller - Gears of War E-Day",
-    "status": "Draft",
+    "status": "Ready",
     "options": 1,
-    "reasons": "Exact transparent product photograph pending."
+    "reasons": ""
   },
   {
     "slug": "xbox-elite-wireless-controller-series-2-black",
@@ -590,44 +590,44 @@
   {
     "slug": "xbox-elite-wireless-controller-series-2-core-red",
     "name": "Xbox Elite Wireless Controller Series 2 - Core Red",
-    "status": "Draft",
+    "status": "Ready",
     "options": 1,
-    "reasons": "Exact transparent product photograph pending."
+    "reasons": ""
   },
   {
     "slug": "xbox-elite-wireless-controller-series-2-core-blue",
     "name": "Xbox Elite Wireless Controller Series 2 - Core Blue",
-    "status": "Draft",
+    "status": "Ready",
     "options": 1,
-    "reasons": "Exact transparent product photograph pending."
+    "reasons": ""
   },
   {
     "slug": "xbox-elite-wireless-controller-series-2-halo-infinite-limited-edition",
     "name": "Xbox Elite Wireless Controller Series 2 - Halo Infinite Limited Edition",
-    "status": "Draft",
+    "status": "Ready",
     "options": 1,
-    "reasons": "Exact transparent product photograph pending."
+    "reasons": ""
   },
   {
     "slug": "xbox-elite-wireless-controller-series-2-doom-the-dark-ages-limited-edition",
     "name": "Xbox Elite Wireless Controller Series 2 - DOOM The Dark Ages Limited Edition",
-    "status": "Draft",
+    "status": "Ready",
     "options": 1,
-    "reasons": "Exact transparent product photograph pending."
+    "reasons": ""
   },
   {
     "slug": "xbox-elite-wireless-controller-series-2-xbox-design-lab-custom-colours",
     "name": "Xbox Elite Wireless Controller Series 2 - Xbox Design Lab Custom Colours",
     "status": "Draft",
     "options": 1,
-    "reasons": "Custom colours vary. Confirm the actual configuration and upload its photograph before publishing. Exact transparent product photograph pending."
+    "reasons": "Confirm the actual custom shell, controls and accessory configuration, and supply its photograph. Design Lab has no single standard colourway."
   },
   {
     "slug": "xbox-series-s-512gb",
     "name": "Xbox Series S 512GB",
     "status": "Draft",
     "options": 4,
-    "reasons": "The supplied list includes Jailbreak options for Xbox Series S. Verify the exact modification and supplied package before publishing."
+    "reasons": "The store's Jailbreak options require verification. Standard Series S is all-digital; modification capability is not a manufacturer specification."
   },
   {
     "slug": "xbox-series-s-1tb",
@@ -788,7 +788,7 @@
     "name": "Nintendo Switch 2 Mario Kart 8 Bundle",
     "status": "Draft",
     "options": 2,
-    "reasons": "Confirm whether this is the official Mario Kart World bundle or a store bundle with Mario Kart 8 Deluxe. Do not substitute the official bundle image. Exact transparent product photograph pending."
+    "reasons": "Confirm the actual included game and physical/digital format. Nintendo's official Switch 2 bundle contains Mario Kart World, not Mario Kart 8 Deluxe. An exact store-bundle photograph is still required."
   },
   {
     "slug": "psp",
@@ -814,16 +814,16 @@
   {
     "slug": "r36s",
     "name": "R36S",
-    "status": "Draft",
+    "status": "Ready",
     "options": 1,
-    "reasons": "Confirm manufacturer, colour and exact model with a store photo before publishing. Exact transparent product photograph pending."
+    "reasons": ""
   },
   {
     "slug": "sf-3500",
     "name": "SF 3500",
-    "status": "Draft",
+    "status": "Ready",
     "options": 1,
-    "reasons": "Confirm manufacturer, colour and exact model with a store photo before publishing. Exact transparent product photograph pending."
+    "reasons": ""
   },
   {
     "slug": "steam-deck-lcd",
@@ -898,8 +898,8 @@
   {
     "slug": "oculus-quest-2",
     "name": "Oculus Quest 2",
-    "status": "Draft",
+    "status": "Ready",
     "options": 3,
-    "reasons": "Exact transparent product photograph pending."
+    "reasons": ""
   }
 ]

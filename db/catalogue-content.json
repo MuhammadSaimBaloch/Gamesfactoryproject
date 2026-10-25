@@ -1,0 +1,3002 @@
+[
+  {
+    "slug": "ps5-slim-disc",
+    "description": "PS5 games on disc or digital download in a compact console with SSD storage and an Ultra HD Blu-ray drive. DualSense haptic feedback and adaptive triggers are supported in compatible games.",
+    "compatibility": "PS5 games and supported PS4 games; PS VR2 supported. PS3, PS2 and original PlayStation discs are not supported.",
+    "edition": "PlayStation 5 Slim Disc Edition",
+    "specifications": {
+      "Drive": "Ultra HD Blu-ray",
+      "Storage": "Confirm the supplied model capacity",
+      "Controller support": "DualSense"
+    },
+    "sources": ["https://www.playstation.com/en-us/ps5/"],
+    "previous": {
+      "description": "Experience PS5 games with SSD loading, DualSense haptic feedback and a disc drive. Confirm the exact model, storage and included accessories with our team.",
+      "compatibility": "PS5 games; confirm model and disc compatibility before purchase.",
+      "edition": "Confirm available edition with the store."
+    }
+  },
+  {
+    "slug": "astro-bot",
+    "description": "Explore colorful planets, discover new abilities and rescue Astro’s scattered crew in this PS5 platforming adventure.",
+    "compatibility": "PS5 with a compatible disc drive. A disc cannot be used in a console without a disc drive.",
+    "edition": "ASTRO BOT",
+    "specifications": {
+      "Format": "Physical game disc",
+      "Platform edition": "PS5"
+    },
+    "sources": ["https://www.playstation.com/en-us/games/astro-bot/"],
+    "previous": {
+      "description": "Explore colorful planets, discover new abilities and rescue Astro’s scattered crew in this PS5 platforming adventure.",
+      "compatibility": "PS5. Physical discs require a compatible PS5 disc drive.",
+      "edition": "Confirm available edition with the store."
+    }
+  },
+  {
+    "slug": "marvels-spider-man-2",
+    "description": "Join Peter Parker and Miles Morales in an action adventure across Marvel’s New York.",
+    "compatibility": "PS5 with a compatible disc drive. A disc cannot be used in a console without a disc drive.",
+    "edition": "Marvel’s Spider-Man 2",
+    "specifications": {
+      "Format": "Physical game disc",
+      "Platform edition": "PS5"
+    },
+    "sources": [
+      "https://www.playstation.com/en-us/games/marvels-spider-man-2/"
+    ],
+    "previous": {
+      "description": "Join Peter Parker and Miles Morales in an action adventure across Marvel’s New York.",
+      "compatibility": "PS5. Physical discs require a compatible PS5 disc drive.",
+      "edition": "Confirm available edition with the store."
+    }
+  },
+  {
+    "slug": "god-of-war-ragnarok",
+    "description": "Journey through the Nine Realms with Kratos and Atreus in a story-driven action adventure.",
+    "compatibility": "PS5 with a compatible disc drive. A disc cannot be used in a console without a disc drive.",
+    "edition": "God of War Ragnarök",
+    "specifications": {
+      "Format": "Physical game disc",
+      "Platform edition": "PS5"
+    },
+    "sources": ["https://www.playstation.com/en-us/games/god-of-war-ragnarok/"],
+    "previous": {
+      "description": "Journey through the Nine Realms with Kratos and Atreus in a story-driven action adventure.",
+      "compatibility": "PS5. Physical discs require a compatible PS5 disc drive.",
+      "edition": "Confirm available edition with the store."
+    }
+  },
+  {
+    "slug": "gran-turismo-7",
+    "description": "Collect, tune and race cars in a driving simulator featuring a solo campaign and online competition. Internet access is required for most features.",
+    "compatibility": "PS5 with a compatible disc drive. A disc cannot be used in a console without a disc drive.",
+    "edition": "Gran Turismo 7",
+    "specifications": {
+      "Format": "Physical game disc",
+      "Platform edition": "PS5"
+    },
+    "sources": ["https://www.playstation.com/en-us/games/gran-turismo-7/"],
+    "previous": {
+      "description": "Collect, tune and race cars in a driving simulator featuring a solo campaign and online competition. Internet access is required for most features.",
+      "compatibility": "PS5. Physical discs require a compatible PS5 disc drive.",
+      "edition": "Confirm available edition with the store."
+    }
+  },
+  {
+    "slug": "horizon-forbidden-west",
+    "description": "Explore a distant-future frontier with Aloy, encounter mechanical creatures and uncover the mysteries of a threatened world.",
+    "compatibility": "PS5 with a compatible disc drive. A disc cannot be used in a console without a disc drive.",
+    "edition": "Horizon Forbidden West",
+    "specifications": {
+      "Format": "Physical game disc",
+      "Platform edition": "PS5"
+    },
+    "sources": [
+      "https://www.playstation.com/en-us/games/horizon-forbidden-west/"
+    ],
+    "previous": {
+      "description": "Explore a distant-future frontier with Aloy, encounter mechanical creatures and uncover the mysteries of a threatened world.",
+      "compatibility": "PS5. Physical discs require a compatible PS5 disc drive.",
+      "edition": "Confirm available edition with the store."
+    }
+  },
+  {
+    "slug": "ratchet-and-clank-rift-apart",
+    "description": "Travel between dimensions with Ratchet, Clank and Rivet in a colorful action-platforming adventure.",
+    "compatibility": "PS5 with a compatible disc drive. A disc cannot be used in a console without a disc drive.",
+    "edition": "Ratchet & Clank: Rift Apart",
+    "specifications": {
+      "Format": "Physical game disc",
+      "Platform edition": "PS5"
+    },
+    "sources": [
+      "https://www.playstation.com/en-us/games/ratchet-and-clank-rift-apart/"
+    ],
+    "previous": {
+      "description": "Travel between dimensions with Ratchet, Clank and Rivet in a colorful action-platforming adventure.",
+      "compatibility": "PS5. Physical discs require a compatible PS5 disc drive.",
+      "edition": "Confirm available edition with the store."
+    }
+  },
+  {
+    "slug": "returnal",
+    "description": "Fight through a changing alien world as Selene in a challenging sci-fi action game built around repeated runs.",
+    "compatibility": "PS5 with a compatible disc drive. A disc cannot be used in a console without a disc drive.",
+    "edition": "Returnal",
+    "specifications": {
+      "Format": "Physical game disc",
+      "Platform edition": "PS5"
+    },
+    "sources": ["https://www.playstation.com/en-us/games/returnal/"],
+    "previous": {
+      "description": "Fight through a changing alien world as Selene in a challenging sci-fi action game built around repeated runs.",
+      "compatibility": "PS5. Physical discs require a compatible PS5 disc drive.",
+      "edition": "Confirm available edition with the store."
+    }
+  },
+  {
+    "slug": "demons-souls",
+    "description": "Enter Boletaria in a remake of the dark fantasy action RPG, with demanding combat and memorable bosses.",
+    "compatibility": "PS5 with a compatible disc drive. A disc cannot be used in a console without a disc drive.",
+    "edition": "Demon’s Souls",
+    "specifications": {
+      "Format": "Physical game disc",
+      "Platform edition": "PS5"
+    },
+    "sources": ["https://www.playstation.com/en-us/games/demons-souls/"],
+    "previous": {
+      "description": "Enter Boletaria in a remake of the dark fantasy action RPG, with demanding combat and memorable bosses.",
+      "compatibility": "PS5. Physical discs require a compatible PS5 disc drive.",
+      "edition": "Confirm available edition with the store."
+    }
+  },
+  {
+    "slug": "the-last-of-us-part-i",
+    "description": "Experience Joel and Ellie’s story in a rebuilt edition of the survival action adventure for PS5.",
+    "compatibility": "PS5 with a compatible disc drive. A disc cannot be used in a console without a disc drive.",
+    "edition": "The Last of Us Part I",
+    "specifications": {
+      "Format": "Physical game disc",
+      "Platform edition": "PS5"
+    },
+    "sources": [
+      "https://www.playstation.com/en-us/games/the-last-of-us-part-i/"
+    ],
+    "previous": {
+      "description": "Experience Joel and Ellie’s story in a rebuilt edition of the survival action adventure for PS5.",
+      "compatibility": "PS5. Physical discs require a compatible PS5 disc drive.",
+      "edition": "Confirm available edition with the store."
+    }
+  },
+  {
+    "slug": "ghost-of-tsushima-directors-cut",
+    "description": "Explore Tsushima as Jin Sakai in a samurai action adventure. Director’s Cut includes the Iki Island expansion.",
+    "compatibility": "PS5 with a compatible disc drive. A disc cannot be used in a console without a disc drive.",
+    "edition": "Ghost of Tsushima Director’s Cut",
+    "specifications": {
+      "Format": "Physical game disc",
+      "Platform edition": "PS5"
+    },
+    "sources": ["https://www.playstation.com/en-us/games/ghost-of-tsushima/"],
+    "previous": {
+      "description": "Explore Tsushima as Jin Sakai in a samurai action adventure. Director’s Cut includes the Iki Island expansion.",
+      "compatibility": "PS5. Physical discs require a compatible PS5 disc drive.",
+      "edition": "Confirm available edition with the store."
+    }
+  },
+  {
+    "slug": "dualsense-white",
+    "description": "The Sony DualSense wireless controller in White. Haptic feedback and adaptive triggers bring compatible PS5 games to life, with a built-in microphone, touch pad and USB-C charging.",
+    "compatibility": "PS5; compatible Windows PC, Mac and mobile games via supported USB/Bluetooth connections. Features vary by game and connection. Not a PS4 console controller.",
+    "edition": "White",
+    "specifications": {
+      "Controller family": "DualSense",
+      "Connection": "Bluetooth / USB-C",
+      "Power": "Built-in rechargeable battery",
+      "Audio": "Built-in microphone / 3.5mm headset jack",
+      "Design": "White"
+    },
+    "sources": [
+      "https://www.playstation.com/en-us/accessories/dualsense-wireless-controller/"
+    ],
+    "previous": {
+      "description": "Sony DualSense wireless controller for PS5. Confirm compatibility, pricing and availability with our team.",
+      "compatibility": "PS5; check game-specific PC and mobile support before ordering.",
+      "edition": ""
+    }
+  },
+  {
+    "slug": "dualsense-rhythm-blue",
+    "description": "The Sony DualSense wireless controller in Rhythm Blue. Haptic feedback and adaptive triggers bring compatible PS5 games to life, with a built-in microphone, touch pad and USB-C charging.",
+    "compatibility": "PS5; compatible Windows PC, Mac and mobile games via supported USB/Bluetooth connections. Features vary by game and connection. Not a PS4 console controller.",
+    "edition": "Rhythm Blue",
+    "specifications": {
+      "Controller family": "DualSense",
+      "Connection": "Bluetooth / USB-C",
+      "Power": "Built-in rechargeable battery",
+      "Audio": "Built-in microphone / 3.5mm headset jack",
+      "Design": "Rhythm Blue"
+    },
+    "sources": [
+      "https://www.playstation.com/en-us/accessories/dualsense-wireless-controller/"
+    ],
+    "previous": {
+      "description": "Sony DualSense wireless controller for PS5. Confirm compatibility, pricing and availability with our team.",
+      "compatibility": "PS5; check game-specific PC and mobile support before ordering.",
+      "edition": ""
+    }
+  },
+  {
+    "slug": "dualsense-midnight-black",
+    "description": "The Sony DualSense wireless controller in Midnight Black. Haptic feedback and adaptive triggers bring compatible PS5 games to life, with a built-in microphone, touch pad and USB-C charging.",
+    "compatibility": "PS5; compatible Windows PC, Mac and mobile games via supported USB/Bluetooth connections. Features vary by game and connection. Not a PS4 console controller.",
+    "edition": "Midnight Black",
+    "specifications": {
+      "Controller family": "DualSense",
+      "Connection": "Bluetooth / USB-C",
+      "Power": "Built-in rechargeable battery",
+      "Audio": "Built-in microphone / 3.5mm headset jack",
+      "Design": "Midnight Black"
+    },
+    "sources": [
+      "https://www.playstation.com/en-us/accessories/dualsense-wireless-controller/",
+      "https://www.playstation.com/en-gb/accessories/controllers/shop-all/"
+    ],
+    "previous": {
+      "description": "Sony DualSense wireless controller for PS5. Confirm compatibility, pricing and availability with our team.",
+      "compatibility": "PS5; check game-specific PC and mobile support before ordering.",
+      "edition": ""
+    }
+  },
+  {
+    "slug": "dualsense-cosmic-red",
+    "description": "The Sony DualSense wireless controller in Cosmic Red. Haptic feedback and adaptive triggers bring compatible PS5 games to life, with a built-in microphone, touch pad and USB-C charging.",
+    "compatibility": "PS5; compatible Windows PC, Mac and mobile games via supported USB/Bluetooth connections. Features vary by game and connection. Not a PS4 console controller.",
+    "edition": "Cosmic Red",
+    "specifications": {
+      "Controller family": "DualSense",
+      "Connection": "Bluetooth / USB-C",
+      "Power": "Built-in rechargeable battery",
+      "Audio": "Built-in microphone / 3.5mm headset jack",
+      "Design": "Cosmic Red"
+    },
+    "sources": [
+      "https://www.playstation.com/en-us/accessories/dualsense-wireless-controller/",
+      "https://www.playstation.com/en-gb/accessories/controllers/shop-all/"
+    ],
+    "previous": {
+      "description": "Sony DualSense wireless controller for PS5. Confirm compatibility, pricing and availability with our team.",
+      "compatibility": "PS5; check game-specific PC and mobile support before ordering.",
+      "edition": ""
+    }
+  },
+  {
+    "slug": "dualsense-techno-red",
+    "description": "The Sony DualSense wireless controller in Techno Red. Haptic feedback and adaptive triggers bring compatible PS5 games to life, with a built-in microphone, touch pad and USB-C charging.",
+    "compatibility": "PS5; compatible Windows PC, Mac and mobile games via supported USB/Bluetooth connections. Features vary by game and connection. Not a PS4 console controller.",
+    "edition": "Techno Red",
+    "specifications": {
+      "Controller family": "DualSense",
+      "Connection": "Bluetooth / USB-C",
+      "Power": "Built-in rechargeable battery",
+      "Audio": "Built-in microphone / 3.5mm headset jack",
+      "Design": "Techno Red"
+    },
+    "sources": [
+      "https://www.playstation.com/en-us/accessories/dualsense-wireless-controller/"
+    ],
+    "previous": {
+      "description": "Sony DualSense wireless controller for PS5. Confirm compatibility, pricing and availability with our team.",
+      "compatibility": "PS5; check game-specific PC and mobile support before ordering.",
+      "edition": ""
+    }
+  },
+  {
+    "slug": "dualsense-remix-green",
+    "description": "The Sony DualSense wireless controller in Remix Green. Haptic feedback and adaptive triggers bring compatible PS5 games to life, with a built-in microphone, touch pad and USB-C charging.",
+    "compatibility": "PS5; compatible Windows PC, Mac and mobile games via supported USB/Bluetooth connections. Features vary by game and connection. Not a PS4 console controller.",
+    "edition": "Remix Green",
+    "specifications": {
+      "Controller family": "DualSense",
+      "Connection": "Bluetooth / USB-C",
+      "Power": "Built-in rechargeable battery",
+      "Audio": "Built-in microphone / 3.5mm headset jack",
+      "Design": "Remix Green"
+    },
+    "sources": [
+      "https://www.playstation.com/en-us/accessories/dualsense-wireless-controller/"
+    ],
+    "previous": {
+      "description": "Sony DualSense wireless controller for PS5. Confirm compatibility, pricing and availability with our team.",
+      "compatibility": "PS5; check game-specific PC and mobile support before ordering.",
+      "edition": ""
+    }
+  },
+  {
+    "slug": "xbox-controller-carbon-black",
+    "description": "The Xbox Wireless Controller in Carbon Black. A hybrid D-pad, Share button and 3.5mm headset jack support everyday play, with Xbox Wireless, Bluetooth and USB-C connectivity.",
+    "compatibility": "Xbox Series X|S, Xbox One and supported Windows, Android and iOS games. Features and headset support depend on the device and connection.",
+    "edition": "Carbon Black",
+    "specifications": {
+      "Controller family": "Xbox Wireless Controller",
+      "Connection": "Xbox Wireless / Bluetooth / USB-C",
+      "Power": "AA batteries or compatible rechargeable pack",
+      "Audio": "3.5mm headset jack",
+      "Design": "Carbon Black"
+    },
+    "sources": [
+      "https://www.xbox.com/en-us/accessories/controllers/xbox-wireless-controller"
+    ],
+    "previous": {
+      "description": "Textured grips, a hybrid D-pad and a dedicated Share button in Carbon Black. Confirm price, supplied region and availability with our team.",
+      "compatibility": "Xbox Series X|S, Xbox One and supported Windows, Android and iOS devices; check device-specific support.",
+      "edition": "Carbon Black"
+    }
+  },
+  {
+    "slug": "xbox-controller-robot-white",
+    "description": "The Xbox Wireless Controller in Robot White. A hybrid D-pad, Share button and 3.5mm headset jack support everyday play, with Xbox Wireless, Bluetooth and USB-C connectivity.",
+    "compatibility": "Xbox Series X|S, Xbox One and supported Windows, Android and iOS games. Features and headset support depend on the device and connection.",
+    "edition": "Robot White",
+    "specifications": {
+      "Controller family": "Xbox Wireless Controller",
+      "Connection": "Xbox Wireless / Bluetooth / USB-C",
+      "Power": "AA batteries or compatible rechargeable pack",
+      "Audio": "3.5mm headset jack",
+      "Design": "Robot White"
+    },
+    "sources": [
+      "https://www.xbox.com/en-us/accessories/controllers/xbox-wireless-controller"
+    ],
+    "previous": {
+      "description": "The Xbox Wireless Controller in Robot White, with textured grips, a hybrid D-pad and Share button. Confirm price, supplied region and availability with our team.",
+      "compatibility": "Xbox Series X|S, Xbox One and supported Windows, Android and iOS devices; check device-specific support.",
+      "edition": "Robot White"
+    }
+  },
+  {
+    "slug": "xbox-controller-shock-blue",
+    "description": "The Xbox Wireless Controller in Shock Blue. A hybrid D-pad, Share button and 3.5mm headset jack support everyday play, with Xbox Wireless, Bluetooth and USB-C connectivity.",
+    "compatibility": "Xbox Series X|S, Xbox One and supported Windows, Android and iOS games. Features and headset support depend on the device and connection.",
+    "edition": "Shock Blue",
+    "specifications": {
+      "Controller family": "Xbox Wireless Controller",
+      "Connection": "Xbox Wireless / Bluetooth / USB-C",
+      "Power": "AA batteries or compatible rechargeable pack",
+      "Audio": "3.5mm headset jack",
+      "Design": "Shock Blue"
+    },
+    "sources": [
+      "https://www.xbox.com/en-us/accessories/controllers/xbox-wireless-controller"
+    ],
+    "previous": {
+      "description": "A vivid Shock Blue finish with textured grips, a hybrid D-pad and a dedicated Share button. Confirm price, supplied region and availability with our team.",
+      "compatibility": "Xbox Series X|S, Xbox One and supported Windows, Android and iOS devices; check device-specific support.",
+      "edition": "Shock Blue"
+    }
+  },
+  {
+    "slug": "dualshock-4-jet-black",
+    "description": "DUALSHOCK 4 Wireless Controller — Jet Black provides PS4 wireless control with a touch pad, motion sensing, a light bar, built-in speaker and a stereo headset jack.",
+    "compatibility": "PS4; supported PS4 games played on PS5. PS5 games require a supported PS5 controller.",
+    "edition": "DUALSHOCK 4 Wireless Controller — Jet Black",
+    "specifications": {
+      "Controller family": "DUALSHOCK 4",
+      "Connection": "Bluetooth / micro-USB",
+      "Power": "Built-in rechargeable battery"
+    },
+    "sources": [
+      "https://www.playstation.com/en-us/accessories/dualshock-4-wireless-controller/"
+    ],
+    "previous": {
+      "description": "Sony DUALSHOCK 4 controller for PS4, with a touch pad, light bar, built-in speaker and stereo headset jack. Confirm price, supplied region and availability with our team.",
+      "compatibility": "PS4; check game-specific PC and mobile support before ordering.",
+      "edition": "Jet Black"
+    }
+  },
+  {
+    "slug": "dualshock-4-magma-red",
+    "description": "DUALSHOCK 4 Wireless Controller — Magma Red provides PS4 wireless control with a touch pad, motion sensing, a light bar, built-in speaker and a stereo headset jack.",
+    "compatibility": "PS4; supported PS4 games played on PS5. PS5 games require a supported PS5 controller.",
+    "edition": "DUALSHOCK 4 Wireless Controller — Magma Red",
+    "specifications": {
+      "Controller family": "DUALSHOCK 4",
+      "Connection": "Bluetooth / micro-USB",
+      "Power": "Built-in rechargeable battery"
+    },
+    "sources": [
+      "https://www.playstation.com/en-us/accessories/dualshock-4-wireless-controller/"
+    ],
+    "previous": {
+      "description": "The Magma Red DUALSHOCK 4 brings wireless PS4 control, a touch pad and a stereo headset jack. Confirm price, supplied region and availability with our team.",
+      "compatibility": "PS4; check game-specific PC and mobile support before ordering.",
+      "edition": "Magma Red"
+    }
+  },
+  {
+    "slug": "dualshock-4-titanium-blue",
+    "description": "DUALSHOCK 4 Wireless Controller — Titanium Blue provides PS4 wireless control with a touch pad, motion sensing, a light bar, built-in speaker and a stereo headset jack.",
+    "compatibility": "PS4; supported PS4 games played on PS5. PS5 games require a supported PS5 controller.",
+    "edition": "DUALSHOCK 4 Wireless Controller — Titanium Blue",
+    "specifications": {
+      "Controller family": "DUALSHOCK 4",
+      "Connection": "Bluetooth / micro-USB",
+      "Power": "Built-in rechargeable battery"
+    },
+    "sources": [
+      "https://www.playstation.com/en-us/accessories/dualshock-4-wireless-controller/"
+    ],
+    "previous": {
+      "description": "A metallic Titanium Blue finish on Sony's DUALSHOCK 4 controller, with a touch pad and motion sensors. Confirm price, supplied region and availability with our team.",
+      "compatibility": "PS4; check game-specific PC and mobile support before ordering.",
+      "edition": "Titanium Blue"
+    }
+  },
+  {
+    "slug": "god-of-war-ps4",
+    "description": "Journey through Norse mythology with Kratos and Atreus in this single-player action adventure. Physical PS4 disc edition.",
+    "compatibility": "PS4; playable on compatible PS5 consoles with a disc drive. This is the PS4 edition, not a PS5 upgrade entitlement.",
+    "edition": "God of War — PS4",
+    "specifications": {
+      "Format": "Physical game disc",
+      "Platform edition": "PS4"
+    },
+    "sources": ["https://www.playstation.com/en-us/games/god-of-war/"],
+    "previous": {
+      "description": "Journey through Norse mythology with Kratos and Atreus in this single-player action adventure. Physical PS4 disc edition. Confirm price, supplied region and availability with our team.",
+      "compatibility": "PS4. PS5 backwards compatibility requires a compatible console with a disc drive; check title support before ordering.",
+      "edition": "Standard Edition; confirm supplied edition with the store."
+    }
+  },
+  {
+    "slug": "uncharted-4-ps4",
+    "description": "Join Nathan Drake on a globe-spanning treasure hunt, with cinematic exploration, climbing and action. Physical PS4 disc edition.",
+    "compatibility": "PS4; playable on compatible PS5 consoles with a disc drive. This is the PS4 edition, not a PS5 upgrade entitlement.",
+    "edition": "Uncharted 4: A Thief's End — PS4",
+    "specifications": {
+      "Format": "Physical game disc",
+      "Platform edition": "PS4"
+    },
+    "sources": [
+      "https://www.playstation.com/en-us/games/uncharted-4-a-thiefs-end/"
+    ],
+    "previous": {
+      "description": "Join Nathan Drake on a globe-spanning treasure hunt, with cinematic exploration, climbing and action. Physical PS4 disc edition. Confirm price, supplied region and availability with our team.",
+      "compatibility": "PS4. PS5 backwards compatibility requires a compatible console with a disc drive; check title support before ordering.",
+      "edition": "Standard Edition; confirm supplied edition with the store."
+    }
+  },
+  {
+    "slug": "days-gone-ps4",
+    "description": "Ride across a dangerous open world as Deacon St. John, scavenging supplies and facing roaming hordes. Physical PS4 disc edition.",
+    "compatibility": "PS4; playable on compatible PS5 consoles with a disc drive. This is the PS4 edition, not a PS5 upgrade entitlement.",
+    "edition": "Days Gone — PS4",
+    "specifications": {
+      "Format": "Physical game disc",
+      "Platform edition": "PS4"
+    },
+    "sources": ["https://www.playstation.com/en-us/games/days-gone/"],
+    "previous": {
+      "description": "Ride across a dangerous open world as Deacon St. John, scavenging supplies and facing roaming hordes. Physical PS4 disc edition. Confirm price, supplied region and availability with our team.",
+      "compatibility": "PS4. PS5 backwards compatibility requires a compatible console with a disc drive; check title support before ordering.",
+      "edition": "Standard Edition; confirm supplied edition with the store."
+    }
+  },
+  {
+    "slug": "halo-infinite-xbox",
+    "description": "Return as Master Chief for a campaign on Zeta Halo. Physical Xbox disc edition; an internet connection and content download are required for installation.",
+    "compatibility": "Compatible Xbox One and Xbox Series X models with a disc drive. Not playable from disc on Xbox Series S or Series X Digital Edition.",
+    "edition": "Halo Infinite — Xbox",
+    "specifications": {
+      "Format": "Physical game disc",
+      "Platform edition": "Xbox Series"
+    },
+    "sources": ["https://www.xbox.com/en-US/games/halo-infinite"],
+    "previous": {
+      "description": "Return as Master Chief for a campaign on Zeta Halo. Physical Xbox disc edition; an internet connection and content download are required for installation. Confirm price, supplied region and availability with our team.",
+      "compatibility": "Xbox One and Xbox Series X with a disc drive. Not compatible with Xbox Series S or consoles without a disc drive. Internet downloads may be required.",
+      "edition": "Standard Edition; confirm supplied edition with the store."
+    }
+  },
+  {
+    "slug": "forza-horizon-5-xbox",
+    "description": "Explore Mexico in an open-world racing adventure with changing landscapes and a wide range of cars. Physical Xbox disc edition; downloads may be required.",
+    "compatibility": "Compatible Xbox One and Xbox Series X models with a disc drive. Not playable from disc on Xbox Series S or Series X Digital Edition.",
+    "edition": "Forza Horizon 5 — Xbox",
+    "specifications": {
+      "Format": "Physical game disc",
+      "Platform edition": "Xbox Series"
+    },
+    "sources": ["https://www.xbox.com/en-US/games/forza-horizon-5"],
+    "previous": {
+      "description": "Explore Mexico in an open-world racing adventure with changing landscapes and a wide range of cars. Physical Xbox disc edition; downloads may be required. Confirm price, supplied region and availability with our team.",
+      "compatibility": "Xbox One and Xbox Series X with a disc drive. Not compatible with Xbox Series S or consoles without a disc drive. Internet downloads may be required.",
+      "edition": "Standard Edition; confirm supplied edition with the store."
+    }
+  },
+  {
+    "slug": "gears-5-xbox",
+    "description": "Follow Kait Diaz through a story-driven third-person shooter with solo and cooperative campaign play. Physical Xbox One disc edition, also playable on Xbox Series X with a disc drive.",
+    "compatibility": "Compatible Xbox One and Xbox Series X models with a disc drive. Not playable from disc on Xbox Series S or Series X Digital Edition.",
+    "edition": "Gears 5 — Xbox",
+    "specifications": {
+      "Format": "Physical game disc",
+      "Platform edition": "Xbox One"
+    },
+    "sources": ["https://www.xbox.com/en-US/games/gears-5"],
+    "previous": {
+      "description": "Follow Kait Diaz through a story-driven third-person shooter with solo and cooperative campaign play. Physical Xbox One disc edition, also playable on Xbox Series X with a disc drive. Confirm price, supplied region and availability with our team.",
+      "compatibility": "Xbox One and Xbox Series X with a disc drive. Not compatible with Xbox Series S or consoles without a disc drive. Internet downloads may be required.",
+      "edition": "Standard Edition; confirm supplied edition with the store."
+    }
+  },
+  {
+    "slug": "mario-kart-8-deluxe-switch",
+    "description": "Race and battle with familiar Nintendo characters on a wide selection of tracks. Physical Nintendo Switch game card; Booster Course Pass is sold separately.",
+    "compatibility": "Nintendo Switch game-card format. Check individual title support when using Nintendo Switch 2.",
+    "edition": "Mario Kart 8 Deluxe — Nintendo Switch",
+    "specifications": {
+      "Format": "Nintendo Switch game card",
+      "Platform edition": "Switch"
+    },
+    "sources": [
+      "https://www.nintendo.com/us/store/products/mario-kart-8-deluxe-switch/"
+    ],
+    "previous": {
+      "description": "Race and battle with familiar Nintendo characters on a wide selection of tracks. Physical Nintendo Switch game card; Booster Course Pass is sold separately. Confirm price, supplied region and availability with our team.",
+      "compatibility": "Nintendo Switch, Nintendo Switch OLED and Nintendo Switch Lite; check any required accessories before ordering.",
+      "edition": "Standard Edition; confirm supplied edition with the store."
+    }
+  },
+  {
+    "slug": "super-mario-odyssey-switch",
+    "description": "Explore imaginative kingdoms with Mario and Cappy in a 3D platforming adventure. Physical Nintendo Switch game card.",
+    "compatibility": "Nintendo Switch game-card format. Check individual title support when using Nintendo Switch 2.",
+    "edition": "Super Mario Odyssey — Nintendo Switch",
+    "specifications": {
+      "Format": "Nintendo Switch game card",
+      "Platform edition": "Switch"
+    },
+    "sources": [
+      "https://www.nintendo.com/us/store/products/super-mario-odyssey-switch/"
+    ],
+    "previous": {
+      "description": "Explore imaginative kingdoms with Mario and Cappy in a 3D platforming adventure. Physical Nintendo Switch game card. Confirm price, supplied region and availability with our team.",
+      "compatibility": "Nintendo Switch, Nintendo Switch OLED and Nintendo Switch Lite; check any required accessories before ordering.",
+      "edition": "Standard Edition; confirm supplied edition with the store."
+    }
+  },
+  {
+    "slug": "zelda-breath-of-the-wild-switch",
+    "description": "Discover Hyrule through exploration, puzzles and survival as Link sets out on an open-world adventure. Physical Nintendo Switch game card; expansion content is sold separately.",
+    "compatibility": "Nintendo Switch game-card format. Check individual title support when using Nintendo Switch 2.",
+    "edition": "The Legend of Zelda: Breath of the Wild — Nintendo Switch",
+    "specifications": {
+      "Format": "Nintendo Switch game card",
+      "Platform edition": "Switch"
+    },
+    "sources": [
+      "https://www.nintendo.com/us/store/products/the-legend-of-zelda-breath-of-the-wild-switch/"
+    ],
+    "previous": {
+      "description": "Discover Hyrule through exploration, puzzles and survival as Link sets out on an open-world adventure. Physical Nintendo Switch game card; expansion content is sold separately. Confirm price, supplied region and availability with our team.",
+      "compatibility": "Nintendo Switch, Nintendo Switch OLED and Nintendo Switch Lite; check any required accessories before ordering.",
+      "edition": "Standard Edition; confirm supplied edition with the store."
+    }
+  },
+  {
+    "slug": "dualsense-nova-pink",
+    "description": "The Sony DualSense wireless controller in Nova Pink. Haptic feedback and adaptive triggers bring compatible PS5 games to life, with a built-in microphone, touch pad and USB-C charging.",
+    "compatibility": "PS5; compatible Windows PC, Mac and mobile games via supported USB/Bluetooth connections. Features vary by game and connection. Not a PS4 console controller.",
+    "edition": "Nova Pink",
+    "specifications": {
+      "Controller family": "DualSense",
+      "Connection": "Bluetooth / USB-C",
+      "Power": "Built-in rechargeable battery",
+      "Audio": "Built-in microphone / 3.5mm headset jack",
+      "Design": "Nova Pink"
+    },
+    "sources": [
+      "https://www.playstation.com/en-us/accessories/dualsense-wireless-controller/",
+      "https://www.playstation.com/en-gb/accessories/controllers/shop-all/"
+    ],
+    "previous": {
+      "description": "DualSense Wireless Controller - Nova Pink. Choose the available configuration below. Confirm supplied accessories and package contents with the store.",
+      "compatibility": "",
+      "edition": "Nova Pink"
+    }
+  },
+  {
+    "slug": "dualsense-starlight-blue",
+    "description": "The Sony DualSense wireless controller in Starlight Blue. Haptic feedback and adaptive triggers bring compatible PS5 games to life, with a built-in microphone, touch pad and USB-C charging.",
+    "compatibility": "PS5; compatible Windows PC, Mac and mobile games via supported USB/Bluetooth connections. Features vary by game and connection. Not a PS4 console controller.",
+    "edition": "Starlight Blue",
+    "specifications": {
+      "Controller family": "DualSense",
+      "Connection": "Bluetooth / USB-C",
+      "Power": "Built-in rechargeable battery",
+      "Audio": "Built-in microphone / 3.5mm headset jack",
+      "Design": "Starlight Blue"
+    },
+    "sources": [
+      "https://www.playstation.com/en-us/accessories/dualsense-wireless-controller/",
+      "https://www.playstation.com/en-gb/accessories/controllers/shop-all/"
+    ],
+    "previous": {
+      "description": "DualSense Wireless Controller - Starlight Blue. Choose the available configuration below. Confirm supplied accessories and package contents with the store.",
+      "compatibility": "",
+      "edition": "Starlight Blue"
+    }
+  },
+  {
+    "slug": "dualsense-galactic-purple",
+    "description": "The Sony DualSense wireless controller in Galactic Purple. Haptic feedback and adaptive triggers bring compatible PS5 games to life, with a built-in microphone, touch pad and USB-C charging.",
+    "compatibility": "PS5; compatible Windows PC, Mac and mobile games via supported USB/Bluetooth connections. Features vary by game and connection. Not a PS4 console controller.",
+    "edition": "Galactic Purple",
+    "specifications": {
+      "Controller family": "DualSense",
+      "Connection": "Bluetooth / USB-C",
+      "Power": "Built-in rechargeable battery",
+      "Audio": "Built-in microphone / 3.5mm headset jack",
+      "Design": "Galactic Purple"
+    },
+    "sources": [
+      "https://www.playstation.com/en-us/accessories/dualsense-wireless-controller/",
+      "https://www.playstation.com/en-gb/accessories/controllers/shop-all/"
+    ],
+    "previous": {
+      "description": "DualSense Wireless Controller - Galactic Purple. Choose the available configuration below. Confirm supplied accessories and package contents with the store.",
+      "compatibility": "",
+      "edition": "Galactic Purple"
+    }
+  },
+  {
+    "slug": "dualsense-grey-camouflage",
+    "description": "A grey camouflage shell with hidden PlayStation shapes. Haptic feedback and adaptive triggers bring compatible PS5 games to life, with a built-in microphone, touch pad and USB-C charging.",
+    "compatibility": "PS5; compatible Windows PC, Mac and mobile games via supported USB/Bluetooth connections. Features vary by game and connection. Not a PS4 console controller.",
+    "edition": "Grey Camouflage",
+    "specifications": {
+      "Controller family": "DualSense",
+      "Connection": "Bluetooth / USB-C",
+      "Power": "Built-in rechargeable battery",
+      "Audio": "Built-in microphone / 3.5mm headset jack",
+      "Design": "Grey Camouflage"
+    },
+    "sources": [
+      "https://www.playstation.com/en-us/accessories/dualsense-wireless-controller/",
+      "https://www.playstation.com/en-gb/accessories/controllers/shop-all/"
+    ],
+    "previous": {
+      "description": "DualSense Wireless Controller - Grey Camouflage. Choose the available configuration below. Confirm supplied accessories and package contents with the store.",
+      "compatibility": "",
+      "edition": "Grey Camouflage"
+    }
+  },
+  {
+    "slug": "dualsense-volcanic-red",
+    "description": "The Sony DualSense wireless controller in Volcanic Red. Haptic feedback and adaptive triggers bring compatible PS5 games to life, with a built-in microphone, touch pad and USB-C charging.",
+    "compatibility": "PS5; compatible Windows PC, Mac and mobile games via supported USB/Bluetooth connections. Features vary by game and connection. Not a PS4 console controller.",
+    "edition": "Volcanic Red",
+    "specifications": {
+      "Controller family": "DualSense",
+      "Connection": "Bluetooth / USB-C",
+      "Power": "Built-in rechargeable battery",
+      "Audio": "Built-in microphone / 3.5mm headset jack",
+      "Design": "Volcanic Red"
+    },
+    "sources": [
+      "https://www.playstation.com/en-us/accessories/dualsense-wireless-controller/",
+      "https://www.playstation.com/en-gb/accessories/controllers/shop-all/"
+    ],
+    "previous": {
+      "description": "DualSense Wireless Controller - Volcanic Red. Choose the available configuration below. Confirm supplied accessories and package contents with the store.",
+      "compatibility": "",
+      "edition": "Volcanic Red"
+    }
+  },
+  {
+    "slug": "dualsense-cobalt-blue",
+    "description": "The Sony DualSense wireless controller in Cobalt Blue. Haptic feedback and adaptive triggers bring compatible PS5 games to life, with a built-in microphone, touch pad and USB-C charging.",
+    "compatibility": "PS5; compatible Windows PC, Mac and mobile games via supported USB/Bluetooth connections. Features vary by game and connection. Not a PS4 console controller.",
+    "edition": "Cobalt Blue",
+    "specifications": {
+      "Controller family": "DualSense",
+      "Connection": "Bluetooth / USB-C",
+      "Power": "Built-in rechargeable battery",
+      "Audio": "Built-in microphone / 3.5mm headset jack",
+      "Design": "Cobalt Blue"
+    },
+    "sources": [
+      "https://www.playstation.com/en-us/accessories/dualsense-wireless-controller/",
+      "https://www.playstation.com/en-gb/accessories/controllers/shop-all/"
+    ],
+    "previous": {
+      "description": "DualSense Wireless Controller - Cobalt Blue. Choose the available configuration below. Confirm supplied accessories and package contents with the store.",
+      "compatibility": "",
+      "edition": "Cobalt Blue"
+    }
+  },
+  {
+    "slug": "dualsense-sterling-silver",
+    "description": "The Sony DualSense wireless controller in Sterling Silver. Haptic feedback and adaptive triggers bring compatible PS5 games to life, with a built-in microphone, touch pad and USB-C charging.",
+    "compatibility": "PS5; compatible Windows PC, Mac and mobile games via supported USB/Bluetooth connections. Features vary by game and connection. Not a PS4 console controller.",
+    "edition": "Sterling Silver",
+    "specifications": {
+      "Controller family": "DualSense",
+      "Connection": "Bluetooth / USB-C",
+      "Power": "Built-in rechargeable battery",
+      "Audio": "Built-in microphone / 3.5mm headset jack",
+      "Design": "Sterling Silver"
+    },
+    "sources": [
+      "https://www.playstation.com/en-us/accessories/dualsense-wireless-controller/",
+      "https://www.playstation.com/en-gb/accessories/controllers/shop-all/"
+    ],
+    "previous": {
+      "description": "DualSense Wireless Controller - Sterling Silver. Choose the available configuration below. Confirm supplied accessories and package contents with the store.",
+      "compatibility": "",
+      "edition": "Sterling Silver"
+    }
+  },
+  {
+    "slug": "dualsense-chroma-pearl",
+    "description": "An iridescent finish that shifts between pale pink and cream. Haptic feedback and adaptive triggers bring compatible PS5 games to life, with a built-in microphone, touch pad and USB-C charging.",
+    "compatibility": "PS5; compatible Windows PC, Mac and mobile games via supported USB/Bluetooth connections. Features vary by game and connection. Not a PS4 console controller.",
+    "edition": "Chroma Pearl",
+    "specifications": {
+      "Controller family": "DualSense",
+      "Connection": "Bluetooth / USB-C",
+      "Power": "Built-in rechargeable battery",
+      "Audio": "Built-in microphone / 3.5mm headset jack",
+      "Design": "Chroma Pearl"
+    },
+    "sources": [
+      "https://www.playstation.com/en-us/accessories/dualsense-wireless-controller/",
+      "https://www.playstation.com/en-gb/accessories/controllers/shop-all/"
+    ],
+    "previous": {
+      "description": "DualSense Wireless Controller - Chroma Pearl. Choose the available configuration below. Confirm supplied accessories and package contents with the store.",
+      "compatibility": "",
+      "edition": "Chroma Pearl"
+    }
+  },
+  {
+    "slug": "dualsense-chroma-indigo",
+    "description": "An iridescent finish that shifts between blue and purple. Haptic feedback and adaptive triggers bring compatible PS5 games to life, with a built-in microphone, touch pad and USB-C charging.",
+    "compatibility": "PS5; compatible Windows PC, Mac and mobile games via supported USB/Bluetooth connections. Features vary by game and connection. Not a PS4 console controller.",
+    "edition": "Chroma Indigo",
+    "specifications": {
+      "Controller family": "DualSense",
+      "Connection": "Bluetooth / USB-C",
+      "Power": "Built-in rechargeable battery",
+      "Audio": "Built-in microphone / 3.5mm headset jack",
+      "Design": "Chroma Indigo"
+    },
+    "sources": [
+      "https://www.playstation.com/en-us/accessories/dualsense-wireless-controller/",
+      "https://www.playstation.com/en-gb/accessories/controllers/shop-all/"
+    ],
+    "previous": {
+      "description": "DualSense Wireless Controller - Chroma Indigo. Choose the available configuration below. Confirm supplied accessories and package contents with the store.",
+      "compatibility": "",
+      "edition": "Chroma Indigo"
+    }
+  },
+  {
+    "slug": "dualsense-chroma-teal",
+    "description": "An iridescent finish with changing green tones. Haptic feedback and adaptive triggers bring compatible PS5 games to life, with a built-in microphone, touch pad and USB-C charging.",
+    "compatibility": "PS5; compatible Windows PC, Mac and mobile games via supported USB/Bluetooth connections. Features vary by game and connection. Not a PS4 console controller.",
+    "edition": "Chroma Teal",
+    "specifications": {
+      "Controller family": "DualSense",
+      "Connection": "Bluetooth / USB-C",
+      "Power": "Built-in rechargeable battery",
+      "Audio": "Built-in microphone / 3.5mm headset jack",
+      "Design": "Chroma Teal"
+    },
+    "sources": [
+      "https://www.playstation.com/en-us/accessories/dualsense-wireless-controller/",
+      "https://www.playstation.com/en-gb/accessories/controllers/shop-all/"
+    ],
+    "previous": {
+      "description": "DualSense Wireless Controller - Chroma Teal. Choose the available configuration below. Confirm supplied accessories and package contents with the store.",
+      "compatibility": "",
+      "edition": "Chroma Teal"
+    }
+  },
+  {
+    "slug": "dualsense-god-of-war-ragnarok",
+    "description": "A two-tone blue and white design with a bear and wolf emblem on the touch pad. Haptic feedback and adaptive triggers bring compatible PS5 games to life, with a built-in microphone, touch pad and USB-C charging.",
+    "compatibility": "PS5; compatible Windows PC, Mac and mobile games via supported USB/Bluetooth connections. Features vary by game and connection. Not a PS4 console controller.",
+    "edition": "God of War Ragnarök",
+    "specifications": {
+      "Controller family": "DualSense",
+      "Connection": "Bluetooth / USB-C",
+      "Power": "Built-in rechargeable battery",
+      "Audio": "Built-in microphone / 3.5mm headset jack",
+      "Design": "God of War Ragnarök"
+    },
+    "sources": [
+      "https://www.playstation.com/en-us/accessories/dualsense-wireless-controller/",
+      "https://direct.playstation.com/en-us/buy-accessories/dualsense-wireless-controller-god-of-war-ragnarok-limited-edition"
+    ],
+    "previous": {
+      "description": "DualSense Wireless Controller - God of War Ragnarök. Choose the available configuration below. Confirm supplied accessories and package contents with the store.",
+      "compatibility": "",
+      "edition": "God of War Ragnarök"
+    }
+  },
+  {
+    "slug": "dualsense-hogwarts-legacy",
+    "description": "A black shell with gold Hogwarts castle artwork and decorative magical motifs. Haptic feedback and adaptive triggers bring compatible PS5 games to life, with a built-in microphone, touch pad and USB-C charging.",
+    "compatibility": "PS5; compatible Windows PC, Mac and mobile games via supported USB/Bluetooth connections. Features vary by game and connection. Not a PS4 console controller.",
+    "edition": "Hogwarts Legacy",
+    "specifications": {
+      "Controller family": "DualSense",
+      "Connection": "Bluetooth / USB-C",
+      "Power": "Built-in rechargeable battery",
+      "Audio": "Built-in microphone / 3.5mm headset jack",
+      "Design": "Hogwarts Legacy"
+    },
+    "sources": [
+      "https://www.playstation.com/en-us/accessories/dualsense-wireless-controller/"
+    ],
+    "previous": {
+      "description": "DualSense Wireless Controller - Hogwarts Legacy. Choose the available configuration below. Confirm supplied accessories and package contents with the store.",
+      "compatibility": "",
+      "edition": "Hogwarts Legacy"
+    }
+  },
+  {
+    "slug": "dualsense-lebron-james",
+    "description": "A black design with colourful graphics and messages created with LeBron James. Haptic feedback and adaptive triggers bring compatible PS5 games to life, with a built-in microphone, touch pad and USB-C charging.",
+    "compatibility": "PS5; compatible Windows PC, Mac and mobile games via supported USB/Bluetooth connections. Features vary by game and connection. Not a PS4 console controller.",
+    "edition": "LeBron James",
+    "specifications": {
+      "Controller family": "DualSense",
+      "Connection": "Bluetooth / USB-C",
+      "Power": "Built-in rechargeable battery",
+      "Audio": "Built-in microphone / 3.5mm headset jack",
+      "Design": "LeBron James"
+    },
+    "sources": [
+      "https://www.playstation.com/en-us/accessories/dualsense-wireless-controller/"
+    ],
+    "previous": {
+      "description": "DualSense Wireless Controller - LeBron James. Choose the available configuration below. Confirm supplied accessories and package contents with the store.",
+      "compatibility": "",
+      "edition": "LeBron James"
+    }
+  },
+  {
+    "slug": "dualsense-final-fantasy-xvi",
+    "description": "A black controller with blue and gold crystal-inspired artwork. Haptic feedback and adaptive triggers bring compatible PS5 games to life, with a built-in microphone, touch pad and USB-C charging.",
+    "compatibility": "PS5; compatible Windows PC, Mac and mobile games via supported USB/Bluetooth connections. Features vary by game and connection. Not a PS4 console controller.",
+    "edition": "Final Fantasy XVI",
+    "specifications": {
+      "Controller family": "DualSense",
+      "Connection": "Bluetooth / USB-C",
+      "Power": "Built-in rechargeable battery",
+      "Audio": "Built-in microphone / 3.5mm headset jack",
+      "Design": "Final Fantasy XVI"
+    },
+    "sources": [
+      "https://www.playstation.com/en-us/accessories/dualsense-wireless-controller/"
+    ],
+    "previous": {
+      "description": "DualSense Wireless Controller - Final Fantasy XVI. Choose the available configuration below. Confirm supplied accessories and package contents with the store.",
+      "compatibility": "",
+      "edition": "Final Fantasy XVI"
+    }
+  },
+  {
+    "slug": "dualsense-marvel-s-spider-man-2",
+    "description": "A red and black design depicting the symbiote taking over the controller. Haptic feedback and adaptive triggers bring compatible PS5 games to life, with a built-in microphone, touch pad and USB-C charging.",
+    "compatibility": "PS5; compatible Windows PC, Mac and mobile games via supported USB/Bluetooth connections. Features vary by game and connection. Not a PS4 console controller.",
+    "edition": "Marvel's Spider-Man 2",
+    "specifications": {
+      "Controller family": "DualSense",
+      "Connection": "Bluetooth / USB-C",
+      "Power": "Built-in rechargeable battery",
+      "Audio": "Built-in microphone / 3.5mm headset jack",
+      "Design": "Marvel's Spider-Man 2"
+    },
+    "sources": [
+      "https://www.playstation.com/en-us/accessories/dualsense-wireless-controller/"
+    ],
+    "previous": {
+      "description": "DualSense Wireless Controller - Marvel's Spider-Man 2. Choose the available configuration below. Confirm supplied accessories and package contents with the store.",
+      "compatibility": "",
+      "edition": "Marvel's Spider-Man 2"
+    }
+  },
+  {
+    "slug": "dualsense-concord",
+    "description": "A black controller with red and teal graphics inspired by Concord. This listing is for the hardware; the discontinued game is not included. Haptic feedback and adaptive triggers bring compatible PS5 games to life, with a built-in microphone, touch pad and USB-C charging.",
+    "compatibility": "PS5; compatible Windows PC, Mac and mobile games via supported USB/Bluetooth connections. Features vary by game and connection. Not a PS4 console controller.",
+    "edition": "Concord",
+    "specifications": {
+      "Controller family": "DualSense",
+      "Connection": "Bluetooth / USB-C",
+      "Power": "Built-in rechargeable battery",
+      "Audio": "Built-in microphone / 3.5mm headset jack",
+      "Design": "Concord"
+    },
+    "sources": [
+      "https://www.playstation.com/en-us/accessories/dualsense-wireless-controller/"
+    ],
+    "previous": {
+      "description": "DualSense Wireless Controller - Concord. Choose the available configuration below. Confirm supplied accessories and package contents with the store.",
+      "compatibility": "",
+      "edition": "Concord"
+    }
+  },
+  {
+    "slug": "dualsense-astro-bot",
+    "description": "White and blue styling with Astro-inspired eyes on the touch pad. Haptic feedback and adaptive triggers bring compatible PS5 games to life, with a built-in microphone, touch pad and USB-C charging.",
+    "compatibility": "PS5; compatible Windows PC, Mac and mobile games via supported USB/Bluetooth connections. Features vary by game and connection. Not a PS4 console controller.",
+    "edition": "Astro Bot",
+    "specifications": {
+      "Controller family": "DualSense",
+      "Connection": "Bluetooth / USB-C",
+      "Power": "Built-in rechargeable battery",
+      "Audio": "Built-in microphone / 3.5mm headset jack",
+      "Design": "Astro Bot"
+    },
+    "sources": [
+      "https://www.playstation.com/en-us/accessories/dualsense-wireless-controller/"
+    ],
+    "previous": {
+      "description": "DualSense Wireless Controller - Astro Bot. Choose the available configuration below. Confirm supplied accessories and package contents with the store.",
+      "compatibility": "",
+      "edition": "Astro Bot"
+    }
+  },
+  {
+    "slug": "dualsense-fortnite",
+    "description": "A Fortnite-inspired design with game artwork across the controller. Haptic feedback and adaptive triggers bring compatible PS5 games to life, with a built-in microphone, touch pad and USB-C charging.",
+    "compatibility": "PS5; compatible Windows PC, Mac and mobile games via supported USB/Bluetooth connections. Features vary by game and connection. Not a PS4 console controller.",
+    "edition": "Fortnite",
+    "specifications": {
+      "Controller family": "DualSense",
+      "Connection": "Bluetooth / USB-C",
+      "Power": "Built-in rechargeable battery",
+      "Audio": "Built-in microphone / 3.5mm headset jack",
+      "Design": "Fortnite"
+    },
+    "sources": [
+      "https://www.playstation.com/en-us/accessories/dualsense-wireless-controller/"
+    ],
+    "previous": {
+      "description": "DualSense Wireless Controller - Fortnite. Choose the available configuration below. Confirm supplied accessories and package contents with the store.",
+      "compatibility": "",
+      "edition": "Fortnite"
+    }
+  },
+  {
+    "slug": "dualsense-playstation-30th-anniversary",
+    "description": "Classic grey styling, coloured PlayStation face-button symbols and anniversary details inspired by the original PlayStation. Haptic feedback and adaptive triggers bring compatible PS5 games to life, with a built-in microphone, touch pad and USB-C charging.",
+    "compatibility": "PS5; compatible Windows PC, Mac and mobile games via supported USB/Bluetooth connections. Features vary by game and connection. Not a PS4 console controller.",
+    "edition": "PlayStation 30th Anniversary",
+    "specifications": {
+      "Controller family": "DualSense",
+      "Connection": "Bluetooth / USB-C",
+      "Power": "Built-in rechargeable battery",
+      "Audio": "Built-in microphone / 3.5mm headset jack",
+      "Design": "PlayStation 30th Anniversary"
+    },
+    "sources": [
+      "https://www.playstation.com/en-us/accessories/dualsense-wireless-controller/"
+    ],
+    "previous": {
+      "description": "DualSense Wireless Controller - PlayStation 30th Anniversary. Choose the available configuration below. Confirm supplied accessories and package contents with the store.",
+      "compatibility": "",
+      "edition": "PlayStation 30th Anniversary"
+    }
+  },
+  {
+    "slug": "dualsense-helldivers-2",
+    "description": "A black and yellow design inspired by the Helldivers uniform. Haptic feedback and adaptive triggers bring compatible PS5 games to life, with a built-in microphone, touch pad and USB-C charging.",
+    "compatibility": "PS5; compatible Windows PC, Mac and mobile games via supported USB/Bluetooth connections. Features vary by game and connection. Not a PS4 console controller.",
+    "edition": "Helldivers 2",
+    "specifications": {
+      "Controller family": "DualSense",
+      "Connection": "Bluetooth / USB-C",
+      "Power": "Built-in rechargeable battery",
+      "Audio": "Built-in microphone / 3.5mm headset jack",
+      "Design": "Helldivers 2"
+    },
+    "sources": [
+      "https://www.playstation.com/en-us/accessories/dualsense-wireless-controller/",
+      "https://direct.playstation.com/en-us/buy-accessories/dualsense-wireless-controller-helldivers-2-limited-edition"
+    ],
+    "previous": {
+      "description": "DualSense Wireless Controller - Helldivers 2. Choose the available configuration below. Confirm supplied accessories and package contents with the store.",
+      "compatibility": "",
+      "edition": "Helldivers 2"
+    }
+  },
+  {
+    "slug": "dualsense-monster-hunter-wilds",
+    "description": "The Sony DualSense wireless controller in Monster Hunter Wilds. Haptic feedback and adaptive triggers bring compatible PS5 games to life, with a built-in microphone, touch pad and USB-C charging.",
+    "compatibility": "PS5; compatible Windows PC, Mac and mobile games via supported USB/Bluetooth connections. Features vary by game and connection. Not a PS4 console controller.",
+    "edition": "Monster Hunter Wilds",
+    "specifications": {
+      "Controller family": "DualSense",
+      "Connection": "Bluetooth / USB-C",
+      "Power": "Built-in rechargeable battery",
+      "Audio": "Built-in microphone / 3.5mm headset jack",
+      "Design": "Monster Hunter Wilds"
+    },
+    "sources": [
+      "https://www.playstation.com/en-us/accessories/dualsense-wireless-controller/",
+      "https://www.playstation.com/en-gb/accessories/controllers/shop-all/"
+    ],
+    "previous": {
+      "description": "DualSense Wireless Controller - Monster Hunter Wilds. Choose the available configuration below. Confirm supplied accessories and package contents with the store.",
+      "compatibility": "",
+      "edition": "Monster Hunter Wilds"
+    }
+  },
+  {
+    "slug": "dualsense-the-last-of-us",
+    "description": "A black controller with glossy trophy-icon artwork drawn from The Last of Us series. Haptic feedback and adaptive triggers bring compatible PS5 games to life, with a built-in microphone, touch pad and USB-C charging.",
+    "compatibility": "PS5; compatible Windows PC, Mac and mobile games via supported USB/Bluetooth connections. Features vary by game and connection. Not a PS4 console controller.",
+    "edition": "The Last of Us",
+    "specifications": {
+      "Controller family": "DualSense",
+      "Connection": "Bluetooth / USB-C",
+      "Power": "Built-in rechargeable battery",
+      "Audio": "Built-in microphone / 3.5mm headset jack",
+      "Design": "The Last of Us"
+    },
+    "sources": [
+      "https://www.playstation.com/en-us/accessories/dualsense-wireless-controller/",
+      "https://direct.playstation.com/en-us/buy-accessories/dualsense-wireless-controller-the-last-of-us-limited-edition"
+    ],
+    "previous": {
+      "description": "DualSense Wireless Controller - The Last of Us. Choose the available configuration below. Confirm supplied accessories and package contents with the store.",
+      "compatibility": "",
+      "edition": "The Last of Us"
+    }
+  },
+  {
+    "slug": "dualsense-death-stranding-2-on-the-beach",
+    "description": "The Sony DualSense wireless controller in Death Stranding 2 On the Beach. Haptic feedback and adaptive triggers bring compatible PS5 games to life, with a built-in microphone, touch pad and USB-C charging.",
+    "compatibility": "PS5; compatible Windows PC, Mac and mobile games via supported USB/Bluetooth connections. Features vary by game and connection. Not a PS4 console controller.",
+    "edition": "Death Stranding 2 On the Beach",
+    "specifications": {
+      "Controller family": "DualSense",
+      "Connection": "Bluetooth / USB-C",
+      "Power": "Built-in rechargeable battery",
+      "Audio": "Built-in microphone / 3.5mm headset jack",
+      "Design": "Death Stranding 2 On the Beach"
+    },
+    "sources": [
+      "https://www.playstation.com/en-us/accessories/dualsense-wireless-controller/",
+      "https://www.playstation.com/en-gb/accessories/controllers/shop-all/"
+    ],
+    "previous": {
+      "description": "DualSense Wireless Controller - Death Stranding 2 On the Beach. Choose the available configuration below. Confirm supplied accessories and package contents with the store.",
+      "compatibility": "",
+      "edition": "Death Stranding 2 On the Beach"
+    }
+  },
+  {
+    "slug": "dualsense-ghost-of-yotei-gold",
+    "description": "A gold-toned design inspired by Japanese kintsugi and the landscape of Ezo. Haptic feedback and adaptive triggers bring compatible PS5 games to life, with a built-in microphone, touch pad and USB-C charging.",
+    "compatibility": "PS5; compatible Windows PC, Mac and mobile games via supported USB/Bluetooth connections. Features vary by game and connection. Not a PS4 console controller.",
+    "edition": "Ghost of Yōtei Gold",
+    "specifications": {
+      "Controller family": "DualSense",
+      "Connection": "Bluetooth / USB-C",
+      "Power": "Built-in rechargeable battery",
+      "Audio": "Built-in microphone / 3.5mm headset jack",
+      "Design": "Ghost of Yōtei Gold"
+    },
+    "sources": [
+      "https://www.playstation.com/en-us/accessories/dualsense-wireless-controller/",
+      "https://www.playstation.com/en-gb/accessories/controllers/shop-all/"
+    ],
+    "previous": {
+      "description": "DualSense Wireless Controller - Ghost of Yōtei Gold. Choose the available configuration below. Confirm supplied accessories and package contents with the store.",
+      "compatibility": "",
+      "edition": "Ghost of Yōtei Gold"
+    }
+  },
+  {
+    "slug": "dualsense-ghost-of-yotei-black",
+    "description": "A black edition inspired by Japanese brush painting and the world of Ghost of Yotei. Haptic feedback and adaptive triggers bring compatible PS5 games to life, with a built-in microphone, touch pad and USB-C charging.",
+    "compatibility": "PS5; compatible Windows PC, Mac and mobile games via supported USB/Bluetooth connections. Features vary by game and connection. Not a PS4 console controller.",
+    "edition": "Ghost of Yōtei Black",
+    "specifications": {
+      "Controller family": "DualSense",
+      "Connection": "Bluetooth / USB-C",
+      "Power": "Built-in rechargeable battery",
+      "Audio": "Built-in microphone / 3.5mm headset jack",
+      "Design": "Ghost of Yōtei Black"
+    },
+    "sources": [
+      "https://www.playstation.com/en-us/accessories/dualsense-wireless-controller/",
+      "https://www.playstation.com/en-gb/accessories/controllers/shop-all/"
+    ],
+    "previous": {
+      "description": "DualSense Wireless Controller - Ghost of Yōtei Black. Choose the available configuration below. Confirm supplied accessories and package contents with the store.",
+      "compatibility": "",
+      "edition": "Ghost of Yōtei Black"
+    }
+  },
+  {
+    "slug": "dualsense-astro-bot-joyful-edition",
+    "description": "White and blue styling with smiling Astro-inspired eyes on the touch pad, distinguishing the Joyful Edition from the original Astro Bot controller. Haptic feedback and adaptive triggers bring compatible PS5 games to life, with a built-in microphone, touch pad and USB-C charging.",
+    "compatibility": "PS5; compatible Windows PC, Mac and mobile games via supported USB/Bluetooth connections. Features vary by game and connection. Not a PS4 console controller.",
+    "edition": "Astro Bot Joyful Edition",
+    "specifications": {
+      "Controller family": "DualSense",
+      "Connection": "Bluetooth / USB-C",
+      "Power": "Built-in rechargeable battery",
+      "Audio": "Built-in microphone / 3.5mm headset jack",
+      "Design": "Astro Bot Joyful Edition"
+    },
+    "sources": [
+      "https://www.playstation.com/en-us/accessories/dualsense-wireless-controller/"
+    ],
+    "previous": {
+      "description": "DualSense Wireless Controller - Astro Bot Joyful Edition. Choose the available configuration below. Confirm supplied accessories and package contents with the store.",
+      "compatibility": "",
+      "edition": "Astro Bot Joyful Edition"
+    }
+  },
+  {
+    "slug": "dualsense-god-of-war-20th-anniversary",
+    "description": "The Sony DualSense wireless controller in God of War 20th Anniversary. Haptic feedback and adaptive triggers bring compatible PS5 games to life, with a built-in microphone, touch pad and USB-C charging.",
+    "compatibility": "PS5; compatible Windows PC, Mac and mobile games via supported USB/Bluetooth connections. Features vary by game and connection. Not a PS4 console controller.",
+    "edition": "God of War 20th Anniversary",
+    "specifications": {
+      "Controller family": "DualSense",
+      "Connection": "Bluetooth / USB-C",
+      "Power": "Built-in rechargeable battery",
+      "Audio": "Built-in microphone / 3.5mm headset jack",
+      "Design": "God of War 20th Anniversary"
+    },
+    "sources": [
+      "https://www.playstation.com/en-us/accessories/dualsense-wireless-controller/",
+      "https://www.playstation.com/en-gb/accessories/controllers/shop-all/"
+    ],
+    "previous": {
+      "description": "DualSense Wireless Controller - God of War 20th Anniversary. Choose the available configuration below. Confirm supplied accessories and package contents with the store.",
+      "compatibility": "",
+      "edition": "God of War 20th Anniversary"
+    }
+  },
+  {
+    "slug": "dualsense-icon-blue-special-edition",
+    "description": "The Sony DualSense wireless controller in Icon Blue Special Edition. Haptic feedback and adaptive triggers bring compatible PS5 games to life, with a built-in microphone, touch pad and USB-C charging.",
+    "compatibility": "PS5; compatible Windows PC, Mac and mobile games via supported USB/Bluetooth connections. Features vary by game and connection. Not a PS4 console controller.",
+    "edition": "Icon Blue Special Edition",
+    "specifications": {
+      "Controller family": "DualSense",
+      "Connection": "Bluetooth / USB-C",
+      "Power": "Built-in rechargeable battery",
+      "Audio": "Built-in microphone / 3.5mm headset jack",
+      "Design": "Icon Blue Special Edition"
+    },
+    "sources": [
+      "https://www.playstation.com/en-us/accessories/dualsense-wireless-controller/",
+      "https://www.playstation.com/en-gb/accessories/controllers/shop-all/"
+    ],
+    "previous": {
+      "description": "DualSense Wireless Controller - Icon Blue Special Edition. Choose the available configuration below. Confirm supplied accessories and package contents with the store.",
+      "compatibility": "",
+      "edition": "Icon Blue Special Edition"
+    }
+  },
+  {
+    "slug": "dualsense-genshin-impact",
+    "description": "The Sony DualSense wireless controller in Genshin Impact. Haptic feedback and adaptive triggers bring compatible PS5 games to life, with a built-in microphone, touch pad and USB-C charging.",
+    "compatibility": "PS5; compatible Windows PC, Mac and mobile games via supported USB/Bluetooth connections. Features vary by game and connection. Not a PS4 console controller.",
+    "edition": "Genshin Impact",
+    "specifications": {
+      "Controller family": "DualSense",
+      "Connection": "Bluetooth / USB-C",
+      "Power": "Built-in rechargeable battery",
+      "Audio": "Built-in microphone / 3.5mm headset jack",
+      "Design": "Genshin Impact"
+    },
+    "sources": [
+      "https://www.playstation.com/en-us/accessories/dualsense-wireless-controller/",
+      "https://www.playstation.com/en-gb/accessories/controllers/shop-all/"
+    ],
+    "previous": {
+      "description": "DualSense Wireless Controller - Genshin Impact. Choose the available configuration below. Confirm supplied accessories and package contents with the store.",
+      "compatibility": "",
+      "edition": "Genshin Impact"
+    }
+  },
+  {
+    "slug": "dualsense-marathon",
+    "description": "The Sony DualSense wireless controller in Marathon. Haptic feedback and adaptive triggers bring compatible PS5 games to life, with a built-in microphone, touch pad and USB-C charging.",
+    "compatibility": "PS5; compatible Windows PC, Mac and mobile games via supported USB/Bluetooth connections. Features vary by game and connection. Not a PS4 console controller.",
+    "edition": "Marathon",
+    "specifications": {
+      "Controller family": "DualSense",
+      "Connection": "Bluetooth / USB-C",
+      "Power": "Built-in rechargeable battery",
+      "Audio": "Built-in microphone / 3.5mm headset jack",
+      "Design": "Marathon"
+    },
+    "sources": [
+      "https://www.playstation.com/en-us/accessories/dualsense-wireless-controller/",
+      "https://www.playstation.com/en-gb/accessories/controllers/shop-all/"
+    ],
+    "previous": {
+      "description": "DualSense Wireless Controller - Marathon. Choose the available configuration below. Confirm supplied accessories and package contents with the store.",
+      "compatibility": "",
+      "edition": "Marathon"
+    }
+  },
+  {
+    "slug": "dualsense-007-first-light",
+    "description": "The Sony DualSense wireless controller in 007 First Light. Haptic feedback and adaptive triggers bring compatible PS5 games to life, with a built-in microphone, touch pad and USB-C charging.",
+    "compatibility": "PS5; compatible Windows PC, Mac and mobile games via supported USB/Bluetooth connections. Features vary by game and connection. Not a PS4 console controller.",
+    "edition": "007 First Light",
+    "specifications": {
+      "Controller family": "DualSense",
+      "Connection": "Bluetooth / USB-C",
+      "Power": "Built-in rechargeable battery",
+      "Audio": "Built-in microphone / 3.5mm headset jack",
+      "Design": "007 First Light"
+    },
+    "sources": [
+      "https://www.playstation.com/en-us/accessories/dualsense-wireless-controller/",
+      "https://www.playstation.com/en-gb/accessories/controllers/shop-all/"
+    ],
+    "previous": {
+      "description": "DualSense Wireless Controller - 007 First Light. Choose the available configuration below. Confirm supplied accessories and package contents with the store.",
+      "compatibility": "",
+      "edition": "007 First Light"
+    }
+  },
+  {
+    "slug": "dualsense-marvel-s-wolverine-adamantium",
+    "description": "The Sony DualSense wireless controller in Marvel's Wolverine Adamantium. Haptic feedback and adaptive triggers bring compatible PS5 games to life, with a built-in microphone, touch pad and USB-C charging.",
+    "compatibility": "PS5; compatible Windows PC, Mac and mobile games via supported USB/Bluetooth connections. Features vary by game and connection. Not a PS4 console controller.",
+    "edition": "Marvel's Wolverine Adamantium",
+    "specifications": {
+      "Controller family": "DualSense",
+      "Connection": "Bluetooth / USB-C",
+      "Power": "Built-in rechargeable battery",
+      "Audio": "Built-in microphone / 3.5mm headset jack",
+      "Design": "Marvel's Wolverine Adamantium"
+    },
+    "sources": [
+      "https://www.playstation.com/en-us/accessories/dualsense-wireless-controller/",
+      "https://www.playstation.com/en-gb/accessories/controllers/shop-all/"
+    ],
+    "previous": {
+      "description": "DualSense Wireless Controller - Marvel's Wolverine Adamantium. Choose the available configuration below. Confirm supplied accessories and package contents with the store.",
+      "compatibility": "",
+      "edition": "Marvel's Wolverine Adamantium"
+    }
+  },
+  {
+    "slug": "dualsense-marvel-s-wolverine-battle-yellow",
+    "description": "The Sony DualSense wireless controller in Marvel's Wolverine Battle Yellow. Haptic feedback and adaptive triggers bring compatible PS5 games to life, with a built-in microphone, touch pad and USB-C charging.",
+    "compatibility": "PS5; compatible Windows PC, Mac and mobile games via supported USB/Bluetooth connections. Features vary by game and connection. Not a PS4 console controller.",
+    "edition": "Marvel's Wolverine Battle Yellow",
+    "specifications": {
+      "Controller family": "DualSense",
+      "Connection": "Bluetooth / USB-C",
+      "Power": "Built-in rechargeable battery",
+      "Audio": "Built-in microphone / 3.5mm headset jack",
+      "Design": "Marvel's Wolverine Battle Yellow"
+    },
+    "sources": [
+      "https://www.playstation.com/en-us/accessories/dualsense-wireless-controller/",
+      "https://www.playstation.com/en-gb/accessories/controllers/shop-all/"
+    ],
+    "previous": {
+      "description": "DualSense Wireless Controller - Marvel's Wolverine Battle Yellow. Choose the available configuration below. Confirm supplied accessories and package contents with the store.",
+      "compatibility": "",
+      "edition": "Marvel's Wolverine Battle Yellow"
+    }
+  },
+  {
+    "slug": "dualsense-grand-theft-auto-vi-black",
+    "description": "The Sony DualSense wireless controller in Grand Theft Auto VI Black. Haptic feedback and adaptive triggers bring compatible PS5 games to life, with a built-in microphone, touch pad and USB-C charging.",
+    "compatibility": "PS5; compatible Windows PC, Mac and mobile games via supported USB/Bluetooth connections. Features vary by game and connection. Not a PS4 console controller.",
+    "edition": "Grand Theft Auto VI Black",
+    "specifications": {
+      "Controller family": "DualSense",
+      "Connection": "Bluetooth / USB-C",
+      "Power": "Built-in rechargeable battery",
+      "Audio": "Built-in microphone / 3.5mm headset jack",
+      "Design": "Grand Theft Auto VI Black"
+    },
+    "sources": [
+      "https://www.playstation.com/en-us/accessories/dualsense-wireless-controller/",
+      "https://www.playstation.com/en-gb/accessories/controllers/shop-all/"
+    ],
+    "previous": {
+      "description": "DualSense Wireless Controller - Grand Theft Auto VI Black. Choose the available configuration below. Confirm supplied accessories and package contents with the store.",
+      "compatibility": "",
+      "edition": "Grand Theft Auto VI Black"
+    }
+  },
+  {
+    "slug": "dualsense-grand-theft-auto-vi-white",
+    "description": "The Sony DualSense wireless controller in Grand Theft Auto VI White. Haptic feedback and adaptive triggers bring compatible PS5 games to life, with a built-in microphone, touch pad and USB-C charging.",
+    "compatibility": "PS5; compatible Windows PC, Mac and mobile games via supported USB/Bluetooth connections. Features vary by game and connection. Not a PS4 console controller.",
+    "edition": "Grand Theft Auto VI White",
+    "specifications": {
+      "Controller family": "DualSense",
+      "Connection": "Bluetooth / USB-C",
+      "Power": "Built-in rechargeable battery",
+      "Audio": "Built-in microphone / 3.5mm headset jack",
+      "Design": "Grand Theft Auto VI White"
+    },
+    "sources": [
+      "https://www.playstation.com/en-us/accessories/dualsense-wireless-controller/",
+      "https://www.playstation.com/en-gb/accessories/controllers/shop-all/"
+    ],
+    "previous": {
+      "description": "DualSense Wireless Controller - Grand Theft Auto VI White. Choose the available configuration below. Confirm supplied accessories and package contents with the store.",
+      "compatibility": "",
+      "edition": "Grand Theft Auto VI White"
+    }
+  },
+  {
+    "slug": "dualsense-lisa",
+    "description": "The Sony DualSense wireless controller in LISA. Haptic feedback and adaptive triggers bring compatible PS5 games to life, with a built-in microphone, touch pad and USB-C charging.",
+    "compatibility": "PS5; compatible Windows PC, Mac and mobile games via supported USB/Bluetooth connections. Features vary by game and connection. Not a PS4 console controller.",
+    "edition": "LISA",
+    "specifications": {
+      "Controller family": "DualSense",
+      "Connection": "Bluetooth / USB-C",
+      "Power": "Built-in rechargeable battery",
+      "Audio": "Built-in microphone / 3.5mm headset jack",
+      "Design": "LISA"
+    },
+    "sources": [
+      "https://www.playstation.com/en-us/accessories/dualsense-wireless-controller/",
+      "https://www.playstation.com/en-gb/accessories/controllers/shop-all/"
+    ],
+    "previous": {
+      "description": "DualSense Wireless Controller - LISA. Choose the available configuration below. Confirm supplied accessories and package contents with the store.",
+      "compatibility": "",
+      "edition": "LISA"
+    }
+  },
+  {
+    "slug": "dualsense-edge-white",
+    "description": "DualSense Edge - White adds remappable controls, adjustable trigger travel, interchangeable stick caps and replaceable stick modules to the DualSense feature set. Save control profiles for supported games.",
+    "compatibility": "PS5 and supported Windows PC games. Features vary by game and connection; PC customisation uses compatible PlayStation software.",
+    "edition": "White",
+    "specifications": {
+      "Controller family": "DualSense Edge",
+      "Connection": "Bluetooth / USB-C",
+      "Power": "Built-in rechargeable battery",
+      "Customisation": "Back buttons, stick sensitivity and trigger travel",
+      "Design": "White"
+    },
+    "sources": [
+      "https://www.playstation.com/en-us/accessories/dualsense-edge-wireless-controller/"
+    ],
+    "previous": {
+      "description": "DualSense Edge - White. Choose the available configuration below. Confirm supplied accessories and package contents with the store.",
+      "compatibility": "",
+      "edition": "White"
+    }
+  },
+  {
+    "slug": "dualsense-edge-midnight-black",
+    "description": "DualSense Edge - Midnight Black adds remappable controls, adjustable trigger travel, interchangeable stick caps and replaceable stick modules to the DualSense feature set. Save control profiles for supported games.",
+    "compatibility": "PS5 and supported Windows PC games. Features vary by game and connection; PC customisation uses compatible PlayStation software.",
+    "edition": "Midnight Black",
+    "specifications": {
+      "Controller family": "DualSense Edge",
+      "Connection": "Bluetooth / USB-C",
+      "Power": "Built-in rechargeable battery",
+      "Customisation": "Back buttons, stick sensitivity and trigger travel",
+      "Design": "Midnight Black"
+    },
+    "sources": [
+      "https://www.playstation.com/en-us/accessories/dualsense-edge-wireless-controller/",
+      "https://www.playstation.com/en-gb/accessories/controllers/shop-all/"
+    ],
+    "previous": {
+      "description": "DualSense Edge - Midnight Black. Choose the available configuration below. Confirm supplied accessories and package contents with the store.",
+      "compatibility": "",
+      "edition": "Midnight Black"
+    }
+  },
+  {
+    "slug": "dualsense-edge-playstation-30th-anniversary-limited-edition",
+    "description": "DualSense Edge - PlayStation 30th Anniversary Limited Edition adds remappable controls, adjustable trigger travel, interchangeable stick caps and replaceable stick modules to the DualSense feature set. Save control profiles for supported games.",
+    "compatibility": "PS5 and supported Windows PC games. Features vary by game and connection; PC customisation uses compatible PlayStation software.",
+    "edition": "PlayStation 30th Anniversary Limited Edition",
+    "specifications": {
+      "Controller family": "DualSense Edge",
+      "Connection": "Bluetooth / USB-C",
+      "Power": "Built-in rechargeable battery",
+      "Customisation": "Back buttons, stick sensitivity and trigger travel",
+      "Design": "PlayStation 30th Anniversary Limited Edition"
+    },
+    "sources": [
+      "https://www.playstation.com/en-us/accessories/dualsense-edge-wireless-controller/"
+    ],
+    "previous": {
+      "description": "DualSense Edge - PlayStation 30th Anniversary Limited Edition. Choose the available configuration below. Confirm supplied accessories and package contents with the store.",
+      "compatibility": "",
+      "edition": "PlayStation 30th Anniversary Limited Edition"
+    }
+  },
+  {
+    "slug": "xbox-controller-pulse-red",
+    "description": "The Xbox Wireless Controller in Pulse Red. A hybrid D-pad, Share button and 3.5mm headset jack support everyday play, with Xbox Wireless, Bluetooth and USB-C connectivity.",
+    "compatibility": "Xbox Series X|S, Xbox One and supported Windows, Android and iOS games. Features and headset support depend on the device and connection.",
+    "edition": "Pulse Red",
+    "specifications": {
+      "Controller family": "Xbox Wireless Controller",
+      "Connection": "Xbox Wireless / Bluetooth / USB-C",
+      "Power": "AA batteries or compatible rechargeable pack",
+      "Audio": "3.5mm headset jack",
+      "Design": "Pulse Red"
+    },
+    "sources": [
+      "https://www.xbox.com/en-us/accessories/controllers/xbox-wireless-controller"
+    ],
+    "previous": {
+      "description": "Xbox Wireless Controller - Pulse Red. Choose the available configuration below. Confirm supplied accessories and package contents with the store.",
+      "compatibility": "",
+      "edition": "Pulse Red"
+    }
+  },
+  {
+    "slug": "xbox-controller-electric-volt",
+    "description": "The Xbox Wireless Controller in Electric Volt. A hybrid D-pad, Share button and 3.5mm headset jack support everyday play, with Xbox Wireless, Bluetooth and USB-C connectivity.",
+    "compatibility": "Xbox Series X|S, Xbox One and supported Windows, Android and iOS games. Features and headset support depend on the device and connection.",
+    "edition": "Electric Volt",
+    "specifications": {
+      "Controller family": "Xbox Wireless Controller",
+      "Connection": "Xbox Wireless / Bluetooth / USB-C",
+      "Power": "AA batteries or compatible rechargeable pack",
+      "Audio": "3.5mm headset jack",
+      "Design": "Electric Volt"
+    },
+    "sources": [
+      "https://www.xbox.com/en-us/accessories/controllers/xbox-wireless-controller"
+    ],
+    "previous": {
+      "description": "Xbox Wireless Controller - Electric Volt. Choose the available configuration below. Confirm supplied accessories and package contents with the store.",
+      "compatibility": "",
+      "edition": "Electric Volt"
+    }
+  },
+  {
+    "slug": "xbox-controller-deep-pink",
+    "description": "The Xbox Wireless Controller in Deep Pink. A hybrid D-pad, Share button and 3.5mm headset jack support everyday play, with Xbox Wireless, Bluetooth and USB-C connectivity.",
+    "compatibility": "Xbox Series X|S, Xbox One and supported Windows, Android and iOS games. Features and headset support depend on the device and connection.",
+    "edition": "Deep Pink",
+    "specifications": {
+      "Controller family": "Xbox Wireless Controller",
+      "Connection": "Xbox Wireless / Bluetooth / USB-C",
+      "Power": "AA batteries or compatible rechargeable pack",
+      "Audio": "3.5mm headset jack",
+      "Design": "Deep Pink"
+    },
+    "sources": [
+      "https://www.xbox.com/en-us/accessories/controllers/xbox-wireless-controller"
+    ],
+    "previous": {
+      "description": "Xbox Wireless Controller - Deep Pink. Choose the available configuration below. Confirm supplied accessories and package contents with the store.",
+      "compatibility": "",
+      "edition": "Deep Pink"
+    }
+  },
+  {
+    "slug": "xbox-controller-velocity-green",
+    "description": "The Xbox Wireless Controller in Velocity Green. A hybrid D-pad, Share button and 3.5mm headset jack support everyday play, with Xbox Wireless, Bluetooth and USB-C connectivity.",
+    "compatibility": "Xbox Series X|S, Xbox One and supported Windows, Android and iOS games. Features and headset support depend on the device and connection.",
+    "edition": "Velocity Green",
+    "specifications": {
+      "Controller family": "Xbox Wireless Controller",
+      "Connection": "Xbox Wireless / Bluetooth / USB-C",
+      "Power": "AA batteries or compatible rechargeable pack",
+      "Audio": "3.5mm headset jack",
+      "Design": "Velocity Green"
+    },
+    "sources": [
+      "https://www.xbox.com/en-us/accessories/controllers/xbox-wireless-controller"
+    ],
+    "previous": {
+      "description": "Xbox Wireless Controller - Velocity Green. Choose the available configuration below. Confirm supplied accessories and package contents with the store.",
+      "compatibility": "",
+      "edition": "Velocity Green"
+    }
+  },
+  {
+    "slug": "xbox-controller-astral-purple",
+    "description": "The Xbox Wireless Controller in Astral Purple. A hybrid D-pad, Share button and 3.5mm headset jack support everyday play, with Xbox Wireless, Bluetooth and USB-C connectivity.",
+    "compatibility": "Xbox Series X|S, Xbox One and supported Windows, Android and iOS games. Features and headset support depend on the device and connection.",
+    "edition": "Astral Purple",
+    "specifications": {
+      "Controller family": "Xbox Wireless Controller",
+      "Connection": "Xbox Wireless / Bluetooth / USB-C",
+      "Power": "AA batteries or compatible rechargeable pack",
+      "Audio": "3.5mm headset jack",
+      "Design": "Astral Purple"
+    },
+    "sources": [
+      "https://www.xbox.com/en-us/accessories/controllers/xbox-wireless-controller"
+    ],
+    "previous": {
+      "description": "Xbox Wireless Controller - Astral Purple. Choose the available configuration below. Confirm supplied accessories and package contents with the store.",
+      "compatibility": "",
+      "edition": "Astral Purple"
+    }
+  },
+  {
+    "slug": "xbox-controller-daystrike-camo",
+    "description": "Red, grey and black camouflage across the front shell. A hybrid D-pad, Share button and 3.5mm headset jack support everyday play, with Xbox Wireless, Bluetooth and USB-C connectivity.",
+    "compatibility": "Xbox Series X|S, Xbox One and supported Windows, Android and iOS games. Features and headset support depend on the device and connection.",
+    "edition": "Daystrike Camo",
+    "specifications": {
+      "Controller family": "Xbox Wireless Controller",
+      "Connection": "Xbox Wireless / Bluetooth / USB-C",
+      "Power": "AA batteries or compatible rechargeable pack",
+      "Audio": "3.5mm headset jack",
+      "Design": "Daystrike Camo"
+    },
+    "sources": [
+      "https://www.xbox.com/en-us/accessories/controllers/xbox-wireless-controller"
+    ],
+    "previous": {
+      "description": "Xbox Wireless Controller - Daystrike Camo. Choose the available configuration below. Confirm supplied accessories and package contents with the store.",
+      "compatibility": "",
+      "edition": "Daystrike Camo"
+    }
+  },
+  {
+    "slug": "xbox-controller-mineral-camo",
+    "description": "Blue and purple mineral-inspired camouflage across the front shell. A hybrid D-pad, Share button and 3.5mm headset jack support everyday play, with Xbox Wireless, Bluetooth and USB-C connectivity.",
+    "compatibility": "Xbox Series X|S, Xbox One and supported Windows, Android and iOS games. Features and headset support depend on the device and connection.",
+    "edition": "Mineral Camo",
+    "specifications": {
+      "Controller family": "Xbox Wireless Controller",
+      "Connection": "Xbox Wireless / Bluetooth / USB-C",
+      "Power": "AA batteries or compatible rechargeable pack",
+      "Audio": "3.5mm headset jack",
+      "Design": "Mineral Camo"
+    },
+    "sources": [
+      "https://www.xbox.com/en-us/accessories/controllers/xbox-wireless-controller"
+    ],
+    "previous": {
+      "description": "Xbox Wireless Controller - Mineral Camo. Choose the available configuration below. Confirm supplied accessories and package contents with the store.",
+      "compatibility": "",
+      "edition": "Mineral Camo"
+    }
+  },
+  {
+    "slug": "xbox-controller-arctic-camo",
+    "description": "White and grey camouflage styling. A hybrid D-pad, Share button and 3.5mm headset jack support everyday play, with Xbox Wireless, Bluetooth and USB-C connectivity.",
+    "compatibility": "Xbox Series X|S, Xbox One and supported Windows, Android and iOS games. Features and headset support depend on the device and connection.",
+    "edition": "Arctic Camo",
+    "specifications": {
+      "Controller family": "Xbox Wireless Controller",
+      "Connection": "Xbox Wireless / Bluetooth / USB-C",
+      "Power": "AA batteries or compatible rechargeable pack",
+      "Audio": "3.5mm headset jack",
+      "Design": "Arctic Camo"
+    },
+    "sources": [
+      "https://www.xbox.com/en-us/accessories/controllers/xbox-wireless-controller"
+    ],
+    "previous": {
+      "description": "Xbox Wireless Controller - Arctic Camo. Choose the available configuration below. Confirm supplied accessories and package contents with the store.",
+      "compatibility": "",
+      "edition": "Arctic Camo"
+    }
+  },
+  {
+    "slug": "xbox-controller-aqua-shift",
+    "description": "A blue colour-shifting finish with patterned rubberised side grips. A hybrid D-pad, Share button and 3.5mm headset jack support everyday play, with Xbox Wireless, Bluetooth and USB-C connectivity.",
+    "compatibility": "Xbox Series X|S, Xbox One and supported Windows, Android and iOS games. Features and headset support depend on the device and connection.",
+    "edition": "Aqua Shift",
+    "specifications": {
+      "Controller family": "Xbox Wireless Controller",
+      "Connection": "Xbox Wireless / Bluetooth / USB-C",
+      "Power": "AA batteries or compatible rechargeable pack",
+      "Audio": "3.5mm headset jack",
+      "Design": "Aqua Shift"
+    },
+    "sources": [
+      "https://www.xbox.com/en-us/accessories/controllers/xbox-wireless-controller"
+    ],
+    "previous": {
+      "description": "Xbox Wireless Controller - Aqua Shift. Choose the available configuration below. Confirm supplied accessories and package contents with the store.",
+      "compatibility": "",
+      "edition": "Aqua Shift"
+    }
+  },
+  {
+    "slug": "xbox-controller-lunar-shift",
+    "description": "A silver-to-gold colour-shifting finish with grey and black swirled grips. A hybrid D-pad, Share button and 3.5mm headset jack support everyday play, with Xbox Wireless, Bluetooth and USB-C connectivity.",
+    "compatibility": "Xbox Series X|S, Xbox One and supported Windows, Android and iOS games. Features and headset support depend on the device and connection.",
+    "edition": "Lunar Shift",
+    "specifications": {
+      "Controller family": "Xbox Wireless Controller",
+      "Connection": "Xbox Wireless / Bluetooth / USB-C",
+      "Power": "AA batteries or compatible rechargeable pack",
+      "Audio": "3.5mm headset jack",
+      "Design": "Lunar Shift"
+    },
+    "sources": [
+      "https://www.xbox.com/en-us/accessories/controllers/xbox-wireless-controller"
+    ],
+    "previous": {
+      "description": "Xbox Wireless Controller - Lunar Shift. Choose the available configuration below. Confirm supplied accessories and package contents with the store.",
+      "compatibility": "",
+      "edition": "Lunar Shift"
+    }
+  },
+  {
+    "slug": "xbox-controller-stellar-shift",
+    "description": "A blue-to-purple colour-shifting finish with swirled grips. A hybrid D-pad, Share button and 3.5mm headset jack support everyday play, with Xbox Wireless, Bluetooth and USB-C connectivity.",
+    "compatibility": "Xbox Series X|S, Xbox One and supported Windows, Android and iOS games. Features and headset support depend on the device and connection.",
+    "edition": "Stellar Shift",
+    "specifications": {
+      "Controller family": "Xbox Wireless Controller",
+      "Connection": "Xbox Wireless / Bluetooth / USB-C",
+      "Power": "AA batteries or compatible rechargeable pack",
+      "Audio": "3.5mm headset jack",
+      "Design": "Stellar Shift"
+    },
+    "sources": [
+      "https://www.xbox.com/en-us/accessories/controllers/xbox-wireless-controller"
+    ],
+    "previous": {
+      "description": "Xbox Wireless Controller - Stellar Shift. Choose the available configuration below. Confirm supplied accessories and package contents with the store.",
+      "compatibility": "",
+      "edition": "Stellar Shift"
+    }
+  },
+  {
+    "slug": "xbox-controller-sunkissed-vibes-opi",
+    "description": "An OPI collaboration with a peach-orange front and pastel blue accents. A hybrid D-pad, Share button and 3.5mm headset jack support everyday play, with Xbox Wireless, Bluetooth and USB-C connectivity.",
+    "compatibility": "Xbox Series X|S, Xbox One and supported Windows, Android and iOS games. Features and headset support depend on the device and connection.",
+    "edition": "Sunkissed Vibes OPI",
+    "specifications": {
+      "Controller family": "Xbox Wireless Controller",
+      "Connection": "Xbox Wireless / Bluetooth / USB-C",
+      "Power": "AA batteries or compatible rechargeable pack",
+      "Audio": "3.5mm headset jack",
+      "Design": "Sunkissed Vibes OPI"
+    },
+    "sources": [
+      "https://www.xbox.com/en-us/accessories/controllers/xbox-wireless-controller"
+    ],
+    "previous": {
+      "description": "Xbox Wireless Controller - Sunkissed Vibes OPI. Choose the available configuration below. Confirm supplied accessories and package contents with the store.",
+      "compatibility": "",
+      "edition": "Sunkissed Vibes OPI"
+    }
+  },
+  {
+    "slug": "xbox-controller-remix-special-edition",
+    "description": "An earth-tone green design made partly with recycled materials. Surface textures and patterns can vary between units. A hybrid D-pad, Share button and 3.5mm headset jack support everyday play, with Xbox Wireless, Bluetooth and USB-C connectivity.",
+    "compatibility": "Xbox Series X|S, Xbox One and supported Windows, Android and iOS games. Features and headset support depend on the device and connection.",
+    "edition": "Remix Special Edition",
+    "specifications": {
+      "Controller family": "Xbox Wireless Controller",
+      "Connection": "Xbox Wireless / Bluetooth / USB-C",
+      "Power": "AA batteries or compatible rechargeable pack",
+      "Audio": "3.5mm headset jack",
+      "Design": "Remix Special Edition"
+    },
+    "sources": [
+      "https://www.xbox.com/en-us/accessories/controllers/xbox-wireless-controller"
+    ],
+    "previous": {
+      "description": "Xbox Wireless Controller - Remix Special Edition. Choose the available configuration below. Confirm supplied accessories and package contents with the store.",
+      "compatibility": "",
+      "edition": "Remix Special Edition"
+    }
+  },
+  {
+    "slug": "xbox-controller-gold-shadow",
+    "description": "A gold-to-black gradient on the front shell with gold accents. A hybrid D-pad, Share button and 3.5mm headset jack support everyday play, with Xbox Wireless, Bluetooth and USB-C connectivity.",
+    "compatibility": "Xbox Series X|S, Xbox One and supported Windows, Android and iOS games. Features and headset support depend on the device and connection.",
+    "edition": "Gold Shadow",
+    "specifications": {
+      "Controller family": "Xbox Wireless Controller",
+      "Connection": "Xbox Wireless / Bluetooth / USB-C",
+      "Power": "AA batteries or compatible rechargeable pack",
+      "Audio": "3.5mm headset jack",
+      "Design": "Gold Shadow"
+    },
+    "sources": [
+      "https://www.xbox.com/en-us/accessories/controllers/xbox-wireless-controller"
+    ],
+    "previous": {
+      "description": "Xbox Wireless Controller - Gold Shadow. Choose the available configuration below. Confirm supplied accessories and package contents with the store.",
+      "compatibility": "",
+      "edition": "Gold Shadow"
+    }
+  },
+  {
+    "slug": "xbox-controller-xbox-20th-anniversary",
+    "description": "A translucent black shell with green accents celebrating twenty years of Xbox. A hybrid D-pad, Share button and 3.5mm headset jack support everyday play, with Xbox Wireless, Bluetooth and USB-C connectivity.",
+    "compatibility": "Xbox Series X|S, Xbox One and supported Windows, Android and iOS games. Features and headset support depend on the device and connection.",
+    "edition": "Xbox 20th Anniversary",
+    "specifications": {
+      "Controller family": "Xbox Wireless Controller",
+      "Connection": "Xbox Wireless / Bluetooth / USB-C",
+      "Power": "AA batteries or compatible rechargeable pack",
+      "Audio": "3.5mm headset jack",
+      "Design": "Xbox 20th Anniversary"
+    },
+    "sources": [
+      "https://www.xbox.com/en-us/accessories/controllers/xbox-wireless-controller"
+    ],
+    "previous": {
+      "description": "Xbox Wireless Controller - Xbox 20th Anniversary. Choose the available configuration below. Confirm supplied accessories and package contents with the store.",
+      "compatibility": "",
+      "edition": "Xbox 20th Anniversary"
+    }
+  },
+  {
+    "slug": "xbox-controller-stormcloud-vapor",
+    "description": "A blue swirling pattern that varies between individual controllers. A hybrid D-pad, Share button and 3.5mm headset jack support everyday play, with Xbox Wireless, Bluetooth and USB-C connectivity.",
+    "compatibility": "Xbox Series X|S, Xbox One and supported Windows, Android and iOS games. Features and headset support depend on the device and connection.",
+    "edition": "Stormcloud Vapor",
+    "specifications": {
+      "Controller family": "Xbox Wireless Controller",
+      "Connection": "Xbox Wireless / Bluetooth / USB-C",
+      "Power": "AA batteries or compatible rechargeable pack",
+      "Audio": "3.5mm headset jack",
+      "Design": "Stormcloud Vapor"
+    },
+    "sources": [
+      "https://www.xbox.com/en-us/accessories/controllers/xbox-wireless-controller"
+    ],
+    "previous": {
+      "description": "Xbox Wireless Controller - Stormcloud Vapor. Choose the available configuration below. Confirm supplied accessories and package contents with the store.",
+      "compatibility": "",
+      "edition": "Stormcloud Vapor"
+    }
+  },
+  {
+    "slug": "xbox-controller-dream-vapor",
+    "description": "Pink and purple swirls with a pattern unique to each controller. A hybrid D-pad, Share button and 3.5mm headset jack support everyday play, with Xbox Wireless, Bluetooth and USB-C connectivity.",
+    "compatibility": "Xbox Series X|S, Xbox One and supported Windows, Android and iOS games. Features and headset support depend on the device and connection.",
+    "edition": "Dream Vapor",
+    "specifications": {
+      "Controller family": "Xbox Wireless Controller",
+      "Connection": "Xbox Wireless / Bluetooth / USB-C",
+      "Power": "AA batteries or compatible rechargeable pack",
+      "Audio": "3.5mm headset jack",
+      "Design": "Dream Vapor"
+    },
+    "sources": [
+      "https://www.xbox.com/en-us/accessories/controllers/xbox-wireless-controller"
+    ],
+    "previous": {
+      "description": "Xbox Wireless Controller - Dream Vapor. Choose the available configuration below. Confirm supplied accessories and package contents with the store.",
+      "compatibility": "",
+      "edition": "Dream Vapor"
+    }
+  },
+  {
+    "slug": "xbox-controller-nocturnal-vapor",
+    "description": "A green swirling finish with a pattern unique to each controller. A hybrid D-pad, Share button and 3.5mm headset jack support everyday play, with Xbox Wireless, Bluetooth and USB-C connectivity.",
+    "compatibility": "Xbox Series X|S, Xbox One and supported Windows, Android and iOS games. Features and headset support depend on the device and connection.",
+    "edition": "Nocturnal Vapor",
+    "specifications": {
+      "Controller family": "Xbox Wireless Controller",
+      "Connection": "Xbox Wireless / Bluetooth / USB-C",
+      "Power": "AA batteries or compatible rechargeable pack",
+      "Audio": "3.5mm headset jack",
+      "Design": "Nocturnal Vapor"
+    },
+    "sources": [
+      "https://www.xbox.com/en-us/accessories/controllers/xbox-wireless-controller"
+    ],
+    "previous": {
+      "description": "Xbox Wireless Controller - Nocturnal Vapor. Choose the available configuration below. Confirm supplied accessories and package contents with the store.",
+      "compatibility": "",
+      "edition": "Nocturnal Vapor"
+    }
+  },
+  {
+    "slug": "xbox-controller-fire-vapor",
+    "description": "A red and orange swirling finish with a pattern unique to each controller. A hybrid D-pad, Share button and 3.5mm headset jack support everyday play, with Xbox Wireless, Bluetooth and USB-C connectivity.",
+    "compatibility": "Xbox Series X|S, Xbox One and supported Windows, Android and iOS games. Features and headset support depend on the device and connection.",
+    "edition": "Fire Vapor",
+    "specifications": {
+      "Controller family": "Xbox Wireless Controller",
+      "Connection": "Xbox Wireless / Bluetooth / USB-C",
+      "Power": "AA batteries or compatible rechargeable pack",
+      "Audio": "3.5mm headset jack",
+      "Design": "Fire Vapor"
+    },
+    "sources": [
+      "https://www.xbox.com/en-us/accessories/controllers/xbox-wireless-controller"
+    ],
+    "previous": {
+      "description": "Xbox Wireless Controller - Fire Vapor. Choose the available configuration below. Confirm supplied accessories and package contents with the store.",
+      "compatibility": "",
+      "edition": "Fire Vapor"
+    }
+  },
+  {
+    "slug": "xbox-controller-sky-cipher",
+    "description": "A transparent blue top case revealing the internal silver frame, with metallic blue details. A hybrid D-pad, Share button and 3.5mm headset jack support everyday play, with Xbox Wireless, Bluetooth and USB-C connectivity.",
+    "compatibility": "Xbox Series X|S, Xbox One and supported Windows, Android and iOS games. Features and headset support depend on the device and connection.",
+    "edition": "Sky Cipher",
+    "specifications": {
+      "Controller family": "Xbox Wireless Controller",
+      "Connection": "Xbox Wireless / Bluetooth / USB-C",
+      "Power": "AA batteries or compatible rechargeable pack",
+      "Audio": "3.5mm headset jack",
+      "Design": "Sky Cipher"
+    },
+    "sources": [
+      "https://www.xbox.com/en-us/accessories/controllers/xbox-wireless-controller"
+    ],
+    "previous": {
+      "description": "Xbox Wireless Controller - Sky Cipher. Choose the available configuration below. Confirm supplied accessories and package contents with the store.",
+      "compatibility": "",
+      "edition": "Sky Cipher"
+    }
+  },
+  {
+    "slug": "xbox-controller-ghost-cipher",
+    "description": "A clear top case revealing silver internals, with grey controls and bronze metallic accents. A hybrid D-pad, Share button and 3.5mm headset jack support everyday play, with Xbox Wireless, Bluetooth and USB-C connectivity.",
+    "compatibility": "Xbox Series X|S, Xbox One and supported Windows, Android and iOS games. Features and headset support depend on the device and connection.",
+    "edition": "Ghost Cipher",
+    "specifications": {
+      "Controller family": "Xbox Wireless Controller",
+      "Connection": "Xbox Wireless / Bluetooth / USB-C",
+      "Power": "AA batteries or compatible rechargeable pack",
+      "Audio": "3.5mm headset jack",
+      "Design": "Ghost Cipher"
+    },
+    "sources": [
+      "https://www.xbox.com/en-us/accessories/controllers/xbox-wireless-controller"
+    ],
+    "previous": {
+      "description": "Xbox Wireless Controller - Ghost Cipher. Choose the available configuration below. Confirm supplied accessories and package contents with the store.",
+      "compatibility": "",
+      "edition": "Ghost Cipher"
+    }
+  },
+  {
+    "slug": "xbox-controller-pulse-cipher",
+    "description": "A transparent red top case, silver internal frame and metallic red accents. A hybrid D-pad, Share button and 3.5mm headset jack support everyday play, with Xbox Wireless, Bluetooth and USB-C connectivity.",
+    "compatibility": "Xbox Series X|S, Xbox One and supported Windows, Android and iOS games. Features and headset support depend on the device and connection.",
+    "edition": "Pulse Cipher",
+    "specifications": {
+      "Controller family": "Xbox Wireless Controller",
+      "Connection": "Xbox Wireless / Bluetooth / USB-C",
+      "Power": "AA batteries or compatible rechargeable pack",
+      "Audio": "3.5mm headset jack",
+      "Design": "Pulse Cipher"
+    },
+    "sources": [
+      "https://www.xbox.com/en-us/accessories/controllers/xbox-wireless-controller"
+    ],
+    "previous": {
+      "description": "Xbox Wireless Controller - Pulse Cipher. Choose the available configuration below. Confirm supplied accessories and package contents with the store.",
+      "compatibility": "",
+      "edition": "Pulse Cipher"
+    }
+  },
+  {
+    "slug": "xbox-controller-ice-breaker",
+    "description": "A translucent blue design with a fractured-pattern finish. A hybrid D-pad, Share button and 3.5mm headset jack support everyday play, with Xbox Wireless, Bluetooth and USB-C connectivity.",
+    "compatibility": "Xbox Series X|S, Xbox One and supported Windows, Android and iOS games. Features and headset support depend on the device and connection.",
+    "edition": "Ice Breaker",
+    "specifications": {
+      "Controller family": "Xbox Wireless Controller",
+      "Connection": "Xbox Wireless / Bluetooth / USB-C",
+      "Power": "AA batteries or compatible rechargeable pack",
+      "Audio": "3.5mm headset jack",
+      "Design": "Ice Breaker"
+    },
+    "sources": [
+      "https://www.xbox.com/en-us/accessories/controllers/xbox-wireless-controller"
+    ],
+    "previous": {
+      "description": "Xbox Wireless Controller - Ice Breaker. Choose the available configuration below. Confirm supplied accessories and package contents with the store.",
+      "compatibility": "",
+      "edition": "Ice Breaker"
+    }
+  },
+  {
+    "slug": "xbox-controller-storm-breaker",
+    "description": "A black and white fractured-pattern design. A hybrid D-pad, Share button and 3.5mm headset jack support everyday play, with Xbox Wireless, Bluetooth and USB-C connectivity.",
+    "compatibility": "Xbox Series X|S, Xbox One and supported Windows, Android and iOS games. Features and headset support depend on the device and connection.",
+    "edition": "Storm Breaker",
+    "specifications": {
+      "Controller family": "Xbox Wireless Controller",
+      "Connection": "Xbox Wireless / Bluetooth / USB-C",
+      "Power": "AA batteries or compatible rechargeable pack",
+      "Audio": "3.5mm headset jack",
+      "Design": "Storm Breaker"
+    },
+    "sources": [
+      "https://www.xbox.com/en-us/accessories/controllers/xbox-wireless-controller"
+    ],
+    "previous": {
+      "description": "Xbox Wireless Controller - Storm Breaker. Choose the available configuration below. Confirm supplied accessories and package contents with the store.",
+      "compatibility": "",
+      "edition": "Storm Breaker"
+    }
+  },
+  {
+    "slug": "xbox-controller-heart-breaker",
+    "description": "A pink and purple fractured-pattern design. A hybrid D-pad, Share button and 3.5mm headset jack support everyday play, with Xbox Wireless, Bluetooth and USB-C connectivity.",
+    "compatibility": "Xbox Series X|S, Xbox One and supported Windows, Android and iOS games. Features and headset support depend on the device and connection.",
+    "edition": "Heart Breaker",
+    "specifications": {
+      "Controller family": "Xbox Wireless Controller",
+      "Connection": "Xbox Wireless / Bluetooth / USB-C",
+      "Power": "AA batteries or compatible rechargeable pack",
+      "Audio": "3.5mm headset jack",
+      "Design": "Heart Breaker"
+    },
+    "sources": [
+      "https://www.xbox.com/en-us/accessories/controllers/xbox-wireless-controller"
+    ],
+    "previous": {
+      "description": "Xbox Wireless Controller - Heart Breaker. Choose the available configuration below. Confirm supplied accessories and package contents with the store.",
+      "compatibility": "",
+      "edition": "Heart Breaker"
+    }
+  },
+  {
+    "slug": "xbox-controller-forza-horizon-5",
+    "description": "A translucent yellow shell with pink and blue paint-splash graphics and racing-inspired grips. A hybrid D-pad, Share button and 3.5mm headset jack support everyday play, with Xbox Wireless, Bluetooth and USB-C connectivity.",
+    "compatibility": "Xbox Series X|S, Xbox One and supported Windows, Android and iOS games. Features and headset support depend on the device and connection.",
+    "edition": "Forza Horizon 5",
+    "specifications": {
+      "Controller family": "Xbox Wireless Controller",
+      "Connection": "Xbox Wireless / Bluetooth / USB-C",
+      "Power": "AA batteries or compatible rechargeable pack",
+      "Audio": "3.5mm headset jack",
+      "Design": "Forza Horizon 5"
+    },
+    "sources": [
+      "https://www.xbox.com/en-us/accessories/controllers/xbox-wireless-controller"
+    ],
+    "previous": {
+      "description": "Xbox Wireless Controller - Forza Horizon 5. Choose the available configuration below. Confirm supplied accessories and package contents with the store.",
+      "compatibility": "",
+      "edition": "Forza Horizon 5"
+    }
+  },
+  {
+    "slug": "xbox-controller-starfield",
+    "description": "A white spacecraft-inspired design with Constellation colours and transparent triggers. A hybrid D-pad, Share button and 3.5mm headset jack support everyday play, with Xbox Wireless, Bluetooth and USB-C connectivity.",
+    "compatibility": "Xbox Series X|S, Xbox One and supported Windows, Android and iOS games. Features and headset support depend on the device and connection.",
+    "edition": "Starfield",
+    "specifications": {
+      "Controller family": "Xbox Wireless Controller",
+      "Connection": "Xbox Wireless / Bluetooth / USB-C",
+      "Power": "AA batteries or compatible rechargeable pack",
+      "Audio": "3.5mm headset jack",
+      "Design": "Starfield"
+    },
+    "sources": [
+      "https://www.xbox.com/en-us/accessories/controllers/xbox-wireless-controller"
+    ],
+    "previous": {
+      "description": "Xbox Wireless Controller - Starfield. Choose the available configuration below. Confirm supplied accessories and package contents with the store.",
+      "compatibility": "",
+      "edition": "Starfield"
+    }
+  },
+  {
+    "slug": "xbox-controller-halo-infinite-console-bundle-edition",
+    "description": "The black and gold controller design originally supplied with the Halo Infinite limited-edition Xbox Series X console. This listing is for the controller alone. A hybrid D-pad, Share button and 3.5mm headset jack support everyday play, with Xbox Wireless, Bluetooth and USB-C connectivity.",
+    "compatibility": "Xbox Series X|S, Xbox One and supported Windows, Android and iOS games. Features and headset support depend on the device and connection.",
+    "edition": "Halo Infinite Console Bundle Edition",
+    "specifications": {
+      "Controller family": "Xbox Wireless Controller",
+      "Connection": "Xbox Wireless / Bluetooth / USB-C",
+      "Power": "AA batteries or compatible rechargeable pack",
+      "Audio": "3.5mm headset jack",
+      "Design": "Halo Infinite Console Bundle Edition"
+    },
+    "sources": [
+      "https://www.xbox.com/en-us/accessories/controllers/xbox-wireless-controller"
+    ],
+    "previous": {
+      "description": "Xbox Wireless Controller - Halo Infinite Console Bundle Edition. Choose the available configuration below. Confirm supplied accessories and package contents with the store.",
+      "compatibility": "",
+      "edition": "Halo Infinite Console Bundle Edition"
+    }
+  },
+  {
+    "slug": "xbox-controller-space-jam-a-new-legacy-tune-squad",
+    "description": "Carrot-orange and blue styling inspired by the Tune Squad uniform. A hybrid D-pad, Share button and 3.5mm headset jack support everyday play, with Xbox Wireless, Bluetooth and USB-C connectivity.",
+    "compatibility": "Xbox Series X|S, Xbox One and supported Windows, Android and iOS games. Features and headset support depend on the device and connection.",
+    "edition": "Space Jam A New Legacy Tune Squad",
+    "specifications": {
+      "Controller family": "Xbox Wireless Controller",
+      "Connection": "Xbox Wireless / Bluetooth / USB-C",
+      "Power": "AA batteries or compatible rechargeable pack",
+      "Audio": "3.5mm headset jack",
+      "Design": "Space Jam A New Legacy Tune Squad"
+    },
+    "sources": [
+      "https://www.xbox.com/en-us/accessories/controllers/xbox-wireless-controller"
+    ],
+    "previous": {
+      "description": "Xbox Wireless Controller - Space Jam A New Legacy Tune Squad. Choose the available configuration below. Confirm supplied accessories and package contents with the store.",
+      "compatibility": "",
+      "edition": "Space Jam A New Legacy Tune Squad"
+    }
+  },
+  {
+    "slug": "xbox-controller-space-jam-a-new-legacy-goon-squad",
+    "description": "Purple and black styling inspired by the Goon Squad uniform. A hybrid D-pad, Share button and 3.5mm headset jack support everyday play, with Xbox Wireless, Bluetooth and USB-C connectivity.",
+    "compatibility": "Xbox Series X|S, Xbox One and supported Windows, Android and iOS games. Features and headset support depend on the device and connection.",
+    "edition": "Space Jam A New Legacy Goon Squad",
+    "specifications": {
+      "Controller family": "Xbox Wireless Controller",
+      "Connection": "Xbox Wireless / Bluetooth / USB-C",
+      "Power": "AA batteries or compatible rechargeable pack",
+      "Audio": "3.5mm headset jack",
+      "Design": "Space Jam A New Legacy Goon Squad"
+    },
+    "sources": [
+      "https://www.xbox.com/en-us/accessories/controllers/xbox-wireless-controller"
+    ],
+    "previous": {
+      "description": "Xbox Wireless Controller - Space Jam A New Legacy Goon Squad. Choose the available configuration below. Confirm supplied accessories and package contents with the store.",
+      "compatibility": "",
+      "edition": "Space Jam A New Legacy Goon Squad"
+    }
+  },
+  {
+    "slug": "xbox-controller-space-jam-a-new-legacy-serververse",
+    "description": "A black and blue circuit-inspired design based on the Serververse. A hybrid D-pad, Share button and 3.5mm headset jack support everyday play, with Xbox Wireless, Bluetooth and USB-C connectivity.",
+    "compatibility": "Xbox Series X|S, Xbox One and supported Windows, Android and iOS games. Features and headset support depend on the device and connection.",
+    "edition": "Space Jam A New Legacy Serververse",
+    "specifications": {
+      "Controller family": "Xbox Wireless Controller",
+      "Connection": "Xbox Wireless / Bluetooth / USB-C",
+      "Power": "AA batteries or compatible rechargeable pack",
+      "Audio": "3.5mm headset jack",
+      "Design": "Space Jam A New Legacy Serververse"
+    },
+    "sources": [
+      "https://www.xbox.com/en-us/accessories/controllers/xbox-wireless-controller"
+    ],
+    "previous": {
+      "description": "Xbox Wireless Controller - Space Jam A New Legacy Serververse. Choose the available configuration below. Confirm supplied accessories and package contents with the store.",
+      "compatibility": "",
+      "edition": "Space Jam A New Legacy Serververse"
+    }
+  },
+  {
+    "slug": "xbox-controller-doom-the-dark-ages",
+    "description": "A green armour-inspired design with red markings from DOOM: The Dark Ages. A hybrid D-pad, Share button and 3.5mm headset jack support everyday play, with Xbox Wireless, Bluetooth and USB-C connectivity.",
+    "compatibility": "Xbox Series X|S, Xbox One and supported Windows, Android and iOS games. Features and headset support depend on the device and connection.",
+    "edition": "DOOM The Dark Ages",
+    "specifications": {
+      "Controller family": "Xbox Wireless Controller",
+      "Connection": "Xbox Wireless / Bluetooth / USB-C",
+      "Power": "AA batteries or compatible rechargeable pack",
+      "Audio": "3.5mm headset jack",
+      "Design": "DOOM The Dark Ages"
+    },
+    "sources": [
+      "https://www.xbox.com/en-us/accessories/controllers/xbox-wireless-controller"
+    ],
+    "previous": {
+      "description": "Xbox Wireless Controller - DOOM The Dark Ages. Choose the available configuration below. Confirm supplied accessories and package contents with the store.",
+      "compatibility": "",
+      "edition": "DOOM The Dark Ages"
+    }
+  },
+  {
+    "slug": "xbox-controller-forza-horizon-6",
+    "description": "A transparent cyan shell with bright pink and lime accents and road-inspired graphics. A hybrid D-pad, Share button and 3.5mm headset jack support everyday play, with Xbox Wireless, Bluetooth and USB-C connectivity.",
+    "compatibility": "Xbox Series X|S, Xbox One and supported Windows, Android and iOS games. Features and headset support depend on the device and connection.",
+    "edition": "Forza Horizon 6",
+    "specifications": {
+      "Controller family": "Xbox Wireless Controller",
+      "Connection": "Xbox Wireless / Bluetooth / USB-C",
+      "Power": "AA batteries or compatible rechargeable pack",
+      "Audio": "3.5mm headset jack",
+      "Design": "Forza Horizon 6"
+    },
+    "sources": [
+      "https://www.xbox.com/en-us/accessories/controllers/xbox-wireless-controller"
+    ],
+    "previous": {
+      "description": "Xbox Wireless Controller - Forza Horizon 6. Choose the available configuration below. Confirm supplied accessories and package contents with the store.",
+      "compatibility": "",
+      "edition": "Forza Horizon 6"
+    }
+  },
+  {
+    "slug": "xbox-controller-gears-of-war-e-day",
+    "description": "A black and red design with battle-worn graphics inspired by Gears of War: E-Day. A hybrid D-pad, Share button and 3.5mm headset jack support everyday play, with Xbox Wireless, Bluetooth and USB-C connectivity.",
+    "compatibility": "Xbox Series X|S, Xbox One and supported Windows, Android and iOS games. Features and headset support depend on the device and connection.",
+    "edition": "Gears of War E-Day",
+    "specifications": {
+      "Controller family": "Xbox Wireless Controller",
+      "Connection": "Xbox Wireless / Bluetooth / USB-C",
+      "Power": "AA batteries or compatible rechargeable pack",
+      "Audio": "3.5mm headset jack",
+      "Design": "Gears of War E-Day"
+    },
+    "sources": [
+      "https://www.xbox.com/en-us/accessories/controllers/xbox-wireless-controller"
+    ],
+    "previous": {
+      "description": "Xbox Wireless Controller - Gears of War E-Day. Choose the available configuration below. Confirm supplied accessories and package contents with the store.",
+      "compatibility": "",
+      "edition": "Gears of War E-Day"
+    }
+  },
+  {
+    "slug": "xbox-elite-wireless-controller-series-2-black",
+    "description": "Xbox Elite Wireless Controller Series 2 - Black offers adjustable-tension thumbsticks, shorter trigger locks, rubberised grips and saved control profiles, with a built-in rechargeable battery.",
+    "compatibility": "Xbox Series X|S, Xbox One and supported Windows/mobile games via Xbox Wireless, Bluetooth or USB-C. Features vary by platform.",
+    "edition": "Black",
+    "specifications": {
+      "Controller family": "Xbox Elite Wireless Controller Series 2",
+      "Power": "Built-in rechargeable battery",
+      "Customisation": "Adjustable stick tension / trigger locks / profiles",
+      "Package": "Confirm supplied accessories",
+      "Design": "Black"
+    },
+    "sources": [
+      "https://www.xbox.com/en-us/accessories/controllers/elite-wireless-controller-series-2"
+    ],
+    "previous": {
+      "description": "Xbox Elite Wireless Controller Series 2 - Black. Choose the available configuration below. Confirm supplied accessories and package contents with the store.",
+      "compatibility": "",
+      "edition": "Black"
+    }
+  },
+  {
+    "slug": "xbox-elite-wireless-controller-series-2-core-white",
+    "description": "Xbox Elite Wireless Controller Series 2 - Core White offers adjustable-tension thumbsticks, shorter trigger locks, rubberised grips and saved control profiles, with a built-in rechargeable battery. Core editions do not include the full paddle, carrying-case and charging-dock accessory set; the Complete Component Pack is sold separately.",
+    "compatibility": "Xbox Series X|S, Xbox One and supported Windows/mobile games via Xbox Wireless, Bluetooth or USB-C. Features vary by platform.",
+    "edition": "Core White",
+    "specifications": {
+      "Controller family": "Xbox Elite Wireless Controller Series 2",
+      "Power": "Built-in rechargeable battery",
+      "Customisation": "Adjustable stick tension / trigger locks / profiles",
+      "Package": "Core",
+      "Design": "Core White"
+    },
+    "sources": [
+      "https://www.xbox.com/en-us/accessories/controllers/elite-wireless-controller-series-2"
+    ],
+    "previous": {
+      "description": "Xbox Elite Wireless Controller Series 2 - Core White. Choose the available configuration below. Confirm supplied accessories and package contents with the store.",
+      "compatibility": "",
+      "edition": "Core White"
+    }
+  },
+  {
+    "slug": "xbox-elite-wireless-controller-series-2-core-red",
+    "description": "Xbox Elite Wireless Controller Series 2 - Core Red offers adjustable-tension thumbsticks, shorter trigger locks, rubberised grips and saved control profiles, with a built-in rechargeable battery. Core editions do not include the full paddle, carrying-case and charging-dock accessory set; the Complete Component Pack is sold separately.",
+    "compatibility": "Xbox Series X|S, Xbox One and supported Windows/mobile games via Xbox Wireless, Bluetooth or USB-C. Features vary by platform.",
+    "edition": "Core Red",
+    "specifications": {
+      "Controller family": "Xbox Elite Wireless Controller Series 2",
+      "Power": "Built-in rechargeable battery",
+      "Customisation": "Adjustable stick tension / trigger locks / profiles",
+      "Package": "Core",
+      "Design": "Core Red"
+    },
+    "sources": [
+      "https://www.xbox.com/en-us/accessories/controllers/elite-wireless-controller-series-2"
+    ],
+    "previous": {
+      "description": "Xbox Elite Wireless Controller Series 2 - Core Red. Choose the available configuration below. Confirm supplied accessories and package contents with the store.",
+      "compatibility": "",
+      "edition": "Core Red"
+    }
+  },
+  {
+    "slug": "xbox-elite-wireless-controller-series-2-core-blue",
+    "description": "Xbox Elite Wireless Controller Series 2 - Core Blue offers adjustable-tension thumbsticks, shorter trigger locks, rubberised grips and saved control profiles, with a built-in rechargeable battery. Core editions do not include the full paddle, carrying-case and charging-dock accessory set; the Complete Component Pack is sold separately.",
+    "compatibility": "Xbox Series X|S, Xbox One and supported Windows/mobile games via Xbox Wireless, Bluetooth or USB-C. Features vary by platform.",
+    "edition": "Core Blue",
+    "specifications": {
+      "Controller family": "Xbox Elite Wireless Controller Series 2",
+      "Power": "Built-in rechargeable battery",
+      "Customisation": "Adjustable stick tension / trigger locks / profiles",
+      "Package": "Core",
+      "Design": "Core Blue"
+    },
+    "sources": [
+      "https://www.xbox.com/en-us/accessories/controllers/elite-wireless-controller-series-2"
+    ],
+    "previous": {
+      "description": "Xbox Elite Wireless Controller Series 2 - Core Blue. Choose the available configuration below. Confirm supplied accessories and package contents with the store.",
+      "compatibility": "",
+      "edition": "Core Blue"
+    }
+  },
+  {
+    "slug": "xbox-elite-wireless-controller-series-2-halo-infinite-limited-edition",
+    "description": "Xbox Elite Wireless Controller Series 2 - Halo Infinite Limited Edition offers adjustable-tension thumbsticks, shorter trigger locks, rubberised grips and saved control profiles, with a built-in rechargeable battery.",
+    "compatibility": "Xbox Series X|S, Xbox One and supported Windows/mobile games via Xbox Wireless, Bluetooth or USB-C. Features vary by platform.",
+    "edition": "Halo Infinite Limited Edition",
+    "specifications": {
+      "Controller family": "Xbox Elite Wireless Controller Series 2",
+      "Power": "Built-in rechargeable battery",
+      "Customisation": "Adjustable stick tension / trigger locks / profiles",
+      "Package": "Confirm supplied accessories",
+      "Design": "Halo Infinite Limited Edition"
+    },
+    "sources": [
+      "https://www.xbox.com/en-us/accessories/controllers/elite-wireless-controller-series-2"
+    ],
+    "previous": {
+      "description": "Xbox Elite Wireless Controller Series 2 - Halo Infinite Limited Edition. Choose the available configuration below. Confirm supplied accessories and package contents with the store.",
+      "compatibility": "",
+      "edition": "Halo Infinite Limited Edition"
+    }
+  },
+  {
+    "slug": "xbox-elite-wireless-controller-series-2-doom-the-dark-ages-limited-edition",
+    "description": "Xbox Elite Wireless Controller Series 2 - DOOM The Dark Ages Limited Edition offers adjustable-tension thumbsticks, shorter trigger locks, rubberised grips and saved control profiles, with a built-in rechargeable battery.",
+    "compatibility": "Xbox Series X|S, Xbox One and supported Windows/mobile games via Xbox Wireless, Bluetooth or USB-C. Features vary by platform.",
+    "edition": "DOOM The Dark Ages Limited Edition",
+    "specifications": {
+      "Controller family": "Xbox Elite Wireless Controller Series 2",
+      "Power": "Built-in rechargeable battery",
+      "Customisation": "Adjustable stick tension / trigger locks / profiles",
+      "Package": "Confirm supplied accessories",
+      "Design": "DOOM The Dark Ages Limited Edition"
+    },
+    "sources": [
+      "https://www.xbox.com/en-us/accessories/controllers/elite-wireless-controller-series-2"
+    ],
+    "previous": {
+      "description": "Xbox Elite Wireless Controller Series 2 - DOOM The Dark Ages Limited Edition. Choose the available configuration below. Confirm supplied accessories and package contents with the store.",
+      "compatibility": "",
+      "edition": "DOOM The Dark Ages Limited Edition"
+    }
+  },
+  {
+    "slug": "xbox-elite-wireless-controller-series-2-xbox-design-lab-custom-colours",
+    "description": "Xbox Elite Wireless Controller Series 2 - Xbox Design Lab Custom Colours offers adjustable-tension thumbsticks, shorter trigger locks, rubberised grips and saved control profiles, with a built-in rechargeable battery. Design Lab colours and components are configured individually; the exact store design must be confirmed before publication.",
+    "compatibility": "Xbox Series X|S, Xbox One and supported Windows/mobile games via Xbox Wireless, Bluetooth or USB-C. Features vary by platform.",
+    "edition": "Xbox Design Lab Custom Colours",
+    "specifications": {
+      "Controller family": "Xbox Elite Wireless Controller Series 2",
+      "Power": "Built-in rechargeable battery",
+      "Customisation": "Adjustable stick tension / trigger locks / profiles",
+      "Package": "Confirm supplied accessories",
+      "Design": "Xbox Design Lab Custom Colours"
+    },
+    "sources": [
+      "https://www.xbox.com/en-us/accessories/controllers/elite-wireless-controller-series-2"
+    ],
+    "previous": {
+      "description": "Xbox Elite Wireless Controller Series 2 - Xbox Design Lab Custom Colours. Choose the available configuration below. Confirm supplied accessories and package contents with the store.",
+      "compatibility": "",
+      "edition": "Xbox Design Lab Custom Colours"
+    }
+  },
+  {
+    "slug": "xbox-series-s-512gb",
+    "description": "A compact, all-digital Xbox Series S with a 512GB SSD. Download compatible games to play; there is no disc drive. Manufacturer specifications do not substantiate the store-supplied Jailbreak configuration labels.",
+    "compatibility": "Xbox Series X|S games and supported backward-compatible digital Xbox titles. Physical discs cannot be used.",
+    "edition": "Xbox Series S 512GB",
+    "specifications": {
+      "Storage": "512GB SSD",
+      "Disc drive": "None; digital games only"
+    },
+    "sources": [
+      "https://www.xbox.com/en-us/consoles/xbox-series-s",
+      "https://www.xbox.com/en-US/consoles/xbox-series-s"
+    ],
+    "previous": {
+      "description": "Xbox Series S 512GB. Choose the available condition and configuration below. Confirm supplied accessories and package contents with the store.",
+      "compatibility": "",
+      "edition": ""
+    }
+  },
+  {
+    "slug": "xbox-series-s-1tb",
+    "description": "The 1TB Xbox Series S combines SSD loading with an all-digital game library in a compact form factor. It has no optical drive.",
+    "compatibility": "Xbox Series X|S games and supported backward-compatible digital Xbox titles.",
+    "edition": "Xbox Series S 1TB",
+    "specifications": {
+      "Storage": "1TB SSD",
+      "Disc drive": "None; digital games only"
+    },
+    "sources": [
+      "https://www.xbox.com/en-us/consoles/xbox-series-s",
+      "https://www.xbox.com/en-US/consoles/xbox-series-s"
+    ],
+    "previous": {
+      "description": "Xbox Series S 1TB. Choose the available configuration below. Confirm supplied accessories and package contents with the store.",
+      "compatibility": "",
+      "edition": ""
+    }
+  },
+  {
+    "slug": "xbox-series-x-digital",
+    "description": "An all-digital Xbox Series X with SSD storage and support for compatible digital games. This edition has no optical drive and cannot read game discs.",
+    "compatibility": "Xbox Series X|S games and supported backward-compatible digital Xbox titles.",
+    "edition": "Xbox Series X Digital",
+    "specifications": {
+      "Storage": "1TB SSD",
+      "Disc drive": "None; digital edition"
+    },
+    "sources": [
+      "https://www.xbox.com/en-us/consoles/xbox-series-x",
+      "https://www.xbox.com/en-US/consoles/xbox-series-x"
+    ],
+    "previous": {
+      "description": "Xbox Series X Digital. Choose the available configuration below. Confirm supplied accessories and package contents with the store.",
+      "compatibility": "",
+      "edition": ""
+    }
+  },
+  {
+    "slug": "xbox-series-x-disc",
+    "description": "Xbox Series X with a built-in Ultra HD Blu-ray drive and SSD storage. Play compatible physical discs as well as digital Xbox games.",
+    "compatibility": "Xbox Series X|S games and supported backward-compatible Xbox games. Disc compatibility varies by title.",
+    "edition": "Xbox Series X Disc",
+    "specifications": {
+      "Storage": "1TB SSD",
+      "Disc drive": "Ultra HD Blu-ray"
+    },
+    "sources": [
+      "https://www.xbox.com/en-us/consoles/xbox-series-x",
+      "https://www.xbox.com/en-US/consoles/xbox-series-x"
+    ],
+    "previous": {
+      "description": "Xbox Series X Disc. Choose the available configuration below. Confirm supplied accessories and package contents with the store.",
+      "compatibility": "",
+      "edition": ""
+    }
+  },
+  {
+    "slug": "xbox-series-x-galaxy-black-2tb",
+    "description": "The Galaxy Black special-edition Xbox Series X features a speckled black finish, a 2TB SSD and a built-in Ultra HD Blu-ray drive.",
+    "compatibility": "Xbox Series X|S games and supported backward-compatible Xbox titles.",
+    "edition": "Xbox Series X Galaxy Black 2TB",
+    "specifications": {
+      "Storage": "2TB SSD",
+      "Disc drive": "Ultra HD Blu-ray",
+      "Finish": "Galaxy Black"
+    },
+    "sources": [
+      "https://www.xbox.com/en-us/consoles/xbox-series-x",
+      "https://www.xbox.com/en-US/consoles/xbox-series-x"
+    ],
+    "previous": {
+      "description": "Xbox Series X Galaxy Black 2TB. Choose the available configuration below. Confirm supplied accessories and package contents with the store.",
+      "compatibility": "",
+      "edition": ""
+    }
+  },
+  {
+    "slug": "playstation-4-pro",
+    "description": "The enhanced PS4 model offers higher-resolution output and improved performance in supported PS4 games. Select the available storage and store configuration; performance enhancements vary by title.",
+    "compatibility": "PS4 games and DUALSHOCK 4 controllers. PS5 game discs are not supported.",
+    "edition": "PlayStation 4 Pro",
+    "specifications": {
+      "Family": "PS4 Pro",
+      "Drive": "Blu-ray / DVD"
+    },
+    "sources": ["https://www.playstation.com/en-us/ps4/ps4-pro/"],
+    "previous": {
+      "description": "PlayStation 4 Pro. Choose the available condition and configuration below. Confirm supplied accessories and package contents with the store.",
+      "compatibility": "",
+      "edition": ""
+    }
+  },
+  {
+    "slug": "playstation-4-slim",
+    "description": "A compact PS4 console for physical and digital PS4 games, with a Blu-ray disc drive and support for DUALSHOCK 4 controllers. Select the storage and configuration offered by the store.",
+    "compatibility": "PS4 games and DUALSHOCK 4 controllers; not PS5 games.",
+    "edition": "PlayStation 4 Slim",
+    "specifications": {
+      "Family": "PS4 Slim",
+      "Drive": "Blu-ray / DVD"
+    },
+    "sources": ["https://www.playstation.com/en-us/ps4/"],
+    "previous": {
+      "description": "PlayStation 4 Slim. Choose the available condition and configuration below. Confirm supplied accessories and package contents with the store.",
+      "compatibility": "",
+      "edition": ""
+    }
+  },
+  {
+    "slug": "playstation-4-fat",
+    "description": "The original full-size PS4 console plays compatible PS4 discs and digital downloads. Storage and store configurations are available as separate options.",
+    "compatibility": "PS4 games and DUALSHOCK 4 controllers; not PS5 games.",
+    "edition": "PlayStation 4 Fat",
+    "specifications": {
+      "Family": "Original PS4",
+      "Drive": "Blu-ray / DVD"
+    },
+    "sources": ["https://www.playstation.com/en-us/ps4/"],
+    "previous": {
+      "description": "PlayStation 4 Fat. Choose the available condition and configuration below. Confirm supplied accessories and package contents with the store.",
+      "compatibility": "",
+      "edition": ""
+    }
+  },
+  {
+    "slug": "playstation-3-fat",
+    "description": "The original full-size PlayStation 3, offered pre-owned with the selected storage configuration. It has a Blu-ray drive; PS2 disc compatibility depends on the exact hardware revision and must not be assumed.",
+    "compatibility": "PS3 games. PS2 compatibility is model-dependent; confirm the exact CECH model.",
+    "edition": "PlayStation 3 Fat",
+    "specifications": {
+      "Family": "Original PS3",
+      "Drive": "Blu-ray / DVD / CD"
+    },
+    "sources": ["https://www.playstation.com/en-us/support/hardware/ps3/"],
+    "previous": {
+      "description": "PlayStation 3 Fat. Choose the available condition and configuration below. Confirm supplied accessories and package contents with the store.",
+      "compatibility": "",
+      "edition": ""
+    }
+  },
+  {
+    "slug": "playstation-3-slim",
+    "description": "The slimmer PlayStation 3 model, offered pre-owned with the selected storage configuration. Its Blu-ray drive supports PS3 game discs; it does not provide PS2 disc backward compatibility.",
+    "compatibility": "PS3 games; PS2 game discs are not supported.",
+    "edition": "PlayStation 3 Slim",
+    "specifications": {
+      "Family": "PS3 Slim",
+      "Drive": "Blu-ray / DVD / CD"
+    },
+    "sources": ["https://www.playstation.com/en-us/support/hardware/ps3/"],
+    "previous": {
+      "description": "PlayStation 3 Slim. Choose the available condition and configuration below. Confirm supplied accessories and package contents with the store.",
+      "compatibility": "",
+      "edition": ""
+    }
+  },
+  {
+    "slug": "playstation-3-super-slim",
+    "description": "The compact PlayStation 3 Super Slim uses a sliding disc cover and plays PS3 games. This pre-owned listing offers the storage configurations shown in the options.",
+    "compatibility": "PS3 games; PS2 game discs are not supported.",
+    "edition": "PlayStation 3 Super Slim",
+    "specifications": {
+      "Family": "PS3 Super Slim",
+      "Disc access": "Sliding top cover"
+    },
+    "sources": ["https://www.playstation.com/en-us/support/hardware/ps3/"],
+    "previous": {
+      "description": "PlayStation 3 Super Slim. Choose the available condition and configuration below. Confirm supplied accessories and package contents with the store.",
+      "compatibility": "",
+      "edition": ""
+    }
+  },
+  {
+    "slug": "playstation-2-slim",
+    "description": "A slim, top-loading PlayStation 2 console offered pre-owned. Choose the store storage configuration; any external storage setup and supplied accessories should be checked against the actual unit.",
+    "compatibility": "Compatible PS2 and original PlayStation discs, subject to supplied console region.",
+    "edition": "PlayStation 2 Slim",
+    "specifications": {
+      "Family": "PS2 Slim",
+      "Disc access": "Top-loading"
+    },
+    "sources": ["https://www.playstation.com/en-us/support/hardware/manuals/"],
+    "previous": {
+      "description": "PlayStation 2 Slim. Choose the available condition and configuration below. Confirm supplied accessories and package contents with the store.",
+      "compatibility": "",
+      "edition": ""
+    }
+  },
+  {
+    "slug": "xbox-360-fat",
+    "description": "The original full-size Xbox 360, offered pre-owned with the selected store storage package. Network connectivity and HDMI availability vary by hardware revision; confirm the exact unit.",
+    "compatibility": "Xbox 360 games; original Xbox backward compatibility depends on title and storage configuration. Xbox One/Series games are not supported.",
+    "edition": "Xbox 360 Fat",
+    "specifications": {
+      "Family": "Original Xbox 360"
+    },
+    "sources": [
+      "https://support.xbox.com/en-US/help/xbox-360/console/learn-about-xbox-360-console"
+    ],
+    "previous": {
+      "description": "Xbox 360 Fat. Choose the available condition and configuration below. Confirm supplied accessories and package contents with the store.",
+      "compatibility": "",
+      "edition": ""
+    }
+  },
+  {
+    "slug": "xbox-360-slim",
+    "description": "The Xbox 360 S has a compact chassis and built-in wireless networking. Select the pre-owned storage package required for your retro gaming setup.",
+    "compatibility": "Xbox 360 games; selected original Xbox titles require compatible storage and system software.",
+    "edition": "Xbox 360 Slim",
+    "specifications": {
+      "Family": "Xbox 360 S",
+      "Connectivity": "Built-in Wi-Fi"
+    },
+    "sources": [
+      "https://support.xbox.com/en-US/help/xbox-360/console/learn-about-xbox-360-console"
+    ],
+    "previous": {
+      "description": "Xbox 360 Slim. Choose the available condition and configuration below. Confirm supplied accessories and package contents with the store.",
+      "compatibility": "",
+      "edition": ""
+    }
+  },
+  {
+    "slug": "xbox-360-e-slim",
+    "description": "The Xbox 360 E is the later, redesigned Xbox 360 model, offered pre-owned with selectable storage packages. It belongs to the Xbox 360 generation, not the Xbox One family.",
+    "compatibility": "Xbox 360 games; selected original Xbox titles require compatible storage and system software.",
+    "edition": "Xbox 360 E Slim",
+    "specifications": {
+      "Family": "Xbox 360 E"
+    },
+    "sources": [
+      "https://support.xbox.com/en-US/help/xbox-360/console/learn-about-xbox-360-console"
+    ],
+    "previous": {
+      "description": "Xbox 360 E Slim. Choose the available condition and configuration below. Confirm supplied accessories and package contents with the store.",
+      "compatibility": "",
+      "edition": ""
+    }
+  },
+  {
+    "slug": "xbox-one",
+    "description": "The original Xbox One console includes a Blu-ray drive for compatible physical Xbox One games. This pre-owned listing offers store-configured storage options; included games and modifications are not manufacturer-certified features.",
+    "compatibility": "Xbox One games and supported backward-compatible Xbox titles. Xbox Series-only games cannot run natively.",
+    "edition": "Xbox One",
+    "specifications": {
+      "Family": "Original Xbox One",
+      "Drive": "Blu-ray"
+    },
+    "sources": [
+      "https://support.xbox.com/en-US/help/hardware-network/console/xbox-one-overview"
+    ],
+    "previous": {
+      "description": "Xbox One. Choose the available condition and configuration below. Confirm supplied accessories and package contents with the store.",
+      "compatibility": "",
+      "edition": ""
+    }
+  },
+  {
+    "slug": "xbox-one-s",
+    "description": "A compact Xbox One S with an Ultra HD Blu-ray drive and HDR support in compatible content. Select the pre-owned storage package; store-installed games or modifications are separate from standard manufacturer specifications.",
+    "compatibility": "Xbox One games and supported backward-compatible Xbox titles. This listing is not the All-Digital Edition.",
+    "edition": "Xbox One S",
+    "specifications": {
+      "Family": "Xbox One S",
+      "Drive": "Ultra HD Blu-ray"
+    },
+    "sources": [
+      "https://support.xbox.com/en-US/help/hardware-network/console/xbox-one-s-overview"
+    ],
+    "previous": {
+      "description": "Xbox One S. Choose the available condition and configuration below. Confirm supplied accessories and package contents with the store.",
+      "compatibility": "",
+      "edition": ""
+    }
+  },
+  {
+    "slug": "xbox-one-x",
+    "description": "The enhanced Xbox One X offers higher-resolution gaming in supported titles and an Ultra HD Blu-ray drive. This pre-owned listing uses the store-selected storage configuration; game performance varies by title.",
+    "compatibility": "Xbox One games and supported backward-compatible Xbox titles. Xbox Series-only games cannot run natively.",
+    "edition": "Xbox One X",
+    "specifications": {
+      "Family": "Xbox One X",
+      "Drive": "Ultra HD Blu-ray"
+    },
+    "sources": [
+      "https://support.xbox.com/en-US/help/hardware-network/console/xbox-one-x-overview"
+    ],
+    "previous": {
+      "description": "Xbox One X. Choose the available configuration below. Confirm supplied accessories and package contents with the store.",
+      "compatibility": "",
+      "edition": ""
+    }
+  },
+  {
+    "slug": "nintendo-switch-lite",
+    "description": "A dedicated handheld Nintendo Switch with integrated controls and a 5.5-inch touchscreen. Switch Lite does not output to a television; some games require separate compatible controllers.",
+    "compatibility": "Nintendo Switch games supporting handheld mode; not Nintendo Switch 2-exclusive games.",
+    "edition": "Nintendo Switch Lite",
+    "specifications": {
+      "Display": "5.5-inch LCD touchscreen",
+      "Play modes": "Handheld only"
+    },
+    "sources": ["https://www.nintendo.com/us/gaming-systems/switch/lite/"],
+    "previous": {
+      "description": "Nintendo Switch Lite. Choose the available configuration below. Confirm supplied accessories and package contents with the store.",
+      "compatibility": "",
+      "edition": ""
+    }
+  },
+  {
+    "slug": "nintendo-switch-v1",
+    "description": "The original Nintendo Switch model combines handheld, tabletop and TV play with detachable Joy-Con controllers. This listing is for the original hardware revision; it is not the later improved-battery V2 model.",
+    "compatibility": "Nintendo Switch games; not Nintendo Switch 2-exclusive titles. TV mode requires a compatible dock and power supply.",
+    "edition": "Nintendo Switch V1",
+    "specifications": {
+      "Display": "6.2-inch LCD touchscreen",
+      "Model family": "HAC-001"
+    },
+    "sources": ["https://www.nintendo.com/us/gaming-systems/switch/compare/"],
+    "previous": {
+      "description": "Nintendo Switch V1. Choose the available configuration below. Confirm supplied accessories and package contents with the store.",
+      "compatibility": "",
+      "edition": ""
+    }
+  },
+  {
+    "slug": "nintendo-switch-v2",
+    "description": "The revised Nintendo Switch retains the 6.2-inch LCD and detachable Joy-Con design while improving battery endurance over the original model. Handheld, tabletop and TV modes are supported.",
+    "compatibility": "Nintendo Switch games; not Nintendo Switch 2-exclusive titles. TV mode requires a compatible dock and power supply.",
+    "edition": "Nintendo Switch V2",
+    "specifications": {
+      "Display": "6.2-inch LCD touchscreen",
+      "Model family": "HAC-001(-01)"
+    },
+    "sources": ["https://www.nintendo.com/us/gaming-systems/switch/compare/"],
+    "previous": {
+      "description": "Nintendo Switch V2. Choose the available configuration below. Confirm supplied accessories and package contents with the store.",
+      "compatibility": "",
+      "edition": ""
+    }
+  },
+  {
+    "slug": "nintendo-switch-oled",
+    "description": "Nintendo Switch OLED features a 7-inch OLED touchscreen, a wide adjustable stand and 64GB of internal storage. It supports handheld, tabletop and TV play with compatible accessories.",
+    "compatibility": "Nintendo Switch games; not Nintendo Switch 2-exclusive titles.",
+    "edition": "Nintendo Switch OLED",
+    "specifications": {
+      "Display": "7-inch OLED touchscreen",
+      "Internal storage": "64GB"
+    },
+    "sources": [
+      "https://www.nintendo.com/us/gaming-systems/switch/oled-model/"
+    ],
+    "previous": {
+      "description": "Nintendo Switch OLED. Choose the available condition and configuration below. Confirm supplied accessories and package contents with the store.",
+      "compatibility": "",
+      "edition": ""
+    }
+  },
+  {
+    "slug": "nintendo-switch-2",
+    "description": "Nintendo Switch 2 features a 7.9-inch 1080p LCD touchscreen, magnetic Joy-Con 2 controllers and 256GB of internal storage. Play in handheld, tabletop or TV mode with the appropriate accessories.",
+    "compatibility": "Nintendo Switch 2 games and supported Nintendo Switch titles; compatibility varies by game.",
+    "edition": "Nintendo Switch 2",
+    "specifications": {
+      "Display": "7.9-inch 1920 x 1080 LCD",
+      "Internal storage": "256GB",
+      "Controllers": "Joy-Con 2"
+    },
+    "sources": [
+      "https://www.nintendo.com/us/gaming-systems/switch-2/tech-specs/"
+    ],
+    "previous": {
+      "description": "Nintendo Switch 2. Choose the available condition and configuration below. Confirm supplied accessories and package contents with the store.",
+      "compatibility": "",
+      "edition": ""
+    }
+  },
+  {
+    "slug": "nintendo-switch-2-mario-kart-8-bundle",
+    "description": "The requested Nintendo Switch 2 and Mario Kart 8 bundle is pending package verification. Mario Kart 8 Deluxe is a Nintendo Switch title; the official Nintendo Switch 2 Mario Kart retail bundle contains Mario Kart World. The included game and format must be verified before this listing is published.",
+    "compatibility": "Nintendo Switch 2; included Mario Kart title and physical/digital format await store confirmation.",
+    "edition": "Nintendo Switch 2 Mario Kart 8 Bundle",
+    "specifications": {
+      "Package status": "Awaiting exact included-game verification"
+    },
+    "sources": [
+      "https://www.nintendo.com/us/store/products/nintendo-switch-2-mario-kart-world-bundle-128067/"
+    ],
+    "previous": {
+      "description": "Nintendo Switch 2 Mario Kart 8 Bundle. Choose the available condition and configuration below. Confirm supplied accessories and package contents with the store.",
+      "compatibility": "",
+      "edition": ""
+    }
+  },
+  {
+    "slug": "psp",
+    "description": "Sony PlayStation Portable for portable PSP gaming, with PSP-1000, PSP-2000 and PSP-3000 hardware choices. All three use UMD media; display, size and feature differences depend on the selected model.",
+    "compatibility": "PSP software; PS Vita game cards are not supported. Storage media and accessories vary by supplied unit.",
+    "edition": "PSP",
+    "specifications": {
+      "Models": "PSP-1000 / PSP-2000 / PSP-3000",
+      "Game media": "UMD / supported digital content"
+    },
+    "sources": ["https://www.playstation.com/en-us/support/hardware/manuals/"],
+    "previous": {
+      "description": "PSP. Choose the available condition and configuration below. Confirm supplied accessories and package contents with the store.",
+      "compatibility": "",
+      "edition": ""
+    }
+  },
+  {
+    "slug": "ps-vita-fat",
+    "description": "The original PS Vita handheld features a 5-inch OLED touchscreen, rear touch pad and dual analogue sticks. This pre-owned model uses proprietary PS Vita memory cards for expanded storage.",
+    "compatibility": "PS Vita game cards and compatible digital software; PSP UMD discs are not supported.",
+    "edition": "PS Vita Fat",
+    "specifications": {
+      "Display": "5-inch OLED",
+      "Model family": "PCH-1000"
+    },
+    "sources": ["https://www.playstation.com/en-us/support/hardware/manuals/"],
+    "previous": {
+      "description": "PS Vita Fat. Choose the available configuration below. Confirm supplied accessories and package contents with the store.",
+      "compatibility": "",
+      "edition": ""
+    }
+  },
+  {
+    "slug": "ps-vita-slim",
+    "description": "PS Vita Slim features a lighter body, a 5-inch LCD touchscreen, dual analogue sticks and 1GB of built-in storage. It differs from the original Vita OLED model.",
+    "compatibility": "PS Vita game cards and compatible digital software; PSP UMD discs are not supported.",
+    "edition": "PS Vita Slim",
+    "specifications": {
+      "Display": "5-inch LCD",
+      "Model family": "PCH-2000",
+      "Internal storage": "1GB"
+    },
+    "sources": ["https://www.playstation.com/en-us/support/hardware/manuals/"],
+    "previous": {
+      "description": "PS Vita Slim. Choose the available configuration below. Confirm supplied accessories and package contents with the store.",
+      "compatibility": "",
+      "edition": ""
+    }
+  },
+  {
+    "slug": "r36s",
+    "description": "A vertical retro handheld with dual analogue controls and a 3.5-inch display. R36S hardware revisions and clones vary; confirm the supplied board, storage card and firmware. No particular preloaded game library or game count is guaranteed.",
+    "compatibility": "Supported emulators and games depend on the supplied hardware and firmware; game files are not included by this description.",
+    "edition": "R36S",
+    "specifications": {
+      "Form factor": "Vertical handheld",
+      "Display": "3.5-inch",
+      "Storage": "Supplied card capacity to be confirmed",
+      "Processor family": "Rockchip RK3326 (standard R36S hardware; confirm supplied revision)"
+    },
+    "sources": ["https://github.com/dov/r36s-programming"],
+    "previous": {
+      "description": "R36S. Choose the available configuration below. Confirm supplied accessories and package contents with the store.",
+      "compatibility": "",
+      "edition": ""
+    }
+  },
+  {
+    "slug": "sf-3500",
+    "description": "A horizontal SF3500 retro handheld with a 5-inch display, dual analogue controls and TV-output support. Storage, firmware and supplied accessories depend on the store configuration; no particular preloaded game library or game count is guaranteed.",
+    "compatibility": "Supported games and emulators depend on the actual hardware and firmware; no game count is guaranteed.",
+    "edition": "SF 3500",
+    "specifications": {
+      "Model": "SF3500",
+      "Display": "5-inch",
+      "Form factor": "Horizontal handheld",
+      "Storage": "Supplied card capacity to be confirmed"
+    },
+    "sources": [
+      "https://szyling.en.made-in-china.com/product/VzhYixPrVtWc/China-Sf3500-Handheld-Game-Console-Portable-Console-Handheld-Game-Player-Retro-Video-Game-Console-De-Jeu-Portable-Consola-De-Video.html"
+    ],
+    "previous": {
+      "description": "SF 3500. Choose the available configuration below. Confirm supplied accessories and package contents with the store.",
+      "compatibility": "",
+      "edition": ""
+    }
+  },
+  {
+    "slug": "steam-deck-lcd",
+    "description": "Valve's SteamOS gaming handheld with a 7-inch 1280 x 800 LCD touchscreen, trackpads and integrated game controls. Steam Deck compatibility varies by PC game; check the title's Verified or Playable status.",
+    "compatibility": "Compatible PC games on SteamOS; other stores and operating systems may require additional setup.",
+    "edition": "Steam Deck LCD",
+    "specifications": {
+      "Display": "7-inch 1280 x 800 LCD, up to 60Hz",
+      "Operating system": "SteamOS",
+      "Expansion": "microSD"
+    },
+    "sources": ["https://www.steamdeck.com/en/tech"],
+    "previous": {
+      "description": "Steam Deck LCD. Choose the available configuration below. Confirm supplied accessories and package contents with the store.",
+      "compatibility": "",
+      "edition": ""
+    }
+  },
+  {
+    "slug": "steam-deck-oled",
+    "description": "Valve's Steam Deck OLED features a 7.4-inch HDR OLED touchscreen with refresh rates up to 90Hz, trackpads and integrated controls. It is a PC gaming handheld running SteamOS, not a console with a fixed game catalogue.",
+    "compatibility": "Compatible PC games on SteamOS; check individual game compatibility.",
+    "edition": "Steam Deck OLED",
+    "specifications": {
+      "Display": "7.4-inch 1280 x 800 HDR OLED, up to 90Hz",
+      "Operating system": "SteamOS",
+      "Expansion": "microSD"
+    },
+    "sources": ["https://www.steamdeck.com/en/tech"],
+    "previous": {
+      "description": "Steam Deck OLED. Choose the available configuration below. Confirm supplied accessories and package contents with the store.",
+      "compatibility": "",
+      "edition": ""
+    }
+  },
+  {
+    "slug": "rog-ally-z1",
+    "description": "A Windows gaming handheld powered by AMD Ryzen Z1, with a 7-inch Full HD 120Hz touchscreen. This is the Z1 model, not the more powerful Z1 Extreme version.",
+    "compatibility": "Compatible Windows PC games; performance and controls vary by title. Xbox console discs cannot be used.",
+    "edition": "ROG Ally Z1",
+    "specifications": {
+      "Processor": "AMD Ryzen Z1",
+      "Display": "7-inch 1920 x 1080, 120Hz",
+      "Operating system": "Windows"
+    },
+    "sources": [
+      "https://rog.asus.com/gaming-handhelds/rog-ally/rog-ally-2023/",
+      "https://rog.asus.com/gaming-handhelds/rog-ally/rog-ally-2023/spec/"
+    ],
+    "previous": {
+      "description": "ROG Ally Z1. Choose the available configuration below. Confirm supplied accessories and package contents with the store.",
+      "compatibility": "",
+      "edition": ""
+    }
+  },
+  {
+    "slug": "rog-ally-z1-extreme",
+    "description": "A Windows gaming handheld powered by AMD Ryzen Z1 Extreme, paired with a 7-inch Full HD 120Hz touchscreen. The processor differs from the standard Ryzen Z1 model despite their similar exterior.",
+    "compatibility": "Compatible Windows PC games and launchers; performance depends on settings and title.",
+    "edition": "ROG Ally Z1 Extreme",
+    "specifications": {
+      "Processor": "AMD Ryzen Z1 Extreme",
+      "Display": "7-inch 1920 x 1080, 120Hz",
+      "Operating system": "Windows"
+    },
+    "sources": [
+      "https://rog.asus.com/gaming-handhelds/rog-ally/rog-ally-2023/",
+      "https://rog.asus.com/gaming-handhelds/rog-ally/rog-ally-2023/spec/"
+    ],
+    "previous": {
+      "description": "ROG Ally Z1 Extreme. Choose the available configuration below. Confirm supplied accessories and package contents with the store.",
+      "compatibility": "",
+      "edition": ""
+    }
+  },
+  {
+    "slug": "rog-ally-x",
+    "description": "The ROG Ally X pairs AMD Ryzen Z1 Extreme with a 7-inch Full HD 120Hz display and an 80Wh battery. This Windows handheld is distinct from the later ROG Xbox Ally X.",
+    "compatibility": "Compatible Windows PC games; console discs cannot be used.",
+    "edition": "ROG Ally X",
+    "specifications": {
+      "Processor": "AMD Ryzen Z1 Extreme",
+      "Display": "7-inch 1920 x 1080, 120Hz",
+      "Battery capacity": "80Wh",
+      "Operating system": "Windows"
+    },
+    "sources": [
+      "https://rog.asus.com/gaming-handhelds/rog-ally/rog-ally-x-2024/"
+    ],
+    "previous": {
+      "description": "ROG Ally X. Choose the available configuration below. Confirm supplied accessories and package contents with the store.",
+      "compatibility": "",
+      "edition": ""
+    }
+  },
+  {
+    "slug": "rog-xbox-ally-2025",
+    "description": "The 2025 ROG Xbox Ally uses AMD Ryzen Z2 A in a Windows handheld with Xbox-inspired grips and a 7-inch Full HD 120Hz screen. It runs compatible PC games; it is not an Xbox console.",
+    "compatibility": "Compatible Windows PC games and supported cloud services. Xbox console discs cannot be used.",
+    "edition": "ROG Xbox Ally 2025",
+    "specifications": {
+      "Processor": "AMD Ryzen Z2 A",
+      "Display": "7-inch 1920 x 1080, 120Hz",
+      "Operating system": "Windows"
+    },
+    "sources": [
+      "https://rog.asus.com/gaming-handhelds/rog-ally/rog-xbox-ally-2025/"
+    ],
+    "previous": {
+      "description": "ROG Xbox Ally 2025. Choose the available configuration below. Confirm supplied accessories and package contents with the store.",
+      "compatibility": "",
+      "edition": ""
+    }
+  },
+  {
+    "slug": "rog-xbox-ally-x-2025",
+    "description": "The 2025 ROG Xbox Ally X uses AMD Ryzen AI Z2 Extreme with a 7-inch Full HD 120Hz screen and an Xbox-focused Windows experience. It is the higher-performance X model, distinct from the Z2 A-based Xbox Ally.",
+    "compatibility": "Compatible Windows PC games and supported cloud services; not Xbox console discs.",
+    "edition": "ROG Xbox Ally X 2025",
+    "specifications": {
+      "Processor": "AMD Ryzen AI Z2 Extreme",
+      "Display": "7-inch 1920 x 1080, 120Hz",
+      "Operating system": "Windows"
+    },
+    "sources": [
+      "https://rog.asus.com/gaming-handhelds/rog-ally/rog-xbox-ally-x-2025/"
+    ],
+    "previous": {
+      "description": "ROG Xbox Ally X 2025. Choose the available configuration below. Confirm supplied accessories and package contents with the store.",
+      "compatibility": "",
+      "edition": ""
+    }
+  },
+  {
+    "slug": "rog-xbox-ally-x20",
+    "description": "The ROG Xbox Ally X20 anniversary handheld is based on AMD Ryzen AI Z2 Extreme and adds anniversary styling and upgraded controls. Select the exact store-supplied configuration; this is a Windows PC handheld.",
+    "compatibility": "Compatible Windows PC games; cloud services require separate access and supported regions.",
+    "edition": "ROG Xbox Ally X20",
+    "specifications": {
+      "Processor": "AMD Ryzen AI Z2 Extreme",
+      "Edition": "ROG anniversary X20",
+      "Controls": "TMR joysticks",
+      "Operating system": "Windows"
+    },
+    "sources": [
+      "https://press.asus.com/news/press-releases/rog-xbox-ally-x20-anniversary-edition-available",
+      "https://rog.asus.com/gaming-handhelds/rog-ally/rog-xbox-ally-x20-2026/"
+    ],
+    "previous": {
+      "description": "ROG Xbox Ally X20. Choose the available configuration below. Confirm supplied accessories and package contents with the store.",
+      "compatibility": "",
+      "edition": ""
+    }
+  },
+  {
+    "slug": "meta-quest-3",
+    "description": "A standalone VR and mixed-reality headset with pancake lenses and full-colour passthrough. Select the available storage capacity; PC VR requires a compatible computer and connection.",
+    "compatibility": "Supported Meta Quest software. A Meta account is required; PC VR requires additional compatible hardware.",
+    "edition": "Meta Quest 3",
+    "specifications": {
+      "Processor": "Snapdragon XR2 Gen 2",
+      "Optics": "Pancake lenses",
+      "Passthrough": "Full colour"
+    },
+    "sources": ["https://www.meta.com/quest/compare/"],
+    "previous": {
+      "description": "Meta Quest 3. Choose the available condition and configuration below. Confirm supplied accessories and package contents with the store.",
+      "compatibility": "",
+      "edition": ""
+    }
+  },
+  {
+    "slug": "meta-quest-3s",
+    "description": "Meta Quest 3S combines standalone VR and full-colour passthrough with Fresnel lenses. It shares the XR2 Gen 2 platform with Quest 3 but uses different optics and display hardware.",
+    "compatibility": "Supported Meta Quest software. A Meta account is required; PC VR requires additional compatible hardware.",
+    "edition": "Meta Quest 3S",
+    "specifications": {
+      "Processor": "Snapdragon XR2 Gen 2",
+      "Optics": "Fresnel lenses",
+      "Passthrough": "Full colour"
+    },
+    "sources": ["https://www.meta.com/quest/compare/"],
+    "previous": {
+      "description": "Meta Quest 3S. Choose the available condition and configuration below. Confirm supplied accessories and package contents with the store.",
+      "compatibility": "",
+      "edition": ""
+    }
+  },
+  {
+    "slug": "oculus-quest-2",
+    "description": "The pre-owned Oculus Quest 2, also sold as Meta Quest 2, is a standalone VR headset with inside-out tracking. Choose the storage capacity of the actual unit. Its passthrough view is monochrome, unlike Quest 3 and 3S.",
+    "compatibility": "Compatible Quest 2 software; some newer Quest titles require Quest 3/3S. A Meta account is required.",
+    "edition": "Oculus Quest 2",
+    "specifications": {
+      "Processor": "Snapdragon XR2",
+      "Optics": "Fresnel lenses",
+      "Passthrough": "Monochrome"
+    },
+    "sources": ["https://www.meta.com/quest/compare/"],
+    "previous": {
+      "description": "Oculus Quest 2. Choose the available condition and configuration below. Confirm supplied accessories and package contents with the store.",
+      "compatibility": "",
+      "edition": ""
+    }
+  }
+]

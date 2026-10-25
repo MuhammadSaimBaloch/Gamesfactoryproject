@@ -1,5 +1,7 @@
 # Owner inventory import
 
+This document records the initial import. The subsequent photo/content completion and current outstanding checks are documented in [catalogue-completion.md](catalogue-completion.md); `db/inventory-review.json` contains the current draft notes.
+
 129 requested listings, 171 requested configurations. 84 ready; 45 drafts. Existing products keep their publication status, pricing and stock. New variants have zero stock and use PKR 21,999 for controllers or PKR 249,999 for consoles, handhelds and VR headsets.
 
 The one-time D1 migration runs through the existing deployment workflow. Owner changes are not synchronized or overwritten by this JSON after migration. Branch inventory is created for each new variant. The owner can change price, stock, photos and publication in /admin.
