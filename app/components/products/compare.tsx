@@ -1,6 +1,6 @@
 import { useState } from "react";
 import type { ProductCardData } from "../../lib/server/catalog";
-import { money } from "../../lib/money";
+import { productPrice } from "../../lib/money";
 import { Link } from "react-router";
 export function CompareControllers({
   products,
@@ -53,7 +53,9 @@ export function CompareControllers({
               <tr>
                 <th>Price</th>
                 {chosen.map((p) => (
-                  <td key={p.variantId}>{money(p.price)}</td>
+                  <td key={p.variantId}>
+                    {productPrice(p.price, p.priceUnconfirmed)}
+                  </td>
                 ))}
               </tr>
               <tr>

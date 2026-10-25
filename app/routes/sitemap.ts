@@ -14,6 +14,7 @@ export async function loader({ context }: LoaderFunctionArgs) {
     "/shop",
     "/controllers",
     "/games",
+    "/pre-orders",
     "/about",
     "/branches",
     "/contact",

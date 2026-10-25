@@ -134,6 +134,11 @@ beforeAll(async () => {
     "utf8",
   ).split(";"))
     if (statement.trim()) await env.DB.prepare(statement).run();
+  for (const statement of readFileSync(
+    "db/migrations/0014_product_merchandising.sql",
+    "utf8",
+  ).split(";"))
+    if (statement.trim()) await env.DB.prepare(statement).run();
 }, 60000);
 beforeEach(async () => {
   vi.stubGlobal(

@@ -13,7 +13,8 @@ import { catalogue, productDetail } from "../lib/server/catalog";
 import { ProductVisual } from "../components/products/visual";
 import { ProductCard } from "../components/products/card";
 import { Panel } from "../components/dialog";
-import { money } from "../lib/money";
+import { money, productPrice } from "../lib/money";
+import { PriceNotice } from "../components/products/price-notice";
 import { useCart } from "../lib/cart";
 import { seo } from "../lib/seo";
 import { InquiryForm } from "../components/store-forms";
@@ -144,7 +145,7 @@ function ProductDetails() {
             ...(image
               ? { image: new URL(`/media/${image}`, canonical).href }
               : {}),
-            ...(v
+            ...(v && !details?.priceUnconfirmed
               ? {
                   offers: {
                     "@type": "Offer",
@@ -167,6 +168,7 @@ function ProductDetails() {
       <nav className="breadcrumb">
         <Link to="/">Home</Link> / <Link to="/shop">Collection</Link> / {p.name}
       </nav>
+      {Boolean(details?.priceNotice) && <PriceNotice />}
       <div className="product-detail">
         <div>
           <button
@@ -178,6 +180,12 @@ function ProductDetails() {
               image={image}
               name={p.name}
               type={p.productType}
+              presentation={
+                details?.showcaseImageKey === image
+                  ? details.showcaseStyle
+                  : undefined
+              }
+              casePlatform={details?.casePlatform}
               large
               priority
             />
@@ -195,6 +203,12 @@ function ProductDetails() {
                     image={im.key}
                     name={im.alt || p.name}
                     type={p.productType}
+                    presentation={
+                      details?.showcaseImageKey === im.key
+                        ? details.showcaseStyle
+                        : undefined
+                    }
+                    casePlatform={details?.casePlatform}
                   />
                 </button>
               ))}
@@ -207,8 +221,12 @@ function ProductDetails() {
           </span>
           <h1>{p.name}</h1>
           <p className="detail-price">
-            {!v ? "Not currently listed in this condition" : money(v.price)}
-            {v?.compareAt && v.compareAt > v.price ? (
+            {!v
+              ? "Not currently listed in this condition"
+              : productPrice(v.price, details?.priceUnconfirmed)}
+            {!details?.priceUnconfirmed &&
+            v?.compareAt &&
+            v.compareAt > v.price ? (
               <del>{money(v.compareAt)}</del>
             ) : null}
           </p>
@@ -270,7 +288,7 @@ function ProductDetails() {
               )}
               {conditionVariants.map((v) => (
                 <option value={v.id} key={v.id}>
-                  {v.name} — {money(v.price)}
+                  {v.name} — {productPrice(v.price, details?.priceUnconfirmed)}
                 </option>
               ))}
             </select>
@@ -436,7 +454,18 @@ function ProductDetails() {
         title={p.name}
         className="image-panel"
       >
-        <ProductVisual image={image} name={p.name} type={p.productType} large />
+        <ProductVisual
+          image={image}
+          name={p.name}
+          type={p.productType}
+          large
+          presentation={
+            details?.showcaseImageKey === image
+              ? details.showcaseStyle
+              : undefined
+          }
+          casePlatform={details?.casePlatform}
+        />
       </Panel>
     </div>
   );

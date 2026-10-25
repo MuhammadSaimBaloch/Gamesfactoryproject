@@ -56,25 +56,32 @@ test("owner can find products, edit specifications visually and order homepage p
   const row = page.locator("tbody tr");
   await expect(row).toHaveCount(1);
   await row.getByRole("link", { name: "Edit product", exact: true }).click();
+  await page
+    .getByText("Compatibility, warranty & additional information", {
+      exact: true,
+    })
+    .click();
   await expect(page.locator(".spec-editor").first()).toBeVisible();
   await expect(page.locator('textarea[name="attributesJson"]')).toHaveCount(0);
   await expect(
-    page.getByRole("heading", { name: "Upload image", exact: true }),
+    page.getByRole("heading", {
+      name: "Upload a photo or banner",
+      exact: true,
+    }),
   ).toBeVisible();
   await page.goto("/admin/homepage");
   await expect(page.locator('textarea[name="settings"]')).toHaveCount(0);
-  const picker = page.locator(".selection-editor").first();
-  const old = await picker
-    .locator(".selected-product span")
-    .first()
-    .innerText();
-  await picker
-    .getByRole("button", { name: /Move .* down/ })
-    .first()
-    .click();
-  await expect(picker.locator(".selected-product span").first()).not.toHaveText(
-    old,
-  );
+  await expect(
+    page.getByText(/For Controllers and Games, open a product/),
+  ).toBeVisible();
+  await expect(
+    page
+      .locator("form")
+      .filter({
+        has: page.getByRole("heading", { name: "controllers", exact: true }),
+      })
+      .locator(".selection-editor"),
+  ).toHaveCount(0);
 });
 test("owner can save and remove a disabled sale with Pakistan scheduling", async ({
   page,
@@ -130,31 +137,36 @@ test("media library previews transparent uploads and allows removal of an unused
   try {
     await page.goto("/admin/media");
     const upload = page.locator("form").filter({
-      has: page.getByRole("heading", { name: "Upload image", exact: true }),
+      has: page.getByRole("heading", {
+        name: "Upload a photo or banner",
+        exact: true,
+      }),
     });
     await upload
       .getByRole("combobox", { name: "Product", exact: true })
       .selectOption("");
     await upload
+      .getByRole("combobox", { name: "Image use", exact: true })
+      .selectOption("gallery");
+    await upload
       .getByLabel("Image", { exact: true })
       .setInputFiles("public/catalogue/dualsense-white.png");
     await expect(upload.locator(".upload-preview img")).toBeVisible();
-    await upload.getByLabel("Alt text", { exact: true }).fill(alt);
     await upload
-      .getByRole("combobox", { name: "Transparent background", exact: true })
-      .selectOption("1");
+      .getByLabel("Image description (alt text)", { exact: true })
+      .fill(alt);
     await upload
       .getByRole("button", { name: "Upload image", exact: true })
       .click();
     const card = page
       .locator(".media-grid article")
       .filter({ has: page.getByText(alt, { exact: true }) });
-    await expect(card).toBeVisible();
+    await expect(card).toBeVisible({ timeout: 30000 });
     id = await card.locator('input[name="id"]').inputValue();
     await card
       .getByRole("button", { name: "Delete image", exact: true })
       .click();
-    await expect(card).toHaveCount(0);
+    await expect(card).toHaveCount(0, { timeout: 15000 });
     id = "";
   } finally {
     if (id)

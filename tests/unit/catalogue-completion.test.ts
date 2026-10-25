@@ -154,3 +154,67 @@ it("ships reviewed, source-backed content and real alpha on each new photo", asy
     ).toBeGreaterThanOrEqual(256);
   }
 }, 30000);
+
+it("moves historical consoles and prepares only the owner-confirmed Retro drafts without changing existing stock or prices", () => {
+  const db = catalogueBeforeCompletion();
+  try {
+    db.exec(
+      readFileSync("db/migrations/0013_catalogue_completion.sql", "utf8"),
+    );
+    const originalPrices = db
+      .prepare("SELECT id,price_pkr FROM product_variants ORDER BY id")
+      .all();
+    const originalStock = db
+      .prepare("SELECT id,quantity_available FROM inventory ORDER BY id")
+      .all();
+    db.exec(
+      readFileSync("db/migrations/0014_product_merchandising.sql", "utf8"),
+    );
+    for (const p of originalPrices)
+      expect(
+        db
+          .prepare("SELECT price_pkr FROM product_variants WHERE id=?")
+          .get(p.id as string)?.price_pkr,
+      ).toBe(p.price_pkr);
+    for (const p of originalStock)
+      expect(
+        db
+          .prepare("SELECT quantity_available FROM inventory WHERE id=?")
+          .get(p.id as string)?.quantity_available,
+      ).toBe(p.quantity_available);
+    const models = JSON.parse(readFileSync("db/retro-inventory.json", "utf8"))
+      .models as string[];
+    expect(
+      db
+        .prepare(
+          "SELECT name FROM products WHERE slug LIKE 'retro-%' ORDER BY name",
+        )
+        .all()
+        .map((r) => r.name)
+        .sort(),
+    ).toEqual([...models].sort());
+    expect(
+      db
+        .prepare(
+          "SELECT count(*) AS n FROM products WHERE slug LIKE 'retro-%' AND active<>0",
+        )
+        .get()?.n,
+    ).toBe(0);
+    expect(
+      db
+        .prepare(
+          "SELECT count(*) AS n FROM products p JOIN product_details d ON d.product_id=p.id JOIN categories c ON c.id=p.category_id WHERE d.generation IN ('PS2','PS3','Xbox 360') AND c.slug<>'consoles'",
+        )
+        .get()?.n,
+    ).toBe(0);
+    expect(
+      db
+        .prepare(
+          "SELECT count(*) AS n FROM products p JOIN product_details d ON d.product_id=p.id WHERE p.slug LIKE 'ps5-%' AND d.price_notice<>1",
+        )
+        .get()?.n,
+    ).toBe(0);
+  } finally {
+    db.close();
+  }
+});

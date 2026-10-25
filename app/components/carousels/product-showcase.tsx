@@ -4,12 +4,23 @@ import { ArrowLeft, ArrowRight, Plus } from "lucide-react";
 import { Link } from "react-router";
 import type { ProductCardData } from "../../lib/server/catalog";
 import { ProductVisual, caseFrame } from "../products/visual";
-import { money } from "../../lib/money";
+import { money, productPrice } from "../../lib/money";
 import { useCart } from "../../lib/cart";
 import cropData from "../../lib/showcase-crops.json";
 import { imageUrl, imageSrcSet } from "../../lib/image-url";
 function ShowcasePhoto({ product }: { product: ProductCardData }) {
   const image = product.showcaseImage || product.image;
+  if (product.showcaseStyle === "cover")
+    return (
+      <ProductVisual
+        image={image}
+        name={product.name}
+        type={product.type}
+        large
+        presentation="cover"
+        casePlatform={product.casePlatform}
+      />
+    );
   const crops = cropData as Record<
     string,
     {
@@ -130,7 +141,7 @@ export function ProductShowcase({
           (!p.generation && tab.platform === p.platform)
         : p.platform === tab.platform,
     )
-    .filter((p) => kind !== "games" || p.showcaseImage);
+    .filter((p) => p.showcaseImage);
   return (
     <section
       className={`collection-showcase collection-showcase--${kind}`}
@@ -210,6 +221,7 @@ function ShowcaseTrack({
   kind: string;
   href: string;
 }) {
+  const [ready, setReady] = useState(false);
   const rail = useRef<HTMLDivElement>(null),
     frame = useRef(0);
   const gesture = useRef<{
@@ -272,6 +284,7 @@ function ShowcaseTrack({
         });
     });
     resize.observe(el);
+    setReady(true);
     return () => {
       resize.disconnect();
       cancelAnimationFrame(frame.current);
@@ -303,6 +316,7 @@ function ShowcaseTrack({
           tabIndex={0}
           role="group"
           aria-label={`Browse ${kind} horizontally`}
+          aria-busy={!ready}
           onScroll={() => {
             cancelAnimationFrame(frame.current);
             frame.current = requestAnimationFrame(() => {
@@ -389,6 +403,7 @@ function ShowcaseTrack({
               className="collection-slide"
               key={product.variantId}
               aria-label={`Show ${product.name}`}
+              disabled={!ready}
               aria-current={i === active ? "true" : undefined}
               tabIndex={i === active ? 0 : -1}
               onClick={() => move(i)}
@@ -420,7 +435,7 @@ function ShowcaseTrack({
             <button
               className="icon-button"
               aria-label={`Previous ${kind === "games" ? "game" : "controller"}`}
-              disabled={active === 0}
+              disabled={!ready || active === 0}
               onClick={() => move(active - 1)}
             >
               <ArrowLeft size={19} />
@@ -428,7 +443,7 @@ function ShowcaseTrack({
             <button
               className="icon-button"
               aria-label={`Next ${kind === "games" ? "game" : "controller"}`}
-              disabled={active === products.length - 1}
+              disabled={!ready || active === products.length - 1}
               onClick={() => move(active + 1)}
             >
               <ArrowRight size={19} />
@@ -446,8 +461,8 @@ function ShowcaseTrack({
           <h3>{p.name}</h3>
           <p className="collection-variant">{p.variant}</p>
           <p className="collection-price">
-            {money(p.price)}
-            {p.compareAt && p.compareAt > p.price ? (
+            {productPrice(p.price, p.priceUnconfirmed)}
+            {!p.priceUnconfirmed && p.compareAt && p.compareAt > p.price ? (
               <del className="previous-price">{money(p.compareAt)}</del>
             ) : null}
           </p>

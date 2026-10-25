@@ -44,6 +44,11 @@ beforeAll(async () => {
     "utf8",
   ).split(";"))
     if (statement.trim()) await env.DB.prepare(statement).run();
+  for (const statement of readFileSync(
+    "db/migrations/0014_product_merchandising.sql",
+    "utf8",
+  ).split(";"))
+    if (statement.trim()) await env.DB.prepare(statement).run();
 }, 60000);
 afterAll(async () => {
   await proxy?.dispose();
@@ -266,3 +271,177 @@ it("keeps New and Used variants independently priced and discoverable", async ()
     ).first("name"),
   ).toBe("Retro");
 });
+
+it("saves owner display controls, prepares a zero-stock option and validates pre-order publishing", async () => {
+  const { getDetails, preorderSlides } =
+    await import("../../app/lib/server/storefront");
+  const { quote } = await import("../../app/lib/server/orders");
+  const values = {
+    entity: "product",
+    id: "workspace-game",
+    experienceEditor: "1",
+    name: "Workspace Game",
+    slug: "workspace-game",
+    featured: 0,
+    seoTitle: "",
+    seoDescription: "",
+    description: "Upcoming physical game",
+    categoryId: "games",
+    brand: "Test",
+    platform: "PlayStation",
+    condition: "New",
+    productType: "physical-game",
+    active: 0,
+    initialPrice: 9999,
+    generation: "PS5",
+    homepageShowcase: 1,
+    priceNotice: 1,
+  };
+  await adminMutation(env, "tester", form(values));
+  const option = await env.DB.prepare(
+    "SELECT id,price_pkr FROM product_variants WHERE product_id='workspace-game'",
+  ).first<{ id: string; price_pkr: number }>();
+  expect(option?.price_pkr).toBe(9999);
+  expect(
+    await env.DB.prepare(
+      "SELECT coalesce(sum(quantity_available),0) AS n FROM inventory WHERE variant_id=?",
+    )
+      .bind(option!.id)
+      .first("n"),
+  ).toBe(0);
+  expect(await getDetails(env, "workspace-game")).toMatchObject({
+    homepageShowcase: 1,
+    priceNotice: 1,
+    generation: "PS5",
+  });
+  const photo = form({
+    entity: "upload",
+    productId: "workspace-game",
+    alt: "Front cover",
+    transparent: 0,
+    primary: 1,
+    showcase: 1,
+    presentation: "cover",
+    casePlatform: "PS5",
+  });
+  const { default: sharp } = await import("sharp");
+  const cover = await sharp({
+    create: { width: 100, height: 150, channels: 3, background: "#123456" },
+  })
+    .png()
+    .toBuffer();
+  photo.set(
+    "file",
+    new File([new Uint8Array(cover)], "cover.png", { type: "image/png" }),
+  );
+  await uploadImage(env, "tester", photo);
+  const image = await env.DB.prepare(
+    "SELECT id,r2_key FROM product_images WHERE product_id='workspace-game'",
+  ).first<{ id: string; r2_key: string }>();
+  expect(await getDetails(env, "workspace-game")).toMatchObject({
+    showcaseStyle: "cover",
+    casePlatform: "PS5",
+    showcaseImageKey: image!.r2_key,
+  });
+  photo.set("replaceId", image!.id);
+  await uploadImage(env, "tester", photo);
+  const updated = await env.DB.prepare(
+    "SELECT id,r2_key FROM product_images WHERE product_id='workspace-game'",
+  ).first<{ id: string; r2_key: string }>();
+  expect(updated!.id).toBe(image!.id);
+  expect(updated!.r2_key).not.toBe(image!.r2_key);
+  const preorder = {
+    ...values,
+    initialPrice: undefined,
+    saleMode: "preorder",
+    showcaseImageKey: updated!.r2_key,
+    showcaseStyle: "cover",
+    casePlatform: "PS5",
+    priceUnconfirmed: 1,
+    preorderSlideshow: 1,
+    preorderBannerKey: "test-banner.webp",
+    depositTerms:
+      "Final price is confirmed by the team before any payment. Cancellation available before payment.",
+    preorderHeadline: "Coming soon",
+    preorderBody: "See the upcoming game.",
+  };
+  const save = (data: Record<string, unknown>) =>
+    adminMutation(
+      env,
+      "tester",
+      form(
+        Object.fromEntries(
+          Object.entries(data).filter(([, v]) => v !== undefined),
+        ) as Record<string, string | number>,
+      ),
+    );
+  await expect(save(preorder)).rejects.toMatchObject({ status: 400 });
+  await env.DB.prepare(
+    "INSERT INTO media_assets(id,r2_key,alt_text,width,height,is_transparent_asset) VALUES('test-banner','test-banner.webp','Banner',1600,1200,0)",
+  ).run();
+  await save(preorder);
+  expect(await preorderSlides(env)).toHaveLength(0);
+  await adminMutation(
+    env,
+    "tester",
+    form({ entity: "product-status", id: values.id, active: 1 }),
+  );
+  expect(await preorderSlides(env)).toEqual([
+    expect.objectContaining({
+      href: "/product/workspace-game",
+      title: "Coming soon",
+      imageKey: "test-banner.webp",
+    }),
+  ]);
+  const list = await catalogue(
+    { ...env, DEMO_MODE: "false" },
+    new URLSearchParams("saleMode=preorder&showcase=1"),
+  );
+  expect(list.items.find((p) => p.id === values.id)).toMatchObject({
+    priceUnconfirmed: 1,
+    showcaseStyle: "cover",
+    casePlatform: "PS5",
+  });
+  await expect(
+    quote(env, {
+      items: [{ variantId: option!.id, quantity: 1 }],
+      fulfillment: "delivery",
+      customer: {
+        name: "Test Customer",
+        phone: "923001234567",
+        email: "",
+        province: "Punjab",
+        city: "Multan",
+        address: "Test street",
+        postalCode: "",
+        notes: "",
+      },
+    }),
+  ).rejects.toMatchObject({ status: 409 });
+  await adminMutation(
+    env,
+    "tester",
+    form({ entity: "product-status", id: values.id, active: 0 }),
+  );
+  await env.DB.prepare(
+    "UPDATE product_details SET deposit_terms='' WHERE product_id=?",
+  )
+    .bind(values.id)
+    .run();
+  await expect(
+    adminMutation(
+      env,
+      "tester",
+      form({ entity: "product-status", id: values.id, active: 1 }),
+    ),
+  ).rejects.toMatchObject({ status: 400 });
+  await adminMutation(
+    env,
+    "tester",
+    form({ entity: "media-delete", id: updated!.id }),
+  );
+  expect(await getDetails(env, values.id)).toMatchObject({
+    showcaseImageKey: "",
+    showcaseStyle: "cutout",
+  });
+}, 20000);

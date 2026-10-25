@@ -8,6 +8,7 @@ import type { Env } from "../../types/env";
 import { storeAdminMutation } from "./store-admin";
 import { ownerMutation } from "./owner";
 import categoryDefaults from "../category-images.json";
+import { validateExperience, experienceStatement } from "./product-experience";
 const text = z.string().trim().max(1000);
 const short = z
   .string()
@@ -310,6 +311,25 @@ export async function adminMutation(env: Env, actor: string, form: FormData) {
   }
   if (entity === "product") {
     const value = productInput.parse(raw);
+    const experience =
+      raw.experienceEditor === "1"
+        ? await validateExperience(env, raw, value)
+        : null;
+    const existingProduct = value.id
+      ? await db
+          .select()
+          .from(schema.products)
+          .where(eq(schema.products.id, value.id))
+          .get()
+      : null;
+    const initialPrice =
+      !existingProduct && raw.initialPrice !== undefined
+        ? amount.parse(raw.initialPrice)
+        : null;
+    const initialName =
+      initialPrice !== null
+        ? short.parse(raw.initialVariantName || "Standard")
+        : "";
     if (value.active) {
       const ready = value.id
         ? await env.DB.prepare(
@@ -325,21 +345,54 @@ export async function adminMutation(env: Env, actor: string, form: FormData) {
         );
     }
     const id = value.id || crypto.randomUUID();
-    await db.batch([
-      db
-        .insert(schema.products)
-        .values({ ...value, id })
-        .onConflictDoUpdate({
-          target: schema.products.id,
-          set: { ...value, updatedAt: new Date().toISOString() },
-        }),
-      db.insert(schema.audit).values(auditEntry(actor, "save", entity, id)),
-    ]);
-    await env.DB.prepare(
-      "INSERT OR IGNORE INTO product_details(product_id,price_on_request) VALUES(?,0)",
-    )
-      .bind(id)
-      .run();
+    const statements = [
+      env.DB.prepare(
+        "INSERT INTO products(id,slug,name,description,category_id,brand,platform,condition,product_type,featured,active,demo,seo_title,seo_description,updated_at) VALUES(?,?,?,?,?,?,?,?,?,?,?,?,?,?,?) ON CONFLICT(id) DO UPDATE SET slug=excluded.slug,name=excluded.name,description=excluded.description,category_id=excluded.category_id,brand=excluded.brand,platform=excluded.platform,condition=excluded.condition,product_type=excluded.product_type,featured=excluded.featured,active=excluded.active,demo=excluded.demo,seo_title=excluded.seo_title,seo_description=excluded.seo_description,updated_at=excluded.updated_at",
+      ).bind(
+        id,
+        value.slug,
+        value.name,
+        value.description,
+        value.categoryId,
+        value.brand,
+        value.platform,
+        value.condition,
+        value.productType,
+        value.featured,
+        value.active,
+        value.demo,
+        value.seoTitle,
+        value.seoDescription,
+        new Date().toISOString(),
+      ),
+      env.DB.prepare(
+        "INSERT OR IGNORE INTO product_details(product_id,price_on_request) VALUES(?,0)",
+      ).bind(id),
+      env.DB.prepare(
+        "INSERT INTO admin_audit_logs(id,actor_identity,action,entity_type,entity_id) VALUES(?,?,?,?,?)",
+      ).bind(crypto.randomUUID(), actor, "save", entity, id),
+    ];
+    if (experience) statements.push(experienceStatement(env, id, experience));
+    if (initialPrice !== null) {
+      const variantId = crypto.randomUUID();
+      statements.push(
+        env.DB.prepare(
+          "INSERT INTO product_variants(id,product_id,sku,name,attributes_json,price_pkr,available,condition) VALUES(?,?,?,?,?,?,1,?)",
+        ).bind(
+          variantId,
+          id,
+          `GFP-${value.slug.toUpperCase()}`,
+          initialName,
+          "{}",
+          initialPrice,
+          value.condition,
+        ),
+        env.DB.prepare(
+          "INSERT INTO inventory(id,variant_id,branch_id,quantity_available) SELECT ?||'-'||id,?,id,0 FROM branches",
+        ).bind(variantId, variantId),
+      );
+    }
+    await env.DB.batch(statements);
     return "Product saved. Add variants, photos and branch stock before publishing.";
   }
   if (entity === "variant") {

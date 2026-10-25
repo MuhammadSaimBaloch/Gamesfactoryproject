@@ -1,6 +1,6 @@
 import { z } from "zod";
 import type { Env } from "../../types/env";
-import { detailsInput, localHref } from "./storefront";
+import { detailsInput, getDetails, localHref } from "./storefront";
 import { encryptCode } from "./customers";
 import categoryDefaults from "../category-images.json";
 export async function storeAdminMutation(
@@ -38,7 +38,8 @@ export async function storeAdminMutation(
       .run();
     result = "Category artwork saved.";
   } else if (entity === "product-details") {
-    const d = detailsInput.parse(raw);
+    const previous = await getDetails(env, String(raw.productId));
+    const d = detailsInput.parse({ ...previous, ...raw });
     const product = await env.DB.prepare(
       "SELECT product_type FROM products WHERE id=?",
     )

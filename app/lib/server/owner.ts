@@ -1,3 +1,5 @@
+import { getDetails } from "./storefront";
+import { validateExperience } from "./product-experience";
 import { z } from "zod";
 import type { Env } from "../../types/env";
 import type { Sale } from "./sales";
@@ -187,6 +189,12 @@ export async function ownerMutation(
         );
     }
     await env.DB.batch([
+      env.DB.prepare(
+        "UPDATE product_details SET showcase_image_key='',showcase_style='cutout',case_platform='' WHERE showcase_image_key=?",
+      ).bind(row.r2_key),
+      env.DB.prepare(
+        "UPDATE product_details SET preorder_banner_key='',preorder_slideshow=0 WHERE preorder_banner_key=?",
+      ).bind(row.r2_key),
       env.DB.prepare("DELETE FROM product_images WHERE id=?").bind(imageId),
       env.DB.prepare("DELETE FROM media_assets WHERE id=?").bind(imageId),
       audit("Delete unused image", imageId),
@@ -277,6 +285,18 @@ export async function ownerMutation(
       )
         .bind(productId)
         .first();
+      const product = await env.DB.prepare(
+        "SELECT product_type FROM products WHERE id=?",
+      )
+        .bind(productId)
+        .first<{ product_type: string }>();
+      const details = await getDetails(env, productId);
+      if (product && details)
+        await validateExperience(env, details, {
+          id: productId,
+          productType: product.product_type,
+          active: 1,
+        });
       if (!ready || !photo)
         throw new Response(
           "Add a variant and a product photograph before publishing.",

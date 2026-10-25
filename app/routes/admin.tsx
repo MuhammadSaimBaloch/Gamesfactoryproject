@@ -1,3 +1,5 @@
+import { ProductEditor } from "../components/admin/product-editor";
+import { ProductMedia } from "../components/admin/product-media";
 import { Editor, type Field } from "../components/admin/editor";
 import { UploadForm } from "../components/admin/upload-form";
 import { CsvImport } from "../components/admin/csv-import";
@@ -25,7 +27,7 @@ import { promotions, getDetails, type Inquiry } from "../lib/server/storefront";
 import { ownerData } from "../lib/server/owner";
 import categoryDefaults from "../lib/category-images.json";
 import inventoryReview from "../../db/inventory-review.json";
-import { platformOptions, generationOptions } from "../lib/catalogue-options";
+import { generationOptions } from "../lib/catalogue-options";
 import {
   OwnerTools,
   ProductList,
@@ -117,6 +119,11 @@ export async function loader({ request, params, context }: LoaderFunctionArgs) {
       access: Boolean(env.ACCESS_ISSUER && env.ACCESS_AUD && env.ADMIN_EMAILS),
     },
     promotions: await promotions(env, true),
+    preorderProducts: (
+      await env.DB.prepare(
+        "SELECT product_id FROM product_details WHERE sale_mode='preorder'",
+      ).all<{ product_id: string }>()
+    ).results.map((r) => r.product_id),
     productDetails: path.startsWith("products/")
       ? await getDetails(env, path.split("/")[1])
       : null,
@@ -239,6 +246,7 @@ export default function Admin() {
   const d = useLoaderData<typeof loader>();
   const actionResult = useActionData<typeof action>();
   const section = d.path.split("/")[0] || "overview";
+  const [editorParams] = useSearchParams();
   const productId = d.path.split("/")[1];
   const editing = d.products.find((p) => p.id === productId);
   const currentOrder = d.orders.find((o) => o.id === d.path.split("/")[1]);
@@ -260,33 +268,6 @@ export default function Admin() {
     value: c.id,
     label: c.name,
   }));
-  const productFields: Field[] = [
-    { key: "name", required: true },
-    { key: "slug", required: true },
-    { key: "description", type: "textarea" },
-    { key: "categoryId", options: categoryOptions },
-    { key: "brand" },
-    {
-      key: "platform",
-      options: options(platformOptions),
-    },
-    { key: "condition", options: options(["New", "Used", "Refurbished"]) },
-    {
-      key: "productType",
-      options: options([
-        "controller",
-        "console",
-        "physical-game",
-        "digital-game",
-        "gift-card",
-        "accessory",
-      ]),
-    },
-    { key: "featured", options: yesNo },
-    { key: "active", label: "Publish on storefront", options: yesNo },
-    { key: "seoTitle" },
-    { key: "seoDescription" },
-  ];
   const variantFields: Field[] = [
     {
       key: "productId",
@@ -331,6 +312,7 @@ export default function Admin() {
         {[
           "overview",
           "products",
+          "preorders",
           "categories",
           "inventory",
           "orders",
@@ -339,7 +321,6 @@ export default function Admin() {
           "branches",
           "shipping",
           "settings",
-          "promotions",
           "inquiries",
           "sales",
           "brands",
@@ -351,7 +332,7 @@ export default function Admin() {
             key={p}
             to={p === "overview" ? "/admin" : `/admin/${p}`}
           >
-            {p}
+            {p === "preorders" ? "Pre-orders" : p}
           </Link>
         ))}
         <small>Signed in as {d.actor}</small>
@@ -472,6 +453,13 @@ export default function Admin() {
         ) : section === "products" ? (
           d.path === "products/new" || editing ? (
             <>
+              {editing?.slug.startsWith("retro-") && !editing.active && (
+                <p className="notice">
+                  Owner-confirmed Retro model. Add the exact product photo,
+                  verify hardware, storage, included controllers and supported
+                  games, then set the actual price and stock before publishing.
+                </p>
+              )}
               {editing &&
                 !editing.active &&
                 inventoryReview.find((item) => item.slug === editing.slug)
@@ -485,75 +473,87 @@ export default function Admin() {
                     Resolve these notes, then publish this product when ready.
                   </div>
                 )}
-              <Editor
-                entity="product"
-                title={editing ? "Edit product" : "Create product"}
-                fields={productFields}
-                record={editing || { demo: 0, active: 0 }}
-              />
+              <nav className="product-anchor-nav">
+                <a href="#product-basics">Details & display</a>
+                <a href="#product-prices">Prices & options</a>
+                <a href="#product-photos">Photos</a>
+                <a href="#product-discounts">Discounts</a>
+                <Link to="/admin/inventory">Branch stock</Link>
+              </nav>
+              <div id="product-basics">
+                <ProductEditor
+                  key={`${editing?.id || "new"}:${editing?.updatedAt || ""}:${JSON.stringify(d.productDetails)}`}
+                  product={editing}
+                  details={d.productDetails}
+                  categories={categoryOptions}
+                  photos={d.images
+                    .filter((i) => i.productId === editing?.id)
+                    .map((i) => ({ value: i.key, label: i.alt }))}
+                  banners={imageOptions}
+                  preorderDefault={editorParams.get("preorder") === "1"}
+                />
+              </div>
               {editing && (
                 <>
-                  <Editor
-                    entity="product-details"
-                    title="Product content, gift cards and pre-orders"
-                    record={
-                      d.productDetails || {
-                        productId: editing.id,
-                        saleMode: "stock",
-                        priceOnRequest: 0,
+                  <details className="admin-fold">
+                    <summary>
+                      Compatibility, warranty & additional information
+                    </summary>
+                    <Editor
+                      entity="product-details"
+                      title="Additional product details"
+                      record={
+                        d.productDetails || {
+                          productId: editing.id,
+                          saleMode: "stock",
+                          priceOnRequest: 0,
+                        }
                       }
-                    }
-                    fields={[
-                      {
-                        key: "productId",
-                        options: [{ value: editing.id, label: editing.name }],
-                      },
-                      {
-                        key: "generation",
-                        options: options(["", ...generationOptions]),
-                      },
-                      { key: "compatibility", type: "textarea" },
-                      { key: "region" },
-                      { key: "edition" },
-                      {
-                        key: "boxContents",
-                        label: "What’s included",
-                        type: "textarea",
-                      },
-                      {
-                        key: "warranty",
-                        label: "Approved warranty terms",
-                        type: "textarea",
-                      },
-                      {
-                        key: "denomination",
-                        label:
-                          "Gift-card currency and value (for example USD 25)",
-                      },
-                      {
-                        key: "redemption",
-                        label: "Redemption instructions",
-                        type: "textarea",
-                      },
-                      {
-                        key: "deliveryTerms",
-                        label: "Digital delivery times and terms",
-                        type: "textarea",
-                      },
-                      {
-                        key: "saleMode",
-                        options: options(["stock", "preorder"]),
-                      },
-                      { key: "releaseDate", type: "date" },
-                      {
-                        key: "depositTerms",
-                        label:
-                          "Pre-order deposit, cancellation and fulfillment terms",
-                        type: "textarea",
-                      },
-                    ]}
-                  />
-                  <h2>Variants</h2>
+                      fields={[
+                        {
+                          key: "productId",
+                          options: [{ value: editing.id, label: editing.name }],
+                        },
+                        {
+                          key: "generation",
+                          options: options(["", ...generationOptions]),
+                        },
+                        { key: "compatibility", type: "textarea" },
+                        { key: "region" },
+                        { key: "edition" },
+                        {
+                          key: "boxContents",
+                          label: "What’s included",
+                          type: "textarea",
+                        },
+                        {
+                          key: "warranty",
+                          label: "Approved warranty terms",
+                          type: "textarea",
+                        },
+                        {
+                          key: "denomination",
+                          label:
+                            "Gift-card currency and value (for example USD 25)",
+                        },
+                        {
+                          key: "redemption",
+                          label: "Redemption instructions",
+                          type: "textarea",
+                        },
+                        {
+                          key: "deliveryTerms",
+                          label: "Digital delivery times and terms",
+                          type: "textarea",
+                        },
+                      ]}
+                    />
+                  </details>
+                  <h2 id="product-prices">Prices & options</h2>
+                  <p>
+                    Each condition, storage size or edition can have its own
+                    price. Changes apply to the storefront immediately.
+                  </p>
                   {d.variants
                     .filter((v) => v.productId === editing.id)
                     .map((v) => (
@@ -575,12 +575,84 @@ export default function Admin() {
                       available: 1,
                     }}
                   />
-                  <UploadForm
-                    products={[editing]}
-                    variants={d.variants.filter(
+                  <ProductMedia
+                    product={editing}
+                    photos={d.images.filter((i) => i.productId === editing.id)}
+                    options={d.variants.filter(
                       (v) => v.productId === editing.id,
                     )}
+                    generation={d.productDetails?.generation}
                   />
+                  <section id="product-discounts">
+                    <h2>Product discounts</h2>
+                    <p>
+                      Create a discount for this product. Manage or remove
+                      existing discounts in Sales.
+                    </p>
+                    <Editor
+                      entity="sale"
+                      title="Add a product discount"
+                      record={{
+                        mode: "percent",
+                        value: 10,
+                        enabled: 0,
+                        startsAt: "",
+                        endsAt: "",
+                        variantIds: JSON.stringify(
+                          d.variants
+                            .filter((v) => v.productId === editing.id)
+                            .map((v) => v.id),
+                        ),
+                      }}
+                      fields={[
+                        {
+                          key: "title",
+                          label: "Discount name",
+                          required: true,
+                        },
+                        {
+                          key: "mode",
+                          label: "Discount type",
+                          options: [
+                            { value: "percent", label: "Percentage off (%)" },
+                            { value: "fixed", label: "Amount off (PKR)" },
+                          ],
+                        },
+                        {
+                          key: "value",
+                          label: "Discount amount",
+                          type: "number",
+                          required: true,
+                        },
+                        {
+                          key: "enabled",
+                          label: "Enable discount",
+                          options: yesNo,
+                        },
+                        {
+                          key: "startsAt",
+                          label: "Starts at (PKT)",
+                          type: "pakistan-time",
+                        },
+                        {
+                          key: "endsAt",
+                          label: "Ends at (PKT)",
+                          type: "pakistan-time",
+                        },
+                        {
+                          key: "variantIds",
+                          label: "Apply to these options",
+                          type: "multi",
+                          options: d.variants
+                            .filter((v) => v.productId === editing.id)
+                            .map((v) => ({ value: v.id, label: v.name })),
+                        },
+                      ]}
+                    />
+                    <Link className="text-link" to="/admin/sales">
+                      Manage all discounts ↗
+                    </Link>
+                  </section>
                   <Link className="text-link" to="/admin/inventory">
                     Manage branch stock ↗
                   </Link>
@@ -922,114 +994,59 @@ export default function Admin() {
                   { key: "subtitle" },
                   { key: "enabled", options: yesNo },
                   { key: "sort", type: "number" },
-                  {
-                    key: "settings",
-                    label: "Choose and order products",
-                    type: "product-selection",
-                    options: d.products
-                      .filter((p) =>
-                        s.key === "controllers"
-                          ? p.productType === "controller"
-                          : s.key === "games"
-                            ? p.productType === "physical-game"
-                            : s.key === "consoles"
-                              ? p.productType === "console"
-                              : true,
-                      )
-                      .map((p) => ({ value: p.id, label: p.name })),
-                  },
+                  ...(["controllers", "games", "new-arrivals"].includes(s.key)
+                    ? []
+                    : [
+                        {
+                          key: "settings",
+                          label: "Choose and order products",
+                          type: "product-selection" as const,
+                          options: d.products
+                            .filter((p) =>
+                              s.key === "controllers"
+                                ? p.productType === "controller"
+                                : s.key === "games"
+                                  ? p.productType === "physical-game"
+                                  : s.key === "consoles"
+                                    ? p.productType === "console"
+                                    : true,
+                            )
+                            .map((p) => ({ value: p.id, label: p.name })),
+                        },
+                      ]),
                 ]}
                 record={s}
               />
             ))}
             <p>
-              Mark products as featured to include them in their corresponding
-              homepage collection.
+              For Controllers and Games, open a product and turn on “Show in the
+              homepage 3D display”. New arrivals always show the latest six
+              products. Pre-order banners are managed in Pre-orders.
             </p>
           </>
-        ) : section === "promotions" ? (
+        ) : section === "promotions" || section === "preorders" ? (
           <>
-            <p>
-              Published slides rotate on the homepage. Choose photography, a
-              store destination and optional Pakistan start/end times. Disable a
-              slide to remove it.
-            </p>
-            {[
-              ...d.promotions,
-              {
-                id: "",
-                title: "",
-                body: "",
-                imageKey: "",
-                href: "/shop",
-                cta: "Shop now",
-                enabled: 0,
-                sort: 0,
-                startsAt: "",
-                endsAt: "",
-              },
-            ].map((p) => (
-              <Editor
-                key={p.id || "new"}
-                entity="promotion"
-                title={p.id ? p.title : "Add promotional slide"}
-                record={{ ...p }}
-                fields={[
-                  { key: "title", required: true },
-                  { key: "body", type: "textarea" },
-                  {
-                    key: "imageKey",
-                    options: [
-                      { value: "", label: "Typography only" },
-                      ...imageOptions,
-                    ],
-                  },
-                  {
-                    key: "href",
-                    label: "Store link (for example /category/gift-cards)",
-                  },
-                  { key: "cta", label: "Button text" },
-                  { key: "enabled", options: yesNo },
-                  { key: "sort", type: "number" },
-                  {
-                    key: "startsAt",
-                    label: "Starts at (PKT)",
-                    type: "pakistan-time",
-                  },
-                  {
-                    key: "endsAt",
-                    label: "Ends at (PKT)",
-                    type: "pakistan-time",
-                  },
-                ]}
-              />
-            ))}
-            {d.promotions.length > 0 && (
-              <Form
-                method="post"
-                className="admin-form"
-                onSubmit={(e) => {
-                  if (!confirm("Remove the selected promotional slide?"))
-                    e.preventDefault();
-                }}
-              >
-                <h3>Remove a promotional slide</h3>
-                <input type="hidden" name="entity" value="promotion-delete" />
-                <label>
-                  Slide
-                  <select name="id">
-                    {d.promotions.map((p) => (
-                      <option key={p.id} value={p.id}>
-                        {p.title}
-                      </option>
-                    ))}
-                  </select>
-                </label>
-                <button className="button secondary">
-                  Remove selected slide
-                </button>
-              </Form>
-            )}
+            <div className="notice">
+              <h2>Pre-orders & homepage banners</h2>
+              <p>
+                Add an upcoming product, choose its price status and turn on
+                “Show in slideshow”. Each banner links to its product
+                automatically. Banner size: 1600 × 1200 px recommended, at least
+                800 × 450 px.
+              </p>
+              <Link className="button" to="/admin/products/new?preorder=1">
+                Add a pre-order +
+              </Link>
+            </div>
+            <ProductList
+              data={{
+                ...d,
+                products: d.products.filter((p) =>
+                  d.preorderProducts.includes(p.id),
+                ),
+              }}
+            />
+            <UploadForm products={[]} variants={[]} />
           </>
         ) : section === "inquiries" ? (
           <>

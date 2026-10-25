@@ -3,7 +3,7 @@ import { test, expect } from "@playwright/test";
 test("inventory collections show unique products and matching condition, storage and PSP photos", async ({
   page,
 }, testInfo) => {
-  await page.goto("/category/retro");
+  await page.goto("/category/consoles");
   const cards = page.locator(".product-card");
   await expect(cards.first()).toBeVisible();
   const addresses = await cards
@@ -11,7 +11,7 @@ test("inventory collections show unique products and matching condition, storage
     .evaluateAll((links) => links.map((link) => link.getAttribute("href")));
   expect(new Set(addresses).size).toBe(addresses.length);
   await page.screenshot({
-    path: `artifacts/inventory-retro-${testInfo.project.name}.png`,
+    path: `artifacts/inventory-consoles-${testInfo.project.name}.png`,
     fullPage: true,
   });
   await page

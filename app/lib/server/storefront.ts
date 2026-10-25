@@ -1,5 +1,7 @@
 import { z } from "zod";
 import type { Env } from "../../types/env";
+import { generationOptions } from "../catalogue-options";
+import { experienceInput } from "./product-experience";
 export const emailInput = z
   .string()
   .trim()
@@ -10,16 +12,7 @@ export const detailsInput = z
   .object({
     productId: z.string().min(1).max(80),
     priceOnRequest: z.coerce.number().int().min(0).max(1).default(0),
-    generation: z.enum([
-      "",
-      "PS4",
-      "PS5",
-      "Xbox One",
-      "Xbox Series",
-      "Switch",
-      "Switch 2",
-      "PC",
-    ]),
+    generation: z.string().refine((v) => !v || generationOptions.includes(v)),
     compatibility: z.string().trim().max(2000),
     region: z.string().trim().max(120),
     edition: z.string().trim().max(120),
@@ -41,10 +34,11 @@ export const detailsInput = z
           "Explain the deposit, cancellation and fulfillment terms before enabling pre-orders.",
       });
   });
-export type ProductDetails = z.infer<typeof detailsInput>;
+export type ProductDetails = z.infer<typeof detailsInput> &
+  z.infer<typeof experienceInput>;
 export async function getDetails(env: Env, id: string) {
   return env.DB.prepare(
-    "SELECT product_id AS productId,price_on_request AS priceOnRequest,generation,compatibility,region,edition,box_contents AS boxContents,warranty,denomination,redemption,delivery_terms AS deliveryTerms,sale_mode AS saleMode,release_date AS releaseDate,deposit_terms AS depositTerms FROM product_details WHERE product_id=?",
+    "SELECT product_id AS productId,price_on_request AS priceOnRequest,generation,compatibility,region,edition,box_contents AS boxContents,warranty,denomination,redemption,delivery_terms AS deliveryTerms,sale_mode AS saleMode,release_date AS releaseDate,deposit_terms AS depositTerms,homepage_showcase AS homepageShowcase,price_notice AS priceNotice,price_unconfirmed AS priceUnconfirmed,preorder_slideshow AS preorderSlideshow,preorder_banner_key AS preorderBannerKey,preorder_headline AS preorderHeadline,preorder_body AS preorderBody,showcase_image_key AS showcaseImageKey,showcase_style AS showcaseStyle,case_platform AS casePlatform FROM product_details WHERE product_id=?",
   )
     .bind(id)
     .first<ProductDetails>();
@@ -82,6 +76,31 @@ export interface Inquiry {
   status: string;
   staff_notes: string;
   created_at: string;
+}
+export async function preorderSlides(env: Env): Promise<Promotion[]> {
+  const rows = await env.DB.prepare(
+    "SELECT p.id,p.slug,p.name,p.description,d.preorder_banner_key AS imageKey,d.preorder_headline AS headline,d.preorder_body AS body FROM products p JOIN product_details d ON d.product_id=p.id JOIN categories c ON c.id=p.category_id WHERE p.active=1 AND p.demo=0 AND c.active=1 AND d.sale_mode='preorder' AND d.preorder_slideshow=1 AND d.preorder_banner_key<>'' AND EXISTS(SELECT 1 FROM product_variants v WHERE v.product_id=p.id AND v.available=1) ORDER BY p.updated_at DESC,p.id",
+  ).all<{
+    id: string;
+    slug: string;
+    name: string;
+    description: string;
+    imageKey: string;
+    headline: string;
+    body: string;
+  }>();
+  return rows.results.map((row, sort) => ({
+    id: row.id,
+    title: row.headline || row.name,
+    body: row.body || row.description,
+    imageKey: row.imageKey,
+    href: `/product/${row.slug}`,
+    cta: "View pre-order",
+    enabled: 1,
+    sort,
+    startsAt: "",
+    endsAt: "",
+  }));
 }
 export const inquiryInput = z.object({
   name: z.string().trim().min(2).max(120),

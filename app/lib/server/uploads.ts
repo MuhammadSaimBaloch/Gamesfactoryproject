@@ -1,9 +1,8 @@
 import { z } from "zod";
 import { imageSize } from "image-size";
 import { database } from "./db";
-import { images, audit, variants } from "../../../db/schema";
-import { and, eq, sql } from "drizzle-orm";
-import { auditEntry } from "./admin";
+import { images, variants, products } from "../../../db/schema";
+import { eq } from "drizzle-orm";
 import type { Env } from "../../types/env";
 async function inspect(file: File) {
   if (file.size > 8 * 1024 * 1024 || file.size < 24)
@@ -49,6 +48,13 @@ export async function uploadImage(env: Env, actor: string, form: FormData) {
       alt: z.string().min(2).max(200),
       transparent: z.coerce.number().int().min(0).max(1),
       primary: z.coerce.number().int().min(0).max(1),
+      replaceId: z.string().default(""),
+      presentation: z
+        .enum(["gallery", "floating", "cover", "banner"])
+        .default("gallery"),
+      casePlatform: z
+        .enum(["", "PS5", "PS4", "Xbox", "Switch", "Switch 2"])
+        .default(""),
       showcase: z.coerce.number().int().min(0).max(1).default(0),
     })
     .parse(Object.fromEntries(form));
@@ -63,6 +69,58 @@ export async function uploadImage(env: Env, actor: string, form: FormData) {
         status: 400,
       });
   }
+  const product = input.productId
+    ? await database(env)
+        .select()
+        .from(products)
+        .where(eq(products.id, input.productId))
+        .get()
+    : null;
+  if (input.productId && !product)
+    throw new Response("Product not found", { status: 404 });
+  const replacement = input.replaceId
+    ? await database(env)
+        .select()
+        .from(images)
+        .where(eq(images.id, input.replaceId))
+        .get()
+    : null;
+  if (
+    input.replaceId &&
+    (!replacement || replacement.productId !== input.productId)
+  )
+    throw new Response("Choose a photo belonging to this product.", {
+      status: 400,
+    });
+  if (
+    input.presentation === "cover" &&
+    (product?.productType !== "physical-game" || !input.casePlatform)
+  )
+    throw new Response(
+      "Cover artwork requires a physical game and case platform.",
+      { status: 400 },
+    );
+  if (input.presentation === "floating" && !input.transparent)
+    throw new Response(
+      "Upload a transparent cutout for the floating display.",
+      { status: 400 },
+    );
+  if (
+    input.presentation === "banner" &&
+    (input.productId ||
+      original.width < 800 ||
+      original.height < 450 ||
+      original.width <= original.height)
+  )
+    throw new Response(
+      "Upload banners to the library at 800 × 450 px or larger in landscape orientation.",
+      { status: 400 },
+    );
+  if (input.presentation === "cover" && original.height <= original.width)
+    throw new Response(
+      "Use upright portrait front-cover artwork for a game case. Use Gallery photo for square or landscape artwork.",
+      { status: 400 },
+    );
   const stem = `products/${crypto.randomUUID()}`;
   const key = `${stem}.${original.ext}`;
   const assets = [{ key, ...original }];
@@ -93,8 +151,9 @@ export async function uploadImage(env: Env, actor: string, form: FormData) {
       });
       written.push(asset.key);
     }
+    const statements: D1PreparedStatement[] = [];
     if (!input.productId) {
-      await env.DB.batch([
+      statements.push(
         env.DB.prepare(
           "INSERT INTO media_assets(id,r2_key,alt_text,width,height,is_transparent_asset) VALUES(?,?,?,?,?,?)",
         ).bind(
@@ -105,42 +164,95 @@ export async function uploadImage(env: Env, actor: string, form: FormData) {
           original.height,
           input.transparent,
         ),
-        env.DB.prepare(
-          "INSERT INTO admin_audit_logs(id,actor_identity,action,entity_type,entity_id) VALUES(?,?,?,?,?)",
-        ).bind(
-          crypto.randomUUID(),
-          actor,
-          "Upload library image",
-          "media",
-          key,
-        ),
-      ]);
-    } else
-      await database(env).batch([
-        database(env)
-          .update(images)
-          .set({ primary: 0 })
-          .where(
-            and(
-              eq(images.productId, input.productId),
-              sql`${input.primary}=1`,
-              sql`${images.variantId} IS ${input.variantId || null}`,
+      );
+    } else {
+      const variantId = replacement
+        ? replacement.variantId
+        : input.variantId || null;
+      if (input.primary)
+        statements.push(
+          env.DB.prepare(
+            "UPDATE product_images SET is_primary=0 WHERE product_id=? AND variant_id IS ?",
+          ).bind(input.productId, variantId),
+        );
+      statements.push(
+        replacement
+          ? env.DB.prepare(
+              "UPDATE product_images SET r2_key=?,alt_text=?,width=?,height=?,is_primary=?,is_transparent_asset=?,is_showcase_asset=? WHERE id=?",
+            ).bind(
+              key,
+              input.alt,
+              original.width,
+              original.height,
+              input.primary,
+              input.transparent,
+              input.showcase,
+              replacement.id,
+            )
+          : env.DB.prepare(
+              "INSERT INTO product_images(id,product_id,variant_id,r2_key,alt_text,width,height,is_primary,is_transparent_asset,is_showcase_asset) VALUES(?,?,?,?,?,?,?,?,?,?)",
+            ).bind(
+              crypto.randomUUID(),
+              input.productId,
+              variantId,
+              key,
+              input.alt,
+              original.width,
+              original.height,
+              input.primary,
+              input.transparent,
+              input.showcase,
             ),
-          ),
-        database(env)
-          .insert(images)
-          .values({
-            ...input,
-            id: crypto.randomUUID(),
-            variantId: input.variantId || null,
+      );
+      statements.push(
+        env.DB.prepare(
+          "INSERT OR IGNORE INTO product_details(product_id) VALUES(?)",
+        ).bind(input.productId),
+        env.DB.prepare("UPDATE products SET updated_at=? WHERE id=?").bind(
+          new Date().toISOString(),
+          input.productId,
+        ),
+      );
+      if (replacement)
+        statements.push(
+          env.DB.prepare(
+            "UPDATE product_details SET showcase_image_key=? WHERE showcase_image_key=?",
+          ).bind(key, replacement.key),
+          env.DB.prepare(
+            "UPDATE product_details SET preorder_banner_key=? WHERE preorder_banner_key=?",
+          ).bind(key, replacement.key),
+          env.DB.prepare("UPDATE site_settings SET value=? WHERE value=?").bind(
             key,
-            width: original.width,
-            height: original.height,
-          }),
-        database(env)
-          .insert(audit)
-          .values(auditEntry(actor, "upload", "media", key)),
-      ]);
+            replacement.key,
+          ),
+          env.DB.prepare(
+            "UPDATE promotions SET image_key=? WHERE image_key=?",
+          ).bind(key, replacement.key),
+        );
+      if (["floating", "cover"].includes(input.presentation))
+        statements.push(
+          env.DB.prepare(
+            "UPDATE product_details SET showcase_image_key=?,showcase_style=?,case_platform=? WHERE product_id=?",
+          ).bind(
+            key,
+            input.presentation === "cover" ? "cover" : "cutout",
+            input.casePlatform,
+            input.productId,
+          ),
+        );
+    }
+    statements.push(
+      env.DB.prepare(
+        "INSERT INTO admin_audit_logs(id,actor_identity,action,entity_type,entity_id) VALUES(?,?,?,?,?)",
+      ).bind(
+        crypto.randomUUID(),
+        actor,
+        replacement ? "Replace image" : "Upload image",
+        "media",
+        key,
+      ),
+    );
+    await env.DB.batch(statements);
   } catch (e) {
     await env.MEDIA.delete(written);
     throw e;

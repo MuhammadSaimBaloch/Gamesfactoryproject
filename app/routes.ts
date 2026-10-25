@@ -7,6 +7,7 @@ export default [
     "platform/:slug",
     "controllers",
     "games",
+    "pre-orders",
     "search",
   ].map((p, i) => route(p, "routes/catalogue.tsx", { id: `catalogue-${i}` })),
   route("product/:slug", "routes/product.tsx"),

@@ -41,6 +41,10 @@ export async function loader({ url, params, context }: LoaderFunctionArgs) {
     title = "FIND YOUR NEXT WORLD.";
   }
   if (url.pathname === "/search") title = "SEARCH THE COLLECTION.";
+  if (url.pathname === "/pre-orders") {
+    filters.set("saleMode", "preorder");
+    title = "PRE-ORDERS.";
+  }
   return {
     canonical: context.get(environmentContext).SITE_URL + url.pathname,
     ...(await catalogue(context.get(environmentContext), filters)),

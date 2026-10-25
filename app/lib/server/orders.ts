@@ -76,7 +76,7 @@ export async function quote(
         and(eq(inventory.variantId, item.variantId), eq(branches.active, 1)),
       );
     const details = await getDetails(env, row.p.id);
-    if (details?.priceOnRequest)
+    if (details?.priceOnRequest || details?.priceUnconfirmed)
       throw new Response(
         "Please contact the store for a confirmed price and availability for this item.",
         { status: 409 },

@@ -1,5 +1,7 @@
 # Games Factory Pakistan — owner guide
 
+For the updated product editor, image upload modes, homepage display switches and pre-order banners, see [Product and image guide](docs/owner-product-guide.md).
+
 Open `/admin`. This is a single-owner console; no staff roles are required. Local review uses this workstation's loopback-only identity. Before launch, the deployment operator must protect the live admin and admin API routes with Cloudflare Access and allow only the owner's email. Customer accounts and newsletter registration are not offered.
 
 ## Daily dashboard
@@ -85,6 +87,7 @@ The image manifest lists original uploaded R2 keys and expected responsive copie
 Before live recovery, pause writes, take a fresh export, restore the selected D1 point/SQL backup into staging, restore matching R2 files and verify products, prices, quantities, images and guest ordering. Switch production only after verification. The local integration suite verifies the business snapshot can be reloaded into a fresh SQLite schema with foreign-key checks; it does not claim a live Cloudflare Time Travel or R2 restore was performed.
 
 Production Access, automated D1/R2 backup arrangements, retention and live restore verification still require the hosting account. See OWNER_CONSOLE_CHECKLIST.md and PRODUCTION_SETUP.md.
+
 # Retro and product condition
 
 Choose **Retro** as a product's category for classic consoles and games. The homepage category tile and category browser include it automatically; add the real products through the existing product editor.

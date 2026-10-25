@@ -27,7 +27,7 @@ export function Promotions({ slides }: { slides: Promotion[] }) {
   return (
     <section
       className="campaign"
-      aria-label="Store highlights"
+      aria-label="Pre-order highlights"
       aria-roledescription="carousel"
       onMouseEnter={() => setInteracting(true)}
       onMouseLeave={() => setInteracting(false)}
@@ -37,7 +37,7 @@ export function Promotions({ slides }: { slides: Promotion[] }) {
       }}
     >
       <div className="campaign-copy">
-        <span className="eyebrow">GAMES FACTORY / IN THE SPOTLIGHT</span>
+        <span className="eyebrow">GAMES FACTORY / PRE-ORDERS</span>
         <div aria-live={paused || reduced ? "polite" : "off"}>
           <h2>{current.title}</h2>
           <p>{current.body}</p>

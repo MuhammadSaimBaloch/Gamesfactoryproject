@@ -14,7 +14,7 @@ import { ProductCard } from "../components/products/card";
 import { ProductVisual } from "../components/products/visual";
 import { Showcase } from "../components/carousels/showcase";
 import { seo } from "../lib/seo";
-import { promotions } from "../lib/server/storefront";
+import { preorderSlides } from "../lib/server/storefront";
 import { Promotions } from "../components/carousels/promotions";
 import categoryImages from "../lib/category-images.json";
 import { imageUrl, imageSrcSet } from "../lib/image-url";
@@ -34,6 +34,25 @@ export async function loader({ context }: LoaderFunctionArgs) {
       site.sections
         .filter((s) => s.enabled)
         .map(async (s) => {
+          if (["controllers", "games"].includes(s.key)) {
+            const products: typeof catalog.items = [];
+            let page = 1;
+            while (page <= 50) {
+              const result = await catalogue(
+                env,
+                new URLSearchParams({
+                  real: "1",
+                  showcase: "1",
+                  type:
+                    s.key === "controllers" ? "controller" : "physical-game",
+                  page: String(page++),
+                }),
+              );
+              products.push(...result.items);
+              if (!result.hasMore) break;
+            }
+            return [s.key, products] as const;
+          }
           let selected = "";
           try {
             selected = String(
@@ -65,7 +84,12 @@ export async function loader({ context }: LoaderFunctionArgs) {
         }),
     ),
   );
-  return { ...catalog, ...site, shelves, promotions: await promotions(env) };
+  return {
+    ...catalog,
+    ...site,
+    shelves,
+    promotions: await preorderSlides(env),
+  };
 }
 export default function Home() {
   const {
@@ -125,6 +149,7 @@ export default function Home() {
           </span>
         </div>
       </section>
+      <Promotions slides={slides} />
       <div className="trust-strip">
         <span>
           <MapPin size={17} /> Two branches in Multan
@@ -160,7 +185,6 @@ export default function Home() {
           ))}
         </div>
       </section>
-      <Promotions slides={slides} />
       <section className="section category-shortcuts">
         <div className="section-heading">
           <h2>FIND YOUR NEXT UPGRADE.</h2>

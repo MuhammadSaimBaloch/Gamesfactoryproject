@@ -27,14 +27,36 @@ export function ProductVisual({
   type,
   large = false,
   priority = false,
+  presentation,
+  casePlatform,
 }: {
   image?: string | null;
   name: string;
   type: string;
   large?: boolean;
   priority?: boolean;
+  presentation?: string;
+  casePlatform?: string;
 }) {
   const clipId = useId();
+  if (image && presentation === "cover")
+    return (
+      <div
+        className={`game-case game-case--${casePlatform?.startsWith("Switch") ? "switch" : casePlatform === "Xbox" ? "xbox" : "playstation"}`}
+        role="img"
+        aria-label={`${name} physical case preview`}
+      >
+        <div className="game-case-header">{casePlatform || "GAME"}</div>
+        <img
+          className="game-case-art"
+          src={imageUrl(image, large ? 960 : 640)}
+          srcSet={imageSrcSet(image)}
+          alt={name}
+          loading={priority ? "eager" : "lazy"}
+          decoding="async"
+        />
+      </div>
+    );
   // Frame genuine retail cases without changing their artwork or source pixels.
   const frame = caseFrame(image);
   if (image && (frame || image === "catalogue/marvels-spider-man-2-case.png")) {

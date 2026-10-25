@@ -94,6 +94,14 @@ export async function catalogue(env: Env, params = new URLSearchParams()) {
     } else filters.push(sql`0=1`);
   }
   if (params.get("featured") === "1") filters.push(eq(products.featured, 1));
+  if (params.get("saleMode"))
+    filters.push(
+      sql`${products.id} IN (SELECT product_id FROM product_details WHERE sale_mode=${params.get("saleMode")})`,
+    );
+  if (params.get("showcase") === "1")
+    filters.push(
+      sql`${products.id} IN (SELECT product_id FROM product_details WHERE homepage_showcase=1)`,
+    );
   if (params.get("generation"))
     filters.push(
       sql`${products.id} IN (SELECT product_id FROM product_details WHERE generation=${params.get("generation")})`,
@@ -145,13 +153,16 @@ export async function catalogue(env: Env, params = new URLSearchParams()) {
       generation: sql<string>`coalesce((select generation from product_details where product_id=${products.id}),'')`,
       showcaseImage: sql<
         string | null
-      >`(select r2_key from product_images where product_id=${products.id} and (is_showcase_asset=1 OR is_transparent_asset=1 OR alt_text LIKE '%physical PS5 retail case%') and (variant_id is null or variant_id=${variants.id}) order by is_primary desc,display_order limit 1)`,
+      >`coalesce(nullif((select showcase_image_key from product_details where product_id=${products.id}),''),(select r2_key from product_images where product_id=${products.id} and (is_showcase_asset=1 OR is_transparent_asset=1 OR alt_text LIKE '%physical PS5 retail case%') and (variant_id is null or variant_id=${variants.id}) order by is_primary desc,display_order limit 1))`,
+      showcaseStyle: sql<string>`coalesce((select showcase_style from product_details where product_id=${products.id}),'cutout')`,
+      casePlatform: sql<string>`coalesce((select case_platform from product_details where product_id=${products.id}),'')`,
       brand: products.brand,
       condition: sql<string>`coalesce(${variants.condition}, ${products.condition})`,
       type: products.productType,
       demo: products.demo,
       saleMode: sql<string>`coalesce((select sale_mode from product_details where product_id=${products.id}),'stock')`,
       priceOnRequest: sql<number>`coalesce((select price_on_request from product_details where product_id=${products.id}),0)`,
+      priceUnconfirmed: sql<number>`coalesce((select price_unconfirmed from product_details where product_id=${products.id}),0)`,
       category: categories.name,
       categorySlug: categories.slug,
       variantId: variants.id,

@@ -51,6 +51,7 @@ React 19, React Router 8 framework mode, strict TypeScript 6, Tailwind 4, Motion
 - [Design system](DESIGN_SYSTEM.md): visual and interaction rules.
 - [Deployment](DEPLOYMENT.md): separate staging/production resources, Access and Turnstile.
 - [Owner guide](OWNER_GUIDE.md): products, variants, media, orders and content.
+- [Product and image guide](docs/owner-product-guide.md): simplified product editing, homepage displays, image preparation, price notices, pre-orders and banners.
 - [Launch checklist](LAUNCH_CHECKLIST.md): missing owner inputs and verification gates.
 - [Reference audit](REFERENCE_AUDIT.md): observed reference-site patterns and inspection limits.
 - [Verification record](VALIDATION.md): test results, environment and remaining verification limits.

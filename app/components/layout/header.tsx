@@ -10,7 +10,7 @@ import {
 import { useCart } from "../../lib/cart";
 import { Panel } from "../dialog";
 import type { ProductCardData } from "../../lib/server/catalog";
-import { money } from "../../lib/money";
+import { productPrice } from "../../lib/money";
 const links = [
   ["Shop", "/shop"],
   ["PlayStation", "/platform/PlayStation"],
@@ -18,6 +18,7 @@ const links = [
   ["Nintendo", "/platform/Nintendo"],
   ["Controllers", "/controllers"],
   ["Games", "/games"],
+  ["Pre-orders", "/pre-orders"],
   ["Accessories", "/category/accessories"],
 ];
 export function Header({
@@ -131,7 +132,9 @@ export function Header({
           </details>
           {links
             .filter(([name]) =>
-              ["Controllers", "Games", "Accessories"].includes(name),
+              ["Controllers", "Games", "Pre-orders", "Accessories"].includes(
+                name,
+              ),
             )
             .map(([name, url]) => (
               <Link key={url} to={url}>
@@ -260,7 +263,7 @@ export function Header({
                     {p.platform} · {p.variant}
                   </small>
                 </span>
-                <strong>{money(p.price)}</strong>
+                <strong>{productPrice(p.price, p.priceUnconfirmed)}</strong>
               </Link>
             ))
           )}

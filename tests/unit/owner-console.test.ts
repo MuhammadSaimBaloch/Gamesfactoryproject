@@ -52,6 +52,10 @@ const sql0 = readFileSync("db/migrations/0000_superb_pyro.sql", "utf8");
 const sql4 = readFileSync("db/migrations/0004_storefront_features.sql", "utf8");
 const sql7 = readFileSync("db/migrations/0007_catalogue_quotes.sql", "utf8");
 const sql8 = readFileSync("db/migrations/0008_owner_console.sql", "utf8");
+const sql14 = readFileSync(
+  "db/migrations/0014_product_merchandising.sql",
+  "utf8",
+);
 const sql9 = readFileSync("db/migrations/0009_showcase_assets.sql", "utf8");
 beforeAll(async () => {
   proxy = await getPlatformProxy<Env>({
@@ -66,6 +70,7 @@ beforeAll(async () => {
     sql8,
     sql9,
     readFileSync("db/migrations/0010_retro_and_variant_condition.sql", "utf8"),
+    sql14,
   ])
     for (const statement of text.includes("--> statement-breakpoint")
       ? text.split("--> statement-breakpoint")
@@ -400,7 +405,8 @@ it("business snapshots restore into a fresh schema without leaking authenticatio
         readFileSync(
           "db/migrations/0010_retro_and_variant_condition.sql",
           "utf8",
-        ),
+        ) +
+        sql14,
     );
     recovered.exec("PRAGMA foreign_keys=OFF");
     for (const [table, rows] of Object.entries(backup.tables)) {

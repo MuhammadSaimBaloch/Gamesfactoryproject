@@ -23,5 +23,6 @@ export const generationOptions = [
   "ROG Ally",
   "ROG Xbox Ally",
   "Retro handheld",
+  "Retro game stick",
   "Quest",
 ];
