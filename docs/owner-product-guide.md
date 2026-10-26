@@ -28,7 +28,7 @@ These are photographic product displays, rather than interactive 3D models. Comp
 
 ## Moving price notice
 
-Turn on **Show a moving current-price notice on this product page**. This displays a black-and-white scrolling message asking customers to confirm the current price. It is enabled for current PS5 console listings. It does not change the saved price or block normal ordering. Customers can pause it; reduced-motion preferences are respected.
+Turn on **Show a moving current-price notice on this product page**. This displays a black-and-white scrolling message asking customers to confirm the current price. It is enabled for current PS5 console listings. It does not change the saved price or block normal ordering. Reduced-motion preferences are respected.
 
 ## Pre-orders and homepage slideshow
 

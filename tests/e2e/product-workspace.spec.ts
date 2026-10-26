@@ -114,10 +114,7 @@ test("owner can publish a framed pre-order, show its banner and keep unconfirmed
     ).toHaveCount(0);
     await expect(page.locator(".gallery-main .game-case")).toBeVisible();
     await expect(page.locator(".price-notice")).toBeVisible();
-    await page
-      .getByRole("button", { name: "Pause price notice", exact: true })
-      .click();
-    await expect(page.locator(".price-notice")).toHaveClass(/is-paused/);
+    await expect(page.locator(".price-notice button")).toHaveCount(0);
     expect(
       await page.evaluate(
         () => document.documentElement.scrollWidth <= innerWidth + 1,
