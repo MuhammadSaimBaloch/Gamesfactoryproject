@@ -2183,6 +2183,18 @@ td a {
   }
 }
 @media (max-width: 700px) {
+  .category-links {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+  .category-links a {
+    min-width: 0;
+    padding: 12px;
+    gap: 12px;
+    font-size: 12px;
+  }
+  .category-links .category-label {
+    gap: 6px;
+  }
   .header .account-link {
     display: none;
   }
